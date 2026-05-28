@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T07:00:00Z",
+    "trading_date": "2026-05-28",
+    "schema_version": "1.1",
+    "horizon": "swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "CNBC", "Bloomberg", "Investing.com", "TradingEconomics"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "US airstrikes on Iran overnight reignite oil premium and push futures lower; GDP/PCE at 14:30 CET",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.4,
+    "key_theme": "Iran geopolitical whipsaw dominates: peace hopes crushed by US overnight airstrikes near Strait of Hormuz, oil rebounds 2%, risk assets under pressure ahead of critical US inflation and growth data"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7494.0,
+      "prev_close": 7520.36,
+      "change_pct": -0.35,
+      "direction": "down",
+      "level_key_support": 7400.0,
+      "level_key_resistance": 7620.0,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "Los futuros del S&P 500 ceden un 0.35% en preapertura, afectados por los ataques aéreos estadounidenses sobre Irán durante la noche que reencendieron la incertidumbre geopolítica. El soporte clave se sitúa en los 7,400 puntos; por encima de ese nivel, la tendencia alcista estructural se mantiene intacta. El dato de GDP Q1 revisado y el PCE de las 14:30h CET determinará la dirección del resto de la sesión."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 26471.0,
+      "prev_close": 26674.73,
+      "change_pct": -0.76,
+      "direction": "down",
+      "level_key_support": 26000.0,
+      "level_key_resistance": 27200.0,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El Nasdaq 100 retrocede un 0.76% en preapertura, liderado por la corrección del sector tecnológico ante el repunte del riesgo geopolítico y el chip pullback en marcha. El nivel de los 26,000 puntos es soporte estructural clave; por encima, la narrativa alcista liderada por IA y semiconductores sigue vigente. El PCE de hoy podría catalizar un movimiento de mayor amplitud si sorprende al alza."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 25250.0,
+      "prev_close": 25300.0,
+      "change_pct": -0.20,
+      "direction": "down",
+      "level_key_support": 24800.0,
+      "level_key_resistance": 25500.0,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El DAX abre ligeramente a la baja en la apertura europea, lastrado por el repunte de tensión en Irán aunque se mantiene cerca de máximos desde enero. La resistencia de los 25,500 puntos sigue siendo el umbral decisivo para confirmar la ruptura alcista de medio plazo. Soporte relevante en 24,800; el índice es especialmente sensible al precio del petróleo dado el peso del sector industrial y de exportación."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1612,
+      "prev_close": 1.1626,
+      "change_pct": -0.12,
+      "direction": "down",
+      "level_key_support": 1.1500,
+      "level_key_resistance": 1.1720,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El EUR/USD cede posiciones a 1.1612 en un movimiento de ligero fortalecimiento del dólar como activo refugio ante la escalada en Irán. El par mantiene un rango técnico 1.15-1.17 sin tendencia clara; el contexto geopolítico y la divergencia de datos macro entre EE.UU. y Europa son los factores determinantes. Un PCE superior al esperado esta tarde podría presionar el par hacia el soporte de 1.1500."
+    },
+    {
+      "id": "dxy",
+      "name": "DXY US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.28,
+      "prev_close": 99.22,
+      "change_pct": 0.06,
+      "direction": "flat",
+      "level_key_support": 98.50,
+      "level_key_resistance": 100.50,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El dólar gana tracción marginal con el DXY en 99.28, apoyado por flujos refugio geopolíticos e inflación elevada (IPC de abril en 3.8%). La resistencia psicológica de los 100 puntos sigue siendo clave; una ruptura activaría momentum alcista del USD con impacto negativo en materias primas y divisas emergentes. El dato de PCE de hoy es el catalizador inmediato más relevante."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAUUSD",
+      "price": 4465.0,
+      "prev_close": 4400.0,
+      "change_pct": 1.48,
+      "direction": "up",
+      "level_key_support": 4300.0,
+      "level_key_resistance": 4550.0,
+      "bias": "bullish",
+      "signal": "reversal",
+      "note": "El oro rebota con fuerza hacia los 4,465$/oz impulsado por la demanda de activos refugio tras los ataques aéreos de EE.UU. sobre Irán durante la noche. La corrección de los últimos dos días (mínimo en 4,400$, nivel más bajo en casi dos meses) queda absorbida. Resistencia en 4,550$; un cierre por encima consolidaría la reanudación de la tendencia alcista estructural hacia nuevos máximos históricos."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "USOIL",
+      "price": 90.20,
+      "prev_close": 88.30,
+      "change_pct": 2.15,
+      "direction": "up",
+      "level_key_support": 85.0,
+      "level_key_resistance": 94.0,
+      "bias": "neutral",
+      "signal": "reversal",
+      "note": "El crudo WTI rebota un 2% hasta superar los 90$/barril tras los ataques aéreos de EE.UU. sobre instalaciones militares iraníes cerca del Estrecho de Ormuz, revirtiendo el desplome del 5% del miércoles provocado por las esperanzas de paz de Rubio. La volatilidad es extrema y la dirección depende de la escalada diplomática-militar. Soporte crítico en 85$; resistencia en los niveles pre-conflicto de 94$."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "price": 75060.0,
+      "prev_close": 75976.0,
+      "change_pct": -1.21,
+      "direction": "down",
+      "level_key_support": 72000.0,
+      "level_key_resistance": 80000.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin extiende su corrección hasta la zona de los 75,000$, acumulando casi un 40% de caída desde su máximo histórico de 126,210$ (octubre 2025). El entorno de risk-off agravado por la escalada en Irán y la posible normalización monetaria bajo el nuevo Fed Chairman Warsh presionan al activo especulativo. Soporte clave en 72,000$; su pérdida abriría camino hacia los 65,000$. Un cierre semanal por encima de 80,000$ sería la señal de reanudación alcista."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-05-28",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "US GDP Q1 2026 Second Estimate",
+      "importance": "high",
+      "previous": "-0.3%",
+      "expected": "-0.2%"
+    },
+    {
+      "date": "2026-05-28",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "US Core PCE Price Index (April, MoM)",
+      "importance": "high",
+      "previous": "0.3%",
+      "expected": "0.2%"
+    },
+    {
+      "date": "2026-05-29",
+      "days_ahead": 1,
+      "time_cet": "14:00",
+      "event": "German CPI Flash Estimate (May)",
+      "importance": "medium",
+      "previous": "2.1%",
+      "expected": "2.2%"
+    },
+    {
+      "date": "2026-06-02",
+      "days_ahead": 5,
+      "time_cet": "16:00",
+      "event": "US ISM Manufacturing PMI (May)",
+      "importance": "medium",
+      "previous": "48.7",
+      "expected": "49.0"
+    },
+    {
+      "date": "2026-06-03",
+      "days_ahead": 6,
+      "time_cet": "14:15",
+      "event": "US ADP Employment Change (May)",
+      "importance": "medium",
+      "previous": "155K",
+      "expected": "148K"
+    },
+    {
+      "date": "2026-06-04",
+      "days_ahead": 7,
+      "time_cet": "11:00",
+      "event": "Eurozone CPI Flash Estimate (May)",
+      "importance": "high",
+      "previous": "2.2%",
+      "expected": "2.3%"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dax", "gold"],
+    "bearish": ["btc"],
+    "neutral": ["eurusd", "dxy", "wti"]
+  },
+  "risk_section": {
+    "visible": "La escalada militar en Irán con ataques aéreos de EE.UU. durante la noche ha reencendido la prima de riesgo geopolítico en el petróleo y presiona a la baja los activos de riesgo en apertura europea. Cualquier represalia iraní sobre el Estrecho de Ormuz podría generar un shock de oferta de crudo inmediato con impacto inflacionario directo.",
+    "hidden": "El mercado de renta variable estadounidense cotiza en máximos históricos con múltiplos elevados mientras la economía encadena un GDP negativo en Q1 2026 y una inflación del 3.8% —una combinación estanflacionaria que los inversores están ignorando por el momentum de IA y tecnología, pero que el nuevo Fed Chairman Warsh podría forzar a repreciar.",
+    "scenario": "Si el PCE de hoy supera el 0.3% mensual confirmando presiones inflacionarias persistentes y el GDP no mejora respecto al -0.3% previo, el escenario estanflacionario se materializaría, desencadenando ventas simultáneas en renta variable desde máximos y en bonos soberanos, con el oro como único beneficiario claro.",
+    "signal": "Monitorizar el cierre del SPX en torno al nivel psicológico de los 7,500 puntos esta semana: una pérdida de ese nivel con volumen confirmaría drawdown técnico hacia los 7,200-7,300. Simultáneamente, el WTI en 94$ (ruptura al alza) sería señal de que el mercado está descontando un shock de oferta de petróleo estructural."
+  }
+}
