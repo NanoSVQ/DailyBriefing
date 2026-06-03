@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "generated_at": "2026-06-02T07:00:00Z",
+    "trading_date": "2026-06-02",
+    "schema_version": "1.1",
+    "horizon": "swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CoinDesk", "CNBC", "TradingEconomics"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "Nvidia-fueled tech rally lifts US indices to ATH as Iran tensions spike oil and NFP week looms",
+    "sentiment": "mixed",
+    "sentiment_score": 0.15,
+    "key_theme": "Fed policy outlook dominates as NFP Friday approaches while Nvidia AI chip surge and Iranian Strait of Hormuz threats create a split market narrative."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7584.15,
+      "prev_close": 7599.96,
+      "change_pct": -0.21,
+      "direction": "down",
+      "level_key_support": 7500.0,
+      "level_key_resistance": 7650.0,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El S&P 500 cede ligeramente tras marcar nuevos máximos históricos el 1 de junio impulsado por el rally de Nvidia. El soporte clave se sitúa en 7.500 puntos; la resistencia inmediata en 7.650. Con el NFP publicándose el viernes, la semana de datos de empleo determinará si el mercado consolida en máximos o inicia una corrección técnica."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 21720.0,
+      "prev_close": 21780.0,
+      "change_pct": -0.28,
+      "direction": "down",
+      "level_key_support": 21000.0,
+      "level_key_resistance": 22000.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El Nasdaq 100 mantiene fortaleza estructural tras el impulso de Nvidia (+6% en la sesión anterior) que elevó el índice a máximos históricos. Soporte clave en 21.000 y resistencia en 22.000. La concentración del rally en semiconductores requiere ampliación de la participación del resto del sector para sostener el movimiento en el corto plazo."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 25104.70,
+      "prev_close": 25200.0,
+      "change_pct": -0.38,
+      "direction": "down",
+      "level_key_support": 24800.0,
+      "level_key_resistance": 25500.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX recorta desde la apertura presionado por la incertidumbre geopolítica en Oriente Medio y el encarecimiento del petróleo, que penaliza a las exportadoras alemanas de mayor capitalización. Soporte clave en 24.800 y resistencia en 25.500. El PMI de servicios de la eurozona y la evolución del EUR/USD serán los catalizadores clave esta semana."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1637,
+      "prev_close": 1.1631,
+      "change_pct": 0.05,
+      "direction": "up",
+      "level_key_support": 1.1500,
+      "level_key_resistance": 1.1750,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El EUR/USD avanza hacia 1.1637 favorecido por la debilidad estructural del dólar, con el DXY por debajo del nivel psicológico de 100. Soporte en 1.1500 y resistencia clave en 1.1750. La publicación del NFP el viernes es el riesgo bilateral más relevante; una sorpresa al alza en los datos de empleo podría revertir el par hacia 1.1500."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.19,
+      "prev_close": 99.19,
+      "change_pct": 0.0,
+      "direction": "flat",
+      "level_key_support": 98.50,
+      "level_key_resistance": 100.00,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El índice del dólar se mantiene estable en 99.19, por debajo del nivel psicológico clave de 100, reflejando la pérdida de impulso del billete verde en el contexto de incertidumbre macro. Soporte en 98.50 y resistencia crítica en 100.00. Un dato de empleo sólido el viernes podría impulsar al dólar de vuelta por encima de 100; un NFP débil consolidaría el sesgo bajista."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAUUSD",
+      "price": 4498.62,
+      "prev_close": 4484.86,
+      "change_pct": 0.31,
+      "direction": "up",
+      "level_key_support": 4400.0,
+      "level_key_resistance": 4550.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El oro avanza hacia los $4.499 apoyado por la debilidad del dólar, la demanda refugio ante las tensiones en el Estrecho de Ormuz y la incertidumbre macro previa al NFP del viernes. Soporte clave en $4.400 y resistencia en $4.550, zona de máximos históricos. El metal precioso mantiene sesgo comprador mientras el DXY permanezca por debajo de 100 y la geopolítica siga activa."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "USOIL",
+      "price": 91.80,
+      "prev_close": 88.71,
+      "change_pct": 3.48,
+      "direction": "up",
+      "level_key_support": 88.00,
+      "level_key_resistance": 95.00,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El WTI recupera los $91.80 desde la apertura de $88.71, impulsado por la amenaza iraní de cerrar el Estrecho de Ormuz que mantiene el crudo en alerta máxima. Soporte clave en $88 y resistencia en $95. Una desescalada diplomática podría provocar una caída hacia $85; una escalada efectiva podría catapultar el precio por encima de $100 con rapidez."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 72450.0,
+      "prev_close": 73196.0,
+      "change_pct": -1.02,
+      "direction": "down",
+      "level_key_support": 70000.0,
+      "level_key_resistance": 75000.0,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "Bitcoin extiende su corrección hacia $72.450 con 10 sesiones consecutivas de salidas netas en ETFs spot ($2.97B en total), la racha más larga jamás registrada. El soporte psicológico crítico se ubica en $70.000; la resistencia inmediata en $75.000. La presión vendedora institucional y la correlación negativa con el apetito por el riesgo limitan cualquier recuperación técnica a corto plazo."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-06-02",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "JOLTS Job Openings (April)",
+      "importance": "high",
+      "previous": "7.19M",
+      "expected": "7.30M"
+    },
+    {
+      "date": "2026-06-03",
+      "days_ahead": 1,
+      "time_cet": "13:15",
+      "event": "ADP Nonfarm Employment Change (May)",
+      "importance": "high",
+      "previous": "155K",
+      "expected": "140K"
+    },
+    {
+      "date": "2026-06-03",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "ISM Services PMI (May)",
+      "importance": "medium",
+      "previous": "51.6",
+      "expected": "52.0"
+    },
+    {
+      "date": "2026-06-04",
+      "days_ahead": 2,
+      "time_cet": "13:30",
+      "event": "Initial Jobless Claims",
+      "importance": "medium",
+      "previous": "225K",
+      "expected": "230K"
+    },
+    {
+      "date": "2026-06-05",
+      "days_ahead": 3,
+      "time_cet": "13:30",
+      "event": "Nonfarm Payrolls (May)",
+      "importance": "high",
+      "previous": "115K",
+      "expected": "180K"
+    },
+    {
+      "date": "2026-06-05",
+      "days_ahead": 3,
+      "time_cet": "13:30",
+      "event": "Unemployment Rate (May)",
+      "importance": "medium",
+      "previous": "4.1%",
+      "expected": "4.1%"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "gold", "eurusd"],
+    "bearish": ["btc", "dxy"],
+    "neutral": ["dax", "wti"]
+  },
+  "risk_section": {
+    "visible": "El principal riesgo visible es la escalada geopolítica en Oriente Medio: la amenaza de Irán de cerrar el Estrecho de Ormuz podría interrumpir el 20% del suministro global de crudo si se materializa. El NFP del viernes es el segundo catalizador de volatilidad; una lectura muy por encima o por debajo de 180K reordenará las expectativas de política de la Fed.",
+    "hidden": "La hemorragia en los ETFs de Bitcoin (10 sesiones consecutivas de salidas netas, la racha más larga jamás registrada) podría ser un indicador adelantado de una rotación institucional hacia activos defensivos no anticipada por el consenso de renta variable. El deterioro del crédito high yield en mayo (spreads ampliando ~25pb) tampoco está reflejado en los niveles actuales del S&P 500.",
+    "scenario": "Si el NFP del viernes supera ampliamente las expectativas (>250K), la Fed podría retrasar los recortes de tipos, desencadenando una corrección del 3-5% en la renta variable y un rebote del DXY por encima de 100. En este escenario, el oro podría sufrir una corrección técnica hacia $4.300 antes de retomar el impulso alcista apoyado en la geopolítica.",
+    "signal": "Vigilar el nivel de $70.000 en Bitcoin como indicador adelantado del apetito por el riesgo institucional: una ruptura a la baja confirmaría una fase de risk-off más amplia. En renta variable, el cierre del S&P 500 por encima de 7.650 esta semana sería la señal de continuación alcista más relevante del ciclo actual."
+  }
+}

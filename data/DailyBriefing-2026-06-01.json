@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "generated_at": "2026-06-01T07:05:00Z",
+    "trading_date": "2026-06-01",
+    "schema_version": "1.1",
+    "horizon": "swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "TradingEconomics.com", "CNBC"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "Equity markets at record highs as Iran ceasefire hopes boost risk sentiment; WTI oil surges 2.7%",
+    "sentiment": "mixed",
+    "sentiment_score": 0.4,
+    "key_theme": "US-Iran ceasefire negotiations and Strait of Hormuz reopening drive divergence between equities (bullish) and oil/gold (geopolitical premium), with NFP on Friday as the week's key macro catalyst."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7595.0,
+      "prev_close": 7580.06,
+      "change_pct": 0.20,
+      "direction": "up",
+      "level_key_support": 7450.0,
+      "level_key_resistance": 7700.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 inicia junio con sesgo alcista tras cerrar mayo en máximos históricos con una ganancia mensual del 5%. Los futuros apuntan a apertura por encima de 7.590, impulsados por la mejora en las negociaciones EE.UU.-Irán y el liderazgo del sector tecnológico. Nivel crítico a vigilar: ruptura sostenida por encima de 7.600 abriría el camino hacia 7.700."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 30454.0,
+      "prev_close": 30333.18,
+      "change_pct": 0.40,
+      "direction": "up",
+      "level_key_support": 29500.0,
+      "level_key_resistance": 31000.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El Nasdaq 100 lidera el rally de mayo con un avance superior al 8%, respaldado por la euforia en inteligencia artificial y sólidos resultados empresariales del sector tecnológico. Abre junio con momentum positivo; los 30.500 actúan como resistencia inmediata a corto plazo. Una consolidación sostenida sobre 30.000 mantiene el sesgo alcista vigente para el swing."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 25126.35,
+      "prev_close": 25045.0,
+      "change_pct": 0.32,
+      "direction": "up",
+      "level_key_support": 24500.0,
+      "level_key_resistance": 25500.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DAX abre la sesión del 1 de junio en 25.126, consolidando el rango entre 25.040 y 25.204 en la apertura de Frankfurt. La mejora en el sentimiento geopolítico por el cese al fuego con Irán beneficia al índice alemán, aunque la debilidad estructural del sector industrial europeo limita el potencial alcista. Soporte clave en 24.500 y resistencia principal en 25.500 para el swing semanal."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD=X",
+      "price": 1.1644,
+      "prev_close": 1.166,
+      "change_pct": -0.14,
+      "direction": "down",
+      "level_key_support": 1.15,
+      "level_key_resistance": 1.175,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El par cede terreno levemente hasta 1.1644, con el dólar recuperando algo de fuerza ante la expectativa de datos macro estadounidenses sólidos esta semana. El soporte en 1.1500 debe mantenerse para preservar el sesgo estructural alcista del euro frente al dólar. El NFP del viernes será el catalizador definitivo para la próxima dirección del par."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DX-Y.NYB",
+      "price": 98.94,
+      "prev_close": 98.99,
+      "change_pct": -0.05,
+      "direction": "down",
+      "level_key_support": 98.0,
+      "level_key_resistance": 100.0,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El índice dólar cotiza por debajo de 99,00, reflejando la narrativa de debilidad estructural del billete verde en 2026 ante expectativas de recortes de la Fed. La resistencia en 100,00 sigue siendo un techo difícil de superar; solo datos de empleo o inflación sorprendentemente fuertes podrían generar un rebote táctico significativo. El DXY permanece en tendencia bajista mientras el diferencial de tipos EE.UU.-Europa se comprime."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAUUSD",
+      "price": 4539.27,
+      "prev_close": 4495.83,
+      "change_pct": 0.97,
+      "direction": "up",
+      "level_key_support": 4400.0,
+      "level_key_resistance": 4600.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El oro sube con fuerza hasta 4.539 $/oz, impulsado por la persistencia del riesgo geopolítico con Irán y la debilidad estructural del dólar. El metal precioso se aproxima a la resistencia clave de 4.600 $/oz; una ruptura confirmada abriría el camino hacia nuevos máximos históricos. El sesgo alcista estructural se mantiene sólido mientras el DXY permanezca por debajo de 100."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL=F",
+      "price": 89.69,
+      "prev_close": 87.36,
+      "change_pct": 2.67,
+      "direction": "up",
+      "level_key_support": 85.0,
+      "level_key_resistance": 93.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El WTI repunta un 2,67% hasta 89,69 $/bbl ante las dudas persistentes sobre la reapertura efectiva del Estrecho de Ormuz, a pesar del memorándum de cese al fuego de 60 días entre EE.UU. e Irán. La resistencia crítica se sitúa en 93,00 $/bbl; una ruptura elevaría el riesgo inflacionario para los mercados de renta variable. El soporte en 85,00 $/bbl es determinante para el escenario bajista."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "price": 73400.0,
+      "prev_close": 73875.0,
+      "change_pct": -0.64,
+      "direction": "down",
+      "level_key_support": 70000.0,
+      "level_key_resistance": 76500.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin cotiza ligeramente a la baja en torno a 73.400 $, corrigiendo desde los 76.557 $ registrados hace una semana en un movimiento de consolidación técnica. El nivel de 70.000 $ representa el soporte crítico del swing; por encima de 76.500 $ el impulso alcista se reanudará con fuerza. La acción del precio sugiere acumulación lateral antes de un próximo movimiento direccional relevante."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-06-02",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "ISM Manufacturing PMI (May)",
+      "importance": "high",
+      "previous": "48.7",
+      "expected": "49.5"
+    },
+    {
+      "date": "2026-06-03",
+      "days_ahead": 2,
+      "time_cet": "16:00",
+      "event": "JOLTS Job Openings (Apr)",
+      "importance": "medium",
+      "previous": "7.19M",
+      "expected": "7.30M"
+    },
+    {
+      "date": "2026-06-04",
+      "days_ahead": 3,
+      "time_cet": "14:15",
+      "event": "ADP Employment Change (May)",
+      "importance": "medium",
+      "previous": "152K",
+      "expected": "165K"
+    },
+    {
+      "date": "2026-06-04",
+      "days_ahead": 3,
+      "time_cet": "16:00",
+      "event": "ISM Services PMI (May)",
+      "importance": "high",
+      "previous": "51.6",
+      "expected": "52.0"
+    },
+    {
+      "date": "2026-06-05",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "Nonfarm Payrolls (May)",
+      "importance": "high",
+      "previous": "177K",
+      "expected": "185K"
+    },
+    {
+      "date": "2026-06-05",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "Unemployment Rate (May)",
+      "importance": "high",
+      "previous": "4.2%",
+      "expected": "4.2%"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dax", "gold", "wti"],
+    "bearish": ["dxy"],
+    "neutral": ["eurusd", "btc"]
+  },
+  "risk_section": {
+    "visible": "La dependencia del mercado de las negociaciones EE.UU.-Irán representa el riesgo más visible: cualquier deterioro del cese al fuego provocaría un repunte brusco del petróleo y una rotación defensiva inmediata en renta variable. El NFP del viernes podría decepcionar si el mercado laboral muestra señales de enfriamiento más pronunciadas de lo esperado.",
+    "hidden": "El riesgo oculto radica en la complacencia del mercado ante una inflación energética que podría retrasar los recortes de la Fed más de lo que el mercado descuenta actualmente. Las valoraciones del Nasdaq en máximos históricos implican múltiplos extremos que no tolerarían una revisión al alza en las expectativas de tipos de interés.",
+    "scenario": "Si el acuerdo con Irán fracasa o el cese al fuego se rompe, el petróleo podría dispararse hacia 95-100 $/bbl, desencadenando un sell-off en renta variable y un dólar más fuerte como activo refugio. En ese escenario, el DXY recuperaría 101-102 y el S&P 500 podría corregir hacia la zona de 7.200.",
+    "signal": "Vigilar el ISM Manufacturero del martes 2 de junio: una lectura por encima de 50 confirmaría la expansión económica y reforzaría el sesgo alcista en renta variable americana y europea. El NFP del viernes 5 de junio (consenso ~185K) será el catalizador definitivo para confirmar si la Fed puede iniciar recortes en septiembre 2026."
+  }
+}
