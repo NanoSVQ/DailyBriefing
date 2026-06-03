@@ -33,15 +33,15 @@
       "id": "ndx",
       "name": "Nasdaq 100",
       "ticker": "^NDX",
-      "price": 30400.0,
-      "prev_close": 30333.18,
-      "change_pct": 0.22,
+      "price": 21870.0,
+      "prev_close": 21785.0,
+      "change_pct": 0.39,
       "direction": "up",
-      "level_key_support": 29800.0,
-      "level_key_resistance": 31000.0,
+      "level_key_support": 21200.0,
+      "level_key_resistance": 22000.0,
       "bias": "bullish",
       "signal": "momentum",
-      "note": "El Nasdaq 100 lidera el mercado respaldado por un rally histórico en semiconductores: Marvell Technology +33%, Broadcom +5% en la sesión anterior. La alta concentración en cinco nombres AI representa un riesgo bilateral significativo. Soporte en 29.800; superar 31.000 confirmaría extensión hacia máximos históricos."
+      "note": "El Nasdaq 100 lidera el mercado respaldado por un rally histórico en semiconductores: Marvell Technology +33%, Broadcom +5% en la sesión anterior. La alta concentración en cinco nombres AI representa un riesgo bilateral significativo. Soporte en 21.200; superar 22.000 confirmaría extensión hacia nuevos máximos históricos."
     },
     {
       "id": "dax",
@@ -76,8 +76,8 @@
       "name": "US Dollar Index",
       "ticker": "DX-Y.NYB",
       "price": 99.2,
-      "prev_close": 98.9,
-      "change_pct": 0.30,
+      "prev_close": 99.0,
+      "change_pct": 0.20,
       "direction": "up",
       "level_key_support": 98.0,
       "level_key_resistance": 100.5,
@@ -90,8 +90,8 @@
       "name": "Gold (XAU/USD)",
       "ticker": "XAUUSD",
       "price": 4477.78,
-      "prev_close": 4489.88,
-      "change_pct": -0.27,
+      "prev_close": 4484.86,
+      "change_pct": -0.16,
       "direction": "down",
       "level_key_support": 4380.0,
       "level_key_resistance": 4600.0,
@@ -132,11 +132,20 @@
     {
       "date": "2026-06-03",
       "days_ahead": 0,
+      "time_cet": "13:15",
+      "event": "US ADP Nonfarm Employment Change (May)",
+      "importance": "high",
+      "previous": "155K",
+      "expected": "140K"
+    },
+    {
+      "date": "2026-06-03",
+      "days_ahead": 0,
       "time_cet": "16:00",
       "event": "US ISM Services PMI (May)",
       "importance": "high",
-      "previous": "52.0",
-      "expected": "51.5"
+      "previous": "51.6",
+      "expected": "52.0"
     },
     {
       "date": "2026-06-05",
@@ -144,8 +153,8 @@
       "time_cet": "14:30",
       "event": "US Nonfarm Payrolls (May)",
       "importance": "high",
-      "previous": "185K",
-      "expected": "160K"
+      "previous": "115K",
+      "expected": "180K"
     },
     {
       "date": "2026-06-05",
@@ -153,8 +162,8 @@
       "time_cet": "14:30",
       "event": "US Unemployment Rate (May)",
       "importance": "high",
-      "previous": "4.2%",
-      "expected": "4.2%"
+      "previous": "4.1%",
+      "expected": "4.1%"
     },
     {
       "date": "2026-06-10",
