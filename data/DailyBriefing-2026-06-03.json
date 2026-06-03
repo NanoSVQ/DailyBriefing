@@ -111,7 +111,7 @@
       "level_key_resistance": 98.00,
       "bias": "bullish",
       "signal": "momentum",
-      "note": "El WTI supera los 95 dolares en el tercer dia consecutivo de ganancias por el conflicto Iran-EE.UU. (misiles iranies, golpes en Qeshm Island) y caida de inventarios de 6.8M barriles. La volatilidad es extrema y bidireccional: cualquier señal de acuerdo Trump-Iran puede hundirlo 3-5 dolares en minutos. No apto para setups de precision tecnica."
+      "note": "El WTI supera los 95 dolares en el tercer dia consecutivo de ganancias por el conflicto Iran-EE.UU. (misiles irani­es, golpes en Qeshm Island) y caida de inventarios de 6.8M barriles. La volatilidad es extrema y bidireccional: cualquier señal de acuerdo Trump-Iran puede hundirlo 3-5 dolares en minutos. No apto para setups de precision tecnica."
     },
     {
       "id": "btc",
@@ -215,7 +215,7 @@
         "balance_zone_low": 7540.0,
         "weekly_dva_condition": "rotational_confluent",
         "price_vs_weekly_pva": "outside_pVA_above",
-        "overnight_context": "ES abrio el Globex con gap alcista de ~18 puntos sobre el cierre previo (7.610 a 7.628), cedio hasta 7.602 durante la madrugada y se estabilizo en 7.618. Rango overnight contenido de 26.5 puntos sin testear soportes estructurales clave; el gap se rellena parcialmente.",
+        "overnight_context": "ES abrio el Globex con gap alcista de ~18 puntos sobre el cierre previo (7.610 a 7.628), cedió hasta 7.602 durante la madrugada y se estabilizo en 7.618. Rango overnight contenido de 26.5 puntos sin testear soportes estructurales clave; el gap se rellena parcialmente.",
         "adr_avg_points": 65.0,
         "overnight_range_pct_adr": 40.8,
         "remaining_adr_pct": 59.2,
@@ -251,7 +251,7 @@
         "balance_zone_low": 91.00,
         "weekly_dva_condition": "imbalance_confluent",
         "price_vs_weekly_pva": "outside_pVA_above",
-        "overnight_context": "CL supero 95 dolares impulsado por misiles iranies y golpes de EE.UU. en Qeshm Island; caida de inventarios API de 6.8M barriles añade soporte fundamental. Rango de 2.40 puntos (93.64-96.04) supera el ADR tipico; volatilidad bidireccional extrema por headline risk geopolitico.",
+        "overnight_context": "CL supero 95 dolares impulsado por misiles irani­es y golpes de EE.UU. en Qeshm Island; caida de inventarios API de 6.8M barriles añade soporte fundamental. Rango de 2.40 puntos (93.64-96.04) supera el ADR tipico; volatilidad bidireccional extrema por headline risk geopolitico.",
         "adr_avg_points": 2.2,
         "overnight_range_pct_adr": 109.1,
         "remaining_adr_pct": 0.0,
@@ -269,7 +269,7 @@
         "balance_zone_low": 4308.0,
         "weekly_dva_condition": "imbalance_dissonance",
         "price_vs_weekly_pva": "outside_pVA_below",
-        "overnight_context": "GC cedio desde los 4.488 del cierre previo hasta minimos de 4.439 durante el overnight, testeando el soporte critico de largo plazo. No se produjo recuperacion significativa; el metal precioso permanece bajo presion vendedora con la narrativa de tipos altos y datos laborales solidos.",
+        "overnight_context": "GC cedió desde los 4.488 del cierre previo hasta minimos de 4.439 durante el overnight, testeando el soporte critico de largo plazo. No se produjo recuperacion significativa; el metal precioso permanece bajo presion vendedora con la narrativa de tipos altos y datos laborales solidos.",
         "adr_avg_points": 42.0,
         "overnight_range_pct_adr": 83.3,
         "remaining_adr_pct": 16.7,
