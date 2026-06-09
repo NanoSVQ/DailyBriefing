@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T07:00:00Z",
+    "trading_date": "2026-06-09",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "Barchart.com", "Bloomberg Markets", "Fortune", "TradingEconomics"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Escalada Irán-Israel dispara crudo +4.3%; equities USA rebotan; CPI mayo es el catalizador de mañana",
+    "sentiment": "mixed",
+    "sentiment_score": -0.25,
+    "key_theme": "Tensión geopolítica Irán-Israel eleva el crudo y presiona índices europeos mientras futuros USA recuperan posiciones ante el dato de IPC de mayo mañana"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7440.0,
+      "prev_close": 7388.0,
+      "change_pct": 0.71,
+      "direction": "up",
+      "level_key_support": 7350.0,
+      "level_key_resistance": 7500.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El SPX rebota +0.71% en premarket tras la sesión bajista del lunes impulsada por la escalada Irán-Israel; la zona 7,350-7,380 actúa como soporte inmediato y 7,500 como resistencia clave. Atención al IPC mañana como detonante de la próxima directriz: un dato caliente podría reactivar ventas, mientras un dato frío abriría camino a nuevos máximos."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29085.0,
+      "prev_close": 28904.0,
+      "change_pct": 0.63,
+      "direction": "up",
+      "level_key_support": 28700.0,
+      "level_key_resistance": 29500.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "NQ recupera moderadamente desde soporte 28,700-28,900 en una sesión de menor rango que el SPX; las grandes tecnológicas son especialmente sensibles al IPC de mañana por el efecto de duración en sus valoraciones. Sin sesgo claro hasta conocer el dato; el nivel 29,500 es la resistencia crítica a superar para restablecer el uptrend."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 24996.0,
+      "prev_close": 24500.0,
+      "change_pct": 2.02,
+      "direction": "up",
+      "level_key_support": 24700.0,
+      "level_key_resistance": 25200.0,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El DAX rebota +2% desde los mínimos del lunes (~24,400-24,500) pero el contexto sigue siendo frágil por la exposición europea a la crisis del Estrecho de Ormuz; Lufthansa, TUI, Airbus y Vonovia lideran las pérdidas semanales. Sesgo bajista estructural mientras persista el riesgo geopolítico; resistencia clave en 25,200 y soporte a defender en 24,700."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1537,
+      "prev_close": 1.1528,
+      "change_pct": 0.08,
+      "direction": "up",
+      "level_key_support": 1.1450,
+      "level_key_resistance": 1.1620,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El EUR/USD cotiza plano con mínimas variaciones; el par mantiene la zona 1.15-1.16 en un contexto de dólar moderadamente fuerte post-NFP del viernes 5 de junio. El IPC de mañana podría impulsar al USD si sorprende al alza presionando el par hacia 1.1450; soporte clave en esa zona y resistencia en 1.1620."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.92,
+      "prev_close": 100.11,
+      "change_pct": -0.19,
+      "direction": "down",
+      "level_key_support": 99.20,
+      "level_key_resistance": 100.50,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DXY cede ligeramente tras el rally post-NFP del viernes; el nivel psicológico 100 actúa como soporte/resistencia y la fortaleza del dólar ha sido el principal catalizador bajista del oro en las últimas sesiones. Un IPC caliente mañana podría catapultar al DXY hacia 100.50-101.00 y generar rotaciones significativas en todos los activos."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAUUSD",
+      "price": 4292.0,
+      "prev_close": 4329.0,
+      "change_pct": -0.85,
+      "direction": "down",
+      "level_key_support": 4200.0,
+      "level_key_resistance": 4400.0,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El oro extiende pérdidas hasta mínimos de 11 semanas (~4,268 intraday), paradójicamente vendido pese a la escalada Irán-Israel, con el USD fuerte y las expectativas de tipos más altos post-NFP dominando la narrativa. El soporte crítico está en 4,200; una ruptura activaría objetivo 4,050-4,100; sesgo bajista mientras el DXY permanezca firme."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "USOIL",
+      "price": 94.43,
+      "prev_close": 90.54,
+      "change_pct": 4.30,
+      "direction": "up",
+      "level_key_support": 90.00,
+      "level_key_resistance": 96.50,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "WTI explota +4.3% por el intercambio de misiles Irán-Israel que amenaza el Estrecho de Ormuz; OPEC+ aprobó aumento de 188k bpd para julio pero insuficiente para compensar el riesgo geopolítico. Resistencia inmediata en 96.50; ruptura activaría objetivo 100 USD; no perseguir entradas largas en extensión máxima del ADR, esperar consolidación."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 64200.0,
+      "prev_close": 63564.0,
+      "change_pct": 1.00,
+      "direction": "up",
+      "level_key_support": 60000.0,
+      "level_key_resistance": 67000.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "BTC rebota +1% por encima de 64,000 tras la caída inicial del lunes; la recuperación sugiere que el mercado trata el activo como cobertura alternativa de riesgo geopolítico. Soporte clave en 60,000 (nivel psicológico); resistencia en 67,000 (máximos de mayo); sesgo alcista de corto plazo siempre que se mantenga sobre 62,000."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-06-09",
+      "days_ahead": 0,
+      "time_cet": "15:00",
+      "event": "Intervenciones de miembros de la Fed (varios)",
+      "importance": "medium",
+      "previous": "N/A",
+      "expected": "Comentarios post-NFP sobre política monetaria y perspectivas de inflación energética"
+    },
+    {
+      "date": "2026-06-10",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "IPC EE.UU. mayo (CPI MoM / YoY)",
+      "importance": "high",
+      "previous": "0.4% MoM",
+      "expected": "0.3% MoM"
+    },
+    {
+      "date": "2026-06-10",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "Michigan Consumer Sentiment (junio, preliminar)",
+      "importance": "medium",
+      "previous": "44.8",
+      "expected": "45.5"
+    },
+    {
+      "date": "2026-06-11",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "IPP EE.UU. mayo (PPI MoM)",
+      "importance": "high",
+      "previous": "0.3% MoM",
+      "expected": "0.2% MoM"
+    },
+    {
+      "date": "2026-06-12",
+      "days_ahead": 3,
+      "time_cet": "14:30",
+      "event": "Solicitudes iniciales de subsidio de desempleo (semana hasta 6 jun)",
+      "importance": "medium",
+      "previous": "217k",
+      "expected": "220k"
+    },
+    {
+      "date": "2026-06-12",
+      "days_ahead": 3,
+      "time_cet": "09:00",
+      "event": "Rollover Thursday ES/NQ — Roll de contratos junio a septiembre",
+      "importance": "medium",
+      "previous": "N/A",
+      "expected": "Incremento de volumen en roll spreads; posible distorsión de niveles técnicos"
+    },
+    {
+      "date": "2026-06-16",
+      "days_ahead": 7,
+      "time_cet": "20:00",
+      "event": "Reunión FOMC — Decisión de tipos Fed (inicio 16-17 jun)",
+      "importance": "high",
+      "previous": "5.25%",
+      "expected": "Sin cambios (5.25%)"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["wti", "btc"],
+    "bearish": ["gold", "dax"],
+    "neutral": ["spx", "ndx", "eurusd", "dxy"]
+  },
+  "risk_section": {
+    "visible": "El IPC de mayo USA se publica mañana martes 10 de junio a las 14:30 CET; con precios energéticos elevados por la tensión Irán-Israel, hay riesgo real de sorpresa alcista en inflación que desencadenaría una corrección adicional del 1.5-2% en índices y un nuevo rally del DXY.",
+    "hidden": "El Estrecho de Ormuz sigue semi-clausurado y el mercado aún no ha descontado completamente el impacto en cadenas de suministro globales; una nueva escalada bélica en las próximas 48h podría provocar un gap bajista adicional en la apertura europea y un salto del crudo hacia los 100 USD/barril.",
+    "scenario": "Si el IPC sorprende a la baja (dato frío), los índices podrían recuperar 1.5-2% rápidamente, el oro rebotar hacia 4,400 y el DXY corregir hacia 98.50; en ese caso el sesgo cambiaría a risk-on con momentum alcista renovado en ES y NQ.",
+    "signal": "Monitorizar el rango del overnight en ES (7,386-7,476) durante los primeros 30 minutos del RTH; ruptura confirmada por encima de 7,476 con volumen activa objetivo 7,530-7,540; cierre por debajo de 7,386 activa modo defensivo con objetivo 7,320."
+  },
+  "hawk_system": {
+    "special_situation": "Rollover",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": -2,
+      "cl": 1,
+      "gc": -3
+    },
+    "system_readiness": "wait",
+    "system_note": "Semana de rollover de contratos junio a septiembre (Rollover Thursday el 12 jun) combinada con el IPC mañana genera un entorno de baja fiabilidad para setups de alta R/R; CL y GC han superado el 150-188% de su ADR medio en el overnight, descartando entradas intradiarias en ambos. Prioridad máxima: preservar capital, no perseguir extensiones; re-evaluar el mapa de setups tras el IPC del 10 jun y la conclusión del rollover.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7476.75,
+        "balance_zone_low": 7386.50,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Overnight extraordinariamente activo con rango de 90 puntos (7,386-7,477), superando el 115% del ADR medio en sesión Globex; el mercado absorbió el shock geopolítico Irán-Israel con recuperación progresiva desde mínimos europeos sin testear gaps significativos de sesiones anteriores.",
+        "adr_avg_points": 78,
+        "overnight_range_pct_adr": 115.7,
+        "remaining_adr_pct": 0.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct"],
+        "bias_note": "Condición DB con ADR completamente agotado antes del RTH; la recuperación overnight es técnicamente positiva pero el IPC de mañana y el rollover del jueves limitan la visibilidad. Preferir esperar al inicio del RTH para evaluar si el precio acepta o rechaza la zona alta del balance overnight (7,476) antes de cualquier posición."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29148.0,
+        "balance_zone_low": 28974.75,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "NQ operó en rango comprimido durante el Globex (174 puntos, 28,974-29,148), sin testear mínimos recientes de la semana anterior; tecnología muestra mayor resiliencia relativa al SPX. El gap bajista desde el cierre del viernes está parcialmente cubierto.",
+        "adr_avg_points": 320,
+        "overnight_range_pct_adr": 54.3,
+        "remaining_adr_pct": 45.7,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "NQ presenta condición de balance con claridad dudosa; tiene más ADR disponible que ES (45.7% restante), lo que permite más recorrido en RTH, pero la dissonancia en el DVA semanal y el IPC de mañana desaconsejan posicionamiento direccional agresivo hoy. Observar la apertura del RTH en busca de setup BPB_pVA si se produce un pullback ordenado."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "CL explotó al alza desde la apertura asiática tras el intercambio de misiles Irán-Israel, alcanzando máximos de 95.38 antes de consolidar en zona 94-94.50; el volumen overnight fue masivo (estimado x2-x3 sobre la media). Gap alcista de casi 4 USD respecto al cierre del viernes confirma convicción geopolítica del movimiento.",
+        "adr_avg_points": 2.5,
+        "overnight_range_pct_adr": 171.6,
+        "remaining_adr_pct": 0.0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_capitulatory_move", "adr_near_100pct"],
+        "bias_note": "Imbalance alcista claro impulsado por geopolítica, pero ADR agotado al 171% en el overnight; no hay espacio técnico para nuevas entradas largas sin riesgo elevado de reversión desde extensión. Esperar pullback ordenado a zona 91-92 (área de gap fill) si las tensiones se estabilizan; cualquier escalada adicional podría activar objetivo 100 USD/barril."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Oro continuó su descenso overnight testando el nivel 4,268 (mínimo de 11 semanas) antes de rebotar parcialmente a zona 4,292; el metal no actúa como refugio seguro ante la tensión geopolítica ya que el USD fuerte y las expectativas de tipos más altos post-NFP dominan sobre la demanda de cobertura.",
+        "adr_avg_points": 45,
+        "overnight_range_pct_adr": 188.4,
+        "remaining_adr_pct": 0.0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_capitulatory_move", "after_3plus_consecutive_closes", "adr_near_100pct"],
+        "bias_note": "GC en imbalance bajista con 3 cierres negativos consecutivos y ADR agotado al 188%; múltiples red flags activos desaconsejan cualquier entrada intradiaria hoy. Sesgo sigue siendo bajista mientras el DXY mantenga fortaleza; soporte crítico en 4,200 y objetivo bajista de mayor plazo en 4,050-4,100 si se confirma la ruptura con IPC caliente mañana."
+      }
+    ]
+  }
+}
