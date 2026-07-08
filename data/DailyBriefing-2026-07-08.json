@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "generated_at": "2026-07-08T07:00:00Z",
+    "trading_date": "2026-07-08",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "Bloomberg", "TradingEconomics", "CoinMarketCap"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Petróleo se dispara por escalada en Ormuz; bolsas rebotan con cautela ante las actas de la Fed",
+    "sentiment": "mixed",
+    "sentiment_score": -0.1,
+    "key_theme": "Escalada militar en el Estrecho de Ormuz dispara crudo y oro mientras el mercado digiere ventas en semiconductores a la espera de las actas de la Fed"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7544,
+      "prev_close": 7503.85,
+      "change_pct": 0.53,
+      "direction": "up",
+      "level_key_support": 7500,
+      "level_key_resistance": 7555,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El S&P 500 rebota +0.5% en premarket recuperando el cierre de 7,503.85 tras la sesión bajista de ayer por la ola de ventas en semiconductores. Estructura rotacional cerca de máximos históricos, con foco en las actas de la Fed esta noche y la escalada en Ormuz. Zona clave 7,500-7,555; una ruptura confirmada definiría el próximo impulso direccional."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29400,
+      "prev_close": 29173.02,
+      "change_pct": 0.78,
+      "direction": "up",
+      "level_key_support": 29000,
+      "level_key_resistance": 29558,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El Nasdaq 100 barrió el máximo del martes hasta 29,559 durante la noche antes de retroceder a 29,400, devolviendo buena parte de la extensión — patrón de falso breakout. Tras el desplome de ayer (-1.8%) por ventas en semiconductores (Samsung, DeepSeek), la estructura sigue siendo de alta volatilidad sin tendencia clara. Esperar resolución de las actas de la Fed antes de operar continuación."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 25340,
+      "prev_close": 25465.25,
+      "change_pct": -0.49,
+      "direction": "down",
+      "level_key_support": 25300,
+      "level_key_resistance": 25800,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX cayó -1.37% ayer tras tocar un máximo histórico en 25,903, arrastrado por Siemens Energy (-6.7%) e Infineon (-4.1%) en la ola de ventas de semiconductores desde Asia. La tendencia de fondo sigue alcista, pero el momentum de corto plazo se ha girado a la baja. Vigilar 25,300 como soporte inmediato; su pérdida abriría camino a 25,000."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EUR/USD",
+      "price": 1.1415,
+      "prev_close": 1.1423,
+      "change_pct": -0.07,
+      "direction": "flat",
+      "level_key_support": 1.1380,
+      "level_key_resistance": 1.1480,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "EUR/USD se mantiene en la banda 1.1400-1.1430, presionado por comentarios dovish de Lagarde en Sintra y una estructura técnica bajista con la media de 21 sesiones actuando como resistencia. Las actas de la Fed esta noche son el catalizador clave; un tono hawkish reforzaría la ruptura hacia 1.1380/1.1300."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 100.98,
+      "prev_close": 100.85,
+      "change_pct": 0.13,
+      "direction": "up",
+      "level_key_support": 100.40,
+      "level_key_resistance": 101.50,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DXY se recupera ligeramente hacia 101.00 tras el mínimo de cinco semanas en 100.67 de la semana pasada. El RSI se enfría desde zona de sobrecompra, sugiriendo un mercado en rango 100.40-101.50 a la espera de las actas de la Fed. La transición de liderazgo con Warsh como nuevo presidente añade incertidumbre sobre la trayectoria de tipos."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAU/USD",
+      "price": 4145,
+      "prev_close": 4179,
+      "change_pct": -0.81,
+      "direction": "down",
+      "level_key_support": 4100,
+      "level_key_resistance": 4200,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El oro osciló entre 4,100 y 4,200 durante la noche con un intento de ruptura alcista rechazado ('reversal fails'), presionado ahora hacia el soporte psicológico de 4,100. La estructura técnica de fondo es bajista (death cross, cotizando bajo todas las medias móviles principales) pese al flujo de refugio por Ormuz. Favorecer operativa de rango sobre continuación hasta resolución de las actas de la Fed."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 71.87,
+      "prev_close": 70.44,
+      "change_pct": 2.03,
+      "direction": "up",
+      "level_key_support": 70.00,
+      "level_key_resistance": 72.50,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El WTI extiende el rally geopolítico a $71.87 (+2.1%) tras nuevos ataques de EEUU contra Irán durante la noche, superando el techo psicológico de $70. El movimiento revierte la estructura bajista de varias semanas (mínimo en $66.95) pero conlleva alto riesgo de reversión súbita ante señales de desescalada en Ormuz. Operar con gestión de riesgo estricta; $72.50 es la próxima resistencia relevante."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 63044,
+      "prev_close": 64034,
+      "change_pct": -1.55,
+      "direction": "down",
+      "level_key_support": 61000,
+      "level_key_resistance": 65000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin retrocede a $63,044 tras marcar un máximo de dos semanas cerca de $64,500, con el interés abierto y la demanda spot enfriándose. El índice de miedo y codicia mejora a 23 ('miedo extremo') desde niveles más bajos, sugiriendo una recuperación táctica tras el peor mes de salidas de ETF en junio. Recuperar y sostener los 65,000 sería la confirmación técnica necesaria para un cambio de tendencia."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-08",
+      "days_ahead": 0,
+      "time_cet": "20:00",
+      "event": "FOMC Minutes (reunión 16-17 junio, primeras de Kevin Warsh como presidente)",
+      "importance": "high",
+      "previous": "Tipos sin cambios en 3.50-3.75%; dot plot hawkish (9/19 esperan al menos una subida en 2026)",
+      "expected": "Mercado atento a señales de división interna y a la falta de proyección propia de Warsh"
+    },
+    {
+      "date": "2026-07-08",
+      "days_ahead": 0,
+      "time_cet": "10:00",
+      "event": "Discurso de Lagarde (BCE) — Rencontres Économiques d'Aix-en-Provence",
+      "importance": "medium",
+      "previous": "N/A",
+      "expected": "N/A"
+    },
+    {
+      "date": "2026-07-09",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "US Initial Jobless Claims (semana del 4 jul)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-10",
+      "days_ahead": 2,
+      "time_cet": "08:00",
+      "event": "Alemania CPI Final (junio)",
+      "importance": "low",
+      "previous": "2.3% preliminar",
+      "expected": "2.3%"
+    },
+    {
+      "date": "2026-07-13",
+      "days_ahead": 5,
+      "time_cet": "00:00",
+      "event": "Regreso del Senado de EEUU de receso — foco en CLARITY Act (regulación cripto)",
+      "importance": "medium",
+      "previous": "Estancado por 3 disputas sin resolver",
+      "expected": "Probabilidad de aprobación en 2026 ~50/50 según analistas"
+    },
+    {
+      "date": "2026-07-14",
+      "days_ahead": 6,
+      "time_cet": "14:30",
+      "event": "US CPI (junio)",
+      "importance": "high",
+      "previous": "4.2% YoY (mayo, el más alto desde abril 2023)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-15",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "US PPI (junio)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["wti"],
+    "bearish": ["eurusd", "gold"],
+    "neutral": ["spx", "ndx", "dax", "dxy", "btc"]
+  },
+  "risk_section": {
+    "visible": "Escalada militar activa en el Estrecho de Ormuz (ataques recíprocos EEUU-Irán) mantiene el riesgo de un shock de oferta de petróleo y una aversión al riesgo generalizada.",
+    "hidden": "La rotación desde valores de IA/semiconductores hacia sectores defensivos podría acelerarse si las actas de la Fed confirman un sesgo hawkish bajo el nuevo presidente Warsh, quien inusualmente no presentó proyección de tipos propia.",
+    "scenario": "Si el crudo revierte bruscamente ante señales de desescalada en Ormuz, el oro y el dólar podrían sufrir una corrección rápida mientras las bolsas recuperan apetito por riesgo de forma abrupta.",
+    "signal": "Vigilar las actas de la Fed a las 20:00 CET y cualquier titular de escalada/desescalada en Ormuz; ambos son catalizadores binarios que pueden invalidar el sesgo de rango actual en minutos."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -1,
+      "nq": -1,
+      "cl": 2,
+      "gc": -1
+    },
+    "system_readiness": "wait",
+    "system_note": "Sesión dominada por dos catalizadores binarios pendientes (actas de la Fed a las 20:00 CET y escalada activa en el Estrecho de Ormuz), lo que reduce el valor esperado de los setups direccionales hasta su resolución. NQ presenta doble red flag (ADR nocturno casi agotado + falso breakout) y exige esperar; CL ofrece momentum pero con alto riesgo de reversión por titulares, mientras GC y ES favorecen operativa de rango en balance. Recomendación: tamaño reducido o esperar confirmación post-catalizadores antes de comprometer capital direccional.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7555,
+        "balance_zone_low": 7480,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Futuros ES suben ~+0.5% recuperando el cierre del martes en 7,503.85, con testeo de máximos recientes en la zona 7,553. Apertura premarket volátil ante los titulares de Ormuz y la expectativa de las actas de la Fed esta noche.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "Condición diaria en balance con sesgo neutral-alcista tras el rebote desde el cierre previo en 7,500. La DVA semanal confluye con la condición diaria en modo rotacional; recomendable esperar la resolución de los catalizadores binarios (actas Fed, escalada en Ormuz) antes de comprometer direccionalidad."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 29558,
+        "balance_zone_low": 28974,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "NQ barrió el máximo del martes (29,426) alcanzando 29,559 durante la noche, para luego retroceder a 29,400, devolviendo la mitad de la extensión. Patrón de falso breakout tras el rebote de semiconductores, con titulares mixtos de Ormuz y las actas de la Fed como próximos catalizadores.",
+        "adr_avg_points": 280,
+        "overnight_range_pct_adr": 95,
+        "remaining_adr_pct": 5,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct", "against_recent_FOBO"],
+        "bias_note": "DB claro tras un barrido fallido del máximo previo (FOBO) y un ADR nocturno casi agotado (95%). Sesgo neutral con preferencia por fade en los extremos (29,266/29,558) hasta la resolución de los catalizadores de la tarde."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El crudo WTI extiende el rally geopolítico a $71.87 (+2.1%) tras nuevos ataques de EEUU contra Irán durante la noche, superando el techo psicológico de $70 y el máximo post-noticia de ayer en $72. Movimiento impulsado por headline risk del Estrecho de Ormuz, con riesgo de reversión súbita si aparecen señales de desescalada.",
+        "adr_avg_points": 3.5,
+        "overnight_range_pct_adr": 70,
+        "remaining_adr_pct": 30,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "DIH con dudas por la naturaleza aún inestable del rally geopolítico en Ormuz. El movimiento rompe la estructura bajista previa, pero el riesgo de reversión brusca ante señales de desescalada es alto; operar rupturas con gestión de riesgo estricta o esperar consolidación."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 4200,
+        "balance_zone_low": 4100,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro osciló entre $4,100 y $4,200 durante la noche, con un intento de ruptura alcista rechazado ('reversal fails'). Los flujos de refugio por Ormuz compiten con la presión técnica bajista de fondo (death cross, cotizando bajo todas las medias móviles principales).",
+        "adr_avg_points": 70,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct"],
+        "bias_note": "DB claro con rango bien definido 4,100-4,200 en modo rotacional, disonante con la tendencia bajista de fondo (death cross, por debajo de todas las medias). Favorecer fade en los extremos del rango sobre continuación direccional hasta la resolución de las actas de la Fed."
+      }
+    ]
+  }
+}
