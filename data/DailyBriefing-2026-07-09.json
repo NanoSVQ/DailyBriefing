@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "generated_at": "2026-07-09T07:00:00Z",
+    "trading_date": "2026-07-09",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "Bloomberg", "TradingEconomics", "CoinMarketCap", "Al Jazeera", "CoinDesk"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Irán intensifica su respuesta en Ormuz; el crudo se mantiene cerca de $74 y el oro cae pese a la guerra por el dólar fuerte",
+    "sentiment": "mixed",
+    "sentiment_score": -0.2,
+    "key_theme": "Escalada militar continuada en el Estrecho de Ormuz mantiene el crudo elevado, mientras el reprecio hawkish de la Fed tras las actas fortalece el dólar y presiona al oro pese a la guerra activa"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7492,
+      "prev_close": 7482.71,
+      "change_pct": 0.12,
+      "direction": "up",
+      "level_key_support": 7450,
+      "level_key_resistance": 7537,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El S&P 500 intenta estabilizarse (+0.1% premarket) tras dos sesiones consecutivas a la baja que perforaron el nivel psicológico de 7,500, arrastrado por la escalada en Ormuz y las actas hawkish de la Fed. Estructura de pullback dentro de la tendencia alcista de fondo, sin ruptura confirmada. Vigilar 7,450 como soporte y 7,537 (máximo semanal) como resistencia clave."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29510,
+      "prev_close": 29173.02,
+      "change_pct": 1.16,
+      "direction": "up",
+      "level_key_support": 29200,
+      "level_key_resistance": 29600,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El Nasdaq 100 recupera terreno liderado por el rebote de Nvidia tras el desplome del martes por ventas en semiconductores (Samsung, DeepSeek). Estructura rotacional con fuerte movimiento de ida y vuelta esta semana, sin tendencia clara consolidada. Rango a vigilar 29,200-29,600 a la espera de estabilización del sector de chips."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 25007,
+      "prev_close": 25015,
+      "change_pct": -0.03,
+      "direction": "flat",
+      "level_key_support": 24700,
+      "level_key_resistance": 25300,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El DAX se mantiene prácticamente plano tras dos sesiones consecutivas de fuertes caídas que borraron buena parte del rally récord de la semana pasada (máximo en 25,779), lastrado por bancos, autos e industriales ante la escalada de Ormuz y la ola de ventas en semiconductores. Nota: existe dispersión entre fuentes sobre el nivel exacto de cierre; verificar contra terminal en vivo. Vigilar 24,700 como soporte inmediato."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EUR/USD",
+      "price": 1.1434,
+      "prev_close": 1.1419,
+      "change_pct": 0.13,
+      "direction": "up",
+      "level_key_support": 1.1400,
+      "level_key_resistance": 1.1480,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "EUR/USD rebota levemente hacia 1.1434 pero mantiene un sesgo técnico bajista de fondo (RSI 44, MACD en venta) con la media de 21 sesiones como resistencia. El reprecio hawkish tras las actas de la Fed (probabilidad de subida en septiembre al 69%) sostiene la presión vendedora; una ruptura de 1.1400 abriría camino hacia 1.1360/1.1290."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 101.09,
+      "prev_close": 101.07,
+      "change_pct": 0.02,
+      "direction": "flat",
+      "level_key_support": 100.80,
+      "level_key_resistance": 101.50,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DXY consolida cerca de 101.00 tras el repunte impulsado por las actas hawkish de la Fed, que elevaron la probabilidad de subida de tipos en septiembre al 69% desde el 58% previo. El flujo de refugio adicional por la escalada en Ormuz refuerza el sesgo alcista; 101.50 es la próxima resistencia relevante."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAU/USD",
+      "price": 4074,
+      "prev_close": 4087,
+      "change_pct": -0.32,
+      "direction": "down",
+      "level_key_support": 4030,
+      "level_key_resistance": 4110,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El oro rompió a la baja hasta 4,030-4,074, mínimo desde el 2 de julio, en una anomalía notable: cae pese a la guerra activa en Ormuz porque el reprecio hawkish de la Fed y el dólar fuerte dominan sobre la demanda de refugio. La zona 4,080-4,110 rota de soporte a resistencia; 4,000 es el próximo soporte psicológico a vigilar."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 74.18,
+      "prev_close": 71.87,
+      "change_pct": 3.21,
+      "direction": "up",
+      "level_key_support": 70.00,
+      "level_key_resistance": 76.00,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El WTI se mantiene cerca de $74 tras un episodio de fuerte volatilidad (picos hasta $75.6) por la escalada continuada en Ormuz: EEUU golpeó unos 90 objetivos en Irán tras ataques iraníes a petroleros, con retórica de represalia adicional desde Teherán. Alta dispersión entre fuentes sobre el cierre exacto de ayer; operar con gestión de riesgo estricta ante el elevado riesgo de reversión súbita por titulares."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 62300,
+      "prev_close": 62900,
+      "change_pct": -0.95,
+      "direction": "down",
+      "level_key_support": 60000,
+      "level_key_resistance": 63900,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin retrocede a ~$62,300 por el apetito de riesgo reducido tras la escalada en Ormuz, tras tocar un máximo nocturno de $63,882. No obstante, los ETF spot registraron su primera entrada neta en 10 sesiones (+$221.7M), señal de compra institucional en la caída que contrasta con el flujo de precio bajista. Recuperar 63,900 confirmaría un cambio táctico de tendencia."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-09",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "US Initial Jobless Claims (semana del 4 jul)",
+      "importance": "medium",
+      "previous": "215,000 (semana del 27 jun); media 4 semanas 222,000",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-14",
+      "days_ahead": 5,
+      "time_cet": "14:30",
+      "event": "US CPI (junio)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-15",
+      "days_ahead": 6,
+      "time_cet": "14:30",
+      "event": "US PPI (junio)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-15",
+      "days_ahead": 6,
+      "time_cet": "22:15",
+      "event": "Fed Beige Book",
+      "importance": "low",
+      "previous": "N/A",
+      "expected": "N/A"
+    },
+    {
+      "date": "2026-07-16",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "US Retail Sales (junio)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-16",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "US Initial Jobless Claims (semana del 11 jul)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["wti", "dxy"],
+    "bearish": ["dax", "eurusd", "gold"],
+    "neutral": ["spx", "ndx", "btc"]
+  },
+  "risk_section": {
+    "visible": "La escalada militar continúa activa en el Estrecho de Ormuz (EEUU golpeó unos 90 objetivos en Irán, Teherán promete una 'bofetada dura') manteniendo el riesgo de shock de oferta petrolera y disrupción del tráfico marítimo en el Golfo Pérsico.",
+    "hidden": "La divergencia entre el oro cayendo y una guerra activa sugiere que el mercado prioriza el reprecio hawkish de la Fed (probabilidad de subida en septiembre al 69%) sobre la demanda de refugio, una dinámica que podría revertirse bruscamente si la escalada se intensifica.",
+    "scenario": "Si Irán ejecuta una represalia mayor (bloqueo naval, ataque a infraestructura de producción), el crudo podría dispararse hacia $80+ y el oro recuperar su rol de refugio con fuerza, mientras las bolsas sufren una caída más pronunciada y el dólar pierde parte de su liderazgo.",
+    "signal": "Vigilar titulares de Ormuz/Irán en tiempo real y el dato de Peticiones Iniciales de Desempleo a las 14:30 CET; ambos catalizadores pueden alterar el sesgo de rango actual y la narrativa hawkish de la Fed en minutos."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": 1,
+      "cl": 2,
+      "gc": -2
+    },
+    "system_readiness": "wait",
+    "system_note": "La escalada militar activa en Ormuz sigue sin resolución, junto al dato de Peticiones Iniciales de Desempleo a las 14:30 CET, mantienen el mercado en modo binario y reducen el valor esperado de las operativas direccionales. CL ofrece momentum con alto riesgo de reversión por titulares; GC exhibe una ruptura bajista clara pero disonante con el contexto de guerra, mientras ES y NQ permanecen en balance dudoso a la espera de mayor claridad. Recomendación: tamaño reducido y máxima atención a titulares de Irán durante toda la sesión.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7550,
+        "balance_zone_low": 7450,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Los futuros ES suben levemente (+0.1%) intentando estabilizarse tras dos sesiones consecutivas a la baja, con las actas hawkish de la Fed y la escalada en Ormuz como telón de fondo. Rango nocturno moderado sin ruptura clara de niveles.",
+        "adr_avg_points": 70,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "DB con clarity dudosa tras dos cierres consecutivos a la baja y pérdida del nivel psicológico de 7,500. La DVA semanal muestra disonancia rotacional; el rebote premarket es tentativo a la espera de resolución de los catalizadores de Irán y el dato de paro semanal."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29600,
+        "balance_zone_low": 29200,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "NQ opera en el rango 29,398-29,583 durante la noche, recuperando gran parte de la caída del martes por la ola de ventas en semiconductores (Samsung, DeepSeek) gracias al rebote liderado por Nvidia. Sin ruptura direccional clara.",
+        "adr_avg_points": 320,
+        "overnight_range_pct_adr": 50,
+        "remaining_adr_pct": 50,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "DB dudoso tras un fuerte movimiento de ida y vuelta esta semana: desplome por ventas en semiconductores seguido de recuperación liderada por megacaps. Disonancia con la DVA semanal en imbalance; preferible esperar mayor claridad direccional antes de operar continuación."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El WTI se mantiene cerca de $74 tras picos de hasta $75.6 por la escalada continuada en Ormuz (ataques de EEUU a ~90 objetivos en Irán, ataques iraníes a petroleros). Alta dispersión entre fuentes sobre el cierre exacto; sesgo alcista con riesgo elevado de reversión.",
+        "adr_avg_points": 5.0,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "DIH dudoso por la naturaleza inestable del rally geopolítico y la elevada dispersión de precios entre fuentes. La escalada en Ormuz sigue sin resolverse noche tras noche; operar con gestión de riesgo estricta ante el alto riesgo de reversión súbita por titulares."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El oro rompió a la baja hacia 4,030-4,074, mínimo desde el 2 de julio, pese a la guerra activa en Ormuz — el dólar fuerte por el reprecio hawkish de la Fed domina sobre la demanda de refugio. Anomalía relevante a vigilar durante la sesión.",
+        "adr_avg_points": 85,
+        "overnight_range_pct_adr": 45,
+        "remaining_adr_pct": 55,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "DIL claro con ruptura por debajo del soporte 4,077-4,110, que ahora actúa como resistencia. La disonancia entre la caída del oro y la guerra activa en Ormuz sugiere que el mercado prioriza el dólar fuerte y las probabilidades de subida de tipos; sesgo bajista mientras el dólar mantenga el liderazgo, con riesgo de reversión violenta si la escalada militar se intensifica."
+      }
+    ]
+  }
+}
