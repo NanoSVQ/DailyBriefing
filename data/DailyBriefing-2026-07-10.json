@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "generated_at": "2026-07-10T07:00:00Z",
+    "trading_date": "2026-07-10",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "Bloomberg", "TradingEconomics", "TheStreet", "Forbes", "CME Group"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Debut histórico de SK Hynix impulsa a los semis; ES/NQ marcan máximos semanales pese al riesgo activo en Ormuz",
+    "sentiment": "mixed",
+    "sentiment_score": 0.2,
+    "key_theme": "El rally de semiconductores tras el listado histórico de SK Hynix en el Nasdaq domina el sentimiento, mientras persiste el riesgo geopolítico por el colapso del alto el fuego entre EEUU e Irán"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7580,
+      "prev_close": 7543.64,
+      "change_pct": 0.48,
+      "direction": "up",
+      "level_key_support": 7483,
+      "level_key_resistance": 7600,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El S&P 500 rompe al alza el máximo semanal previo (7,537) apoyado en el rally de semiconductores y el histórico debut de SK Hynix en el Nasdaq, aunque existe dispersión entre fuentes sobre la magnitud exacta del gap premarket. Estructura rotacional toda la semana que intenta resolver a favor de los compradores; vigilar 7,483 como soporte de la semana y 7,600 como próxima resistencia psicológica."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29850,
+      "prev_close": 29673.74,
+      "change_pct": 0.59,
+      "direction": "up",
+      "level_key_support": 29500,
+      "level_key_resistance": 30050,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El Nasdaq 100 extiende su ruptura tras dos cierres consecutivos al alza, impulsado por el listado histórico de SK Hynix (~$28.000M, la mayor ADR de la historia) y la fortaleza generalizada en semiconductores (AMD, Broadcom, Micron). Es el instrumento con mayor convicción direccional de la semana; vigilar 29,500 como soporte y 30,050 como extensión de la ruptura."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 25150,
+      "prev_close": 25118,
+      "change_pct": 0.13,
+      "direction": "up",
+      "level_key_support": 24785,
+      "level_key_resistance": 25800,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El DAX cerró el jueves cerca de máximos históricos (25,118, +0.89%) apoyado por la caída de la inflación europea y el apetito de riesgo global; el tono asiático positivo de esta madrugada sugiere continuidad, aunque no hay datos premarket específicos verificados para el DAX. Vigilar 24,785 como soporte estructural y la zona de máximos 25,800-25,900 como resistencia."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EUR/USD",
+      "price": 1.1464,
+      "prev_close": 1.1438,
+      "change_pct": 0.23,
+      "direction": "up",
+      "level_key_support": 1.1355,
+      "level_key_resistance": 1.1500,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "EUR/USD rebota hacia 1.1464 pero mantiene un sesgo técnico bajista de fondo, cotizando por debajo de su media de 21 sesiones, en lo que parece un rebote correctivo dentro de una tendencia bajista más amplia. Vigilar 1.1355 como soporte y 1.1500 como resistencia inmediata; una pérdida de 1.1355 reabriría el camino hacia 1.1200."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 100.94,
+      "prev_close": 100.92,
+      "change_pct": 0.02,
+      "direction": "flat",
+      "level_key_support": 100.50,
+      "level_key_resistance": 101.50,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DXY consolida cerca de 100.94 en un punto de inflexión técnico entre su media móvil de 50 (~99.89) y la de 200 periodos (~101.02), sin dirección clara mientras el mercado digiere el riesgo geopolítico en Ormuz y la transición de la Fed bajo el nuevo presidente Warsh. Vigilar 100.50 como soporte crítico y 101.50 como resistencia."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAU/USD",
+      "price": 4144,
+      "prev_close": 4082,
+      "change_pct": 1.52,
+      "direction": "up",
+      "level_key_support": 4030,
+      "level_key_resistance": 4150,
+      "bias": "bullish",
+      "signal": "reversal",
+      "note": "El oro protagoniza un fuerte rebote nocturno desde el mínimo semanal (~4,030) hasta testear el máximo del lunes (~4,143-4,148), un patrón de barrido y recuperación que sugiere agotamiento vendedor tras dos sesiones de caída pese a la escalada activa en Ormuz. Vigilar 4,030 como soporte y 4,150 como resistencia clave para confirmar la ruptura."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 72.50,
+      "prev_close": 73.52,
+      "change_pct": -1.39,
+      "direction": "down",
+      "level_key_support": 70.00,
+      "level_key_resistance": 76.00,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El WTI retrocede a la zona de $72-73 tras dos sesiones de corrección desde los máximos de $76-78 marcados por la escalada en el Estrecho de Ormuz, ayudado por un sorpresivo aumento de inventarios de la EIA (+3M barriles) y señales de calma relativa esta madrugada. El contrato de agosto (CLQ26) vence el 21 de julio, por lo que el rollover empezará a ganar peso esta semana; vigilar $70 como soporte y $76 como resistencia."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 63300,
+      "prev_close": 62900,
+      "change_pct": 0.64,
+      "direction": "up",
+      "level_key_support": 62000,
+      "level_key_resistance": 64000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin recupera terreno hacia ~$63,300 tras el susto de la escalada Irán-EEUU a principios de semana, apoyado por liquidaciones de cortos y entradas netas en ETF spot, aunque el índice de Miedo y Codicia permanece en 'Miedo Extremo'. Vigilar 62,000 como soporte y 64,000 como resistencia hacia el objetivo superior de 65,584."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-14",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "US CPI (junio)",
+      "importance": "high",
+      "previous": "+4.2% YoY (mayo)",
+      "expected": "Consenso ~3.9% YoY"
+    },
+    {
+      "date": "2026-07-14",
+      "days_ahead": 4,
+      "time_cet": "13:00",
+      "event": "Resultados Q2: JPMorgan, Bank of America, Citigroup, Wells Fargo",
+      "importance": "high",
+      "previous": "N/A",
+      "expected": "JPM ~$5.49 EPS; BofA ~$1.12 EPS (inicio temporada de resultados)"
+    },
+    {
+      "date": "2026-07-15",
+      "days_ahead": 5,
+      "time_cet": "14:30",
+      "event": "US PPI (junio)",
+      "importance": "high",
+      "previous": "~5.10% YoY (mayo)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-15",
+      "days_ahead": 5,
+      "time_cet": "14:30",
+      "event": "NY Empire State Manufacturing Index (julio)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-16",
+      "days_ahead": 6,
+      "time_cet": "04:00",
+      "event": "China GDP Q2 (preliminar)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-16",
+      "days_ahead": 6,
+      "time_cet": "14:30",
+      "event": "US Retail Sales (junio)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-16",
+      "days_ahead": 6,
+      "time_cet": "14:30",
+      "event": "Philadelphia Fed Manufacturing Index (julio)",
+      "importance": "medium",
+      "previous": "10.3 (junio)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-17",
+      "days_ahead": 7,
+      "time_cet": "16:00",
+      "event": "University of Michigan Consumer Sentiment (preliminar, julio)",
+      "importance": "medium",
+      "previous": "49.50 (junio final)",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dax", "gold"],
+    "bearish": ["eurusd"],
+    "neutral": ["dxy", "wti", "btc"]
+  },
+  "risk_section": {
+    "visible": "El alto el fuego entre EEUU e Irán se ha roto: EEUU golpeó ~90 objetivos en Irán y Teherán respondió con ataques a bases en Jordania, Kuwait y Qatar, manteniendo el riesgo de disrupción en el Estrecho de Ormuz pese a la calma relativa del crudo esta mañana.",
+    "hidden": "La divergencia entre el rally de renta variable liderado por semis y la escalada militar activa sugiere cierta complacencia; un titular de bloqueo real en Ormuz o daño a infraestructura petrolera podría revertir el apetito de riesgo con rapidez pese al momentum técnico actual.",
+    "scenario": "Si la escalada se intensifica (bloqueo de Ormuz, ataque a instalaciones petroleras), el crudo podría dispararse por encima de $80, el oro recuperar su rol de refugio con fuerza y las bolsas sufrir una corrección más profunda pese al momentum actual de los semiconductores.",
+    "signal": "Vigilar titulares en tiempo real sobre Irán/Ormuz, la evolución del debut de SK Hynix en el Nasdaq y el inicio de la temporada de resultados con la banca (JPM, BAC, C, WFC) el martes, además del IPC de EEUU (14:30 CET) como próximo catalizador macro mayor de la semana."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 1,
+      "nq": 2,
+      "cl": -1,
+      "gc": 1
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "NQ ofrece el mayor valor esperado del sistema hoy tras dos cierres alcistas consecutivos y una ruptura limpia impulsada por el debut de SK Hynix, mientras ES muestra una ruptura menos confirmada y CL/GC arrastran red flags por noticias vivas en Ormuz y rangos cerca de su ADR máximo. Recomendación: tamaño reducido salvo en NQ, evitar perseguir CL en corto por riesgo de titulares, y esperar confirmación de volumen en la ruptura de GC antes de operar continuación.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7540,
+        "balance_zone_low": 7483,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "ES abre con gap alcista sobre el máximo semanal previo (7,537), apoyado en el rally de semiconductores y el listado de SK Hynix, aunque persiste dispersión entre fuentes sobre la magnitud exacta del gap.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 70,
+        "remaining_adr_pct": 30,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "DIH dudoso tras el gap alcista sobre el máximo semanal, impulsado por el rally de semis y el debut de SK Hynix; la DVA semanal rotacional sugiere que la ruptura necesita confirmación con volumen antes de operar continuación agresiva."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "NQ extiende el gap alcista hacia el área de 29,880, apoyado en el listado histórico de SK Hynix (~$28.000M, la mayor ADR de la historia) y la fortaleza continuada del sector de semiconductores tras dos cierres diarios consecutivos al alza.",
+        "adr_avg_points": 320,
+        "overnight_range_pct_adr": 65,
+        "remaining_adr_pct": 35,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["none"],
+        "bias_note": "DIH claro tras dos cierres consecutivos al alza y ruptura limpia a nuevos máximos, con la DVA semanal migrando en imbalance confluente. Es el instrumento de mayor convicción direccional del sistema hoy, aunque el catalizador puntual de SK Hynix puede generar volatilidad elevada en la apertura."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 76.00,
+        "balance_zone_low": 71.00,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El WTI opera en rango estrecho cerca de $72-73 tras el retroceso de las dos últimas sesiones desde los máximos de $76-78 marcados por la escalada en Ormuz; la sesión nocturna ha sido tranquila, sin nueva escalada de titulares.",
+        "adr_avg_points": 2.0,
+        "overnight_range_pct_adr": 30,
+        "remaining_adr_pct": 70,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news", "after_capitulatory_move"],
+        "bias_note": "DB dudoso mientras el mercado consolida tras el pico geopolítico capitulatorio de la semana; el rollover hacia el contrato de septiembre empieza a ganar peso antes del vencimiento de agosto (21 de julio). Evitar perseguir la corrección en corto ante el riesgo binario de titulares sobre Ormuz."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4148,
+        "balance_zone_low": 4030,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El oro rebota con fuerza durante la noche desde el mínimo semanal (~4,030) hasta testear el máximo del lunes (~4,143-4,148), un patrón de barrido y recuperación tras dos sesiones de caída, con el rango ya cerca del ADR ajustado al régimen de volatilidad actual.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 90,
+        "remaining_adr_pct": 10,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct"],
+        "bias_note": "DIH dudoso: el barrido del mínimo semanal seguido de recuperación hacia el máximo del lunes sugiere agotamiento vendedor, pero el rango ya consumido cerca del 90% del ADR ajustado limita el recorrido adicional a favor de nuevas posiciones largas hoy."
+      }
+    ]
+  }
+}
