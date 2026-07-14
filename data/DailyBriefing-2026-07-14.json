@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "generated_at": "2026-07-14T07:00:00Z",
+    "trading_date": "2026-07-14",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "Bloomberg", "TradingEconomics", "Barchart", "Al Jazeera", "FXStreet", "FX Leaders"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "El crudo se dispara a máximos de un mes por la escalada Irán-Ormuz mientras el mercado espera el IPC y a Warsh",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.35,
+    "key_theme": "La escalada del conflicto EEUU-Irán en el Estrecho de Ormuz dispara el petróleo y presiona a la renta variable, con el IPC de junio y la primera comparecencia de Kevin Warsh como catalizadores clave"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7550,
+      "prev_close": 7515.34,
+      "change_pct": 0.46,
+      "direction": "up",
+      "level_key_support": 7514,
+      "level_key_resistance": 7610,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El S&P 500 cotiza en balance tras el retroceso del -0.79% del lunes, con el soporte de 7,514-7,520 defendido durante la noche y el precio girando en torno al VAL previo de 7,546. La sesión está dominada por el IPC de junio y los resultados bancarios (JPMorgan y Wells Fargo ya han batido expectativas); se espera un movimiento de ±0.7% según las opciones."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29622,
+      "prev_close": 29264.10,
+      "change_pct": 1.22,
+      "direction": "up",
+      "level_key_support": 29491,
+      "level_key_resistance": 29801,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El Nasdaq 100 cerró el lunes por debajo de su media de 50 sesiones (29,801) por primera vez en este tramo alcista, una señal técnica de alerta tras la caída del -1.88%. El intento de rebote overnight (+0.5% premarket) se desvaneció por la debilidad en grandes tecnológicas (Microsoft, Oracle), dejando el sesgo bajista de corto plazo intacto de cara al IPC."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 24998,
+      "prev_close": 25114,
+      "change_pct": -0.46,
+      "direction": "down",
+      "level_key_support": 24800,
+      "level_key_resistance": 25400,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX retrocede hoy arrastrado por el riesgo geopolítico en Oriente Medio, aunque la estructura de medio plazo se mantiene constructiva mientras se sostenga por encima de 24,800. Una pérdida de ese nivel abriría paso hacia 24,500; la resistencia relevante está en 25,400, con el canal alcista extendiéndose hacia 25,800-26,500 si se recupera el impulso."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EUR/USD",
+      "price": 1.1396,
+      "prev_close": 1.1390,
+      "change_pct": 0.05,
+      "direction": "flat",
+      "level_key_support": 1.1360,
+      "level_key_resistance": 1.1480,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El euro/dólar se mantiene bajo presión técnica tras perder el canal alcista de corrección y testear su media de 200 sesiones, con RSI y MACD en negativo. La fortaleza del dólar, ligada a la escalada en Ormuz y a las expectativas hawkish sobre la Fed, sigue siendo el principal viento en contra antes del IPC."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 101.20,
+      "prev_close": 100.93,
+      "change_pct": 0.27,
+      "direction": "up",
+      "level_key_support": 100.80,
+      "level_key_resistance": 102.00,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El índice dólar mantiene el momentum alcista por encima de sus medias móviles principales, con ING situando el objetivo en 102 mientras persista la tensión en el Golfo. El IPC de hoy a las 14:30 CET será clave para confirmar o frenar este impulso."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAU/USD",
+      "price": 4020,
+      "prev_close": 4001.13,
+      "change_pct": 0.47,
+      "direction": "up",
+      "level_key_support": 4000,
+      "level_key_resistance": 4040,
+      "bias": "neutral",
+      "signal": "reversal",
+      "note": "El oro recuperó los 4,000 dólares tras barrer el mínimo de dos semanas (~3,983) en la sesión asiática, un patrón de falso quiebre a la baja. Persiste la 'paradoja del refugio seguro': pese a la escalada en Ormuz, el oro no repunta con fuerza porque el crudo al alza alimenta expectativas de una Fed más hawkish."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 79.56,
+      "prev_close": 74.50,
+      "change_pct": 6.79,
+      "direction": "up",
+      "level_key_support": 78.00,
+      "level_key_resistance": 83.47,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El WTI rompe con fuerza el nivel de 78-80 dólares tras el anuncio de Trump de un peaje del 20% y bloqueo naval en el Estrecho de Ormuz, completando un patrón de hombro-cabeza-hombro invertido y superando el máximo del rango de julio (76.12). El movimiento ya supera ampliamente el ADR habitual, por lo que perseguirlo en caliente ofrece poco valor esperado; la resistencia clave está en 83.47."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 62650,
+      "prev_close": 62850,
+      "change_pct": -0.32,
+      "direction": "down",
+      "level_key_support": 61300,
+      "level_key_resistance": 65150,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "Bitcoin permanece en régimen bajista, atrapado por debajo de sus medias móviles principales tras un patrón de doble techo cerca de 62,550-64,200. El sentimiento se mantiene en zona de 'miedo' (~28) y el mercado necesita una ruptura confirmada de 58,300 o 65,150 para la siguiente señal direccional."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-14",
+      "days_ahead": 0,
+      "time_cet": "13:00",
+      "event": "Resultados Q2: JPMorgan, Goldman Sachs, BofA, Wells Fargo, Citigroup",
+      "importance": "high",
+      "previous": "N/A",
+      "expected": "JPMorgan ya bate expectativas (BPA $6.14 vs $5.85); Wells Fargo bate (BPA $2.00 vs $1.72)"
+    },
+    {
+      "date": "2026-07-14",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "IPC EEUU (junio)",
+      "importance": "high",
+      "previous": "4.2% interanual / +0.6% mensual (mayo)",
+      "expected": "~3.9% interanual; -0.1/-0.2% mensual; subyacente ~2.9%"
+    },
+    {
+      "date": "2026-07-14",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "Comparecencia del presidente de la Fed Kevin Warsh ante el Comité de Servicios Financieros de la Cámara",
+      "importance": "high",
+      "previous": "N/A (primera comparecencia como presidente de la Fed)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-15",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "IPP EEUU (junio)",
+      "importance": "medium",
+      "previous": "6.5% interanual (mayo)",
+      "expected": ">6.2% interanual (estimado)"
+    },
+    {
+      "date": "2026-07-15",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "Segundo día de comparecencia de Kevin Warsh ante el Comité Bancario del Senado",
+      "importance": "high",
+      "previous": "N/A",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-16",
+      "days_ahead": 2,
+      "time_cet": "04:00",
+      "event": "PIB China T2 2026 (interanual)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "4.9%-5.2% interanual (rango de mercados de predicción)"
+    },
+    {
+      "date": "2026-07-16",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "Ventas minoristas EEUU (junio)",
+      "importance": "high",
+      "previous": "+0.9% mensual (mayo)",
+      "expected": "dato no disponible; se espera desaceleración"
+    },
+    {
+      "date": "2026-07-17",
+      "days_ahead": 3,
+      "time_cet": "11:00",
+      "event": "IPC armonizado final Eurozona (junio)",
+      "importance": "medium",
+      "previous": "Flash: 2.8% interanual",
+      "expected": "Confirmación en 2.8% interanual"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["ndx", "eurusd", "btc"],
+    "neutral": ["spx", "dax", "gold"]
+  },
+  "risk_section": {
+    "visible": "La escalada del conflicto EEUU-Irán en el Estrecho de Ormuz (peaje del 20% y bloqueo naval anunciados por Trump) dispara el WTI a máximos de un mes justo el día del IPC de EEUU y la primera comparecencia de Warsh ante el Congreso.",
+    "hidden": "Un IPC más caliente de lo esperado combinado con el repunte del crudo podría forzar a la Fed a mantener los tipos altos más tiempo, un escenario que el dólar ya empieza a descontar pero que la renta variable aún no refleja del todo.",
+    "scenario": "Si emergen titulares de desescalada o de un acuerdo con Irán, el petróleo podría revertir con fuerza -como ya ha ocurrido en movimientos previos esta semana-, aliviando la presión inflacionaria y dando oxígeno a un rebote en índices y oro.",
+    "signal": "Vigilar la reacción al IPC de EEUU a las 14:30 CET y a la comparecencia de Warsh a las 16:00 CET, además del nivel de 83.47 en WTI y de 65,150 en Bitcoin como referencias clave de la semana."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -1,
+      "nq": -1,
+      "cl": 1,
+      "gc": -2
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "Jornada con máxima carga de catalizadores (IPC, comparecencia de Warsh, resultados bancarios) que reduce el edge de las rupturas en frío. ES y NQ mantienen condición de balance/rotación con claridad dudosa; CL ya ha consumido con creces su ADR tras el gap alcista por Ormuz, lo que desaconseja perseguirlo; GC ofrece el patrón más limpio (falso quiebre y reclamo de 4,000), pero conviene operar con tamaño reducido hasta confirmar la reacción al dato de las 14:30 CET.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7570,
+        "balance_zone_low": 7514,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El nivel de 7,520 se defendió durante la noche y el precio saltó hacia 7,546, el VAL del día previo, actuando como pivote; sin gap relevante ni barrido claro de máximos o mínimos.",
+        "adr_avg_points": 89,
+        "overnight_range_pct_adr": 56,
+        "remaining_adr_pct": 44,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "Condición de balance con claridad dudosa tras el retroceso del lunes; el rango semanal se mantiene rotacional dentro del pVA aproximado. El IPC y la comparecencia de Warsh introducen riesgo binario que recomienda operar reactivo a niveles (7,514/7,570) más que buscar rupturas en frío."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29801,
+        "balance_zone_low": 29264,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Rango overnight entre 29,491 y 29,650, con un intento de rally premarket (+0.5%) que se desvaneció por la debilidad en grandes tecnológicas (Microsoft, Oracle) antes de la apertura europea.",
+        "adr_avg_points": 450,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_BO", "held_through_news"],
+        "bias_note": "El cierre del lunes por debajo de la media de 50 sesiones (29,801) marca la primera grieta técnica en la tendencia alcista, aunque el rango semanal sigue siendo mayoritariamente rotacional. El rebote overnight fallido deja un sesgo bajista-cauteloso de cara al IPC de las 14:30 CET."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El crudo saltó de ~74.50 a un rango 78-80.75 durante la madrugada tras el anuncio de Trump de un peaje del 20% y bloqueo naval a Irán en el Estrecho de Ormuz, superando limpiamente el máximo del rango de julio (76.12).",
+        "adr_avg_points": 3.5,
+        "overnight_range_pct_adr": 180,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["after_capitulatory_move", "adr_near_100pct"],
+        "bias_note": "DIH claro impulsado por la escalada geopolítica en Ormuz, con el precio muy por encima del pVA semanal aproximado. El movimiento ya ha consumido con creces el ADR habitual del contrato, por lo que perseguirlo en caliente ofrece poco valor esperado; preferible esperar un pullback hacia 78.00-74.00 para evaluar continuación."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4300,
+        "balance_zone_low": 3900,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro barrió el mínimo de dos semanas cerca de 3,983-3,986 en la sesión asiática y después recuperó los 4,000, un patrón de falso quiebre a la baja antes del IPC y la comparecencia de Warsh.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 55,
+        "remaining_adr_pct": 45,
+        "rvol_premarket": "avg",
+        "setup_priority": "FS_vWap",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "El oro permanece en un balance amplio (3,900-4,300) tras barrer el mínimo de dos semanas y reclamar los 4,000, un patrón de falso quiebre. La paradoja del refugio seguro persiste: la escalada en Ormuz no impulsa al oro por el temor a una Fed más hawkish; el IPC de hoy será determinante para la dirección."
+      }
+    ]
+  }
+}
