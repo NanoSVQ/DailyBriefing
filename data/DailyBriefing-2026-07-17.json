@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "generated_at": "2026-07-17T07:00:00Z",
+    "trading_date": "2026-07-17",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "TradingEconomics", "FXStreet", "Bloomberg"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Escalada Irán-Qatar dispara el petróleo; semiconductores y oro caen, el dólar rebota. OPEX hoy.",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.5,
+    "key_theme": "La escalada bélica EEUU-Irán, que ahora alcanza Qatar, se combina con dudas sobre el capex de IA tras TSMC y el desplome de Netflix, acentuando la aversión al riesgo en vísperas del vencimiento trimestral (OPEX)."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX/ES",
+      "price": 7492.0,
+      "prev_close": 7533.77,
+      "change_pct": -0.55,
+      "direction": "down",
+      "level_key_support": 7450,
+      "level_key_resistance": 7534,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El S&P 500 abre con un hueco bajista tras un jueves de ventas en semiconductores y la escalada Irán-Qatar, retrocediendo desde el máximo semanal de 7,572-7,575 hacia el soporte 7,450-7,482. Viernes de vencimiento trimestral (OPEX), lo que puede generar volatilidad adicional y movimientos erráticos en la apertura."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX/NQ",
+      "price": 28973.0,
+      "prev_close": 29060.0,
+      "change_pct": -0.30,
+      "direction": "down",
+      "level_key_support": 28700,
+      "level_key_resistance": 29450,
+      "bias": "bearish",
+      "signal": "momentum",
+      "note": "El Nasdaq 100 profundiza su ruptura bajista, con los futuros ampliando las pérdidas tras el desplome de TSMC, Arm y el resto de semiconductores por dudas sobre el capex de IA. El rango overnight ya consume la práctica totalidad del ADR; perder los 28,700 confirmaría la continuidad del movimiento de distribución iniciado el jueves."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "GER40",
+      "price": 24853.0,
+      "prev_close": 24915.5,
+      "change_pct": -0.25,
+      "direction": "down",
+      "level_key_support": 24500,
+      "level_key_resistance": 25100,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El DAX arrastra el lastre del sentimiento de riesgo global tras perder los 25,000 puntos el jueves, con la apertura europea condicionada por la escalada Irán-Qatar y las caídas en Wall Street. Rango de referencia 24,500-25,100 mientras no se confirme una ruptura clara en ningún sentido."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1448,
+      "prev_close": 1.1466,
+      "change_pct": -0.16,
+      "direction": "down",
+      "level_key_support": 1.1360,
+      "level_key_resistance": 1.1535,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El euro retrocede ligeramente desde el máximo semanal cercano a 1.1500 hacia 1.1448 mientras el dólar intenta estabilizarse tras varias sesiones de debilidad. Mientras se mantenga sobre 1.1360 el sesgo de fondo sigue siendo constructivo, pero la sesión de hoy pide cautela ante el rebote del DXY."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 100.78,
+      "prev_close": 100.60,
+      "change_pct": 0.18,
+      "direction": "up",
+      "level_key_support": 100.15,
+      "level_key_resistance": 101.50,
+      "bias": "bullish",
+      "signal": "reversal",
+      "note": "El índice dólar rebota hacia 100.78 desde el mínimo plurisemanal cercano a 100.50, apoyado por la búsqueda de refugio ante la escalada geopolítica en Oriente Medio. Un cierre por encima de 101.00 confirmaría un intento de suelo de corto plazo."
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "ticker": "XAU/USD",
+      "price": 3990.0,
+      "prev_close": 3996.0,
+      "change_pct": -0.15,
+      "direction": "down",
+      "level_key_support": 3945,
+      "level_key_resistance": 4050,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El oro encadena dos cierres bajistas y sigue sin poder sostener de forma consistente el nivel psicológico de 4,000 dólares, pese a la escalada del conflicto Irán-Qatar, presionado por el repricing de menos recortes de la Fed. Perder los 3,945 abriría paso hacia el mínimo del año."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 79.67,
+      "prev_close": 79.63,
+      "change_pct": 0.05,
+      "direction": "up",
+      "level_key_support": 78.35,
+      "level_key_resistance": 80.90,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El WTI se mantiene cerca de máximos de un mes tras el ataque de EEUU sobre Irán, que ahora alcanza también a Qatar, consolidando en el entorno de 79.50-80.86 dólares. Con cuatro cierres alcistas consecutivos y el ADR muy consumido, se prioriza la operativa de rango o el fade en extremos frente a nuevas rupturas."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 63393.99,
+      "prev_close": 64595.0,
+      "change_pct": -1.86,
+      "direction": "down",
+      "level_key_support": 62500,
+      "level_key_resistance": 64600,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "Bitcoin retrocede un 1.9% hasta 63,400 dólares, perdiendo el soporte de 64,000 en línea con el tono de aversión al riesgo global y las salidas netas de ETF. Mientras no recupere los 64,600, el sesgo de corto plazo sigue siendo bajista dentro de la corrección desde el máximo semanal."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-17",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "Viviendas iniciadas / Permisos de construcción EE.UU. (junio)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-17",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "Confianza del consumidor de Michigan (preliminar, julio)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-20",
+      "days_ahead": 3,
+      "time_cet": "04:00",
+      "event": "Decisión de tipos preferenciales (LPR) del PBoC, China",
+      "importance": "medium",
+      "previous": "LPR 1a 3.00% / 5a 3.50%",
+      "expected": "Sin cambios (13º mantenimiento consecutivo, consenso)"
+    },
+    {
+      "date": "2026-07-21",
+      "days_ahead": 4,
+      "time_cet": "09:00",
+      "event": "Informe de mercado laboral del Reino Unido",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-22",
+      "days_ahead": 5,
+      "time_cet": "09:00",
+      "event": "IPC del Reino Unido (junio)",
+      "importance": "high",
+      "previous": "+2.8% interanual (mayo)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-22",
+      "days_ahead": 5,
+      "time_cet": "22:00",
+      "event": "Resultados Tesla (TSLA) Q2 2026",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-23",
+      "days_ahead": 6,
+      "time_cet": "13:45",
+      "event": "Decisión de tipos del BCE + rueda de prensa de Lagarde",
+      "importance": "high",
+      "previous": "Tipo de depósito mantenido en la reunión anterior",
+      "expected": "Mantenimiento (~93% prob. según mercado)"
+    },
+    {
+      "date": "2026-07-24",
+      "days_ahead": 7,
+      "time_cet": "15:45",
+      "event": "PMI compuesto preliminar EE.UU. / Eurozona (julio)",
+      "importance": "high",
+      "previous": "Compuesto EE.UU. 51.9 (junio)",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["spx", "ndx", "dax", "gold", "btc"],
+    "neutral": ["eurusd"]
+  },
+  "risk_section": {
+    "visible": "La escalada militar entre EE.UU., Irán y ahora Qatar mantiene disparado el petróleo y golpea el apetito por riesgo en bolsa; el resultado de Netflix (-9%) y la corrección en semiconductores amplifican las caídas en el Nasdaq. Viernes de vencimiento trimestral (OPEX), que puede añadir volatilidad artificial a la apertura y al cierre.",
+    "hidden": "El mercado no ha descontado del todo que un repunte sostenido del crudo (+11% semanal) reavive las expectativas de inflación justo antes de la reunión de la Fed del 28-29 de julio, lo que podría frenar el ciclo de recortes previsto. La debilidad en semiconductores podría ser el inicio de una rotación más amplia fuera de la temática de IA, más allá del ruido puntual de TSMC.",
+    "scenario": "Si el conflicto Irán-Qatar se desescala, el crudo podría revertir con fuerza y favorecer un rebote en renta variable y una recuperación del oro; en el escenario contrario, un cierre efectivo de rutas de suministro en el Golfo dispararía un shock de riesgo clásico con oro y bonos al alza y renta variable/cripto a la baja.",
+    "signal": "Vigilar el cierre semanal del WTI sobre 80.86 (continuación) o su pérdida (agotamiento del rally), la capacidad del Nasdaq 100 de mantenerse sobre 28,700, y la decisión del BCE del 23 de julio junto al IPC del Reino Unido como catalizadores de cierre de semana."
+  },
+  "hawk_system": {
+    "special_situation": "OPEX",
+    "consecutive_closes": {
+      "es": -1,
+      "nq": -1,
+      "cl": 4,
+      "gc": -2
+    },
+    "system_readiness": "wait",
+    "system_note": "Viernes de vencimiento trimestral (OPEX) combinado con la escalada geopolítica Irán-Qatar y las ventas en semiconductores por dudas sobre el capex de IA reduce la fiabilidad de los setups de continuación en ES y NQ hoy. CL mantiene el mejor EV direccional pero ya con el ADR muy consumido tras cuatro cierres alcistas consecutivos, por lo que se prioriza el fade en extremos sobre nuevas rupturas. Recomendación general: tamaño reducido o esperar confirmación intradía antes de operar, especialmente en el rango de apertura por el ruido propio del OPEX.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7575,
+        "balance_zone_low": 7482,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Los futuros del ES caen cerca de un -0.8% en preapertura por el desplome de semiconductores y la escalada Irán-Qatar, replegándose hacia el soporte de 7,450-7,515 tras dos intentos fallidos de ruptura en 7,572-7,575 esta semana; viernes de vencimiento trimestral (OPEX) añade ruido.",
+        "adr_avg_points": 89,
+        "overnight_range_pct_adr": 65,
+        "remaining_adr_pct": 35,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["against_recent_FOBO"],
+        "bias_note": "ES abandona su balance rotacional de dos semanas con un hueco bajista impulsado por el desplome en semiconductores y la escalada Irán-Qatar, buscando soporte en la zona 7,450-7,515 en la apertura europea. La claridad es dudosa por tratarse de un viernes de vencimiento trimestral (OPEX), que puede generar movimientos erráticos antes de la sesión de caja."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El NQ profundiza la ruptura bajista con un rango overnight que ya consume prácticamente todo el ADR, arrastrado por semiconductores (SOXX -3%, SMH -2%, AMAT -4%, Nvidia -2%) tras las dudas sobre el capex de IA de TSMC; sin reclamar el mínimo plurisemanal del jueves.",
+        "adr_avg_points": 325,
+        "overnight_range_pct_adr": 95,
+        "remaining_adr_pct": 5,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "EF",
+        "active_red_flags": ["adr_near_100pct", "after_capitulatory_move"],
+        "bias_note": "NQ mantiene la imbalance bajista más clara de los cuatro instrumentos, con el ADR ya prácticamente agotado en overnight tras el desplome de semiconductores por dudas sobre el capex de IA. El sesgo de hoy es bajista pero con prioridad de fade en extremos antes que perseguir nuevos mínimos, dado el rango ya extendido y el ruido añadido del vencimiento trimestral."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El WTI testea el máximo de un mes en 80.86$ tras los ataques cruzados EEUU-Irán que ahora alcanzan Qatar, replegándose ligeramente hacia el entorno de 79.55-79.67$ en la apertura europea; sin gap relevante, manteniendo la prima de riesgo geopolítico.",
+        "adr_avg_points": 3.0,
+        "overnight_range_pct_adr": 70,
+        "remaining_adr_pct": 30,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "EF",
+        "active_red_flags": ["after_3plus_consecutive_closes", "adr_near_100pct"],
+        "bias_note": "CL mantiene una tendencia alcista clara con imbalance confirmado tras el ataque a Qatar, pero con cuatro cierres consecutivos alcistas y el ADR ya muy consumido el sesgo de hoy favorece cautela ante nuevas entradas de ruptura. Prioridad para operar el fade en extremos extendidos (80.86$) frente a perseguir nuevos máximos."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4012,
+        "balance_zone_low": 3975,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El oro encadena dos cierres bajistas y sigue sin poder recuperar de forma sostenida los 4,000$ pese a la escalada en Oriente Medio, presionado por el repunte de rendimientos reales y el repricing de menos recortes de la Fed; rango overnight amplio entre 3,975-4,012$.",
+        "adr_avg_points": 40,
+        "overnight_range_pct_adr": 90,
+        "remaining_adr_pct": 10,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["adr_near_100pct", "against_recent_FOBO"],
+        "bias_note": "GC encadena dos cierres bajistas y sigue sin poder sostener el nivel psicológico de 4,000$ pese al mismo trasfondo geopolítico que impulsa al petróleo, lastrado por el repricing de menos recortes de la Fed. El ADR ya está prácticamente agotado, por lo que se prioriza la operativa de rango entre 3,975-4,012$ frente a nuevas rupturas direccionales."
+      }
+    ]
+  }
+}
