@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "generated_at": "2026-07-21T07:10:00Z",
+    "trading_date": "2026-07-21",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "TradingEconomics", "CNBC", "TheStreet"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "Wall Street rebota y el crudo cede tras la décima noche de ataques EE.UU.-Irán",
+    "sentiment": "mixed",
+    "sentiment_score": 0.15,
+    "key_theme": "El crudo retrocede desde máximos de varias semanas ante señales de apertura diplomática de Rubio, mientras persiste el riesgo de bloqueo marítimo hutí en el Mar Rojo"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES=F",
+      "price": 7521.75,
+      "prev_close": 7484.25,
+      "change_pct": 0.5,
+      "direction": "up",
+      "level_key_support": 7457.0,
+      "level_key_resistance": 7575.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El futuro rebota tras tres cierres negativos consecutivos, apoyado en el retroceso del crudo por titulares de diplomacia. El precio sigue dentro del rango de balance de los últimos días (7.457-7.575), por lo que se prefiere esperar confirmación de rotación antes de perseguir la ruptura."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ=F",
+      "price": 28967.5,
+      "prev_close": 28800.0,
+      "change_pct": 0.58,
+      "direction": "up",
+      "level_key_support": 28408.0,
+      "level_key_resistance": 29220.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El futuro extiende el rebote desde mínimos recientes apoyado en semiconductores, pero se mantiene dentro del rango de balance de la semana sin romper 29.220. Cuatro cierres negativos consecutivos en la racha reciente aconsejan prudencia ante persecución de rupturas."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "GDAXI",
+      "price": 24780.0,
+      "prev_close": 24788.0,
+      "change_pct": -0.03,
+      "direction": "flat",
+      "level_key_support": 24700.0,
+      "level_key_resistance": 24900.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX cotiza prácticamente plano, replicando la cautela de Wall Street mientras el mercado europeo digiere el encarecimiento reciente de la energía y anticipa la decisión del BCE del jueves. Sin catalizador propio, sigue lateral dentro de 24.700-24.900."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / US Dollar",
+      "ticker": "EURUSD",
+      "price": 1.1423,
+      "prev_close": 1.1439,
+      "change_pct": -0.14,
+      "direction": "down",
+      "level_key_support": 1.138,
+      "level_key_resistance": 1.146,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El euro retrocede ligeramente desde los máximos recientes cerca de 1.146, con el mercado ya posicionado de cara a la decisión de tipos del BCE del jueves. Vigilar si el par sostiene el soporte de 1.138 o si un repunte de aversión al riesgo revierte el flujo hacia el dólar."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 100.92,
+      "prev_close": 100.95,
+      "change_pct": -0.03,
+      "direction": "flat",
+      "level_key_support": 100.5,
+      "level_key_resistance": 101.2,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El índice dólar se mantiene lateral en torno a 100.90-101, sin beneficiarse plenamente de la tensión geopolítica pese al riesgo de bloqueo en el Mar Rojo. El mercado sigue priorizando el diferencial de tipos y la proximidad de la decisión del BCE sobre el papel refugio del dólar."
+    },
+    {
+      "id": "gold",
+      "name": "Gold Spot",
+      "ticker": "XAU/USD",
+      "price": 4030.0,
+      "prev_close": 4010.0,
+      "change_pct": 0.5,
+      "direction": "up",
+      "level_key_support": 4000.0,
+      "level_key_resistance": 4070.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El oro recupera terreno y reclama la media móvil descendente de corto plazo, apoyado en la demanda de refugio pese al retroceso del crudo. Mientras se mantenga sobre el soporte psicológico de 4.000 dólares, el sesgo de recuperación hacia 4.070 sigue vigente."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL=F",
+      "price": 82.43,
+      "prev_close": 84.49,
+      "change_pct": -2.44,
+      "direction": "down",
+      "level_key_support": 81.78,
+      "level_key_resistance": 84.59,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El WTI cede buena parte del rally de la semana tras las declaraciones de Rubio abriendo la puerta a negociaciones con Irán, aunque el bloqueo marítimo hutí contra Arabia Saudí mantiene elevada la prima de riesgo en el Estrecho de Ormuz. Alta sensibilidad a titulares: movimientos bruscos en ambas direcciones son probables."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 64914.0,
+      "prev_close": 62000.0,
+      "change_pct": 4.7,
+      "direction": "up",
+      "level_key_support": 60000.0,
+      "level_key_resistance": 65000.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "Bitcoin recupera con fuerza desde el mínimo de la sesión previa, aproximándose de nuevo a la resistencia de 65.000 dólares en línea con el apetito por riesgo tras el retroceso del crudo. La recuperación es consistente con la rotación hacia BTC como cobertura dentro del universo cripto observada en sesiones recientes."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-22",
+      "days_ahead": 1,
+      "time_cet": "16:30",
+      "event": "Inventarios de crudo EIA (semanal)",
+      "importance": "high",
+      "previous": "N/D",
+      "expected": "Posible drawdown por disrupción de tráfico en el Estrecho de Ormuz"
+    },
+    {
+      "date": "2026-07-23",
+      "days_ahead": 2,
+      "time_cet": "13:45",
+      "event": "Decisión de tipos de interés del BCE",
+      "importance": "high",
+      "previous": "2.00%",
+      "expected": "Mantener en 2.00%"
+    },
+    {
+      "date": "2026-07-23",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de subsidio por desempleo (Initial Jobless Claims)",
+      "importance": "medium",
+      "previous": "N/D",
+      "expected": "N/D"
+    },
+    {
+      "date": "2026-07-24",
+      "days_ahead": 3,
+      "time_cet": "15:45",
+      "event": "PMI Flash Manufacturero y de Servicios S&P Global (EE.UU. y Eurozona)",
+      "importance": "high",
+      "previous": "Servicios EE.UU. 51.3 (jun)",
+      "expected": "Expansión moderada continuada"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["gold", "btc"],
+    "bearish": ["dxy", "wti"],
+    "neutral": ["spx", "ndx", "dax", "eurusd"]
+  },
+  "risk_section": {
+    "visible": "El bloqueo marítimo hutí contra Arabia Saudí y la décima noche consecutiva de ataques EE.UU.-Irán mantienen elevado el riesgo geopolítico, aunque el mercado ya empieza a descontar una posible vía diplomática tras las palabras de Rubio.",
+    "hidden": "Un fracaso de las negociaciones o una nueva escalada en el Estrecho de Ormuz podría revertir en minutos el retroceso actual del crudo, dejando expuestas las posiciones de riesgo que ya han recortado la prima geopolítica. La decisión del BCE del jueves añade un catalizador adicional poco descontado en el euro.",
+    "scenario": "Si el rebote de hoy en los índices fracasa y el crudo retoma máximos, el mercado podría volver a un régimen de aversión al riesgo, con el ES perdiendo el soporte de 7.457 y el dólar recuperando parte de su rol refugio.",
+    "signal": "Vigilar la decisión del BCE y los inventarios de crudo del EIA el miércoles, así como cualquier declaración oficial sobre el estado de las negociaciones EE.UU.-Irán, con capacidad de invertir el flujo de todo el complejo de riesgo en minutos."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -3,
+      "nq": -4,
+      "cl": 5,
+      "gc": 1
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "Jornada de alivio cauteloso tras el retroceso del crudo por señales de diplomacia, aunque ES y NQ arrastran rachas de tres y cuatro cierres negativos que exigen prudencia ante la persecución de rupturas. CL muestra signos de agotamiento tras cinco cierres alcistas consecutivos y GC sigue siendo el único setup limpio del sistema. Tamaño reducido recomendado en todos los instrumentos hasta confirmación de rotación en la apertura de Nueva York.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7575.0,
+        "balance_zone_low": 7457.0,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El futuro rebota desde el entorno de 7.484 hasta probar 7.521 en la sesión electrónica, apoyado en el retroceso del crudo tras los comentarios de Rubio sobre diplomacia con Irán.",
+        "adr_avg_points": 110.0,
+        "overnight_range_pct_adr": 35.0,
+        "remaining_adr_pct": 65.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Tras tres cierres negativos consecutivos, el futuro intenta reclamar la zona de valor semanal apoyado en el alivio del crudo, aunque la condición de balance sigue siendo dudosa. El sesgo es neutral con preferencia por operar rechazos en los extremos del rango en lugar de perseguir rupturas directas."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29220.0,
+        "balance_zone_low": 28408.0,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El futuro recupera terreno hasta probar 28.975 apoyado en el rebote de semiconductores y el alivio del crudo, aunque la sesión se mantiene dentro del rango de balance de los últimos días sin ruptura clara.",
+        "adr_avg_points": 700.0,
+        "overnight_range_pct_adr": 40.0,
+        "remaining_adr_pct": 60.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Con cuatro cierres negativos consecutivos en la racha reciente, el rebote de hoy busca recuperar la zona de valor semanal, aún sin confirmar. El sistema prioriza esperar confirmación de rotación antes de perseguir la ruptura, dado el historial reciente de fallos direccionales."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 84.59,
+        "balance_zone_low": 81.78,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El crudo cede buena parte del rally reciente tras señales de apertura diplomática de Rubio con Irán, aunque el bloqueo marítimo hutí contra Arabia Saudí mantiene elevada la prima de riesgo en el Estrecho de Ormuz.",
+        "adr_avg_points": 3.0,
+        "overnight_range_pct_adr": 60.0,
+        "remaining_adr_pct": 40.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_capitulatory_move", "after_bullish_exhaustion", "held_through_news"],
+        "bias_note": "Tras cinco cierres alcistas consecutivos, el crudo muestra signos de agotamiento y retrocede con fuerza ante titulares de diplomacia, aunque el riesgo de escalada por el bloqueo hutí sigue latente. El sistema recomienda esperar definición direccional antes de operar, dado el alto riesgo de reversión por noticias."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 4070.0,
+        "balance_zone_low": 4000.0,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro extiende el rebote desde el soporte de 4.000 dólares, recuperando la media móvil descendente de corto plazo ante la demanda de refugio pese al retroceso del crudo.",
+        "adr_avg_points": 50.0,
+        "overnight_range_pct_adr": 35.0,
+        "remaining_adr_pct": 65.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "IPB",
+        "active_red_flags": ["none"],
+        "bias_note": "El oro mantiene una estructura de balance limpia sobre el soporte de 4.000 dólares, con un primer cierre positivo tras la racha bajista previa. Sigue siendo el instrumento con mejor lectura del sistema hoy: operar los extremos del rango 4.000-4.070 mientras no se resuelva la disonancia semanal."
+      }
+    ]
+  }
+}
