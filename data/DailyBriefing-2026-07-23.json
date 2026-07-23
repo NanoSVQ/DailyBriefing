@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "generated_at": "2026-07-23T07:00:00Z",
+    "trading_date": "2026-07-23",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "FXStreet", "Bloomberg", "Al Jazeera"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "El crudo se dispara hacia los 90 dólares por la escalada en el Mar Rojo y lastra el apetito por riesgo antes del BCE",
+    "sentiment": "mixed",
+    "sentiment_score": -0.2,
+    "key_theme": "Nuevos ataques hutíes a petroleros saudíes y amenazas de Trump sobre Irán disparan el petróleo, mientras Tesla y Alphabet caen pese a superar expectativas, todo antes de la decisión del BCE (13:45 CET)"
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES=F",
+      "price": 7455.0,
+      "prev_close": 7498.96,
+      "change_pct": -0.6,
+      "direction": "down",
+      "level_key_support": 7443.0,
+      "level_key_resistance": 7543.0,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El futuro corrige en premarket cerca de un 0,6% tras los resultados de Tesla y Alphabet y el nuevo salto del crudo por la escalada en el Mar Rojo, rompiendo la racha de un cierre positivo. El rango semanal se sitúa entre 7.443 y 7.572 puntos, con el precio en la mitad inferior a la espera de la decisión del BCE (13:45 CET) y el PMI flash de mañana."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ=F",
+      "price": 28738.0,
+      "prev_close": 28998.10,
+      "change_pct": -0.9,
+      "direction": "down",
+      "level_key_support": 28700.0,
+      "level_key_resistance": 29155.0,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El futuro retrocede cerca de un 0,9% tras la contundente reacción bajista de Alphabet (-5%) y Tesla (-7%) a sus resultados, que revierten parte del rally de semiconductores de esta semana. El mercado empieza a exigir pruebas de retorno sobre el capex de IA, con Microsoft y Meta como próximo test la semana que viene."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "GDAXI",
+      "price": 25250.5,
+      "prev_close": 25155.41,
+      "change_pct": 0.38,
+      "direction": "up",
+      "level_key_support": 24960.0,
+      "level_key_resistance": 25320.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DAX abre al alza cerca de los 25.250 puntos, mostrando de nuevo resiliencia frente al petróleo en máximos de varias semanas, apoyado por una mejora del sentimiento económico alemán. La decisión del BCE a las 13:45 CET es el catalizador clave, con el mercado descontando mantenimiento en el 2,25% sin nuevas proyecciones."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / US Dollar",
+      "ticker": "EURUSD",
+      "price": 1.143,
+      "prev_close": 1.1411,
+      "change_pct": 0.17,
+      "direction": "up",
+      "level_key_support": 1.1398,
+      "level_key_resistance": 1.1445,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El euro cotiza en la zona de 1,1425-1,1434, dentro del rango de consolidación 1,1400-1,1480 que mantiene desde hace más de una semana, a la espera del BCE. Un tono más hawkish de Lagarde de cara a septiembre podría impulsar el par hacia 1,1445-1,1500, mientras que una lectura dovish abriría paso a un test de 1,1398."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 101.0,
+      "prev_close": 101.13,
+      "change_pct": -0.13,
+      "direction": "down",
+      "level_key_support": 100.9,
+      "level_key_resistance": 101.65,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El índice dólar cede terreno hacia los 101,00 puntos tras cuatro sesiones consecutivas de subidas, aunque conserva el tono alcista de fondo mientras se sostenga sobre la media de 100 sesiones cerca de 100,90. La rueda de prensa de Lagarde de esta tarde es el catalizador clave para la sesión."
+    },
+    {
+      "id": "gold",
+      "name": "Gold Spot",
+      "ticker": "XAU/USD",
+      "price": 4098.0,
+      "prev_close": 4127.0,
+      "change_pct": -0.7,
+      "direction": "down",
+      "level_key_support": 4025.0,
+      "level_key_resistance": 4171.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El oro retrocede hacia 4.090-4.120 dólares, corrigiendo tras cuatro cierres consecutivos al alza y el máximo de dos semanas cerca de 4.150-4.171 dólares marcado ayer, presionado por las apuestas de una Fed más hawkish y el repunte del rendimiento del Treasury a 10 años (4,63%). Mientras defienda el soporte de 4.100 y el estructural en 4.025, el sesgo de fondo sigue siendo alcista de cara al FOMC del 29 de julio."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL=F",
+      "price": 90.14,
+      "prev_close": 86.5,
+      "change_pct": 4.21,
+      "direction": "up",
+      "level_key_support": 88.0,
+      "level_key_resistance": 92.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El WTI escala hasta los 90 dólares, su nivel más alto desde el 8 de junio, tras los ataques hutíes a dos petroleros saudíes en el Mar Rojo y la amenaza de Trump de atacar infraestructura energética iraní por cada buque agredido en Ormuz. Encadena una quinta sesión consecutiva al alza pese al inesperado aumento de inventarios de la EIA (+2,0 millones de barriles), con la prima geopolítica dominando sobre los fundamentales."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 65658.67,
+      "prev_close": 65858.69,
+      "change_pct": -0.3,
+      "direction": "down",
+      "level_key_support": 63000.0,
+      "level_key_resistance": 66527.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin retrocede levemente hacia los 65.660 dólares, en un rango lateral entre 63.000 y 66.500 dólares que mantiene desde hace una semana, desacoplado por ahora del shock geopolítico que impulsa al petróleo. Las entradas netas en ETFs spot suman ya siete sesiones consecutivas, lo que sigue actuando de soporte de fondo pese a la caída del open interest en futuros."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-23",
+      "days_ahead": 0,
+      "time_cet": "13:45",
+      "event": "Decisión de tipos del BCE + rueda de prensa Lagarde",
+      "importance": "high",
+      "previous": "2.25%",
+      "expected": "Mantener en 2.25%, sin nuevas proyecciones, tono sobre posible subida en septiembre"
+    },
+    {
+      "date": "2026-07-24",
+      "days_ahead": 1,
+      "time_cet": "15:45",
+      "event": "PMI Flash Manufacturero y de Servicios S&P Global (EE.UU. y Eurozona)",
+      "importance": "medium",
+      "previous": "EE.UU. compuesto 51,9 (expansión); Eurozona 50,0 (estancamiento)",
+      "expected": "Continuidad de la divergencia EE.UU.-Eurozona"
+    },
+    {
+      "date": "2026-07-27",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "Pedidos de bienes duraderos (junio, avance)",
+      "importance": "medium",
+      "previous": "N/D",
+      "expected": "N/D"
+    },
+    {
+      "date": "2026-07-28",
+      "days_ahead": 5,
+      "time_cet": "16:00",
+      "event": "Índice de Confianza del Consumidor (Conference Board)",
+      "importance": "medium",
+      "previous": "N/D",
+      "expected": "Estabilización tras meses de debilidad"
+    },
+    {
+      "date": "2026-07-29",
+      "days_ahead": 6,
+      "time_cet": "20:00",
+      "event": "Decisión de tipos de la Fed (FOMC)",
+      "importance": "high",
+      "previous": "3.50%-3.75% (mantenido, comité dividido 9-8)",
+      "expected": "Mantenimiento, sin nuevo dot-plot, foco en el tono del comunicado"
+    },
+    {
+      "date": "2026-07-29",
+      "days_ahead": 6,
+      "time_cet": "22:00",
+      "event": "Resultados de Microsoft y Meta (tras el cierre)",
+      "importance": "high",
+      "previous": "N/D",
+      "expected": "Escrutinio sobre el retorno del capex en IA tras la reacción negativa a Tesla y Alphabet"
+    },
+    {
+      "date": "2026-07-30",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "PIB EE.UU. T2 (avance), peticiones semanales de subsidio y PCE subyacente (junio)",
+      "importance": "high",
+      "previous": "N/D",
+      "expected": "Dato de PCE clave para la Fed tras el FOMC del día anterior"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dax", "gold", "wti"],
+    "bearish": ["spx", "ndx"],
+    "neutral": ["eurusd", "dxy", "btc"]
+  },
+  "risk_section": {
+    "visible": "La escalada en el Mar Rojo (ataques hutíes a petroleros saudíes) y la amenaza de EE.UU. sobre infraestructura iraní disparan el petróleo hacia máximos de varias semanas, amenazando con filtrarse a la inflación justo antes de las decisiones del BCE (hoy) y la Fed (29 de julio).",
+    "hidden": "La reacción bajista de Tesla y Alphabet pese a superar expectativas operativas sugiere que el mercado empieza a exigir pruebas de retorno sobre el capex de IA, un riesgo que Microsoft, Meta y Amazon deberán superar la próxima semana.",
+    "scenario": "Si el conflicto Irán-EE.UU. se desescala o Lagarde sorprende con un tono marcadamente dovish, el crudo podría revertir con fuerza desde los 90 dólares y aliviar la presión sobre bonos y renta variable, como ya ha ocurrido en episodios previos de este mismo conflicto.",
+    "signal": "Vigilar la rueda de prensa de Lagarde a las 13:45 CET y un eventual cierre del WTI por encima de 90-92 dólares como confirmación de continuidad alcista del petróleo; la reacción del Nasdaq a los resultados de Microsoft y Meta el 29 de julio será clave para validar o invalidar el ciclo de capex en IA."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -1,
+      "nq": -1,
+      "cl": 4,
+      "gc": 4
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El crudo (CL) sigue en imbalance claro pero con el ADR prácticamente agotado tras un nuevo salto por la escalada en el Mar Rojo, por lo que se recomienda evitarlo de forma activa hoy. ES y NQ vuelven a un balance dudoso tras romper sus rachas positivas, lastrados por la reacción a los resultados de Tesla y Alphabet, mientras que el oro corrige tras cuatro cierres alcistas consecutivos sin perder su sesgo de fondo. Con la decisión del BCE a las 13:45 CET como catalizador central del día, se recomienda tamaño reducido en todos los setups y priorizar rechazos sobre rupturas.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7572.0,
+        "balance_zone_low": 7443.0,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El futuro corrige en premarket cerca de un 0,6% tras los resultados de Tesla y Alphabet y el salto del crudo, testeando la mitad inferior del rango semanal sin romper el soporte de 7.443.",
+        "adr_avg_points": 110.0,
+        "overnight_range_pct_adr": 45.0,
+        "remaining_adr_pct": 55.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "El S&P 500 rompe la racha de un cierre positivo y vuelve a un balance dudoso, retrocediendo en premarket por los resultados de Tesla/Alphabet y el crudo en máximos de varias semanas. Se prefiere esperar rechazos en los extremos del rango 7.443-7.572 antes que perseguir dirección, con el BCE y el PMI flash de mañana como catalizadores."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29155.0,
+        "balance_zone_low": 28700.0,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El futuro retrocede en premarket cerca de un 0,9% tras la contundente reacción bajista de Alphabet (-5%) y Tesla (-7%) a sus resultados, revirtiendo parte del rally de semiconductores de la semana.",
+        "adr_avg_points": 700.0,
+        "overnight_range_pct_adr": 37.0,
+        "remaining_adr_pct": 63.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_bullish_exhaustion"],
+        "bias_note": "El Nasdaq revierte parte del rally de semiconductores del martes tras el jarro de agua fría de los resultados de Alphabet y Tesla sobre el capex de IA, rompiendo la racha positiva. La condición diaria es dudosa dentro de un rango de balance; se prefiere tamaño reducido y buscar rechazos en el rango 28.700-29.155, condicionado a la reacción de Microsoft y Meta la próxima semana."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Nuevo salto overnight tras los ataques hutíes a dos petroleros saudíes en el Mar Rojo y la amenaza de Trump sobre infraestructura iraní; el WTI marca máximos desde el 8 de junio cerca de 90 dólares pese al inesperado aumento de inventarios de la EIA.",
+        "adr_avg_points": 3.0,
+        "overnight_range_pct_adr": 95.0,
+        "remaining_adr_pct": 5.0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct", "after_3plus_consecutive_closes"],
+        "bias_note": "El crudo extiende a una quinta sesión consecutiva la tendencia alcista, marcando máximos desde el 8 de junio cerca de 90 dólares por la escalada Irán-EE.UU. en el Mar Rojo. Con el ADR prácticamente agotado en overnight y más de tres cierres positivos consecutivos, perseguir el movimiento hoy ofrece una relación riesgo/beneficio pobre; mejor esperar una pausa o definición."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4171.0,
+        "balance_zone_low": 4025.0,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El oro retrocede desde el máximo de dos semanas marcado ayer cerca de 4.150-4.171 dólares, corrigiendo hacia el soporte psicológico de 4.100 dólares en un rango overnight contenido, presionado por el repunte de rendimientos del Treasury a 10 años.",
+        "adr_avg_points": 50.0,
+        "overnight_range_pct_adr": 28.0,
+        "remaining_adr_pct": 72.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "El oro corrige tras encadenar cuatro cierres consecutivos al alza y tocar máximos de dos semanas ayer, en una semana de desarrollo imbalanced que rompió la consolidación previa de 3.950-4.060. Mientras defienda el soporte de 4.100 y el estructural en 4.025, el sesgo de fondo sigue siendo alcista de cara al FOMC del 29 de julio, buscando continuación en pullbacks hacia la zona de ruptura."
+      }
+    ]
+  }
+}
