@@ -1,1 +1,292 @@
-PLACEHOLDER
+{
+  "meta": {
+    "generated_at": "2026-07-27T07:00:00Z",
+    "trading_date": "2026-07-27",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "CNBC", "Investing.com", "Trading Economics"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "EE.UU. e Irán pausan sus ataques, el petróleo se desploma y las bolsas rebotan ante la Fed.",
+    "sentiment": "risk_on",
+    "sentiment_score": 0.35,
+    "key_theme": "La pausa de hostilidades entre EE.UU. e Irán hunde el petróleo y dispara un rally de alivio justo antes de la Fed y los resultados de las grandes tecnológicas."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7465.00,
+      "prev_close": 7411.98,
+      "change_pct": 0.72,
+      "direction": "up",
+      "level_key_support": 7420,
+      "level_key_resistance": 7500,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El S&P 500 rebota con fuerza (+0,7%) tras la pausa de hostilidades entre EE.UU. e Irán, probando la resistencia de 7.500 y el hueco no cubierto de 7.525 del jueves pasado. La estructura de balance amplio (7.250-7.650) se mantiene intacta; vigilar la Fed del miércoles y los resultados tecnológicos como catalizadores."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 28282.00,
+      "prev_close": 28128.34,
+      "change_pct": 0.55,
+      "direction": "up",
+      "level_key_support": 28065,
+      "level_key_resistance": 28700,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El Nasdaq 100 llegó a saltar hasta 28.700 tras encadenar tres cierres negativos, pero ya ha cedido buena parte de la subida hasta 28.282, un patrón de fallo de ruptura. El sesgo estructural sigue siendo bajista mientras no se recupere de forma sostenida 28.700; los resultados de Microsoft, Meta, Apple y Amazon esta semana serán claves."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 25494.92,
+      "prev_close": 25099.00,
+      "change_pct": 1.58,
+      "direction": "up",
+      "level_key_support": 25225,
+      "level_key_resistance": 25600,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El DAX rompe con fuerza el nivel psicológico de 25.000 y sube un 1,6% hasta 25.495, apoyado en el alivio geopolítico y la fortaleza de valores como SAP. El soporte se traslada a la zona de 25.225, con resistencia en 25.600; el momentum alcista domina mientras no se pierda ese soporte."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1397,
+      "prev_close": 1.1366,
+      "change_pct": 0.27,
+      "direction": "up",
+      "level_key_support": 1.1380,
+      "level_key_resistance": 1.1420,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El EUR/USD rebota modestamente hasta 1,1397 ante la debilidad puntual del dólar por el alivio geopolítico, aunque se mantiene cerca de mínimos de un año dentro de una tendencia bajista de fondo. Resistencia en 1,1420-1,1480; una pérdida de 1,1380 reabriría el camino hacia 1,1300."
+    },
+    {
+      "id": "dxy",
+      "name": "Índice Dólar",
+      "ticker": "DXY",
+      "price": 101.18,
+      "prev_close": 101.46,
+      "change_pct": -0.28,
+      "direction": "down",
+      "level_key_support": 100.63,
+      "level_key_resistance": 101.30,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El índice dólar retrocede un 0,3% hasta 101,18 al desvanecerse la demanda de refugio tras la pausa de hostilidades EE.UU.-Irán, aunque se mantiene técnicamente firme por encima de sus medias móviles principales. Soporte en 100,63 y resistencia en 101,30; la Fed del 29/7 será el próximo catalizador direccional."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAUUSD",
+      "price": 4090.57,
+      "prev_close": 4058.90,
+      "change_pct": 0.78,
+      "direction": "up",
+      "level_key_support": 4020,
+      "level_key_resistance": 4131,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El oro sube un 0,8% hasta 4.090 USD pese al desplome del petróleo, en una paradoja donde la menor probabilidad de subida de tipos de la Fed pesa más que la reducción de la demanda de refugio geopolítico. Se mantiene dentro del rango de balance 4.000-4.131 USD; vigilar si rompe con aceptación el máximo del pasado miércoles."
+    },
+    {
+      "id": "wti",
+      "name": "Petróleo WTI",
+      "ticker": "CL",
+      "price": 84.83,
+      "prev_close": 89.31,
+      "change_pct": -5.02,
+      "direction": "down",
+      "level_key_support": 83.50,
+      "level_key_resistance": 87.25,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El WTI se desploma entre un 5% y un 7% tras conocerse la pausa de ataques entre EE.UU. e Irán, revirtiendo casi todo el rally de escalada bélica de la semana pasada y perdiendo el soporte de 84 USD. El movimiento tiene rasgos de capitulación tras el fallo de ruptura del viernes en 92,83 USD; vigilar la reunión de la OPEP+ del 2/8."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 65340.00,
+      "prev_close": 64340.00,
+      "change_pct": 1.55,
+      "direction": "up",
+      "level_key_support": 63500,
+      "level_key_resistance": 65700,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "Bitcoin rebota cerca de un 1,6% hasta 65.340 USD tras dos sesiones de fuertes salidas en ETFs spot, en un movimiento de alivio de riesgo generalizado. El Fear & Greed Index en zona de miedo extremo (24) reduce la confianza en el rebote; resistencia clave en 65.700-65.800 USD, zona que separa una recuperación genuina de una simple corrección dentro de la tendencia bajista de medio plazo."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-07-28",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "Confianza del Consumidor Conference Board (EE.UU.)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-29",
+      "days_ahead": 2,
+      "time_cet": "20:00",
+      "event": "Decisión de tipos FOMC + rueda de prensa Powell (20:30 CET)",
+      "importance": "high",
+      "previous": "Tipos sin cambios en la reunión anterior (3,50%-3,75%)",
+      "expected": "Mantenimiento de tipos esperado (probabilidad ~80-85%); sin resumen de proyecciones económicas en esta reunión"
+    },
+    {
+      "date": "2026-07-29",
+      "days_ahead": 2,
+      "time_cet": "22:00",
+      "event": "Resultados Microsoft, Meta Platforms y Visa (Q2)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "Foco en gasto de capex en IA, crecimiento de Azure/cloud y monetización publicitaria"
+    },
+    {
+      "date": "2026-07-30",
+      "days_ahead": 3,
+      "time_cet": "14:30",
+      "event": "PIB EE.UU. (avance Q2), PCE subyacente y PMI Chicago; PIB e IPC preliminar de Alemania/Eurozona; reunión del Banco de Japón (día 2)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-07-30",
+      "days_ahead": 3,
+      "time_cet": "22:00",
+      "event": "Resultados Apple y Amazon (Q2)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "Foco en gasto de capex en IA, iPhone/servicios y AWS"
+    },
+    {
+      "date": "2026-07-31",
+      "days_ahead": 4,
+      "time_cet": "11:00",
+      "event": "IPC preliminar de la Eurozona (julio) + PMI oficial de China",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-02",
+      "days_ahead": 6,
+      "time_cet": "N/D",
+      "event": "Reunión OPEP+ (decisión de producción para septiembre)",
+      "importance": "medium",
+      "previous": "Incremento de 188.000 bpd en agosto (5º aumento mensual consecutivo)",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "dax"],
+    "bearish": ["ndx", "eurusd", "wti", "btc"],
+    "neutral": ["dxy", "gold"]
+  },
+  "risk_section": {
+    "visible": "La pausa de hostilidades entre EE.UU. e Irán ha provocado un desplome del petróleo y un rally de alivio en los activos de riesgo, justo cuando la Fed se reúne el miércoles con el mercado dividido sobre su sesgo. La semana concentra además los resultados de Microsoft, Meta, Apple y Amazon.",
+    "hidden": "La pausa no es un acuerdo formal: Irán ha declarado que no hay negociaciones oficiales con EE.UU., por lo que el riesgo geopolítico podría reactivarse de forma abrupta. El oro subiendo pese al desplome del petróleo revela que el mercado da más peso a la caída de las probabilidades de subida de tipos que a la propia distensión, un cálculo que puede revertirse con rapidez.",
+    "scenario": "Si los ataques en el Estrecho de Ormuz o el Mar Rojo se reanudan, el petróleo podría recuperar rápidamente la prima bélica y revertir el rally de alivio en bolsas, oro y divisas. Si la Fed sorprende con un tono más hawkish por el repunte inflacionario reciente del crudo, el rebote de hoy perdería parte de su soporte fundamental.",
+    "signal": "Vigilar la zona 28.065-28.700 en el Nasdaq 100 y la zona 83,50-87,25 USD en el WTI como referencias clave de aceptación/rechazo, junto con la decisión de la Fed del miércoles y los resultados de las grandes tecnológicas del miércoles y jueves."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 1,
+      "nq": -3,
+      "cl": -1,
+      "gc": 1
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "La pausa de hostilidades EE.UU.-Irán ha provocado un giro brusco en el petróleo y un rally de alivio en el resto de activos, con ES y NQ consumiendo ya casi la totalidad de su ADR antes de la apertura de caja. El mejor valor esperado hoy está en operar los extremos del rango en GC y la continuación bajista tras el fallo de ruptura en CL, mientras que ES y NQ requieren cautela por el ADR ya agotado y la proximidad de la Fed y los resultados tecnológicos. Se recomienda tamaño reducido dada la abundancia de catalizadores y el riesgo de reversión si la pausa bélica resulta frágil.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 7550,
+        "balance_zone_low": 7400,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Gap alcista tras la pausa Irán-EE.UU., probando el hueco no cubierto de 7.525 y recuperando el pivote semanal en 7.485, dentro del rango de balance más amplio 7.250-7.650.",
+        "adr_avg_points": 66,
+        "overnight_range_pct_adr": 98,
+        "remaining_adr_pct": 2,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct"],
+        "bias_note": "El ES recupera el pivote semanal (7.485) y prueba el hueco no cubierto de 7.525 tras la pausa de hostilidades EE.UU.-Irán, pero ya ha consumido casi todo el ADR antes de la apertura de caja, lo que limita el recorrido alcista intradía. Mantenerse dentro de la banda de balance 7.400-7.550 mientras no se confirme ruptura con aceptación."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 28700,
+        "balance_zone_low": 28065,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Fuerte gap alcista hacia 28.700 tras la pausa de hostilidades, pero el rally se desvaneció unos 450 puntos hasta 28.282, un patrón de fallo de ruptura que retesta la parte baja de la zona rota la semana pasada.",
+        "adr_avg_points": 450,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["against_recent_BO", "adr_near_100pct"],
+        "bias_note": "El NQ intenta un rebote de alivio tras la pausa Irán-EE.UU., pero ya ha perdido buena parte del impulso inicial (de 28.700 a 28.282), lo que sugiere que el rebote es un test contra-tendencia dentro de la estructura bajista de las últimas dos semanas. Sesgo bajista salvo recuperación sostenida por encima de 28.700."
+      },
+      {
+        "id": "cl",
+        "name": "Crude Oil WTI",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Desplome de entre el 5% y el 7,7% tras conocerse la pausa de hostilidades entre EE.UU. e Irán, perdiendo el soporte de 84 USD y retrocediendo hacia la zona de balance previa 83,5-85,5 USD tras el pico fallido de 92,83 USD del viernes.",
+        "adr_avg_points": 4.0,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "EF",
+        "active_red_flags": ["after_capitulatory_move", "adr_near_100pct"],
+        "bias_note": "El petróleo revierte de forma abrupta casi la totalidad del rally de escalada bélica tras la pausa de ataques EE.UU.-Irán, cayendo un 5-7% y perdiendo el soporte de 84 USD. El sistema prioriza cautela ante un movimiento de tipo capitulatorio en la dirección opuesta a la tendencia de la semana pasada, con el ADR ya consumido en su práctica totalidad."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 4131,
+        "balance_zone_low": 4000,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Gap alcista hacia 4.090-4.100 USD pese al desplome del petróleo, ya que la caída de las probabilidades de subida de tipos de la Fed pesa más que la menor demanda de refugio; sin retesteo aún del máximo de 4.131 USD del pasado miércoles.",
+        "adr_avg_points": 32,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "El oro sube pese al desplome del petróleo, en una paradoja donde la caída de las probabilidades de subida de tipos de la Fed pesa más que la menor demanda de refugio geopolítico. Sesgo neutral-alcista mientras se mantenga dentro del rango de balance 4.000-4.131 USD, con la reunión de la Fed del miércoles como catalizador clave."
+      }
+    ]
+  }
+}
