@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "generated_at": "2026-08-05T07:00:00Z",
+    "trading_date": "2026-08-05",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "Bloomberg", "CNBC", "TradingEconomics"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Wall Street y el DAX prolongan maximos historicos mientras el crudo cae y el oro dispara por Ormuz",
+    "sentiment": "risk_on",
+    "sentiment_score": 0.5,
+    "key_theme": "El mercado gira en torno al posible acuerdo sobre el Estrecho de Ormuz, que hunde al crudo e impulsa bolsas y oro a la vez, en la antesala del ISM Services de hoy y el NFP del viernes."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7765,
+      "prev_close": 7736.52,
+      "change_pct": 0.37,
+      "direction": "up",
+      "level_key_support": 7700,
+      "level_key_resistance": 7800,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 opera en maximos historicos tras el cuarto cierre alcista consecutivo (7.736,52), impulsado por resultados de IA y las expectativas de un acuerdo para reabrir el Estrecho de Ormuz. El nivel de 7.700 pasa a soporte de rotacion y 7.800 es la siguiente extension psicologica; la racha alcista aconseja vigilar senales de agotamiento antes de perseguir nuevos maximos."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 29780,
+      "prev_close": 29733.16,
+      "change_pct": 0.16,
+      "direction": "up",
+      "level_key_support": 29500,
+      "level_key_resistance": 30000,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El Nasdaq 100 consolida cerca de maximos historicos tras un salto del 3,3% el martes impulsado por Palantir, AMD y Amazon, con el rango nocturno contenido en torno a 29.800-29.880. Soporte en 29.500 y resistencia psicologica en 30.000; tras cuatro cierres alcistas consecutivos conviene evitar perseguir el precio y esperar un pullback."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 26220,
+      "prev_close": 26094,
+      "change_pct": 0.48,
+      "direction": "up",
+      "level_key_support": 26000,
+      "level_key_resistance": 26500,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DAX marca un nuevo record historico por encima de 26.200 puntos, apoyado en la caida del petroleo y las expectativas de desescalada en Ormuz. Soporte en el nivel psicologico de 26.000 y resistencia en 26.500; la tendencia sigue siendo claramente continuista mientras se mantenga por encima de la zona de ruptura previa."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1538,
+      "prev_close": 1.1532,
+      "change_pct": 0.05,
+      "direction": "flat",
+      "level_key_support": 1.15,
+      "level_key_resistance": 1.16,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El EUR/USD consolida en zona alta cerca de 1,1538 sin confirmar la ruptura de la resistencia de 1,1600, en un contexto de debilidad generalizada del dolar. Soporte relevante en 1,1500; el par podria activarse con el ISM Services de hoy y el NFP del viernes."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.84,
+      "prev_close": 99.86,
+      "change_pct": -0.02,
+      "direction": "flat",
+      "level_key_support": 99.41,
+      "level_key_resistance": 100.16,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El dolar se mantiene en la zona critica de soporte de 99,84, vulnerable a una correccion mas profunda dentro de su tendencia alcista de 2026 si pierde el nivel de 99,41. La resistencia de 100,16-100,42 limita los rebotes; la incertidumbre sobre la Fed de cara a septiembre y la desescalada en Ormuz siguen presionando al dolar a la baja."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAUUSD",
+      "price": 4210,
+      "prev_close": 4155,
+      "change_pct": 1.32,
+      "direction": "up",
+      "level_key_support": 4065,
+      "level_key_resistance": 4245,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El oro protagoniza una sesion de alta volatilidad: tras un hueco bajista inicial revierte con fuerza y supera los 4.200 dolares por la relajacion de las apuestas de subida de tipos ante el posible acuerdo de Ormuz y la debilidad del dolar. Soporte en 4.065 (minimo de sesion) y resistencia en el maximo intradia de 4.245; el movimiento ya supera su ADR tipico, por lo que se recomienda prudencia con el tamano de la posicion."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 76.05,
+      "prev_close": 75.99,
+      "change_pct": 0.08,
+      "direction": "flat",
+      "level_key_support": 75.0,
+      "level_key_resistance": 78.5,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El WTI intenta estabilizarse cerca de 76 dolares tras desplomarse mas de un 7% en dos sesiones por las expectativas de un acuerdo para reabrir el Estrecho de Ormuz, anuncio que podria confirmarse hoy mismo. Soporte en el nivel psicologico de 75 y resistencia en la zona de ruptura de 78,50; alta sensibilidad a titulares geopoliticos, por lo que se recomienda cautela ante movimientos bruscos."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 64150,
+      "prev_close": 63650,
+      "change_pct": 0.79,
+      "direction": "up",
+      "level_key_support": 61000,
+      "level_key_resistance": 65000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin rebota de forma moderada en linea con el apetito por riesgo en renta variable, pero continua por debajo de su media movil de 50 dias en 65.143, que ha rechazado todos los intentos de rebote desde mediados de julio. Soporte en la zona de 61.000; se necesita un cierre sostenido por encima de 65.000 para confirmar un cambio de sesgo tecnico."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-08-05",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "ISM Services PMI (julio)",
+      "importance": "high",
+      "previous": "54.0 (junio)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-06",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "Peticiones semanales de subsidio por desempleo",
+      "importance": "medium",
+      "previous": "248.000",
+      "expected": "263.000"
+    },
+    {
+      "date": "2026-08-07",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "Nomina no agricola (NFP) de julio y tasa de paro",
+      "importance": "high",
+      "previous": "+57.000 empleos; tasa de paro 4.2% (junio)",
+      "expected": "+80.000 empleos (rango 80.000-88.000); tasa de paro 4.2%"
+    },
+    {
+      "date": "2026-08-11",
+      "days_ahead": 6,
+      "time_cet": "07:30",
+      "event": "Decision de tipos del RBA",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-12",
+      "days_ahead": 7,
+      "time_cet": "08:00",
+      "event": "IPC final de Alemania (julio)",
+      "importance": "medium",
+      "previous": "+2.3% interanual (junio)",
+      "expected": "+2.8% interanual (confirmacion del dato preliminar)"
+    },
+    {
+      "date": "2026-08-12",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "IPC de EEUU (julio)",
+      "importance": "high",
+      "previous": "-0.4% mensual / +3.5% interanual; subyacente 0.0% mensual / +2.6% interanual (junio)",
+      "expected": "+0.2% mensual / +2.8% interanual; subyacente +0.3% mensual / +3.0% interanual"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dax", "gold"],
+    "bearish": ["dxy", "wti"],
+    "neutral": ["eurusd", "btc"]
+  },
+  "risk_section": {
+    "visible": "El anuncio pendiente sobre el Estrecho de Ormuz es el principal riesgo visible de la sesion: una confirmacion positiva podria extender la caida del crudo y el rally bursatil, mientras que un fracaso o un nuevo incidente (como el reportado ataque a un petrolero saudi) revertiria bruscamente el oro, el crudo y el sentimiento de riesgo.",
+    "hidden": "La divergencia entre el rally de renta variable, el hundimiento del crudo y el repunte simultaneo del oro no encaja del todo con una narrativa unica de risk-on, lo que sugiere que parte del mercado sigue cubriendo riesgo de cola pese a los maximos historicos en indices.",
+    "scenario": "Si el acuerdo sobre Ormuz se confirma sin sorpresas y el ISM Services de hoy decepciona, el crudo podria estabilizarse mientras las bolsas frenan su avance y el oro corrige tras el movimiento matutino sobre-extendido.",
+    "signal": "Vigilar de cerca cualquier titular oficial sobre el acuerdo del Estrecho de Ormuz, el ISM Services de hoy a las 16:00 CET y el NFP del viernes como catalizadores clave de la semana."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 4,
+      "nq": 4,
+      "cl": -2,
+      "gc": 3
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El sistema mantiene EV positivo en ES y NQ mediante pullbacks a favor de tendencia, aunque con tamano reducido tras cuatro cierres alcistas consecutivos en ambos. CL y GC deben evitarse hoy por acumular varias red flags (movimiento ya extendido, alta dependencia de titulares sobre Ormuz y ausencia de estructura de balance clara); la lectura global del sistema es de cautela con tamano reducido a la espera de la confirmacion del acuerdo y el ISM Services.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Continuacion alcista moderada, con el futuro operando en maximos historicos tras absorber el maximo 'poor high' del 4 de junio, sin senales de retroceso relevante.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 45,
+        "remaining_adr_pct": 55,
+        "rvol_premarket": "avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Dia en desequilibrio alcista claro (DIH), confluente con el DVA semanal y operando fuera y por encima de la pVA semanal tras el cuarto cierre record consecutivo. El contexto favorece continuacion en pullback a favor de tendencia, pero conviene tamano reducido dado el numero de cierres alcistas acumulados."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Consolidacion nocturna en rango estrecho (29.800-29.880) tras el salto del 3,3% del martes, sin retroceso relevante y con Nvidia firme en premarket.",
+        "adr_avg_points": 320,
+        "overnight_range_pct_adr": 22,
+        "remaining_adr_pct": 78,
+        "rvol_premarket": "avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Condicion diaria en desequilibrio alcista claro con el DVA semanal confluente y precio fuera y por encima de la pVA semanal tras el impulso del martes. El momentum es fuerte pero extendido tras cuatro cierres alcistas, por lo que conviene reducir tamano y esperar pullback antes de perseguir maximos."
+      },
+      {
+        "id": "cl",
+        "name": "Crude Oil WTI",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 78.5,
+        "balance_zone_low": 75.0,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Sesion nocturna contenida en torno a 76 dolares tras el desplome del martes, con el mercado a la espera del anuncio sobre el Estrecho de Ormuz que podria confirmarse hoy mismo.",
+        "adr_avg_points": 2.0,
+        "overnight_range_pct_adr": 25,
+        "remaining_adr_pct": 75,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_capitulatory_move", "held_through_news"],
+        "bias_note": "Instrumento en fase de estabilizacion tras el movimiento capitulatorio bajista de las ultimas dos sesiones, con el DVA semanal en desequilibrio bajista pero en disonancia con el intento de rebote de hoy. El evento de mayor riesgo de la sesion (posible confirmacion del acuerdo de Ormuz) aconseja esperar confirmacion antes de operar en cualquier direccion."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4157,
+        "balance_zone_low": 4013,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Hueco bajista inicial que revierte con fuerza superando los 4.200 dolares, ante la relajacion de las apuestas de subida de tipos por el posible acuerdo de Ormuz y la debilidad del dolar; movimiento ya superior al ADR tipico antes de la apertura de Nueva York.",
+        "adr_avg_points": 78,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct", "after_3plus_consecutive_closes"],
+        "bias_note": "Ruptura alcista por encima de la zona de balance previa (4.013-4.157), impulsada por titulares sobre Ormuz y debilidad del dolar, pero con condicion diaria dudosa por la inconsistencia entre fuentes de precio. El movimiento ya consumio la totalidad del rango diario tipico antes de la apertura de EEUU, por lo que perseguir el precio aqui tiene EV pobre; mejor esperar consolidacion o retroceso hacia la zona rota."
+      }
+    ]
+  }
+}
