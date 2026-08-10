@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "generated_at": "2026-08-10T07:00:00Z",
+    "trading_date": "2026-08-10",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "Al Jazeera", "TradingEconomics"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "El petroleo repunta por el estancamiento en Ormuz, el oro consolida en maximos y Wall Street espera el IPC del miercoles",
+    "sentiment": "mixed",
+    "sentiment_score": 0.05,
+    "key_theme": "El endurecimiento de las condiciones de Iran para reabrir el Estrecho de Ormuz impulsa al crudo, mientras las bolsas consolidan cerca de maximos historicos a la espera del IPC de EEUU del miercoles."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7766,
+      "prev_close": 7757.64,
+      "change_pct": 0.11,
+      "direction": "up",
+      "level_key_support": 7700,
+      "level_key_resistance": 7800,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 cerro el viernes en maximos historicos (7.757,64, +0,62%) tras el dato de empleo mas debil de lo esperado, encadenando su segunda semana consecutiva de subidas (+3,6%). Los futuros del ES cotizan practicamente planos en el premarket del lunes, con soporte en 7.700 y resistencia en la zona de record cerca de 7.800; el IPC del miercoles es el proximo catalizador clave."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 29767,
+      "prev_close": 29722.3,
+      "change_pct": 0.15,
+      "direction": "up",
+      "level_key_support": 29000,
+      "level_key_resistance": 30000,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El Nasdaq 100 rebota con fuerza el viernes (+1,19% hasta 29.722) tras el bache puntual del jueves por AMD, acercandose de nuevo al umbral psicologico de 30.000. Los futuros del NQ suben ligeramente en el premarket, con soporte en 29.000 y resistencia en 30.000; el IPC del miercoles sera clave para confirmar la continuidad del rally tecnologico."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 26380,
+      "prev_close": 26319,
+      "change_pct": 0.23,
+      "direction": "up",
+      "level_key_support": 26100,
+      "level_key_resistance": 26450,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DAX suma una nueva sesion cerca de maximos historicos tras el +0,69% del viernes (26.319 puntos), liderado por SAP, Scout24 e Infineon. El indice abre el lunes en la franja 26.235-26.445; soporte en el nivel de ruptura de 26.100 y resistencia en la zona de record de 26.450, con la tendencia de fondo alcista mientras aguante el soporte."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.156,
+      "prev_close": 1.1524,
+      "change_pct": 0.31,
+      "direction": "up",
+      "level_key_support": 1.15,
+      "level_key_resistance": 1.16,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El euro se mantiene firme cerca de 1,1560, apoyado en la debilidad generalizada del dolar, que toca minimos de dos meses. Soporte en 1,1500 y resistencia en el nivel redondo de 1,1600; el IPC de EEUU del miercoles es el proximo catalizador clave que podria confirmar o frenar la tendencia bajista del billete verde."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.67,
+      "prev_close": 99.85,
+      "change_pct": -0.18,
+      "direction": "down",
+      "level_key_support": 99.0,
+      "level_key_resistance": 100.0,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El indice dolar cotiza cerca de 99,70, en la zona de minimos de dos meses tras el flojo informe de empleo del viernes, que redujo la probabilidad de una subida de tipos en septiembre al 44% desde el 67% de la semana anterior. Soporte en 99,00 y resistencia en el nivel redondo de 100,00; el IPC del miercoles es el catalizador clave de la semana."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAUUSD",
+      "price": 4305.49,
+      "prev_close": 4322,
+      "change_pct": -0.38,
+      "direction": "down",
+      "level_key_support": 4230,
+      "level_key_resistance": 4320,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El oro cotiza en torno a 4.305 dolares, ligeramente por debajo de la apertura semanal en 4.322, tras un viernes con subida superior al 2,3% impulsada por el flojo dato de empleo (mas de un 7% de avance semanal). El nivel de 4.300 actua como soporte inmediato; el movimiento sigue extendido, por lo que conviene prudencia con el tamano de posicion de cara al IPC del miercoles."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 79.3,
+      "prev_close": 78.19,
+      "change_pct": 1.43,
+      "direction": "up",
+      "level_key_support": 76.3,
+      "level_key_resistance": 80.5,
+      "bias": "bullish",
+      "signal": "reversal",
+      "note": "El WTI rebota con fuerza hacia 79,30 dolares (+1,4%), revirtiendo la tendencia bajista de la semana pasada despues de que Iran endureciera sus condiciones para reabrir el Estrecho de Ormuz, exigiendo el fin de las sanciones y reparaciones de guerra a Washington. El Brent sube un 1,4% hasta 84,70 dolares; soporte en 76,30 y resistencia en la zona psicologica de 80,00, con alta sensibilidad a los titulares sobre Ormuz."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 65150,
+      "prev_close": 64850,
+      "change_pct": 0.46,
+      "direction": "up",
+      "level_key_support": 62300,
+      "level_key_resistance": 66500,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "Bitcoin supera la resistencia clave de 65.000 dolares, apoyado en el mismo apetito por riesgo que impulsa a las bolsas tras el flojo informe de empleo y en las continuas entradas en los ETF al contado. Soporte en 62.300 y resistencia en la zona de 66.500, con un cierre solido por encima de 65.000 como confirmacion de continuidad alcista."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-08-11",
+      "days_ahead": 1,
+      "time_cet": "05:30",
+      "event": "Decision de tipos del RBA (Australia)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-12",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "IPC de EEUU (julio)",
+      "importance": "high",
+      "previous": "+3.5% interanual / -0.4% mensual (junio)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-13",
+      "days_ahead": 3,
+      "time_cet": "14:30",
+      "event": "IPP de EEUU (julio) y peticiones semanales de subsidio por desempleo",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-14",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "Ventas minoristas de EEUU (julio)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-14",
+      "days_ahead": 4,
+      "time_cet": "16:00",
+      "event": "Confianza del consumidor de Michigan (preliminar, agosto)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dax", "eurusd", "gold", "wti", "btc"],
+    "bearish": ["dxy"],
+    "neutral": []
+  },
+  "risk_section": {
+    "visible": "El IPC de EEUU del miercoles es el riesgo visible mas inmediato, con el crudo ya presionando al alza tras el endurecimiento de las condiciones de Iran sobre Ormuz; una sorpresa inflacionaria al alza podria desencadenar una correccion en las bolsas desde maximos historicos.",
+    "hidden": "La combinacion de acciones en record, oro sosteniendo ganancias superiores al 7% semanal y crudo repuntando con fuerza sugiere que parte del mercado sigue cubriendo riesgo de inflacion pese al optimismo bursatil, una senal de fragilidad no del todo reflejada en los indices principales.",
+    "scenario": "Si Iran y EEUU confirman avances en Ormuz esta semana, el crudo podria revertir con fuerza a la baja, aliviando el riesgo inflacionario y favoreciendo a bolsas y dolar en detrimento del oro; si el IPC sorprende al alza, el escenario se invertiria con una correccion brusca en acciones y bonos.",
+    "signal": "Vigilar los titulares sobre las negociaciones de Ormuz entre Iran, Oman y EEUU, la decision del RBA del martes y, sobre todo, el IPC de EEUU del miercoles como catalizador clave de la semana."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 1,
+      "nq": 1,
+      "cl": 2,
+      "gc": 4
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El sistema mantiene EV positivo en ES y NQ, ambos con condicion diaria clara y confluencia con el DVA semanal alcista, priorizando pullbacks a favor de tendencia (BPB_pVA) de cara al IPC del miercoles. CL debe operarse con cautela: el rebote a 79-80 dolares es genuino pero esta enteramente ligado a titulares sobre Ormuz, con disonancia frente a un DVA semanal aun bajista. GC conserva sesgo alcista claro pero esta extendido tras cuatro cierres consecutivos al alza, por lo que conviene tamano reducido. La lectura global del sistema es de cautela moderada de cara al IPC del miercoles.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 7800,
+        "balance_zone_low": 7700,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Rango nocturno contenido en torno a 7.760-7.775 sin gap relevante frente al cierre record del viernes; el mercado consolida cerca de maximos historicos a la espera del IPC del miercoles.",
+        "adr_avg_points": 50,
+        "overnight_range_pct_adr": 20,
+        "remaining_adr_pct": 80,
+        "rvol_premarket": "avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "Condicion diaria en desequilibrio alcista claro, confluente con el DVA semanal tras el cierre record del viernes y la segunda semana consecutiva de subidas. El sesgo sigue siendo constructivo mientras se mantenga por encima de 7.700, priorizando pullbacks a favor de tendencia."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 30000,
+        "balance_zone_low": 29000,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Futuros del NQ suben levemente en el premarket tras el fuerte rebote del viernes (+1,19%), consolidando en la franja de 29.700-29.800 sin gap relevante, a un paso del nivel psicologico de 30.000.",
+        "adr_avg_points": 320,
+        "overnight_range_pct_adr": 15,
+        "remaining_adr_pct": 85,
+        "rvol_premarket": "avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "Tras el bache puntual del jueves por AMD, el Nasdaq 100 recupero con fuerza el viernes y vuelve a mostrar condicion diaria de desequilibrio alcista claro, confluente con el DVA semanal. El sesgo es constructivo hacia 30.000 mientras se mantenga por encima de 29.000."
+      },
+      {
+        "id": "cl",
+        "name": "Crude Oil WTI",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 80.5,
+        "balance_zone_low": 76.3,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El WTI extiende el rebote hacia 79,30 dolares tras el endurecimiento de las condiciones de Iran para reabrir el Estrecho de Ormuz (fin de sanciones y reparaciones de guerra), revirtiendo la caida de la semana pasada; el Brent sube un 1,4% hasta 84,70 dolares en la misma sesion.",
+        "adr_avg_points": 2.2,
+        "overnight_range_pct_adr": 55,
+        "remaining_adr_pct": 45,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_FOBO", "held_through_news"],
+        "bias_note": "El rebote hacia 79-80 dolares es genuino tras el cambio de tono de Iran, pero la condicion diaria es de claridad dudosa y esta en disonancia con un DVA semanal todavia bajista. Mejor esperar confirmacion adicional de los titulares sobre Ormuz antes de operar en cualquier direccion."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El oro retrocede levemente desde la apertura semanal en 4.322 hacia 4.300-4.305 dolares durante la sesion asiatica y europea, consolidando las ganancias de mas del 7% de la semana pasada tras el flojo informe de empleo.",
+        "adr_avg_points": 80,
+        "overnight_range_pct_adr": 40,
+        "remaining_adr_pct": 60,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "El oro mantiene un desequilibrio alcista claro y confluente con el DVA semanal tras encadenar cuatro cierres consecutivos al alza, aunque el ligero retroceso de hoy sugiere una pausa logica tras el movimiento extendido. Prioridad a entradas en retroceso (RPB_pVA) con tamano reducido de cara al IPC del miercoles."
+      }
+    ]
+  }
+}
