@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "generated_at": "2026-08-13T07:00:00Z",
+    "trading_date": "2026-08-13",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": [
+      "Yahoo Finance",
+      "Investing.com / TradingEconomics / CNBC"
+    ],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Renta variable cerca de maximos a la espera del PPI de EE.UU.; oro corrige y crudo cae por inventarios.",
+    "sentiment": "mixed",
+    "sentiment_score": 0.1,
+    "key_theme": "El PPI de EE.UU. de esta tarde es el catalizador clave; el crudo reacciona a un build de inventarios muy superior a lo esperado y el oro corrige tras un rally mensual del +10%."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7753.0,
+      "prev_close": 7748.5,
+      "change_pct": 0.06,
+      "direction": "up",
+      "level_key_support": 7700,
+      "level_key_resistance": 7795,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El indice se mueve en balance justo debajo de maximos historicos (7,757.64), tras dos sesiones de recogida de beneficios seguidas de recuperacion. El PPI de esta tarde sera clave para definir si hay extension hacia nuevos records o rechazo en la zona alta."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 29805.75,
+      "prev_close": 29742.6,
+      "change_pct": 0.21,
+      "direction": "up",
+      "level_key_support": 29650,
+      "level_key_resistance": 30000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Consolidacion lateral de unos 350 puntos bajo el nivel psicologico de 30,000, con un intento fallido de ruptura overnight. Volumen premarket algo por debajo de la media; se necesita el PPI para definir direccion."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "^GDAXI",
+      "price": 26450.0,
+      "prev_close": 26331.0,
+      "change_pct": 0.45,
+      "direction": "up",
+      "level_key_support": 26000,
+      "level_key_resistance": 26574,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El indice aleman abre cerca de maximos historicos, apoyado por caida del petroleo y buen momentum de resultados corporativos. Soporte tecnico relevante en 26,000; una ruptura limpia de 26,574 abriria paso a nuevos records."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1529,
+      "prev_close": 1.1543,
+      "change_pct": -0.12,
+      "direction": "down",
+      "level_key_support": 1.1488,
+      "level_key_resistance": 1.1567,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El par cotiza en rango entre soportes de corto plazo y la media movil de 100 sesiones como resistencia. Sin catalizador propio hoy, dependera del PPI estadounidense y su efecto sobre el dolar."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.87,
+      "prev_close": 100.01,
+      "change_pct": -0.14,
+      "direction": "down",
+      "level_key_support": 99.41,
+      "level_key_resistance": 100.16,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El dolar sigue debilitado tras un IPC de julio moderado que redujo la probabilidad de una subida de tipos de la Fed en septiembre. Cotiza por debajo de la zona pivote 100.16/100.42, que ahora actua como resistencia."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4441.1,
+      "prev_close": 4468.8,
+      "change_pct": -0.62,
+      "direction": "down",
+      "level_key_support": 4400,
+      "level_key_resistance": 4500,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "Tendencia alcista clara con una subida cercana al +10% en lo que va de agosto, apoyada en flujos de refugio y expectativas de dolar debil. La correccion overnight es sana dentro de la tendencia; nota: el precio exacto presenta cierta dispersion entre fuentes hoy, tratar con margen."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 82.11,
+      "prev_close": 83.27,
+      "change_pct": -1.39,
+      "direction": "down",
+      "level_key_support": 81.17,
+      "level_key_resistance": 84.84,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El crudo revierte con fuerza tras un dato de inventarios de la EIA muy superior a lo esperado (+17.4M barriles, el mayor build desde enero de 2023), pese a la prima geopolitica por el Estrecho de Ormuz. Rango overnight muy amplio (~$3.34)."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 63798.0,
+      "prev_close": 63402.0,
+      "change_pct": 0.62,
+      "direction": "up",
+      "level_key_support": 62500,
+      "level_key_resistance": 63900,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "Precio practicamente plano en la sesion, pero la estructura tecnica de fondo sigue siendo bajista, cotizando por debajo de medias moviles clave y lejos de los maximos del ano. Rango lateral entre 62,500 y 63,900."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-08-13",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "PPI EE.UU. (julio)",
+      "importance": "high",
+      "previous": "-0.3% m/m / +5.5% y/y (junio)",
+      "expected": "+0.2% m/m"
+    },
+    {
+      "date": "2026-08-13",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de subsidio por desempleo (semana del 8 de agosto)",
+      "importance": "medium",
+      "previous": "199K",
+      "expected": "202K"
+    },
+    {
+      "date": "2026-08-14",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "Ventas minoristas EE.UU. (julio)",
+      "importance": "high",
+      "previous": "+0.2% m/m",
+      "expected": "+0.3% m/m"
+    },
+    {
+      "date": "2026-08-14",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "Ventas minoristas ex-autos EE.UU. (julio)",
+      "importance": "high",
+      "previous": "-0.2% m/m",
+      "expected": "+0.2% m/m"
+    },
+    {
+      "date": "2026-08-19",
+      "days_ahead": 6,
+      "time_cet": "20:00",
+      "event": "Actas de la FOMC (reunion del 28-29 de julio)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-20",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de subsidio por desempleo (semanal)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": [
+      "dax",
+      "gold"
+    ],
+    "bearish": [
+      "dxy",
+      "wti",
+      "btc"
+    ],
+    "neutral": [
+      "spx",
+      "ndx",
+      "eurusd"
+    ]
+  },
+  "risk_section": {
+    "visible": "El PPI de EE.UU. de esta tarde puede reavivar las expectativas de subida de tipos de la Fed si sorprende al alza, presionando bonos, dolar y activos de riesgo.",
+    "hidden": "El vencimiento de las exenciones de sanciones a Iran el 21 de agosto es un riesgo latente para el petroleo via el Estrecho de Ormuz, aun no reflejado en el rango actual de WTI.",
+    "scenario": "Si el PPI sorprende al alza y reaviva el temor a una subida de tipos, el escenario alternativo es una correccion en indices y oro, con repunte del dolar y de las TIRes.",
+    "signal": "Vigilar el nivel de 30,000 en Nasdaq 100 y el soporte de 81 USD en WTI; una perdida de ambos confirmaria un giro hacia risk-off esta semana."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 1,
+      "nq": 1,
+      "cl": -1,
+      "gc": 3
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El PPI de EE.UU. de esta tarde es el catalizador dominante de la sesion. ES y NQ mantienen estructuras de balance limpias, pero CL viene de un rango overnight extremo tras el dato de inventarios y GC arrastra varios cierres alcistas consecutivos. Recomendamos tamano reducido hasta la publicacion del dato y evitar forzar entradas en crudo hasta que se calme la volatilidad.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 7758,
+        "balance_zone_low": 7700,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Rango overnight estrecho, ligera continuacion alcista sin gaps relevantes, mercado a la espera del PPI de la tarde.",
+        "adr_avg_points": 45,
+        "overnight_range_pct_adr": 8,
+        "remaining_adr_pct": 92,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": [
+          "none"
+        ],
+        "bias_note": "ES se mantiene en balance justo debajo de maximos historicos, dentro de la VA semanal estimada. Sesgo neutral-alcista mientras aguante 7,700; el PPI de hoy sera el catalizador para una posible extension o rechazo en la zona de record."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 30000,
+        "balance_zone_low": 29650,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Rango amplio overnight (~333 puntos) con intento fallido de ruptura sobre el nivel psicologico de 30,000, replegandose de vuelta al rango.",
+        "adr_avg_points": 425,
+        "overnight_range_pct_adr": 78,
+        "remaining_adr_pct": 22,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": [
+          "against_recent_FOBO"
+        ],
+        "bias_note": "Nasdaq 100 continua en un rango lateral de unos 350 puntos bajo el nivel de 30,000, con un intento fallido de ruptura overnight. Sesgo neutral-rotacional hasta que el PPI confirme direccion; vigilar reaccion en 29,650 y 30,000."
+      },
+      {
+        "id": "cl",
+        "name": "Crude Oil WTI",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 82.6,
+        "balance_zone_low": 81.17,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Rango overnight muy amplio ($84.61-$81.27) tras un dato de inventarios de la EIA muy por encima de lo esperado (+17.4M barriles), revirtiendo el intento alcista ligado a la prima geopolitica de Ormuz.",
+        "adr_avg_points": 2.0,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": [
+          "adr_near_100pct",
+          "held_through_news"
+        ],
+        "bias_note": "El crudo revirtio con fuerza tras el sorpresivo build de inventarios, consumiendo ya la totalidad de su rango diario promedio en overnight. Preferible esperar a que se estabilice antes de buscar entradas; sesgo de corto plazo bajista mientras cotice bajo 82.60."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Ligero retroceso overnight (~$28) tras el fuerte rally del mes (+10%), sin ruptura de estructura, a la espera del PPI que podria determinar el siguiente tramo.",
+        "adr_avg_points": 85,
+        "overnight_range_pct_adr": 33,
+        "remaining_adr_pct": 67,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_LTpVA",
+        "active_red_flags": [
+          "after_3plus_consecutive_closes"
+        ],
+        "bias_note": "El oro mantiene una tendencia alcista clara (+10% en el mes) y cotiza muy por encima de la VA semanal previa. Tras varios cierres consecutivos al alza, el retroceso overnight es sano, pero conviene reducir tamano ante la extension reciente del movimiento."
+      }
+    ]
+  }
+}
