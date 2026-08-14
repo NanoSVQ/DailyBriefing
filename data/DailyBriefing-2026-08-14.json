@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "generated_at": "2026-08-14T07:00:00Z",
+    "trading_date": "2026-08-14",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "TradingEconomics", "CNBC", "Bloomberg"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "S&P 500 marca récord sobre 7.800 tras IPC/IPP suaves; dólar y petróleo ceden terreno.",
+    "sentiment": "risk_on",
+    "sentiment_score": 0.35,
+    "key_theme": "Tres lecturas de inflación y empleo más suaves de lo esperado reducen el riesgo de subida de tipos e impulsan la renta variable a máximos históricos."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7808.0,
+      "prev_close": 7800.36,
+      "change_pct": 0.1,
+      "direction": "up",
+      "level_key_support": 7694,
+      "level_key_resistance": 7850,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 cerró ayer en máximo histórico por encima de 7.800 impulsado por datos de inflación más suaves de lo esperado. El soporte clave se sitúa en el antiguo techo de 7.694, ahora zona de control. Vigilar el volumen de la sesión de verano, más reducido de lo habitual."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 30146.0,
+      "prev_close": 30084.5,
+      "change_pct": 0.2,
+      "direction": "up",
+      "level_key_support": 29878,
+      "level_key_resistance": 30500,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El Nasdaq 100 rompió la resistencia de 29.878 tras cinco sesiones de consolidación lateral y ya cotiza sobre 30.100. El soporte clave pasa a ser la zona de ruptura, con proyección hacia nuevos máximos históricos. Es el índice con mejor lectura técnica del día."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 26475.87,
+      "prev_close": 26299.74,
+      "change_pct": 0.67,
+      "direction": "up",
+      "level_key_support": 26300,
+      "level_key_resistance": 26600,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DAX avanza un 0,67% y se acerca de nuevo a su zona de máximos históricos tras el cierre de ayer en 26.299,74. El soporte se sitúa en el cierre previo y la resistencia en el entorno de los 26.600 puntos. La correlación con Wall Street sigue siendo el principal driver."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1536,
+      "prev_close": 1.1528,
+      "change_pct": 0.07,
+      "direction": "up",
+      "level_key_support": 1.148,
+      "level_key_resistance": 1.158,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El EUR/USD sube ligeramente hasta 1,1536 apoyado por la debilidad generalizada del dólar tras los datos de inflación suaves en EE.UU. El par se mantiene en un rango estrecho sin dirección clara aún. Vigilar las ventas minoristas de EE.UU. de hoy como catalizador."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.608,
+      "prev_close": 99.968,
+      "change_pct": -0.36,
+      "direction": "down",
+      "level_key_support": 99.18,
+      "level_key_resistance": 100.6,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El índice dólar cae un 0,36% hasta 99,61, presionado por tres lecturas de inflación y empleo más suaves de lo esperado esta semana. La media móvil rápida en 100,60 actúa como resistencia y limita los intentos de recuperación. El soporte se sitúa en la media lenta cerca de 99,18."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4349.34,
+      "prev_close": 4335.0,
+      "change_pct": 0.33,
+      "direction": "up",
+      "level_key_support": 4310,
+      "level_key_resistance": 4390,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El oro cotiza en 4.349 dólares, dentro de un rango de consolidación entre 4.310 y 4.389 tras la fuerte corrección desde el máximo histórico de enero en 5.595. El RSI en ascenso sugiere un sesgo ligeramente alcista, aunque el precio aún no confirma ruptura. Mejor esperar confirmación antes de posicionarse direccionalmente."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL=F",
+      "price": 81.27,
+      "prev_close": 81.25,
+      "change_pct": 0.02,
+      "direction": "flat",
+      "level_key_support": 80.0,
+      "level_key_resistance": 83.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El WTI se estabiliza cerca de 81,27 dólares tras perder el nivel de 81 ayer, cortando una racha de cinco sesiones consecutivas al alza. El mercado sigue digiriendo la reducción de la prima de riesgo geopolítico tras la pausa en el conflicto con Irán y el aumento de producción de la OPEP+. El rango 80-83 dólares contiene el precio por ahora."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "price": 62829.48,
+      "prev_close": 63558.45,
+      "change_pct": -1.15,
+      "direction": "down",
+      "level_key_support": 61500,
+      "level_key_resistance": 64500,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "Bitcoin cae cerca de un 1,1% hasta 62.829 dólares, situándose por debajo de todas sus medias móviles diarias principales. El índice de miedo y codicia marca 29, en zona de miedo, reflejando el deterioro del sentimiento cripto de las últimas semanas. El soporte inmediato se sitúa en el entorno de 61.500."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-08-14",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "Ventas Minoristas (Retail Sales) EE.UU. - Julio",
+      "importance": "high",
+      "previous": "0.9% m/m",
+      "expected": "0.4% m/m"
+    },
+    {
+      "date": "2026-08-14",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "Confianza del Consumidor de Michigan (preliminar)",
+      "importance": "medium",
+      "previous": "61.7",
+      "expected": "62.0"
+    },
+    {
+      "date": "2026-08-17",
+      "days_ahead": 3,
+      "time_cet": "16:00",
+      "event": "Índice NAHB del Mercado Inmobiliario",
+      "importance": "low",
+      "previous": "33",
+      "expected": "34"
+    },
+    {
+      "date": "2026-08-18",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "Viviendas Iniciadas y Permisos de Construcción EE.UU.",
+      "importance": "medium",
+      "previous": "1.32M",
+      "expected": "1.34M"
+    },
+    {
+      "date": "2026-08-19",
+      "days_ahead": 5,
+      "time_cet": "20:00",
+      "event": "Actas de la Reunión de la Fed (FOMC Minutes)",
+      "importance": "high",
+      "previous": "N/A",
+      "expected": "N/A"
+    },
+    {
+      "date": "2026-08-20",
+      "days_ahead": 6,
+      "time_cet": "14:30",
+      "event": "Peticiones Semanales de Subsidio por Desempleo",
+      "importance": "medium",
+      "previous": "224K",
+      "expected": "228K"
+    },
+    {
+      "date": "2026-08-21",
+      "days_ahead": 7,
+      "time_cet": "15:45",
+      "event": "PMIs Preliminares (Manufacturero y Servicios) EE.UU./Eurozona",
+      "importance": "medium",
+      "previous": "Compuesto S&P Global 54.1",
+      "expected": "53.8"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dax", "gold"],
+    "bearish": ["dxy", "btc"],
+    "neutral": ["eurusd", "wti"]
+  },
+  "risk_section": {
+    "visible": "El evento de riesgo visible hoy es la Confianza del Consumidor de Michigan (16:00 CET), que podría reforzar o cuestionar la narrativa de aterrizaje suave tras el IPC suave de esta semana. Un dato débil añadiría presión bajista al dólar y soporte adicional a la renta variable.",
+    "hidden": "El riesgo oculto es la fragilidad del crudo tras la caída de -7% ligada a la pausa en el conflicto con Irán, que deja al mercado energético vulnerable a un shock geopolítico no descontado. Una escalada repentina en el Estrecho de Ormuz podría revertir el sentimiento risk-on de forma abrupta.",
+    "scenario": "Si el sesgo alcista en índices falla, vigilar una reversión hacia el área 7.694-7.700 en el S&P 500 (antiguo techo histórico) como primer soporte de rotación. Una pérdida de ese nivel abriría paso a una corrección más amplia.",
+    "signal": "La señal clave a vigilar esta semana son las Actas de la Fed (FOMC Minutes) del miércoles 19 de agosto, que podrían aportar claridad sobre el ritmo de futuros recortes de tipos. Un tono más hawkish de lo esperado sería el catalizador de una corrección en dólar y oro."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 3,
+      "nq": 3,
+      "cl": -1,
+      "gc": 2
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El sistema mantiene EV positivo en los setups de continuación alcista en ES y NQ, aunque el viernes de verano con volumen reducido aconseja tamaño reducido. Evitar entradas nuevas en CL hasta confirmar si el cierre bajista de ayer es una reversión genuina o un pullback dentro de la tendencia alcista de fondo. GC permanece en rango de indecisión, mejor esperar ruptura confirmada.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7809,
+        "balance_zone_low": 7694,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El futuro cotizó prácticamente plano tras el cierre récord de ayer, sin gaps relevantes ni tests significativos de niveles durante la sesión asiática/europea.",
+        "adr_avg_points": 65,
+        "overnight_range_pct_adr": 18,
+        "remaining_adr_pct": 82,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "La imbalance alcista diaria se mantiene pero con claridad dudosa tras el 'waver' de hoy, dentro de una DVA semanal confluente por encima del pVA. El sesgo es de continuación cauta, priorizando pullbacks hacia la zona de ruptura 7.694-7.700 antes de sumarse."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El Nasdaq 100 rompió al alza la zona de resistencia 29.861-29.878 que contenía el rango lateral de cinco sesiones, situándose ya por encima de 30.000 con gap alcista moderado.",
+        "adr_avg_points": 420,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "avg",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["none"],
+        "bias_note": "Ruptura confirmada por encima de 29.878 con condición diaria de imbalance alcista clara y DVA semanal confluente: es el instrumento con mejor lectura direccional del sistema hoy. El sesgo es alcista, priorizando pullbacks hacia la antigua zona de balance 29.553-30.000."
+      },
+      {
+        "id": "cl",
+        "name": "Crude Oil WTI",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 83.0,
+        "balance_zone_low": 80.0,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El WTI perdió el nivel de 81 dólares ayer tras cinco sesiones consecutivas al alza; el overnight muestra estabilización en la zona 80,77-82,99 sin test claro de mínimos recientes.",
+        "adr_avg_points": 2.2,
+        "overnight_range_pct_adr": 45,
+        "remaining_adr_pct": 55,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_capitulatory_move"],
+        "bias_note": "El cierre bajista de ayer tras cinco sesiones alcistas y el reingreso en la pVA semanal generan disonancia rotacional que exige cautela sobre la dirección dominante. El sesgo es neutral-bajista a la espera de confirmación, vulnerable a un nuevo shock geopolítico en cualquier dirección."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4389,
+        "balance_zone_low": 4310,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro se mantuvo dentro de un rango estrecho overnight entre 4.310 y 4.389, sin romper ninguno de los extremos de la sesión previa, en fase de consolidación tras la corrección desde el máximo de enero.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 40,
+        "remaining_adr_pct": 60,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "El oro permanece en balance diario con claridad dudosa dentro de una DVA semanal rotacional confluente, cotizando dentro del pVA sin ruptura clara. El sesgo es neutral con ligero matiz alcista dado el RSI ascendente; mejor esperar ruptura confirmada del rango 4.310-4.389."
+      }
+    ]
+  }
+}
