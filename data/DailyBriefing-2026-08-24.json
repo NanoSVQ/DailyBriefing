@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "generated_at": "2026-08-24T07:00:00Z",
+    "trading_date": "2026-08-24",
+    "schema_version": "2.0",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "TheStreet", "Trading Economics"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "Futuros mixtos y oro cerca de 4.700 mientras el mercado espera sanciones a Iran antes de Nvidia y Jackson Hole.",
+    "sentiment": "mixed",
+    "sentiment_score": -0.05,
+    "key_theme": "El mercado opera con cautela de cara a una semana con cuatro catalizadores mayores: sanciones de EEUU a Iran, PCE subyacente, resultados de Nvidia y el simposio de Jackson Hole con el primer discurso de Kevin Warsh como presidente de la Fed."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7691.25,
+      "prev_close": 7674.37,
+      "change_pct": 0.22,
+      "direction": "up",
+      "level_key_support": 7661.25,
+      "level_key_resistance": 7714.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El SP500 opera con sesgo mixto tras el retroceso del viernes desde maximos historicos, con los futuros ES entre planos y ligeramente alcistas en la premarket. La atencion de la semana se centra en los resultados de Nvidia y el simposio de Jackson Hole, lo que reduce la conviccion para operar rupturas hasta que se resuelvan ambos catalizadores."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29387.75,
+      "prev_close": 29299.85,
+      "change_pct": 0.3,
+      "direction": "up",
+      "level_key_support": 29200.0,
+      "level_key_resistance": 29600.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El NQ arrastra la peor performance relativa del grupo de indices, con el sector tecnologico presionado por la caida de Alibaba en Hong Kong y ventas en el segmento de memoria durante la noche. Tres cierres diarios consecutivos a la baja mantienen la cautela de corto plazo a la espera de los resultados de Nvidia el miercoles."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 26137.0,
+      "prev_close": 25983.04,
+      "change_pct": 0.59,
+      "direction": "up",
+      "level_key_support": 25900.0,
+      "level_key_resistance": 26300.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DAX cerro el viernes en 26.137 puntos (+0,59%), estabilizandose tras varias sesiones previas de perdidas y defendiendo la zona de 26.000. La apertura de hoy en Xetra sera clave para confirmar si el rebote tiene continuidad, con el indice europeo mostrando mejor comportamiento relativo que Wall Street en el corto plazo."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dolar",
+      "ticker": "EURUSD",
+      "price": 1.1682,
+      "prev_close": 1.168,
+      "change_pct": 0.02,
+      "direction": "flat",
+      "level_key_support": 1.162,
+      "level_key_resistance": 1.172,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El euro dolar cotiza practicamente plano en 1,1682, consolidando cerca de maximos de varias semanas gracias mas a la debilidad generalizada del dolar que a fortaleza propia de la divisa comunitaria. La resistencia de 1,1700-1,1720 sigue siendo la referencia clave para una extension alcista adicional."
+    },
+    {
+      "id": "dxy",
+      "name": "Indice Dolar",
+      "ticker": "DXY",
+      "price": 98.9882,
+      "prev_close": 98.8,
+      "change_pct": 0.19,
+      "direction": "up",
+      "level_key_support": 98.6,
+      "level_key_resistance": 99.3,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El indice dolar rebota levemente hasta 98,99 (+0,19%) dentro de una tendencia bajista de fondo, tras perder cerca de un 2,5% en el ultimo mes por las preocupaciones fiscales y el plan de recompra de deuda del Tesoro de EEUU. Mientras cotice por debajo de 99,30 el sesgo de mediano plazo sigue siendo bajista."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAUUSD",
+      "price": 4645.74,
+      "prev_close": 4607.65,
+      "change_pct": 0.83,
+      "direction": "up",
+      "level_key_support": 4600.0,
+      "level_key_resistance": 4700.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El oro extiende su fuerte repunte hasta 4.645 dolares (+0,83%), encadenando su tercera semana consecutiva de subidas y acercandose a la zona psicologica de 4.700 impulsado por la debilidad del dolar y el inesperado aumento de recompras de deuda a largo plazo del Tesoro de EEUU. El rango ya esta cerca del limite de su ADR habitual, por lo que un retroceso hacia 4.600 seria sano antes de buscar continuacion."
+    },
+    {
+      "id": "wti",
+      "name": "Petroleo WTI",
+      "ticker": "CL",
+      "price": 85.65,
+      "prev_close": 87.06,
+      "change_pct": -1.62,
+      "direction": "down",
+      "level_key_support": 84.5,
+      "level_key_resistance": 87.5,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El WTI cae un 1,62% hasta 85,65 dolares mientras el mercado toma beneficios antes del anuncio del Tesoro de EEUU de las sanciones mas duras hasta la fecha contra Iran. Tras el fuerte repunte del viernes por la escalada geopolitica, el crudo consolida en zona de balance a la espera de conocer el alcance real de las nuevas sanciones."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 77347.82,
+      "prev_close": 77300.0,
+      "change_pct": 0.06,
+      "direction": "flat",
+      "level_key_support": 75000.0,
+      "level_key_resistance": 80000.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin se mantiene estable cerca de 77.300 dolares, consolidando tras el intento de test de los 80.000 dolares de la semana pasada en la misma operativa de cobertura que beneficia al oro. Los mercados de prediccion asignan una probabilidad muy alta de mantenerse por encima de 74.000 dolares, lo que sugiere una base solida de corto plazo."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-08-24",
+      "days_ahead": 0,
+      "time_cet": "n/d",
+      "event": "Anuncio de nuevas sanciones de EEUU contra Iran (Departamento del Tesoro)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "Paquete de sanciones descrito como el mas duro hasta la fecha"
+    },
+    {
+      "date": "2026-08-26",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "PCE subyacente EEUU (julio) - indicador de inflacion preferido de la Fed",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "+0,2% intermensual"
+    },
+    {
+      "date": "2026-08-26",
+      "days_ahead": 2,
+      "time_cet": "22:00",
+      "event": "Resultados de Nvidia (2T fiscal 2027)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "Crecimiento continuado en ingresos de centros de datos e IA"
+    },
+    {
+      "date": "2026-08-27",
+      "days_ahead": 3,
+      "time_cet": "n/d",
+      "event": "Inicio del Simposio de Jackson Hole (Reserva Federal de Kansas City)",
+      "importance": "medium",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-08-28",
+      "days_ahead": 4,
+      "time_cet": "16:00",
+      "event": "Discurso de Kevin Warsh en Jackson Hole (primer discurso como presidente de la Fed)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "Senales sobre la trayectoria de tipos de interes bajo el nuevo liderazgo"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dax", "eurusd", "gold"],
+    "bearish": ["dxy", "wti"],
+    "neutral": ["spx", "ndx", "btc"]
+  },
+  "risk_section": {
+    "visible": "El mercado espera el anuncio de las sanciones mas duras de EEUU contra Iran, lo que podria generar un movimiento brusco en el petroleo durante la sesion de hoy.",
+    "hidden": "El fuerte repunte del oro y la debilidad persistente del dolar reflejan crecientes dudas sobre la sostenibilidad fiscal de EEUU, un riesgo que el mercado de renta variable aun no ha valorado del todo.",
+    "scenario": "Si Nvidia decepciona el miercoles o Warsh sorprende con un tono mas duro en Jackson Hole el viernes, los indices podrian revertir el sesgo neutral-alcista actual hacia una correccion mas profunda.",
+    "signal": "Vigilar la reaccion del petroleo tras conocerse el detalle de las sanciones a Iran y la evolucion del rendimiento del bono a 30 anos de cara a Jackson Hole."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": -3,
+      "cl": 1,
+      "gc": 4
+    },
+    "system_readiness": "wait",
+    "system_note": "La semana combina cuatro catalizadores mayores (sanciones a Iran, PCE subyacente, resultados de Nvidia y Jackson Hole), lo que reduce de forma significativa el valor esperado de los setups intradia tradicionales en indices y crudo. El oro mantiene la estructura direccional mas limpia del grupo pero ya ha consumido gran parte de su ADR habitual, por lo que se recomienda esperar confirmacion o retroceso antes de operar en cualquiera de los cuatro instrumentos operativos hoy.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7714.0,
+        "balance_zone_low": 7661.0,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El futuro del ES oscilo entre 7.661 y 7.714 durante la noche, con sesgo mixto entre titulares de sanciones a Iran y ruptura de conversaciones comerciales EEUU-Canada, sin gap relevante respecto al cierre del viernes en 7.674.",
+        "adr_avg_points": 55.0,
+        "overnight_range_pct_adr": 55.0,
+        "remaining_adr_pct": 45.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "El ES rota dentro de un rango de balance tras dos cierres diarios consecutivos a la baja, en una estructura semanal que sigue siendo constructiva de fondo. Con Nvidia y Jackson Hole por delante, el sesgo es neutral con baja conviccion para tamano completo hoy."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29500.0,
+        "balance_zone_low": 29200.0,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El NQ sube un 0,3% durante la noche pero arrastra presion del sector tecnologico tras la caida de Alibaba en Hong Kong (cerca de -10%) y ventas en el segmento de memoria, sin lograr todavia superar la zona de 29.500.",
+        "adr_avg_points": 210.0,
+        "overnight_range_pct_adr": 40.0,
+        "remaining_adr_pct": 60.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news", "after_3plus_consecutive_closes"],
+        "bias_note": "El NQ acumula tres cierres diarios consecutivos a la baja y peor comportamiento relativo que el ES, con el mayor evento binario de la semana (resultados de Nvidia el miercoles) todavia por delante. El sesgo es neutral-bajista de corto plazo con prioridad de espera."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 87.5,
+        "balance_zone_low": 84.5,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El WTI cae un 1,62% hasta 85,65 dolares durante la noche, recortando parte del fuerte repunte del viernes, mientras el mercado toma beneficios antes del anuncio de nuevas sanciones de EEUU contra Iran previsto para hoy.",
+        "adr_avg_points": 1.75,
+        "overnight_range_pct_adr": 80.0,
+        "remaining_adr_pct": 20.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_BO", "held_through_news"],
+        "bias_note": "El crudo retrocede contra la ruptura alcista del viernes en una jornada de maxima incertidumbre por el anuncio de sanciones a Iran. El sesgo de hoy es neutral con riesgo de movimiento brusco en cualquier direccion tras conocerse el detalle de las sanciones."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El oro extiende su repunte durante la noche hasta 4.645 dolares, acercandose a la zona psicologica de 4.700, apoyado en la debilidad del dolar y el inesperado aumento de recompras de deuda a largo plazo del Tesoro de EEUU.",
+        "adr_avg_points": 34.0,
+        "overnight_range_pct_adr": 100.0,
+        "remaining_adr_pct": 0.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct", "after_bullish_exhaustion"],
+        "bias_note": "El oro mantiene una condicion diaria de desequilibrio alcista clara y encadena cuatro cierres diarios consecutivos al alza, camino de su tercera semana consecutiva de ganancias. Con el rango ya en el limite de su ADR habitual, el sesgo es alcista pero de bajo valor esperado perseguir el movimiento sin una pausa o retroceso previo."
+      }
+    ]
+  }
+}
