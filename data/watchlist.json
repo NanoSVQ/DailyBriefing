@@ -1,0 +1,13 @@
+{
+  "watchlist": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "exchange": "NYSE",
+      "position_status": "open",
+      "entry_price": null,
+      "entry_date": null,
+      "user_note": "Posicion abierta en seguimiento."
+    }
+  ]
+}
