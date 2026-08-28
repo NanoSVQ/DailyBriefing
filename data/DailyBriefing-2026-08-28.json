@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "generated_at": "2026-08-28T07:05:00Z",
+    "trading_date": "2026-08-28",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Investing.com", "CNBC", "Trading Economics", "Bloomberg", "Yahoo Finance", "Benzinga", "Kitco", "CoinGecko", "CoinDesk", "TipRanks"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Bolsas en pausa cerca de máximos a la espera del discurso de Warsh en Jackson Hole.",
+    "sentiment": "mixed",
+    "sentiment_score": 0.15,
+    "key_theme": "El discurso inaugural de Kevin Warsh en Jackson Hole (14:00 CET) es el catalizador dominante de la sesión."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7724.0,
+      "prev_close": 7730.99,
+      "change_pct": -0.09,
+      "direction": "down",
+      "level_key_support": 7657,
+      "level_key_resistance": 7733,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El S&P 500 consolida cerca de máximos históricos tras el rally del jueves impulsado por Nvidia, con el soporte semanal en 7.657 sosteniendo las caídas. Vigilar la resistencia en 7.733 y el discurso de Warsh en Jackson Hole (14:00 CET) como catalizador direccional de la sesión."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29489.0,
+      "prev_close": 29577.75,
+      "change_pct": -0.30,
+      "direction": "down",
+      "level_key_support": 29300,
+      "level_key_resistance": 29650,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El Nasdaq 100 pierde fuerza relativa frente al S&P 500 por caídas puntuales en Marvell y Rubrik tras resultados, aunque la tendencia de fondo sigue alcista tras el impulso de Nvidia. Soporte clave en 29.300-29.400 y resistencia inmediata en 29.650; el RSI en sobrecompra invita a cautela."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 26250.0,
+      "prev_close": 26286.0,
+      "change_pct": -0.14,
+      "direction": "down",
+      "level_key_support": 25979,
+      "level_key_resistance": 26330,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX opera en rango estrecho cerca de máximos históricos, con el MACD mostrando un cruce alcista y el precio sosteniéndose sobre la media de 200 sesiones. Soporte en 25.979 y resistencia en 26.330-26.400; sin control direccional claro a la espera de catalizadores macro."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1663,
+      "prev_close": 1.1650,
+      "change_pct": 0.11,
+      "direction": "up",
+      "level_key_support": 1.1565,
+      "level_key_resistance": 1.1700,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El euro se mantiene firme en máximos desde mediados de mayo, consolidando por debajo de la resistencia clave de 1,1700. La tesis de debilidad estructural del dólar sigue vigente, pero el discurso de Warsh en Jackson Hole podría generar volatilidad brusca en ambas direcciones."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.15,
+      "prev_close": 99.05,
+      "change_pct": 0.10,
+      "direction": "up",
+      "level_key_support": 98.68,
+      "level_key_resistance": 99.41,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El índice dólar intenta estabilizarse por encima de 99 tras un descenso mensual superior al 2% desde los máximos de finales de julio. La resistencia en 99,40-99,49 es clave para confirmar un rebote; el discurso de Warsh es el catalizador dominante de hoy."
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "ticker": "XAUUSD",
+      "price": 4590.0,
+      "prev_close": 4594.68,
+      "change_pct": -0.10,
+      "direction": "down",
+      "level_key_support": 4551.60,
+      "level_key_resistance": 4650,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El oro consolida entre 4.580 y 4.630 dólares tras rechazar el lunes la ruptura por encima de 4.700 y sufrir el jueves su mayor caída diaria de la semana. El sesgo de fondo sigue siendo alcista mientras se mantenga sobre el soporte de 4.552, con el discurso de Warsh como catalizador clave."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "WTI",
+      "price": 82.50,
+      "prev_close": 82.90,
+      "change_pct": -0.48,
+      "direction": "down",
+      "level_key_support": 79.50,
+      "level_key_resistance": 85.00,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El WTI acumula un descenso semanal cercano al 6%, con estructura de mínimos decrecientes y cotización por debajo de valor. El miércoles se produjo un repunte por titulares de escalada Rusia-Ucrania que se revirtió tras conocerse un acuerdo Irán-Omán que reduce el riesgo sobre el Estrecho de Ormuz."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 79900.0,
+      "prev_close": 80258.0,
+      "change_pct": -0.45,
+      "direction": "down",
+      "level_key_support": 77000,
+      "level_key_resistance": 81121,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "Bitcoin se mantiene por encima de la media móvil de 200 sesiones tras un rally semanal cercano al 10%, aunque se estanca por debajo de la resistencia de 81.121 dólares. Un discurso hawkish de Warsh podría presionar activos de riesgo, incluido bitcoin, hacia el soporte de 77.000."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-08-28",
+      "days_ahead": 0,
+      "time_cet": "14:00",
+      "event": "Discurso de Jackson Hole del presidente de la Fed, Kevin Warsh (su primero como presidente)",
+      "importance": "high",
+      "previous": "N/A (primer discurso como presidente)",
+      "expected": "Sin guía explícita esperada por consenso; mercado atento a sesgo hawkish o dovish"
+    },
+    {
+      "date": "2026-08-28",
+      "days_ahead": 0,
+      "time_cet": "15:45",
+      "event": "PMI Chicago (agosto, EE.UU.)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-08-28",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "Confianza del consumidor de Michigan (dato final, agosto)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-01",
+      "days_ahead": 4,
+      "time_cet": "11:00",
+      "event": "IPC preliminar de la Eurozona (agosto)",
+      "importance": "high",
+      "previous": "2.9% interanual",
+      "expected": "~3.1% interanual (subyacente ~2.6%)"
+    },
+    {
+      "date": "2026-09-01",
+      "days_ahead": 4,
+      "time_cet": "16:00",
+      "event": "ISM Manufacturero de EE.UU. (agosto)",
+      "importance": "high",
+      "previous": "55.6",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-02",
+      "days_ahead": 5,
+      "time_cet": "14:15",
+      "event": "Informe de empleo ADP (agosto)",
+      "importance": "medium",
+      "previous": "+44.000",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-03",
+      "days_ahead": 6,
+      "time_cet": "16:00",
+      "event": "ISM Servicios de EE.UU. (agosto)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-04",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "Nóminas no agrícolas (NFP) de EE.UU. (agosto)",
+      "importance": "high",
+      "previous": "-23.000 (dato inesperadamente negativo, julio)",
+      "expected": "+90.000; tasa de paro estable en 4.2%"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "eurusd", "gold", "btc"],
+    "bearish": ["dxy", "wti"],
+    "neutral": ["dax"]
+  },
+  "risk_section": {
+    "visible": "El discurso de Warsh en Jackson Hole (14:00 CET) puede generar volatilidad brusca en dólar, tipos y renta variable si sorprende en cualquier dirección respecto a lo ya descontado.",
+    "hidden": "El vencimiento del alto el fuego EE.UU.-Irán sin avances diplomáticos y el riesgo de escalada en el Estrecho de Ormuz no están plenamente reflejados en el precio del crudo.",
+    "scenario": "Si Warsh sorprende con un tono hawkish, el dólar podría rebotar con fuerza, presionando oro, EUR/USD y bolsas hacia sus soportes clave (SPX 7.657, oro 4.552).",
+    "signal": "Vigilar el nivel 1,1700 en EUR/USD y 99,40 en el DXY como disparadores de ruptura direccional del dólar, junto al IPC de la Eurozona, los ISM y el informe de empleo del viernes 4 de septiembre."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 3,
+      "nq": 3,
+      "cl": -3,
+      "gc": -2
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El sistema opera en modo de tamaño reducido antes del discurso de Warsh en Jackson Hole (14:00 CET), catalizador que puede resolver los balances dudosos en ES, NQ y GC. El único setup con lectura clara es CL (DIL confirmado, continuación bajista); evitar entradas de convicción alta en índices y oro hasta después de las 14:00 CET.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7731,
+        "balance_zone_low": 7653,
+        "weekly_dva_condition": "minimal_imbalance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Rango nocturno reducido (~9 puntos, -0,12%) tras el rally del jueves impulsado por Nvidia; el soporte semanal en 7.653-7.657 se mantuvo intacto en las últimas cuatro sesiones.",
+        "adr_avg_points": 50,
+        "overnight_range_pct_adr": 20,
+        "remaining_adr_pct": 80,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "ES mantiene sesgo alcista dentro de un balance dudoso, con el soporte semanal 7.653-7.657 sosteniendo el precio tras el rally impulsado por Nvidia. La resolución direccional dependerá del discurso de Warsh a las 14:00 CET."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq-100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29650,
+        "balance_zone_low": 29077,
+        "weekly_dva_condition": "minimal_imbalance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Retroceso nocturno del -0,32% lastrado por caídas puntuales en Marvell y Rubrik (superiores al 7%) tras resultados, mientras el mercado amplio se mantiene firme.",
+        "adr_avg_points": 350,
+        "overnight_range_pct_adr": 25,
+        "remaining_adr_pct": 75,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "NQ conserva sesgo alcista de fondo pero muestra debilidad relativa frente a ES por resultados puntuales en semiconductores y software. El balance semanal es dudoso y la divergencia con ES sugiere posible rotación fuera de tecnología de alto beta si el discurso de Warsh resulta hawkish."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Sesión nocturna con rango moderado tras estabilizarse cerca de 82-83 USD; el miércoles se produjo un spike-and-fade por titulares Rusia-Ucrania que se revirtió al conocerse un acuerdo Irán-Omán que redujo el riesgo sobre el Estrecho de Ormuz.",
+        "adr_avg_points": 2.0,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "CL mantiene una clara condición de desequilibrio bajista (DIL) con caída semanal cercana al 6%, cotizando por debajo de valor. El sesgo para hoy es bajista con continuación en rebotes hacia zonas de oferta, aunque el riesgo geopolítico puede generar spikes contrarios."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 4630,
+        "balance_zone_low": 4580,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Sesión asiática con retroceso moderado desde 4.603 hacia 4.580 tras el rechazo del lunes por encima de 4.700 (máximo desde mayo) y la fuerte caída del jueves, la mayor en una semana.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 25,
+        "remaining_adr_pct": 75,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_FOBO"],
+        "bias_note": "El oro se encuentra en balance tras rechazar el intento de ruptura por encima de 4.700 el lunes y sufrir la mayor caída diaria de la semana el jueves. La dirección de hoy depende en gran medida del discurso de Warsh; el sesgo de fondo sigue siendo constructivo mientras se mantenga sobre 4.550."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 137.82,
+      "prev_close": 138.43,
+      "change_pct": -0.44,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "ServiceNow cede ligeramente en premarket tras la toma de beneficios, pero mantiene una tendencia alcista de fondo tras elevaciones de precio objetivo de BofA y Wells Fargo.",
+      "news_summary": "El valor retrocedió cerca de un 2% el 26 de agosto por toma de beneficios técnica, sin noticias negativas específicas de la compañía. La fortaleza reciente (+29% en el último mes) se apoya en el excelente informe del segundo trimestre, con ingresos por suscripción de 3.877 millones de dólares (+23-24,5% interanual) e ingresos anualizados de IA superando los 1.000 millones de dólares por primera vez, lo que llevó a elevar la guía anual. Bank of America (PO 150 USD) y Wells Fargo (PO 175 USD) elevaron sus precios objetivo a mediados de agosto. Próximo catalizador: resultados del tercer trimestre, previstos hacia el 28 de octubre de 2026.",
+      "technical_note": "Resistencia inmediata en torno a 139 USD (máximo de agosto); soporte clave en la zona 128-130 USD, con soporte secundario en la media de 50 sesiones cerca de 124 USD. La estructura de medias móviles es alcista (cruce dorado, MA50 sobre MA200), aunque el valor sigue un -14% en el año pese al fuerte repunte mensual."
+    }
+  ]
+}
