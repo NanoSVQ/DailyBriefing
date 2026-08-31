@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "generated_at": "2026-08-31T07:10:00Z",
+    "trading_date": "2026-08-31",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "Barchart", "TradingView", "CNBC", "Bloomberg", "FXStreet", "TheStreet"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Escalada EEUU-Irán dispara el crudo; Warsh refuerza el dólar y frena a bolsas y oro.",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.4,
+    "key_theme": "El choque militar EEUU-Irán en el Estrecho de Ormuz y el giro hawkish de Warsh en Jackson Hole dominan el sesgo de hoy."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES",
+      "price": 7695.0,
+      "prev_close": 7722.0,
+      "change_pct": -0.35,
+      "direction": "down",
+      "level_key_support": 7655,
+      "level_key_resistance": 7785,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El índice consolida tras el máximo histórico de 7.840 del 13 de agosto, con el suelo de 7.657 sosteniendo cuatro sesiones seguidas. La escalada EEUU-Irán añade presión bajista overnight, pero la estructura sigue de rango; vigilar defensa del suelo semanal."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ",
+      "price": 29468.0,
+      "prev_close": 29491.75,
+      "change_pct": -0.08,
+      "direction": "down",
+      "level_key_support": 28950,
+      "level_key_resistance": 29810,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Rebote reciente en la zona de EMAs (29.280-29.435) tras los fuertes resultados de Nvidia, pero el impulso se enfría con el riesgo geopolítico. Rango lateral entre 28.950 y 29.810; falta catalizador claro para romper balance."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 26569.99,
+      "prev_close": 26494.61,
+      "change_pct": 0.28,
+      "direction": "up",
+      "level_key_support": 26470,
+      "level_key_resistance": 26700,
+      "bias": "neutral",
+      "signal": "continuation",
+      "note": "El DAX resiste mejor que Wall Street en la apertura europea, moviéndose en un rango estrecho de 26.467-26.619. La resiliencia relativa contrasta con el tono de riesgo global; vigilar si el crudo al alza empieza a pesar en industriales."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.158,
+      "prev_close": 1.1645,
+      "change_pct": -0.56,
+      "direction": "down",
+      "level_key_support": 1.155,
+      "level_key_resistance": 1.17,
+      "bias": "bearish",
+      "signal": "momentum",
+      "note": "El euro cede terreno tras el giro hawkish de Warsh en Jackson Hole, que ha impulsado las apuestas de subida de tipos en septiembre. El par se aleja de la zona 1.1650-1.1700 y busca soporte en 1.1550."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.66,
+      "prev_close": 99.07,
+      "change_pct": 0.6,
+      "direction": "up",
+      "level_key_support": 98.8,
+      "level_key_resistance": 100.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El dólar registra su mejor sesión en un mes tras el discurso de Warsh, que eleva la probabilidad de subida de tipos en septiembre a cerca del 60%. El nivel psicológico de 100 queda como próxima resistencia clave."
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "ticker": "XAU/USD",
+      "price": 4540.0,
+      "prev_close": 4593.45,
+      "change_pct": -1.16,
+      "direction": "down",
+      "level_key_support": 4500,
+      "level_key_resistance": 4650,
+      "bias": "neutral",
+      "signal": "reversal",
+      "note": "El oro corrige tras un agosto histórico (+10-14%) al calor del giro hawkish de Warsh, que reduce el atractivo del activo sin rendimiento. La tensión geopolítica limita la caída; 4.500 es el soporte a vigilar para confirmar si el rally se agota."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 85.2,
+      "prev_close": 83.53,
+      "change_pct": 2.0,
+      "direction": "up",
+      "level_key_support": 82.0,
+      "level_key_resistance": 87.0,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El crudo salta tras el ataque de EEUU a lanzacohetes iraníes cerca del Estrecho de Ormuz, con Irán respondiendo contra bases en Jordania y EAU. Los flujos por Ormuz siguen muy restringidos; 87 es la resistencia inmediata si la escalada continúa."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 78145.0,
+      "prev_close": 78193.0,
+      "change_pct": -0.06,
+      "direction": "flat",
+      "level_key_support": 76000,
+      "level_key_resistance": 82000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin se mantiene prácticamente plano pese al tono de riesgo global, mostrando cierta desconexión de la renta variable. El rango 76.000-82.000 sigue delimitando el movimiento a la espera de un catalizador direccional."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-01",
+      "days_ahead": 1,
+      "time_cet": "00:00",
+      "event": "Festivo EEUU - Labor Day (mercados cerrados)",
+      "importance": "low",
+      "previous": "n/a",
+      "expected": "n/a"
+    },
+    {
+      "date": "2026-09-02",
+      "days_ahead": 2,
+      "time_cet": "11:00",
+      "event": "Eurozona HICP flash (agosto)",
+      "importance": "high",
+      "previous": "2.0%",
+      "expected": "2.0%"
+    },
+    {
+      "date": "2026-09-02",
+      "days_ahead": 2,
+      "time_cet": "16:00",
+      "event": "EEUU ISM Manufacturero (agosto)",
+      "importance": "high",
+      "previous": "48.5",
+      "expected": "48.8"
+    },
+    {
+      "date": "2026-09-03",
+      "days_ahead": 3,
+      "time_cet": "15:00",
+      "event": "Discurso de Christine Lagarde (BCE)",
+      "importance": "medium",
+      "previous": "n/a",
+      "expected": "Sin cambios relevantes en el mensaje de política monetaria"
+    },
+    {
+      "date": "2026-09-03",
+      "days_ahead": 3,
+      "time_cet": "03:45",
+      "event": "China Caixin PMI Servicios (agosto)",
+      "importance": "medium",
+      "previous": "52.6",
+      "expected": "52.3"
+    },
+    {
+      "date": "2026-09-04",
+      "days_ahead": 4,
+      "time_cet": "11:00",
+      "event": "Eurozona Ventas Minoristas (julio)",
+      "importance": "medium",
+      "previous": "0.3%",
+      "expected": "0.2%"
+    },
+    {
+      "date": "2026-09-04",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "EEUU Peticiones de subsidio por desempleo",
+      "importance": "medium",
+      "previous": "230K",
+      "expected": "232K"
+    },
+    {
+      "date": "2026-09-05",
+      "days_ahead": 5,
+      "time_cet": "14:30",
+      "event": "EEUU Nóminas no agrícolas (NFP, agosto)",
+      "importance": "high",
+      "previous": "+80K",
+      "expected": "+75K"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["eurusd"],
+    "neutral": ["spx", "ndx", "dax", "gold", "btc"]
+  },
+  "risk_section": {
+    "visible": "La escalada militar entre EEUU e Irán cerca del Estrecho de Ormuz dispara el crudo y añade prima de riesgo a la renta variable global. El giro hawkish de Warsh en Jackson Hole refuerza al dólar y presiona al oro y al euro.",
+    "hidden": "El mercado no tiene plenamente descontada una subida de tipos real en septiembre (probabilidad ~60% según CME), por lo que un dato de NFP fuerte el viernes podría generar un ajuste brusco en tasas y dólar. Una disrupción prolongada del tráfico en Ormuz podría trasladarse a inflación energética de forma más estructural de lo que descuenta el crudo actual.",
+    "scenario": "Si la tensión Irán-EEUU se enfría y el mensaje de Warsh no se traduce en una subida efectiva, los activos de riesgo podrían rebotar con fuerza y el crudo devolver parte de las ganancias. El oro recuperaría atractivo si el relato hawkish pierde tracción tras el NFP.",
+    "signal": "Vigilar el NFP de EEUU (viernes) y cualquier declaración adicional de miembros de la Fed antes de la reunión de septiembre, así como datos de tráfico marítimo en el Estrecho de Ormuz."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": -1,
+      "cl": 3,
+      "gc": -1
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "Día de alto riesgo evento (escalada Irán + discurso hawkish de Warsh) que justifica tamaño reducido en todo el sistema. El único setup con EV claro hoy es el momentum de ruptura en CL; en ES/NQ predomina el balance y conviene esperar confirmación antes de operar extremos de rango. Evitar perseguir gaps de apertura en oro y crudo sin retest.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 7782.5,
+        "balance_zone_low": 7657.0,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Gap bajista moderado tras los titulares de Irán; sin test de máximos overnight, precio contenido dentro del rango semanal.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 25,
+        "remaining_adr_pct": 75,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "Condición de balance con estructura rotacional confluente en el DVA semanal; el contexto overnight de aversión al riesgo sugiere esperar confirmación antes de operar el rango en lugar de anticipar ruptura."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29491.75,
+        "balance_zone_low": 28946.75,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Rango overnight contenido tras el rebote post-Nvidia; ligera presión bajista por el tono de riesgo global sin romper la zona de EMAs.",
+        "adr_avg_points": 260,
+        "overnight_range_pct_adr": 30,
+        "remaining_adr_pct": 70,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "Balance dudoso tras varias sesiones de rango; el rebote técnico en la zona de EMAs necesita confirmación de volumen antes de tratarlo como señal direccional fiable."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Gap alcista relevante tras el ataque de EEUU a activos iraníes cerca de Ormuz; ruptura clara de la zona de consolidación previa con volumen elevado.",
+        "adr_avg_points": 1.8,
+        "overnight_range_pct_adr": 70,
+        "remaining_adr_pct": 30,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["adr_near_100pct", "held_through_news"],
+        "bias_note": "Desequilibrio direccional alcista claro y confluente con el DVA semanal; con el ADR ya muy consumido overnight, el mejor manejo es buscar retesteo de la ruptura en vez de perseguir el precio en máximos."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4650.0,
+        "balance_zone_low": 4540.0,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Corrección overnight tras el discurso hawkish de Warsh, revirtiendo parte del fuerte rally de agosto sin romper aún estructura mayor.",
+        "adr_avg_points": 38,
+        "overnight_range_pct_adr": 40,
+        "remaining_adr_pct": 60,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_BO", "after_bullish_exhaustion"],
+        "bias_note": "El giro hawkish genera disonancia frente al desequilibrio alcista de agosto; con dos red flags activas conviene esperar definición antes de operar tanto el pullback como una posible continuación bajista."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 143.13,
+      "prev_close": 144.62,
+      "change_pct": -1.03,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "ServiceNow modera ligeramente tras un rally del 27% en el último mes, con Bank of America y Wells Fargo elevando sus precios objetivo a 150 y 175 dólares respectivamente.",
+      "news_summary": "El valor cerró el 28 de agosto en 144,62 dólares, encadenando un ascenso de casi un 27% desde los 114,19 del 3 de agosto, impulsado por la narrativa de fuerte adopción de IA en su plataforma. Bank of America inició cobertura de compra el 19 de agosto elevando su precio objetivo a 150 (desde 130) y Wells Fargo lo situó en 175 el 17 de agosto. También se ha ampliado la alianza con Tech Mahindra para desplegar IA empresarial a gran escala, reforzando el sesgo alcista de fondo.",
+      "technical_note": "Rango reciente entre 137,05 y 145,72 dólares, con soporte técnico en la zona de 137 y resistencia inmediata en el máximo de agosto (145,72), seguida del objetivo de BofA en 150. Al ser posición abierta, vigilar cualquier señal de agotamiento del rally o nuevo movimiento de precios objetivo antes de resultados del tercer trimestre (finales de octubre)."
+    }
+  ]
+}
