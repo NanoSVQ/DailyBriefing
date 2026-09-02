@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "generated_at": "2026-09-02T12:33:45Z",
+    "trading_date": "2026-09-02",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "FXStreet", "TradingEconomics", "CNBC", "Bloomberg"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Irán vs EEUU dispara el crudo, la Fed hawkish hunde el oro; acciones y cripto caen en risk-off.",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.55,
+    "key_theme": "La reescalada del conflicto militar EEUU-Irán en el Estrecho de Ormuz y el giro hawkish de la Fed bajo Warsh dominan el flujo global de riesgo."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7625,
+      "prev_close": 7631.47,
+      "change_pct": -0.08,
+      "direction": "down",
+      "level_key_support": 7610,
+      "level_key_resistance": 7711,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "Tercer día consecutivo de cierres negativos tras el falso breakout del 27-ago; el precio ha perdido el mínimo del balance semanal (7655) con doble gap bajista. Vigilar 7610 como soporte inmediato y 7711 como resistencia de reingreso al rango."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29100,
+      "prev_close": 29125.5,
+      "change_pct": -0.09,
+      "direction": "down",
+      "level_key_support": 28948,
+      "level_key_resistance": 29177,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "Liderazgo bajista en semiconductores (SNDK, MU) tras perder un soporte defendido dos veces en 29.177; extensión hacia el mínimo semanal en 28.948. Dato de precio aproximado, confirmar cotización exacta antes de operar."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 26140,
+      "prev_close": 26258.11,
+      "change_pct": -0.45,
+      "direction": "down",
+      "level_key_support": 26000,
+      "level_key_resistance": 26470,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "Mínimo desde el 24-ago, presionado por el mismo temor a inflación energética y tipos más altos que golpea a EEUU. Futuros overnight apuntan a extensión adicional; 26000 es el nivel psicológico clave a defender."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1579,
+      "prev_close": 1.1610,
+      "change_pct": -0.27,
+      "direction": "down",
+      "level_key_support": 1.1525,
+      "level_key_resistance": 1.1624,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Consolidando por debajo de 1.1600, lastrado por la divergencia de política monetaria (Fed hawkish vs BCE paciente). RSI aún en zona compradora pero MACD negativo; rango 1.1525-1.1624 mientras no haya catalizador claro."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.69,
+      "prev_close": 99.43,
+      "change_pct": 0.26,
+      "direction": "up",
+      "level_key_support": 99.34,
+      "level_key_resistance": 100.03,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "Doble motor alcista: repricing hawkish de la Fed (probabilidad de subida en septiembre ~60-68%) y demanda de refugio por la escalada en Oriente Medio. Una ruptura limpia de la zona 99.73-100.03 confirmaría continuación."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4309.07,
+      "prev_close": 4374.54,
+      "change_pct": -1.5,
+      "direction": "down",
+      "level_key_support": 4225,
+      "level_key_resistance": 4432,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "Mínimo de 4 semanas pese al riesgo geopolítico: la narrativa de tipos más altos y el repunte de rendimientos (10Y ~4.81%) domina sobre la demanda de refugio. Gaps bajistas consecutivos en cada apertura de la semana; vigilar 4225 si se pierde 4309."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 91.5,
+      "prev_close": 90.33,
+      "change_pct": 1.3,
+      "direction": "up",
+      "level_key_support": 85.62,
+      "level_key_resistance": 95,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "Tercera sesión consecutiva al alza tras nuevos ataques de EEUU sobre Irán y ataques a petroleros en el Estrecho de Ormuz; máximo de varias semanas. El movimiento ya consume gran parte del rango diario estimado, por lo que un pullback hacia 85.62-87 sería salud técnica."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 76700,
+      "prev_close": 77950,
+      "change_pct": -1.6,
+      "direction": "down",
+      "level_key_support": 76000,
+      "level_key_resistance": 78340,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "Cripto operando como activo de riesgo, correlacionado con las caídas de renta variable ante la escalada Irán-EEUU, con liquidaciones de largos por ~60M$ en una hora. Recuperar 78340 sería la primera señal técnica de estabilización."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-02",
+      "days_ahead": 0,
+      "time_cet": "20:00",
+      "event": "Fed Beige Book",
+      "importance": "medium",
+      "previous": "n/d",
+      "expected": "Informe cualitativo de condiciones económicas regionales, foco en enfriamiento del mercado laboral de cara al FOMC del 15-16 sep"
+    },
+    {
+      "date": "2026-09-03",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "ISM Servicios (agosto)",
+      "importance": "high",
+      "previous": "en expansión",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-03",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de subsidio de desempleo (semanal)",
+      "importance": "medium",
+      "previous": "203K",
+      "expected": "Vigilar tendencia al alza que confirme enfriamiento laboral"
+    },
+    {
+      "date": "2026-09-04",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "Nóminas no agrícolas (NFP) - agosto",
+      "importance": "high",
+      "previous": "-23.000 empleos (jul, revisado a la baja); paro 4.1%",
+      "expected": "+50.000 a +55.000 empleos; paro 4.1%; salarios +3.0% interanual"
+    },
+    {
+      "date": "2026-09-06",
+      "days_ahead": 4,
+      "time_cet": "00:00",
+      "event": "Revisión JMMC de la OPEP+ (ajuste de producción de septiembre)",
+      "importance": "high",
+      "previous": "+188 kbpd (ago)",
+      "expected": "Confirmación del último tramo de reversión de recortes voluntarios; riesgo de titulares para el crudo"
+    },
+    {
+      "date": "2026-09-09",
+      "days_ahead": 7,
+      "time_cet": "09:00",
+      "event": "Inicio de la reunión del Consejo de Gobierno del BCE (decisión 10-sep)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "Reunión con nuevas proyecciones macro del staff del BCE"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["spx", "ndx", "dax", "gold", "btc"],
+    "neutral": ["eurusd"]
+  },
+  "risk_section": {
+    "visible": "El repunte del petróleo por la escalada EEUU-Irán amenaza con reavivar la inflación y presionar márgenes justo antes del FOMC del 15-16 de septiembre.",
+    "hidden": "El oro cayendo pese al riesgo geopolítico revela que el shock de duración (rendimientos al alza) domina sobre la demanda de refugio, lo que podría anticipar ventas forzadas de posiciones apalancadas en varios activos.",
+    "scenario": "Si el Beige Book o el NFP del jueves sorprenden a la baja, la probabilidad de subida de tipos se reduciría, aliviando al dólar y los rendimientos y permitiendo un rebote de acciones, oro y cripto.",
+    "signal": "Vigilar el 10 años americano por encima de 4.80%, los titulares sobre el Estrecho de Ormuz y la reacción del mercado al NFP del jueves 4 de septiembre."
+  },
+  "hawk_system": {
+    "special_situation": "BOM_EOM",
+    "consecutive_closes": {
+      "es": -3,
+      "nq": -3,
+      "cl": 3,
+      "gc": -3
+    },
+    "system_readiness": "wait",
+    "system_note": "El único setup con EV claro hoy es la continuación alcista en CL tras un pullback, dado que el resto de instrumentos arrastran 2 o más red flags (falso breakout reciente, 3+ cierres consecutivos, ADR casi agotado). Evitar perseguir extensiones verticales en CL/GC y evitar fades contra-tendencia en ES/NQ hasta que se aclare la reacción a los datos de empleo de esta semana. Tamaño reducido o en espera hasta confirmar reacción del mercado a NFP y Beige Book.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 7711,
+        "balance_zone_low": 7655,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Segundo gap bajista consecutivo en la apertura, ruptura del mínimo del balance semanal (7655) y extensión hacia 7621; rango overnight amplio.",
+        "adr_avg_points": 80,
+        "overnight_range_pct_adr": 90,
+        "remaining_adr_pct": 10,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["against_recent_FOBO", "after_3plus_consecutive_closes", "adr_near_100pct"],
+        "bias_note": "Condición diaria DIL con ruptura clara del mínimo semanal tras el rechazo del falso breakout del 27-ago. El tercer gap bajista consecutivo refuerza el sesgo bajista de continuación, aunque el ADR ya muy consumido limita el recorrido remanente hoy."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29812,
+        "balance_zone_low": 28948,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Ruptura de un soporte defendido dos veces (29.177) y extensión hacia el mínimo semanal (28.948); liderazgo bajista en semiconductores (SNDK, MU).",
+        "adr_avg_points": 350,
+        "overnight_range_pct_adr": 30,
+        "remaining_adr_pct": 70,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["against_recent_FOBO", "after_3plus_consecutive_closes"],
+        "bias_note": "DIL con ruptura de soporte defendido y liderazgo bajista sectorial en semis. El rango overnight aún no consume la mayor parte del ADR, dejando recorrido para continuación bajista intradía si se pierde 29.125."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pRange",
+        "overnight_context": "Nuevos ataques de EEUU sobre Irán extienden el rally por tercera sesión consecutiva hacia ~91 USD, sin señales de rechazo; rango overnight muy amplio.",
+        "adr_avg_points": 4,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["after_capitulatory_move", "adr_near_100pct", "after_3plus_consecutive_closes"],
+        "bias_note": "DIH en imbalance confluente con el catalizador geopolítico. El movimiento ya ha consumido prácticamente todo el ADR estimado, por lo que el mejor EV hoy es esperar retrocesos hacia zonas de reoferta (85.62-87) antes de sumarse a nuevas extensiones verticales."
+      },
+      {
+        "id": "gc",
+        "name": "Gold futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Gaps bajistas consecutivos en cada apertura de la semana; nuevo mínimo de 4 semanas hacia 4.309 impulsado por el repunte de rendimientos, pese al riesgo geopolítico.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_3plus_consecutive_closes", "adr_near_100pct", "against_recent_FOBO"],
+        "bias_note": "DIL en clara disonancia: el oro cae pese al riesgo geopolítico porque domina la narrativa de tipos más altos. Con el ADR ya consumido, el EV de nuevas entradas cortas se reduce y conviene esperar consolidación antes de operar continuación."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "price": 142.9,
+      "prev_close": 147.66,
+      "change_pct": -3.22,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "ServiceNow acumula cerca de un 30% de subida en el último mes tras un fuerte Q2 y guía elevada, aunque cotiza técnicamente sobreextendida.",
+      "news_summary": "Se han divulgado tres vulnerabilidades críticas (CVSS 10.0) en la plataforma de IA de ServiceNow, ya parcheadas en instancias alojadas por la compañía. La compañía nombró a Simon Mouyal como nuevo CMO y un director ha seguido vendiendo acciones bajo un plan 10b5-1, algo rutinario. El próximo catalizador relevante es el Now World Forum en Nueva York el 10 de septiembre, con anuncios de producto/IA que podrían mover el valor.",
+      "technical_note": "Precio aproximado (dato no disponible con precisión por discrepancias entre fuentes; confirmar cotización en tiempo real antes de operar). Soporte cercano en 135, resistencia en la zona 147-150; RSI ~58 y estructura por encima de medias de 50 y 200 sesiones, sesgo alcista pero extendido tras el rally reciente."
+    }
+  ]
+}
