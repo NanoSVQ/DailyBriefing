@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "generated_at": "2026-09-03T07:20:00Z",
+    "trading_date": "2026-09-03",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "Barchart", "CNBC", "FXStreet"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Tensión EE.UU.-Irán dispara petróleo y oro; bolsas mixtas a la espera del NFP.",
+    "sentiment": "mixed",
+    "sentiment_score": -0.15,
+    "key_theme": "La escalada del conflicto EE.UU.-Irán y el repunte de rendimientos condicionan el apetito por riesgo antes del dato de empleo de EE.UU. de mañana."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7683.00,
+      "prev_close": 7666.60,
+      "change_pct": 0.21,
+      "direction": "up",
+      "level_key_support": 7600,
+      "level_key_resistance": 7765,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 se mantiene cerca de máximos históricos, consolidando tras el cierre positivo del miércoles. El nivel de 7.600 actúa como soporte clave y 7.765-7.800 como resistencia inmediata; mientras se sostenga sobre el soporte, el sesgo de mediano plazo sigue siendo alcista pese a la incertidumbre por Irán y los rendimientos del Tesoro."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29080.00,
+      "prev_close": 29143.33,
+      "change_pct": -0.22,
+      "direction": "down",
+      "level_key_support": 29000,
+      "level_key_resistance": 29368,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El Nasdaq 100 rebotó desde la zona de soporte de 29.000 puntos, formando una posible figura de reversión, pero los futuros ceden hoy por la escalada entre EE.UU. e Irán y el repunte de rendimientos. La resistencia clave está en la media móvil de 200 sesiones (29.368) y después en 29.811."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 25800.00,
+      "prev_close": 25839.33,
+      "change_pct": -0.15,
+      "direction": "down",
+      "level_key_support": 25800,
+      "level_key_resistance": 26000,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El DAX acumula tres sesiones consecutivas a la baja, presionado por el conflicto entre EE.UU. e Irán y la subida del petróleo, que afecta a sectores sensibles como industriales y aerolíneas. El soporte crítico está en 25.800; perder ese nivel abriría paso a 25.217, mientras que 26.000 sigue siendo la resistencia psicológica a recuperar. Dato de precio exacto de hoy con cierta incertidumbre entre fuentes."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1605,
+      "prev_close": 1.1590,
+      "change_pct": 0.13,
+      "direction": "up",
+      "level_key_support": 1.1594,
+      "level_key_resistance": 1.1700,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El euro se sostiene sobre la media móvil exponencial de 20 sesiones (1,1594), que actúa como soporte dinámico clave, cotizando cerca de 1,1605-1,1610. La resistencia relevante está en 1,1700 (banda superior de Bollinger); el mercado espera el dato de nóminas no agrícolas del viernes como próximo catalizador de volatilidad."
+    },
+    {
+      "id": "dxy",
+      "name": "Índice Dólar",
+      "ticker": "DXY",
+      "price": 99.51,
+      "prev_close": 99.60,
+      "change_pct": -0.09,
+      "direction": "down",
+      "level_key_support": 99.34,
+      "level_key_resistance": 99.71,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El índice dólar retrocede levemente hoy tras tocar un máximo de dos semanas, con el mercado descontando datos débiles de empleo en EE.UU. La resistencia técnica clave está en la media móvil de 100 sesiones (99,71-99,73); el soporte se ubica en la zona 99,34-99,40. El sesgo de fondo sigue siendo alcista por las apuestas de política monetaria y el riesgo geopolítico."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAUUSD",
+      "price": 4460.00,
+      "prev_close": 4414.00,
+      "change_pct": 1.04,
+      "direction": "up",
+      "level_key_support": 4395,
+      "level_key_resistance": 4565,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El oro sube esta mañana ante la esperanza de que la escalada entre EE.UU. e Irán sea de corta duración, aunque un dólar firme limita el avance. Está probando la zona de resistencia clave entre 4.424 y 4.456 dólares; un cierre por encima abriría la puerta a 4.565-4.630, mientras que el soporte se ubica en 4.300-4.395."
+    },
+    {
+      "id": "wti",
+      "name": "Petróleo WTI",
+      "ticker": "WTI",
+      "price": 90.60,
+      "prev_close": 90.72,
+      "change_pct": -0.13,
+      "direction": "flat",
+      "level_key_support": 89.93,
+      "level_key_resistance": 91.58,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El crudo WTI consolida por encima de 90 dólares por barril tras la fuerte ruptura alcista de esta semana, sostenido por el riesgo de interrupción de suministro en el Estrecho de Ormuz. La resistencia inmediata está en el retroceso de Fibonacci del 61,8% (91,58); el soporte relevante se sitúa en la zona de VWAP/POC desarrollado (89,93-90,13)."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 77900.00,
+      "prev_close": 77292.60,
+      "change_pct": 0.79,
+      "direction": "up",
+      "level_key_support": 77165,
+      "level_key_resistance": 78340,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "Bitcoin se mantiene por encima de sus medias móviles clave (EMA20, EMA50 y EMA200), en una configuración técnica alcista pese a la moderación del momentum en el MACD diario. El soporte crítico está en 77.165 dólares; una ruptura de la resistencia en 78.340-78.419 confirmaría la continuidad de la recuperación hacia 79.730-79.920."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-03",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "US Initial Jobless Claims",
+      "importance": "medium",
+      "previous": "203k",
+      "expected": "205k"
+    },
+    {
+      "date": "2026-09-03",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "US ISM Services PMI (Aug)",
+      "importance": "high",
+      "previous": "54.1",
+      "expected": "54.1-54.5"
+    },
+    {
+      "date": "2026-09-04",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "US Nonfarm Payrolls (Aug) & Unemployment Rate",
+      "importance": "high",
+      "previous": "NFP -23k / 4.1%",
+      "expected": "NFP +50-90k / 4.1-4.2%"
+    },
+    {
+      "date": "2026-09-04",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "US Average Hourly Earnings YoY (Aug)",
+      "importance": "medium",
+      "previous": "3.2%",
+      "expected": "3.0%"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 7,
+      "time_cet": "14:15",
+      "event": "ECB Rate Decision + Lagarde Press Conference",
+      "importance": "high",
+      "previous": "2.25% (held)",
+      "expected": "Hold at 2.25%"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "eurusd", "dxy", "gold", "wti", "btc"],
+    "bearish": ["dax"],
+    "neutral": ["ndx"]
+  },
+  "risk_section": {
+    "visible": "El riesgo visible es una escalada militar mayor entre EE.UU. e Irán que dispare el petróleo por encima de 95-100 dólares y reavive la inflación, forzando a la Fed a pausar los recortes de tipos.",
+    "hidden": "El riesgo oculto es un dato de empleo (NFP) de mañana que sorprenda muy débil, confirmando la desaceleración laboral ya insinuada por el JOLTS y el ADP recientes, golpeando la confianza pese al rebote actual de los índices.",
+    "scenario": "Si el rally pierde fuelle, un escenario alternativo lleva de vuelta al soporte de 7.600 en el S&P 500 y 29.000 en el Nasdaq, con el oro retomando su tendencia correctiva hacia 4.300 dólares.",
+    "signal": "Vigilar el cierre semanal del petróleo sobre 92 dólares (confirmación de ruptura) y la reacción de los rendimientos del Tesoro a 10 años tras el dato de empleo del viernes."
+  },
+  "hawk_system": {
+    "special_situation": "BOM_EOM",
+    "consecutive_closes": {
+      "es": 1,
+      "nq": 1,
+      "cl": 3,
+      "gc": 2
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El sistema recomienda tamaño reducido en las cuatro posiciones operativas: ES y NQ muestran condición diaria dudosa tras la corrección de la semana, mientras que CL y GC arrastran red flags por movimientos ya extendidos (ruptura del petróleo y rango overnight del oro cerca del 100% del ADR). Con el NFP de mañana como catalizador mayor, el edge favorece la continuación en CL sobre la zona de VWAP/POC y cautela en el resto hasta después de la apertura de Nueva York.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7695,
+        "balance_zone_low": 7631,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El ES cotizó en un rango moderado (33 puntos) sin romper decisivamente los extremos overnight, testeando el antiguo soporte semanal desde abajo tras el rebote del miércoles.",
+        "adr_avg_points": 40,
+        "overnight_range_pct_adr": 82.5,
+        "remaining_adr_pct": 17.5,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "El ES se encuentra en una corrección dentro de una tendencia alcista de fondo, testeando el antiguo soporte semanal (7.631-7.695) desde abajo tras el rebote del miércoles. La condición diaria de balance y la falta de claridad direccional ante el NFP de mañana sugieren cautela y tamaño reducido hasta una ruptura confirmada."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29300,
+        "balance_zone_low": 29100,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El NQ se mantuvo por debajo de la media de 200 sesiones (29.368) durante toda la sesión asiática y europea, sin lograr recuperar el cierre del lunes, en un rango moderado de 150-200 puntos.",
+        "adr_avg_points": 260,
+        "overnight_range_pct_adr": 67.3,
+        "remaining_adr_pct": 32.7,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_bullish_exhaustion"],
+        "bias_note": "El NQ muestra una estructura más débil que el ES, con máximos y mínimos decrecientes desde el pico del 27 de agosto y sin recuperar la media de 200 sesiones (29.368). El sesgo de hoy es neutral-bajista mientras no se reclame ese nivel, con el mercado a la espera del NFP de mañana."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El petróleo consolidó en un rango estrecho durante la noche (89,90-90,70), justo por encima de la zona de VWAP/POC desarrollado (89,93-90,13), tras la fuerte ruptura alcista del lunes y martes impulsada por el riesgo geopolítico en el Estrecho de Ormuz.",
+        "adr_avg_points": 3.0,
+        "overnight_range_pct_adr": 20.0,
+        "remaining_adr_pct": 80.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["after_capitulatory_move"],
+        "bias_note": "El WTI mantiene una tendencia alcista clara e imbalanceada tras la ruptura del lunes-martes por la escalada en Irán, consolidando ahora en la zona de decisión 89,93-90,13. El sesgo de hoy es alcista con continuación mientras se sostenga sobre ese nivel, aunque tras un movimiento tan brusco conviene vigilar el riesgo de agotamiento."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4470,
+        "balance_zone_low": 4330,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro subió con fuerza durante la noche, ampliando el rango a más de 59 puntos, ante la esperanza de que la escalada entre EE.UU. e Irán sea de corta duración y por flujo de refugio.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 98.0,
+        "remaining_adr_pct": 2.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct"],
+        "bias_note": "El oro protagonizó una recuperación en V, reclamando el rango semanal previo tras el mínimo del martes, con un rango overnight ya muy amplio (cerca del 98% del ADR estimado) impulsado por el flujo de refugio ante Irán. El sesgo es alcista pero con poco recorrido ya consumido hoy, por lo que conviene priorizar cautela ante una posible reversión intradía."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 136.70,
+      "prev_close": 142.90,
+      "change_pct": -4.34,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "neutral",
+      "key_headline": "ServiceNow cayó cerca de un 4% el 2 de septiembre pese a anunciar una nueva alianza de IA con Aramco Digital, arrastrada por una liquidación generalizada del sector de software ante temores de disrupción por IA.",
+      "news_summary": "La acción de ServiceNow retrocedió de aproximadamente 142,90 a cerca de 136,70 dólares el 2 de septiembre, una caída de entre 3% y 4%, a pesar de haber anunciado una colaboración de IA con Aramco Digital, en medio de un retroceso más amplio del sector de software impulsado por el temor a que los agentes de IA reduzcan la demanda de licencias por 'asiento'. Este movimiento se produce apenas dos semanas después de que Bank of America elevara su precio objetivo a 150 dólares desde 130 (19 de agosto), lo que provocó un salto de ~7%; ese optimismo ahora está siendo puesto a prueba. La compañía también amplió su alianza con Tech Mahindra para despliegues de IA a escala de producción, y sigue avanzando en la adquisición de Armis (7.750 millones de dólares), la mayor de su historia, con cierre esperado en el segundo semestre de 2026. Dato de cotización intradía de hoy no disponible con certeza; se recomienda confirmar contra el feed del bróker.",
+      "technical_note": "El soporte más cercano se ubica en la zona de 135-136 dólares, coincidiendo con el mínimo intradía del 2 de septiembre (136,38), mientras que la resistencia inmediata está en 140-142, con una resistencia secundaria más relevante en 147-150 (máximos de agosto y objetivo de precio de BofA). El RSI(14) ronda 32-33, en zona de sobreventa de corto plazo, lo que sugiere posible rebote técnico, aunque la tendencia de fondo sigue siendo volátil y dominada por el sentimiento sectorial hacia la disrupción de la IA en el software empresarial."
+    }
+  ]
+}
