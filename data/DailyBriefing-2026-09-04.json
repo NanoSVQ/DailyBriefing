@@ -1,0 +1,299 @@
+<![CDATA[{
+  "meta": {
+    "generated_at": "2026-09-04T07:10:00Z",
+    "trading_date": "2026-09-04",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "Bloomberg/CNBC", "Trading Economics", "FXStreet", "Barchart"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Wall Street extiende el rally dovish de Waller; el mercado espera el NFP de agosto antes de mover ficha.",
+    "sentiment": "mixed",
+    "sentiment_score": 0.25,
+    "key_theme": "Los comentarios dovish de Waller reducen la probabilidad de subida de tipos en septiembre y hunden al dólar, mientras el riesgo geopolítico en Oriente Medio sostiene al petróleo y al oro antes del dato de empleo de EE.UU."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7758.00,
+      "prev_close": 7749.81,
+      "change_pct": 0.11,
+      "direction": "up",
+      "level_key_support": 7600,
+      "level_key_resistance": 7800,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 cerró ayer con un fuerte +1,1% tras los comentarios dovish de Waller, marcando el cierre más alto de la semana tras el susto de principios de septiembre. El soporte relevante sigue en 7.600 y la resistencia inmediata en el redondo psicológico de 7.800; el RSI en sobrecompra y el NFP de hoy son los principales riesgos a vigilar."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29670.50,
+      "prev_close": 29524.75,
+      "change_pct": 0.49,
+      "direction": "up",
+      "level_key_support": 29250,
+      "level_key_resistance": 29811,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El Nasdaq 100 encadena dos sesiones de fuerte recuperación y ya supera la media de 200 sesiones (29.368), pero sigue sin romper el máximo del 28 de agosto en 29.811, zona donde ya fracasó un intento de ruptura previo. Mientras no se confirme esa ruptura, el sesgo es alcista pero conviene esperar confirmación tras el dato de empleo."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 26090.00,
+      "prev_close": 26003.00,
+      "change_pct": 0.33,
+      "direction": "up",
+      "level_key_support": 25900,
+      "level_key_resistance": 26460,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El DAX se mantiene en tendencia alcista de máximos y mínimos crecientes, apoyado por el buen tono en Wall Street, aunque cotiza en consolidación lateral tras el máximo histórico de 26.618 del 28 de agosto. El soporte relevante está en 25.900 y la resistencia en 26.460; dato de precio con cierta dispersión entre fuentes esta mañana."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1630,
+      "prev_close": 1.1626,
+      "change_pct": 0.03,
+      "direction": "flat",
+      "level_key_support": 1.1575,
+      "level_key_resistance": 1.1700,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El euro se mantiene prácticamente plano en un rango de 1,1575-1,1700, con sesgo ligeramente alcista para el dólar débil tras los comentarios dovish de Waller, pero sin dirección clara antes del NFP. Una sorpresa fuerte en el dato de empleo de EE.UU. podría romper el rango en cualquier dirección."
+    },
+    {
+      "id": "dxy",
+      "name": "Índice Dólar",
+      "ticker": "DXY",
+      "price": 98.98,
+      "prev_close": 99.57,
+      "change_pct": -0.59,
+      "direction": "down",
+      "level_key_support": 97.50,
+      "level_key_resistance": 99.75,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El índice dólar encadena tres jornadas consecutivas a la baja y perdió el nivel psicológico de 99,00 tras los comentarios dovish de Waller, que redujeron la probabilidad de subida de tipos en septiembre a cerca del 50%. La resistencia ahora se sitúa en 99,75 (confluencia de media de 100 y Fibonacci); el dato de empleo de hoy puede acelerar o frenar el movimiento."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAUUSD",
+      "price": 4473.50,
+      "prev_close": 4477.66,
+      "change_pct": -0.09,
+      "direction": "flat",
+      "level_key_support": 4400,
+      "level_key_resistance": 4500,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El oro consolida de forma tranquila tras el rebote de las dos últimas sesiones, justo debajo de la resistencia psicológica de 4.500 dólares. El soporte se ubica en 4.400; una ruptura confirmada de 4.500 abriría paso hacia 4.750-4.800, apoyada por el dólar débil y la tensión en Oriente Medio."
+    },
+    {
+      "id": "wti",
+      "name": "Petróleo WTI",
+      "ticker": "WTI",
+      "price": 91.67,
+      "prev_close": 90.58,
+      "change_pct": 1.20,
+      "direction": "up",
+      "level_key_support": 88.13,
+      "level_key_resistance": 93.05,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El WTI marcó un nuevo máximo en 93,05 dólares por la escalada Irán-Israel en el Estrecho de Ormuz, pero fue rechazado y retrocede hacia 91,67, mostrando un posible techo de corto plazo. La tendencia de fondo sigue alcista con soporte en 88,13; vigilar si sostiene la directriz ascendente o corrige hacia niveles previos."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 81200.00,
+      "prev_close": 77400.00,
+      "change_pct": 4.91,
+      "direction": "up",
+      "level_key_support": 77165,
+      "level_key_resistance": 82700,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "Bitcoin repunta con fuerza y recupera los 81.000 dólares impulsado por entradas masivas en ETFs y el tono de riesgo tras los comentarios dovish de la Fed. El soporte crítico sigue en 77.165; una ruptura de la zona 80.000-82.700 confirmaría la continuidad de la recuperación, aunque el momentum de corto plazo se muestra mixto."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-04",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "US Nonfarm Payrolls (Aug) & Unemployment Rate",
+      "importance": "high",
+      "previous": "NFP -23k / 4.1%",
+      "expected": "NFP +50-58k / 4.1%"
+    },
+    {
+      "date": "2026-09-04",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "US Average Hourly Earnings YoY (Aug)",
+      "importance": "medium",
+      "previous": "3.2%",
+      "expected": "3.0%"
+    },
+    {
+      "date": "2026-09-09",
+      "days_ahead": 5,
+      "time_cet": "n/d",
+      "event": "ECB Governing Council Meeting begins (day 1 of 2)",
+      "importance": "medium",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 6,
+      "time_cet": "14:15",
+      "event": "ECB Rate Decision + Lagarde Press Conference",
+      "importance": "high",
+      "previous": "2.25% (held)",
+      "expected": "Hold at 2.25%"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 6,
+      "time_cet": "14:30",
+      "event": "US PPI (Aug)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-11",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "US CPI (Aug)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dax", "gold", "wti", "btc"],
+    "bearish": ["dxy"],
+    "neutral": ["eurusd"]
+  },
+  "risk_section": {
+    "visible": "El informe de empleo (NFP) de hoy a las 14:30 CET puede generar volatilidad brusca en todos los activos si sorprende con fuerza al consenso de +50-58.000 empleos.",
+    "hidden": "La escalada Irán-Israel en el Estrecho de Ormuz podría intensificarse tras los ataques de esta semana, disparando el petróleo hacia 100 dólares y presionando la inflación importada justo cuando la Fed se inclina hacia una pausa.",
+    "scenario": "Si el NFP sorprende al alza y reaviva las expectativas de subida de tipos de la Fed, el dólar podría rebotar con fuerza, presionando al oro, Bitcoin y a las bolsas de vuelta hacia sus soportes (7.600 en el S&P 500, 29.250 en el Nasdaq).",
+    "signal": "Vigilar la reacción de los rendimientos del Tesoro y del DXY al dato de empleo de hoy, y la decisión del BCE del 10 de septiembre como puente hacia el FOMC del 15-16 de septiembre."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 2,
+      "nq": 2,
+      "cl": -1,
+      "gc": 2
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "Jornada de NFP con alta probabilidad de expansión de rango tras el dato de las 14:30 CET; se recomienda tamaño reducido y esperar confirmación direccional post-dato antes de operar rupturas. Los setups de continuación en ES y NQ mantienen EV positivo si el mercado sostiene los máximos de la semana, mientras que CL arrastra red flags tras el rechazo en 93,05 y GC permanece en balance a la espera de dirección.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7686,
+        "balance_zone_low": 7631,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Rango nocturno estrecho con futuros ES prácticamente planos (+0,06%) mientras el mercado espera el dato de empleo de EE.UU.; el gap bajista del fin de semana por los ataques a Irán ya quedó cubierto.",
+        "adr_avg_points": 45,
+        "overnight_range_pct_adr": 15.0,
+        "remaining_adr_pct": 85.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "El rebote de dos sesiones ha devuelto al ES a la parte alta de rango, confluente con una VAH semanal ascendente, aunque la falta de una estructura HH/HL limpia y el NFP de las 14:30 CET aconsejan operar con tamaño reducido hasta confirmar la reacción al dato."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29811,
+        "balance_zone_low": 29000,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Futuros NQ suben +0,49% en la sesión nocturna, liderando el rebote tecnológico, pero siguen sin romper el máximo del 28 de agosto en 29.811, zona clave de resistencia y de un intento de ruptura fallido reciente.",
+        "adr_avg_points": 200,
+        "overnight_range_pct_adr": 25.0,
+        "remaining_adr_pct": 75.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_LTpVA",
+        "active_red_flags": ["against_recent_FOBO"],
+        "bias_note": "El NQ ha recuperado con fuerza pero continúa por debajo del máximo del 28 de agosto (29.811), nivel donde ya hubo un intento de ruptura fallido; sesgo alcista condicionado a superar esa resistencia con confirmación post-NFP."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 90.58,
+        "balance_zone_low": 88.13,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El WTI marcó un nuevo máximo overnight en 93,05 dólares por la escalada Irán-Israel en el Estrecho de Ormuz, pero fue rechazado y retrocede hacia 91,67, un movimiento amplio que consume gran parte del ADR diario.",
+        "adr_avg_points": 2.5,
+        "overnight_range_pct_adr": 56.0,
+        "remaining_adr_pct": 44.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_FOBO", "after_bullish_exhaustion"],
+        "bias_note": "El rechazo desde el máximo de 93,05 dentro de una tendencia alcista dirigida por la prima de riesgo geopolítico sugiere una pausa o pullback de corto plazo. El sesgo de fondo sigue alcista pero el setup de hoy es de espera hasta ver si se sostiene el soporte de la directriz ascendente cerca de 91,50."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4500,
+        "balance_zone_low": 4400,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro cotiza plano durante la noche cerca de 4.470-4.500 dólares, consolidando el rebote de las dos últimas sesiones justo debajo de la resistencia psicológica de 4.500.",
+        "adr_avg_points": 50,
+        "overnight_range_pct_adr": 10.0,
+        "remaining_adr_pct": 90.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "El oro permanece en una zona de balance amplia tras el fuerte rebote desde el mínimo de la semana, con la resistencia psicológica de 4.500 dólares aún sin romper. El dato de empleo de hoy será determinante para definir la siguiente dirección."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "price": 143.76,
+      "prev_close": 145.59,
+      "change_pct": -1.26,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "ServiceNow retrocede ligeramente tras un rally de casi +6,5% en dos sesiones impulsado por la revalorización sectorial del software empresarial ante la disipación del miedo a la disrupción de la IA.",
+      "news_summary": "No hay noticias específicas de la compañía en las últimas 24-48 horas; el movimiento reciente responde a una revalorización generalizada del software empresarial tras conocerse que ServiceNow AI superó los 1.000 millones de dólares en valor anual de contrato (ACV). Bank of America elevó su precio objetivo a 150 dólares y Wells Fargo a 175 dólares a finales de agosto, mientras Cantor Fitzgerald mantiene una valoración mucho más agresiva de 240 dólares; el consenso de analistas sigue siendo 'Compra fuerte'. Próximo catalizador relevante: resultados del tercer trimestre el 28 de octubre; en el corto plazo, el NFP de hoy y el FOMC del 15-16 de septiembre podrían afectar a las valoraciones de software de alto múltiplo como NOW.",
+      "technical_note": "El valor cotiza entre el soporte de 136-137 dólares (mínimo del 2 de septiembre) y la resistencia de 147-148 dólares (máximo del 1 de septiembre), con el objetivo psicológico de 150 dólares de BofA como siguiente referencia. La tendencia de fondo es alcista tras el rebote desde el mínimo anual de 81 dólares en abril, aunque el corto plazo se mantiene volátil con oscilaciones diarias del 5-7%."
+    }
+  ]
+}
+]]>
