@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "generated_at": "2026-09-07T07:15:00Z",
+    "trading_date": "2026-09-07",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "Trading Economics", "Barchart", "FXStreet"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "EE.UU. cerrado por Labor Day; el petróleo se dispara por Irán y la Fed gira hawkish tras un NFP fuerte.",
+    "sentiment": "mixed",
+    "sentiment_score": -0.1,
+    "key_theme": "La escalada del conflicto Irán-EE.UU. en el Estrecho de Ormuz dispara el petróleo y sostiene al oro, mientras un dato de empleo de EE.UU. muy fuerte reactiva las expectativas de subida de tipos de la Fed."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7718.60,
+      "prev_close": 7748.00,
+      "change_pct": -0.38,
+      "direction": "down",
+      "level_key_support": 7700,
+      "level_key_resistance": 7800,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El S&P 500 cerró el viernes en 7.718,60 (-0,38%) tras un dato de empleo mucho más fuerte de lo esperado que reavivó las expectativas de subida de tipos de la Fed. Hoy el mercado de EE.UU. permanece cerrado por el Labor Day; vigilar el soporte en 7.700 y la resistencia en 7.800 en la reapertura de mañana."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29544.16,
+      "prev_close": 29482.00,
+      "change_pct": 0.21,
+      "direction": "up",
+      "level_key_support": 29465,
+      "level_key_resistance": 29811,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El Nasdaq 100 cerró el viernes en 29.544 (+0,21%), sostenido por el liderazgo de semiconductores de IA. Los futuros NQ testean esta noche la resistencia de 29.600 impulsados por el rally asiático de chips (Samsung, SK Hynix) tras un nuevo modelo de OpenAI; el RSI sobrecomprado invita a cierta cautela en la ruptura."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 26026.00,
+      "prev_close": 26046.40,
+      "change_pct": -0.08,
+      "direction": "down",
+      "level_key_support": 25900,
+      "level_key_resistance": 26135,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX opera plano/ligeramente a la baja esta mañana (~26.026) tras un cierre récord la semana pasada, con cierta dispersión entre fuentes en el dato exacto del cierre del viernes. La escalada Irán-EE.UU. y el repunte del petróleo generan cautela; soporte en 25.900 y resistencia en 26.135."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1623,
+      "prev_close": 1.1610,
+      "change_pct": 0.11,
+      "direction": "up",
+      "level_key_support": 1.1600,
+      "level_key_resistance": 1.1642,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El euro cotiza prácticamente plano en 1,1623, con sesgo fundamental levemente alcista de cara a la decisión del BCE del jueves (se espera una subida de 25pb), pero limitado por un dólar firme tras la repreciación hawkish de la Fed. Rango ajustado 1,1600-1,1642 antes de los datos clave de esta semana."
+    },
+    {
+      "id": "dxy",
+      "name": "Índice Dólar",
+      "ticker": "DXY",
+      "price": 99.15,
+      "prev_close": 99.16,
+      "change_pct": -0.01,
+      "direction": "flat",
+      "level_key_support": 98.68,
+      "level_key_resistance": 99.70,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El índice dólar se mantiene plano en torno a 99,15 tras el sorpresivo dato de empleo de EE.UU. que elevó las probabilidades de una subida de tipos de la Fed este mes. Resistencia clave en la zona 99,70-100,00 y soporte en 98,68; sesgo cauteloso alcista pendiente de PPI y CPI de esta semana."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAUUSD",
+      "price": 4476.60,
+      "prev_close": 4429.80,
+      "change_pct": 1.06,
+      "direction": "up",
+      "level_key_support": 4355,
+      "level_key_resistance": 4489,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El oro abrió con gap alcista hacia 4.520 por la escalada Irán-EE.UU., pero ha revertido parte del movimiento hacia 4.476 (+1,06%) conforme el dólar recupera fortaleza. Posible patrón de gap-fade a vigilar en la apertura europea; soporte en 4.355-4.400 y resistencia en 4.489-4.522."
+    },
+    {
+      "id": "wti",
+      "name": "Petróleo WTI",
+      "ticker": "WTI",
+      "price": 92.30,
+      "prev_close": 91.48,
+      "change_pct": 0.90,
+      "direction": "up",
+      "level_key_support": 90.00,
+      "level_key_resistance": 93.68,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El WTI cotiza en 92,30 (+0,90%), extendiendo el rally de más del +7% semanal por la escalada del conflicto Irán-EE.UU. en el Estrecho de Ormuz (ataques a petroleros, riesgo de zona restringida). Es el mercado más activo hoy con las bolsas de EE.UU. cerradas; resistencia en 93,68-94,91 y soporte en 90,00."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 79414.14,
+      "prev_close": 79943.70,
+      "change_pct": -0.66,
+      "direction": "down",
+      "level_key_support": 78795,
+      "level_key_resistance": 80238,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin consolida en torno a 79.400 (-0,66% en 24h), manteniéndose por encima de sus medias móviles clave (EMA20/50/200 en ~76.775/72.072/72.431) pero con el MACD perdiendo momentum. Rango de consolidación entre el soporte de 78.795 y la resistencia de 80.238, sin catalizador claro de ruptura."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-07",
+      "days_ahead": 0,
+      "time_cet": "n/d",
+      "event": "US Labor Day - mercado de renta variable de EE.UU. cerrado",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-07",
+      "days_ahead": 0,
+      "time_cet": "08:00",
+      "event": "Producción Industrial Alemania (Jul)",
+      "importance": "medium",
+      "previous": "-1.9% m/m",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-09",
+      "days_ahead": 2,
+      "time_cet": "n/d",
+      "event": "Reunión del Consejo de Gobierno del BCE (día 1 de 2)",
+      "importance": "medium",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 3,
+      "time_cet": "14:15",
+      "event": "Decisión de tipos del BCE + rueda de prensa de Lagarde",
+      "importance": "high",
+      "previous": "2.25% (mantenido)",
+      "expected": "Subida de 25pb a 2.50%"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 3,
+      "time_cet": "14:30",
+      "event": "PPI EE.UU. (Ago)",
+      "importance": "high",
+      "previous": "0.0% m/m",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-11",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "CPI EE.UU. (Ago)",
+      "importance": "high",
+      "previous": "3.4% y/y",
+      "expected": "Núcleo +0.2% m/m (aprox.)"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["ndx", "dxy", "wti"],
+    "bearish": [],
+    "neutral": ["spx", "dax", "eurusd", "gold", "btc"]
+  },
+  "risk_section": {
+    "visible": "El conflicto Irán-EE.UU. en el Estrecho de Ormuz mantiene el petróleo al alza y genera un riesgo geopolítico visible para la renta variable y el transporte energético esta semana.",
+    "hidden": "El fuerte dato de empleo de EE.UU. ha reavivado las probabilidades de una subida de tipos de la Fed (no un recorte), un giro hawkish que el mercado aún no ha descontado completamente en la curva de tipos ni en la renta variable.",
+    "scenario": "Si el BCE no cumple con la subida esperada el jueves o el CPI de EE.UU. sorprende a la baja, el dólar podría debilitarse y el oro repuntar con fuerza, revirtiendo el sesgo actual.",
+    "signal": "Vigilar el nivel psicológico de 100 dólares en el WTI y una posible ruptura del rango 7.700-7.800 en el S&P 500 como señales de cambio de régimen esta semana."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -1,
+      "nq": -1,
+      "cl": 1,
+      "gc": -1
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "Jornada de liquidez reducida en renta variable de EE.UU. por el Labor Day, lo que distorsiona el RVOL en ES y NQ y aconseja tamaño reducido en ambos. El setup con mayor EV hoy es la continuación alcista en CL, con condición diaria clara y RVOL por encima de la media al ser el mercado energético el más activo. En GC se recomienda evitar entradas hasta confirmar si el gap-fade se convierte en fallo de ruptura (FS).",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7764,
+        "balance_zone_low": 7700,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Apertura plana en el cierre del viernes (7.722) con test alcista hacia 7.764 antes de retroceder ligeramente; sin gaps significativos ni rupturas confirmadas en la sesión de domingo noche.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 90.0,
+        "remaining_adr_pct": 10.0,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news", "adr_near_100pct"],
+        "bias_note": "Condición diaria en balance con claridad dudosa tras una semana choppy; el precio testea la parte alta del rango semanal tras el dato de empleo hawkish. Sesgo neutral-cauteloso sin señal clara de continuación hasta romper 7.764 o perder 7.700."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29600,
+        "balance_zone_low": 29300,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Apertura alineada con ES en el cierre del viernes, con posterior ruptura al alza hacia 29.600 impulsada por el rally de semiconductores de IA en Asia y la caída de rendimientos; breakout aún sin confirmar.",
+        "adr_avg_points": 250,
+        "overnight_range_pct_adr": 95.0,
+        "remaining_adr_pct": 5.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["after_bullish_exhaustion", "adr_near_100pct"],
+        "bias_note": "Condición diaria de imbalance alcista con claridad dudosa por sobrecompra en múltiples marcos temporales; el precio opera por encima del rango semanal previo testeando la resistencia de 29.600. Sesgo alcista pero con riesgo de consolidación a corto plazo."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Continuación limpia desde el cierre del viernes, sin gaps ni rupturas fallidas; el rango nocturno se ha mantenido contenido en la parte alta (91,60-92,40) preservando el sesgo alcista.",
+        "adr_avg_points": 1.8,
+        "overnight_range_pct_adr": 44.0,
+        "remaining_adr_pct": 56.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "Condición diaria de imbalance alcista clara, con estructura HH/HL sostenida por la prima de riesgo geopolítico (Irán-Ormuz). El precio opera en/por encima del rango semanal, con RVOL premarket por encima de la media al ser el mercado más activo hoy; sesgo alcista con objetivo en 93,68-94,91."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4522,
+        "balance_zone_low": 4355,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Gap alcista de apertura hacia 4.520 por la escalada del conflicto Irán-EE.UU., con reversión parcial hacia 4.476 conforme el dólar recupera fortaleza; patrón de posible gap-fade a vigilar en la apertura europea.",
+        "adr_avg_points": 75,
+        "overnight_range_pct_adr": 90.0,
+        "remaining_adr_pct": 10.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "FS_vWap",
+        "active_red_flags": ["against_recent_FOBO", "adr_near_100pct"],
+        "bias_note": "Condición diaria en balance con claridad dudosa tras un gap alcista que ya ha revertido gran parte de su recorrido; el oro se mantiene en la mitad superior del rango semanal. Tensión entre demanda refugio (Irán) y fortaleza del dólar; vigilar un posible fallo de ruptura (FS) en la apertura."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "price": 141.26,
+      "prev_close": 145.59,
+      "change_pct": -2.98,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "neutral",
+      "key_headline": "ServiceNow retrocedió un 2,98% el viernes hasta 141,26$, arrastrado por la ola de ventas tecnológica tras un dato de empleo que reavivó las expectativas de subida de tipos de la Fed.",
+      "news_summary": "No hay noticias específicas de ServiceNow en las últimas 24-48h; el mercado de EE.UU. permanece cerrado hoy por el Labor Day. El principal catalizador de fondo sigue siendo la integración de Armis (adquisición de 7.750 millones de dólares cerrada en abril de 2026) tras un sólido segundo trimestre con ingresos por suscripción del +24,5% interanual y más de 1.000 millones de dólares en ACV de IA. Cantor Fitzgerald reiteró su recomendación de sobreponderar con precio objetivo de 141$ tras los resultados; también se ha detectado venta de insiders en agosto, un factor de sentimiento moderadamente negativo.",
+      "technical_note": "El valor se apoya en un soporte cercano a 136-139$ (mínimo del viernes en 138,80$) y encuentra resistencia en torno a 145$. Estructura de recuperación de medio plazo desde el mínimo anual de 81,24$ de abril, aunque todavía lejos del máximo de 194,73$ de septiembre de 2025; sesgo técnico neutral con indicadores mixtos. Próximos resultados (Q3) esperados el 28 de octubre de 2026, evento clave a vigilar dado que la posición está abierta."
+    }
+  ]
+}
