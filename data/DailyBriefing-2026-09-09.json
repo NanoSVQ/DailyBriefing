@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "generated_at": "2026-09-09T07:10:00Z",
+    "trading_date": "2026-09-09",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "Bloomberg", "CNBC", "TradingEconomics"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Escalada bélica EE.UU.-Irán dispara el petróleo por encima de 100$ y golpea a las bolsas globales.",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.4,
+    "key_theme": "Los ataques a petroleros iraníes y la respuesta de Teherán elevan la prima de riesgo geopolítico justo antes del BCE y el IPC de EE.UU."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7660,
+      "prev_close": 7673.52,
+      "change_pct": -0.18,
+      "direction": "down",
+      "level_key_support": 7655,
+      "level_key_resistance": 7730,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El S&P 500 cotiza a la baja en premarket tras el ataque de EE.UU. a petroleros iraníes y la respuesta de Teherán, lo que reaviva la aversión al riesgo. El soporte clave está en 7.655/7.620; perderlo abriría la puerta hacia 7.530. La resistencia se sitúa en 7.730/7.780, con el IPP del jueves y el IPC del viernes como próximos catalizadores."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 29400,
+      "prev_close": 29544.16,
+      "change_pct": -0.49,
+      "direction": "down",
+      "level_key_support": 29250,
+      "level_key_resistance": 29700,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El Nasdaq 100 retrocede en premarket arrastrado por el tono de aversión al riesgo, aunque de forma más moderada que el S&P 500 gracias a la fortaleza en semiconductores. Mientras se mantenga sobre 29.150/29.250 el sesgo de fondo sigue siendo constructivo; una ruptura de esa zona abriría paso a una consolidación más amplia. El evento de Apple y los datos de inflación de esta semana son los catalizadores a vigilar."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 25662,
+      "prev_close": 26007.63,
+      "change_pct": -1.33,
+      "direction": "down",
+      "level_key_support": 25670,
+      "level_key_resistance": 26135,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El DAX cae con fuerza (-1,3%) arrastrado por la escalada EE.UU.-Irán y la cautela previa a la decisión del BCE de mañana. El soporte relevante está en 25.300/25.670 y la resistencia en 25.900/26.135. Vigilar la reacción a la subida de tipos esperada del BCE y a los datos de inflación de EE.UU."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1635,
+      "prev_close": 1.1611,
+      "change_pct": 0.21,
+      "direction": "up",
+      "level_key_support": 1.1578,
+      "level_key_resistance": 1.1746,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El euro sube apoyado por la debilidad generalizada del dólar y la expectativa de una subida de tipos del BCE de 25 pb mañana, hasta el 2,50%. La resistencia inmediata está en 1,1632/33 y la clave en 1,1746/75, con soporte en 1,1564/78. La decisión del BCE y el IPC de EE.UU. del viernes marcarán el rumbo."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 98.75,
+      "prev_close": 98.8532,
+      "change_pct": -0.1,
+      "direction": "down",
+      "level_key_support": 98.55,
+      "level_key_resistance": 99.73,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El índice dólar se desliza hacia mínimos de varias semanas, presionado por la fortaleza del yen tras las declaraciones del Tesoro de EE.UU. y por la solidez del euro previa al BCE. El soporte estructural está en 98,55 y la resistencia en 99,28/99,73. Los datos de IPP e IPC de esta semana serán determinantes."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4393,
+      "prev_close": 4367.90,
+      "change_pct": 0.58,
+      "direction": "up",
+      "level_key_support": 4360,
+      "level_key_resistance": 4482,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El oro se mantiene firme cerca de los 4.400 dólares, sostenido por la demanda de refugio ante la escalada bélica en Oriente Medio y la debilidad del dólar. El soporte clave está en 4.282/4.360 y la resistencia en 4.436/4.514. Los ataques a petroleros iraníes mantienen elevada la prima de riesgo geopolítico."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 94.63,
+      "prev_close": 94.24,
+      "change_pct": 0.41,
+      "direction": "up",
+      "level_key_support": 92,
+      "level_key_resistance": 96,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El WTI se dispara tras el hundimiento de petroleros iraníes por parte de EE.UU. y la represalia de Teherán; el Brent superó brevemente los 100 dólares por primera vez desde julio. El soporte se sitúa en 88/92 y la resistencia en 95/100, con riesgo de un movimiento hacia 107-120 si persiste la escalada. Vigilar cualquier noticia sobre el Estrecho de Ormuz."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 78700,
+      "prev_close": 79100,
+      "change_pct": -0.51,
+      "direction": "down",
+      "level_key_support": 77165,
+      "level_key_resistance": 80500,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin cotiza plano/ligeramente a la baja, contenido por la escalada de tensiones en Oriente Medio que limita el apetito por riesgo. El rango dominante está entre 77.165 y 80.500 dólares; perder el primer nivel devolvería el control a los vendedores. Vigilar la correlación con el sentimiento de riesgo general y los datos de inflación de EE.UU."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-10",
+      "days_ahead": 1,
+      "time_cet": "14:15",
+      "event": "Decisión de tipos del BCE",
+      "importance": "high",
+      "previous": "2.25% (tipo de depósito)",
+      "expected": "Subida de 25 pb a 2.50% (tipo de depósito)"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "IPP de EE.UU. (agosto, m/m)",
+      "importance": "high",
+      "previous": "0.0% m/m",
+      "expected": "+0.2% a +0.4% m/m (consenso)"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de subsidio por desempleo (EE.UU.)",
+      "importance": "medium",
+      "previous": "203K",
+      "expected": "~208K"
+    },
+    {
+      "date": "2026-09-11",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "IPC de EE.UU. (agosto)",
+      "importance": "high",
+      "previous": "2.7% y/y, 0.3% m/m (core 3.1% y/y)",
+      "expected": "2.9%-3.4% y/y según fuente (rango de consenso)"
+    },
+    {
+      "date": "2026-09-11",
+      "days_ahead": 2,
+      "time_cet": "16:00",
+      "event": "Confianza del consumidor de Michigan (preliminar, septiembre)",
+      "importance": "medium",
+      "previous": "51.7",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-16",
+      "days_ahead": 7,
+      "time_cet": "20:00",
+      "event": "Decisión de tipos de la Fed (FOMC)",
+      "importance": "high",
+      "previous": "n/a",
+      "expected": "Reunión en foco tras el sólido informe de empleo de agosto (+162K); la Fed permanece en blackout hasta el 17/09"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["eurusd", "gold", "wti"],
+    "bearish": ["spx", "dax", "dxy"],
+    "neutral": ["ndx", "btc"]
+  },
+  "risk_section": {
+    "visible": "El riesgo visible es la escalada militar EE.UU.-Irán, que ha disparado el petróleo por encima de 100 dólares y presiona a la baja a las bolsas. Un cierre efectivo o parcial del Estrecho de Ormuz agravaría la presión inflacionaria y de riesgo global.",
+    "hidden": "El riesgo oculto es la combinación de una posible subida de tipos del BCE mañana y una Fed en modo restrictivo tras el sólido dato de empleo de agosto, algo que el mercado aún no ha priceado del todo junto con el shock de oferta petrolera. Esto podría generar un ajuste de mayor calado en renta variable si el IPC de EE.UU. sorprende al alza el viernes.",
+    "scenario": "Si se produce una desescalada rápida entre EE.UU. e Irán, el petróleo podría retroceder con fuerza y las bolsas rebotar, revirtiendo el sesgo de riesgo actual. En el escenario contrario, una escalada mayor en el Estrecho de Ormuz llevaría al crudo hacia 107-120 dólares y profundizaría la caída en renta variable.",
+    "signal": "La señal clave a vigilar esta semana son los titulares sobre el tráfico de buques en el Estrecho de Ormuz y la reacción del petróleo a cualquier noticia de desescalada. También es determinante la reacción del mercado a la decisión del BCE (jueves) y al IPC de EE.UU. (viernes) de cara al FOMC del 16 de septiembre."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": -1,
+      "cl": 5,
+      "gc": -3
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "Los setups con mayor valor esperado hoy son la reversión por barrido en GC y la continuación en CL, dado el fuerte flujo de volumen ligado a la noticia geopolítica; ES y NQ requieren mayor cautela por el carácter dudoso de su condición diaria y el ruido de mercado. Evitar perseguir movimientos parabólicos en petróleo y oro tras el consumo casi total del ADR estimado, y reducir tamaño en operativa contraria a la tendencia de fondo hasta conocer el IPP/IPC de esta semana.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7750,
+        "balance_zone_low": 7630,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Los futuros ES cayeron entre un 0,3% y un 0,6% en la premarket tras la escalada Irán-EE.UU. y el salto del petróleo hacia los 100 dólares, testeando la parte baja del rango semanal cerca del mínimo del 1 de septiembre.",
+        "adr_avg_points": 65,
+        "overnight_range_pct_adr": 50,
+        "remaining_adr_pct": 50,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "La condición diaria apunta a distribución en la parte baja (DIL) con confianza dudosa, dado que el movimiento es mayormente exógeno por la escalada Irán-EE.UU. El precio testea la parte baja del rango semanal con dos cierres negativos consecutivos, por lo que el sesgo de hoy es bajista mientras no se recupere 7.660/7.690."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29550,
+        "balance_zone_low": 29150,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "NQ opera con una caída premarket más moderada que ES, sosteniendo mejor el rango semanal gracias a la fortaleza en semiconductores pese al riesgo geopolítico; el evento de Apple a las 13:00 ET es un catalizador adicional hoy.",
+        "adr_avg_points": 275,
+        "overnight_range_pct_adr": 40,
+        "remaining_adr_pct": 60,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "La condición diaria es de balance rotacional (DB) con sesgo levemente alcista, mostrando mayor resiliencia que ES frente al mismo shock geopolítico. Mientras el precio se mantenga dentro del rango semanal (29.150-29.550) el sesgo es neutral con inclinación alcista de fondo."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pRange",
+        "overnight_context": "El crudo WTI se disparó en la sesión nocturna, con el Brent superando brevemente los 100 dólares por barril por primera vez desde julio, tras los ataques de EE.UU. a petroleros iraníes, marcando un rango overnight muy superior al habitual antes de recortar parte de las ganancias.",
+        "adr_avg_points": 2.5,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["adr_near_100pct", "after_bullish_exhaustion"],
+        "bias_note": "El crudo está en imbalance/tendencia alcista clara, fuera del rango de la semana previa, impulsado por el ataque a petroleros iraníes y el cruce del Brent por encima de 100 dólares. El sesgo es alcista pero con riesgo de agotamiento tras consumir la totalidad del ADR estimado y una vela de rechazo desde máximos."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4490,
+        "balance_zone_low": 4340,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro cayó a un mínimo cercano a 4.340 dólares durante la noche pero rebotó con fuerza hasta cerca de 4.435 tras los ataques de EE.UU. a petroleros iraníes, un patrón de barrido de mínimos seguido de reversión.",
+        "adr_avg_points": 40,
+        "overnight_range_pct_adr": 100,
+        "remaining_adr_pct": 0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "FS_vWap",
+        "active_red_flags": ["after_capitulatory_move", "after_3plus_consecutive_closes"],
+        "bias_note": "Tras tres cierres consecutivos a la baja, el oro registró un barrido de mínimos overnight seguido de una fuerte reversión alcista ligada a los ataques a petroleros iraníes, lo que hace dudosa la condición DIL. El sesgo de hoy se inclina alcista de corto plazo si se mantiene la reversión sobre 4.370/4.400."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 133.91,
+      "prev_close": 141.26,
+      "change_pct": -5.20,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bearish",
+      "key_headline": "ServiceNow (NOW) se desploma un 5,2% y toca mínimos de varios años en medio de recortes de personal y crecientes dudas sobre la competencia en IA.",
+      "news_summary": "ServiceNow cayó con fuerza el 8 de septiembre (-5,2%), tocando su nivel más bajo desde mediados de 2024, en medio de una liquidación generalizada en software y toma de beneficios institucional. La compañía confirmó el despido de casi 300 empleados en Santa Clara y San Diego, efectivo el 28 de septiembre, dentro de un plan para mantener plana la plantilla en 2026 mientras redirige recursos hacia IA. El sentimiento de los analistas está dividido: BTIG y Bank of America elevaron sus precios objetivo (170 y 150 dólares), mientras otras firmas han rebajado la acción por la presión competitiva de la IA sobre el modelo SaaS. El próximo catalizador clave es el reporte del tercer trimestre, previsto para el 28 de octubre.",
+      "technical_note": "La acción rompió soportes previos y cotiza en mínimos plurianuales, con el próximo soporte en torno a 130 dólares (y un segundo nivel cerca de 125) y resistencia inmediata cerca de 139, con una resistencia secundaria en 145. El sesgo técnico de corto plazo es bajista dado el fuerte impulso vendedor, aunque los objetivos de precio de varios analistas (150-170 dólares) sugieren una posible divergencia con la valoración fundamental."
+    }
+  ]
+}
