@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "generated_at": "2026-09-10T07:00:00Z",
+    "trading_date": "2026-09-10",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "FXStreet", "Barchart", "MarketBeat", "TradingEconomics"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "El crudo se dispara por la crisis Irán-Hormuz mientras el mercado espera al BCE y al IPC de EEUU.",
+    "sentiment": "mixed",
+    "sentiment_score": -0.2,
+    "key_theme": "La escalada militar Irán-EEUU dispara el petróleo y las TIR a máximos desde 2023, presionando la renta variable justo antes de datos clave de inflación (PPI hoy, IPC mañana) y la decisión del BCE."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES=F",
+      "price": 7654.72,
+      "prev_close": 7636.36,
+      "change_pct": 0.24,
+      "direction": "up",
+      "level_key_support": 7636,
+      "level_key_resistance": 7673,
+      "bias": "neutral",
+      "signal": "reversal",
+      "note": "El S&P 500 intenta rebotar tras dos cierres consecutivos a la baja, apoyándose en el área de mínimos del miércoles (~7636). Resistencia inmediata en el cierre del martes (~7673) y techo de la semana pasada en ~7718-7722. El PPI de hoy y el IPC de mañana serán clave para confirmar o invalidar el rebote."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ=F",
+      "price": 29421.55,
+      "prev_close": 29608.0,
+      "change_pct": -0.63,
+      "direction": "down",
+      "level_key_support": 29360,
+      "level_key_resistance": 29508,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El Nasdaq 100 arrastra debilidad relativa ligada a la corrección en semiconductores y valores de IA, cotizando en la parte baja del rango semanal (~29.360-29.510). Vigilar el pivote de 29.448 y el PPI/IPC de EEUU como catalizadores. Peor comportamiento relativo que el S&P 500 en las últimas sesiones."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "DAX",
+      "price": 25599.68,
+      "prev_close": 25576.45,
+      "change_pct": 0.09,
+      "direction": "up",
+      "level_key_support": 25576,
+      "level_key_resistance": 25907,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX cotiza plano en la zona 25.575-25.900 a la espera de la decisión del BCE (14:15 CET) y la rueda de prensa de Lagarde (14:45 CET), que se espera más determinante que la propia subida de tipos, ya descontada. Resistencia en máximos de sesión ~25.900-25.930, soporte en el cierre de ayer."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1631,
+      "prev_close": 1.163,
+      "change_pct": 0.01,
+      "direction": "flat",
+      "level_key_support": 1.162,
+      "level_key_resistance": 1.1654,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "EUR/USD se mantiene plano en 1.1630 a la espera de la decisión del BCE y la rueda de prensa de Lagarde. Rango estrecho 1.1620-1.1654; una sorpresa hawkish o dovish en el tono de Lagarde podría generar ruptura direccional."
+    },
+    {
+      "id": "dxy",
+      "name": "Dollar Index",
+      "ticker": "DXY",
+      "price": 98.7484,
+      "prev_close": 98.7978,
+      "change_pct": -0.05,
+      "direction": "down",
+      "level_key_support": 98.5,
+      "level_key_resistance": 99.0,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El DXY acumula cuatro sesiones consecutivas a la baja, cotizando en torno a 98.70-98.75 con RSI cerca de 37, reflejando sesgo bajista. Soporte en 98.50 y resistencia en el nivel psicológico de 99.00; el IPC de EEUU de mañana es el próximo catalizador clave."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4405.88,
+      "prev_close": 4395.51,
+      "change_pct": 0.24,
+      "direction": "up",
+      "level_key_support": 4365,
+      "level_key_resistance": 4450,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El oro consolida en el rango 4390-4450$/oz, sin estructura direccional clara tras el impulso de principios de septiembre. Resistencia en 4440-4460$ y soporte en 4365$; el mercado espera el IPC de EEUU (viernes) y la reunión de la Fed (16 sept) para definir el próximo movimiento."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crudo",
+      "ticker": "CL=F",
+      "price": 97.19,
+      "prev_close": 94.6,
+      "change_pct": 2.76,
+      "direction": "up",
+      "level_key_support": 93.68,
+      "level_key_resistance": 99.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El WTI extiende su rally por octava sesión consecutiva, impulsado por la escalada Irán-EEUU en el Estrecho de Ormuz y ataques a infraestructura petrolera saudí. La resistencia de 7 meses en ~88$ actúa ahora como soporte; próxima resistencia psicológica en 99-100$. Extremadamente sobrecomprado, vigilar un pullback hacia 90-94$ si se calma la prima geopolítica."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 77971,
+      "prev_close": 79159,
+      "change_pct": -1.5,
+      "direction": "down",
+      "level_key_support": 77165,
+      "level_key_resistance": 80000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin cotiza por debajo de los 80.000$ tras un retroceso desde los máximos de principios de septiembre (~81.500$), con salidas netas en ETFs spot dos días consecutivos (~147M$). Soporte crítico en 77.165$ y resistencia en 79.700-80.000$; estructura de medias diarias aún alcista pero momentum de corto plazo negativo."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-10",
+      "days_ahead": 0,
+      "time_cet": "14:15",
+      "event": "Decisión de tipos BCE + rueda de prensa de Lagarde",
+      "importance": "high",
+      "previous": "Tipo de depósito 2.25%",
+      "expected": "Subida de 25pb al 2.50% (depósito)"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "PPI EEUU (agosto)",
+      "importance": "high",
+      "previous": "0.0% m/m, +4.7% a/a (julio)",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-10",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de subsidio por desempleo EEUU",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-11",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "IPC EEUU (agosto)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "+0.4% m/m, +3.4% a/a"
+    },
+    {
+      "date": "2026-09-11",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "Confianza del consumidor Michigan (preliminar, septiembre)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-16",
+      "days_ahead": 6,
+      "time_cet": "20:00",
+      "event": "Decisión de tipos de la Fed (FOMC) + dot plot",
+      "importance": "high",
+      "previous": "Rango objetivo 3.50%-3.75%",
+      "expected": "Mercado dividido entre mantener y subir 25pb"
+    },
+    {
+      "date": "2026-09-16",
+      "days_ahead": 6,
+      "time_cet": "14:30",
+      "event": "Ventas minoristas EEUU (agosto)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["wti"],
+    "bearish": ["dxy"],
+    "neutral": ["spx", "ndx", "dax", "eurusd", "gold", "btc"]
+  },
+  "risk_section": {
+    "visible": "El repunte del petróleo por la crisis del Estrecho de Ormuz y la subida de las TIR (10 años en máximos desde noviembre de 2023) presionan la valoración de la renta variable hoy.",
+    "hidden": "Una escalada militar adicional entre EEUU e Irán podría cerrar temporalmente el Estrecho de Ormuz, disparando el crudo por encima de 100$ y generando un shock inflacionario que el consenso todavía no descuenta.",
+    "scenario": "Si el IPC de EEUU de mañana sorprende a la baja y el BCE mantiene un tono dovish, los índices podrían romper al alza la resistencia semanal en lugar de continuar la corrección actual.",
+    "signal": "Vigilar el cierre semanal del WTI por encima de 99-100$ y la reacción del Nasdaq al PPI/IPC como señal de si el mercado retoma el apetito por riesgo o profundiza la corrección."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": -2,
+      "cl": 8,
+      "gc": 1
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El sistema recomienda tamaño reducido hoy: el crudo (CL) está sobreextendido tras 8 cierres alcistas consecutivos con el ADR casi consumido, por lo que ese instrumento pasa a modo de espera hasta un pullback. El Nasdaq (NQ) y el oro (GC) presentan las lecturas más limpias del día, mientras el S&P (ES) exige confirmación por encima de 7673 antes de operar el rebote. Evitar perseguir el crudo en máximos y evitar operar contra el desequilibrio bajista del Nasdaq sin confirmación.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7673,
+        "balance_zone_low": 7636,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Rango nocturno comprimido (~22 puntos, 30-40% del ADR), consolidando cerca de los mínimos del miércoles sin tests relevantes de gaps.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 37,
+        "remaining_adr_pct": 63,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_BO"],
+        "bias_note": "Condición diaria en balance dudoso tras dos cierres bajistas; el DVA semanal se desarrolla de forma imbalanceada a la baja con disonancia respecto al rebote de hoy. Sesgo cauteloso: preferible esperar confirmación por encima de 7673 antes de buscar largos."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Rango nocturno de ~144 puntos (40-55% del ADR), con presión vendedora ligada a la debilidad en semiconductores e IA; sin gaps relevantes frente al cierre previo.",
+        "adr_avg_points": 300,
+        "overnight_range_pct_adr": 48,
+        "remaining_adr_pct": 52,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["none"],
+        "bias_note": "Condición diaria de desequilibrio bajista clara, confluente con un DVA semanal también imbalanceado a la baja. La debilidad relativa frente al S&P 500 (liderada por semiconductores) favorece continuación bajista mientras no se recupere el pivote de 29.448."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Continuación del rally en la sesión asiática, con el Brent superando los 100-101$ por primera vez desde mayo/julio; sin señales de agotamiento aún.",
+        "adr_avg_points": 3.5,
+        "overnight_range_pct_adr": 90,
+        "remaining_adr_pct": 10,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["adr_near_100pct", "after_3plus_consecutive_closes"],
+        "bias_note": "Desequilibrio alcista claro y confluente con el DVA semanal, en pleno rally geopolítico por la crisis de Ormuz. Con 8 cierres alcistas consecutivos y el rango ya cerca del 90% del ADR ampliado, el riesgo de extensión/reversión de corto plazo es elevado: preferible reducir tamaño o esperar un pullback hacia 93-94$ antes de perseguir largos."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 4450,
+        "balance_zone_low": 4390,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Sesión nocturna tranquila, rango acotado (~17$) dentro de la zona de equilibrio 4390-4450$, sin tests relevantes de niveles clave.",
+        "adr_avg_points": 32,
+        "overnight_range_pct_adr": 50,
+        "remaining_adr_pct": 50,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "El oro se mantiene en una zona de equilibrio rotacional confluente con el DVA semanal, sin ventaja direccional clara. Esperar una ruptura confirmada de 4450$ o 4365$ antes de operar direccionalmente, con el IPC de EEUU y la Fed como catalizadores de la próxima semana."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 133.91,
+      "prev_close": 134.13,
+      "change_pct": -0.16,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "neutral",
+      "key_headline": "BTIG elevó el precio objetivo de ServiceNow a 170$ (desde 150$) el 8 de septiembre, reiterando su recomendación de compra.",
+      "news_summary": "El valor se mueve en un rango de consolidación tras el split 5x1 de diciembre de 2025, con el impulso alcista limitado por el escepticismo del mercado sobre la narrativa de IA a pesar de las subidas de precio objetivo de varias casas de análisis. No hay catalizadores de M&A o litigios relevantes en las últimas 48 horas.",
+      "technical_note": "Precio comprimido entre el soporte de largo plazo en ~119-120$ y la resistencia de corto plazo en ~137-138$. El momentum negativo (RSI ~33, MACD bajista) contrasta con un consenso de analistas mayoritariamente comprador (objetivo medio ~141-147$). Próximo catalizador clave: resultados del Q3 hacia el 28 de octubre, evento históricamente volátil para el valor."
+    }
+  ]
+}
