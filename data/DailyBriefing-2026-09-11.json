@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "generated_at": "2026-09-11T07:00:00Z",
+    "trading_date": "2026-09-11",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "Barchart", "Bloomberg", "TradingEconomics", "CoinDesk", "CNBC"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "El crudo se retira de sus maximos semanales y alivia a los futuros de EEUU antes del IPC.",
+    "sentiment": "mixed",
+    "sentiment_score": 0.15,
+    "key_theme": "La corrección del petróleo tras el rally por tensión Iran-EEUU relaja los rendimientos de bonos, mientras el mercado espera el IPC de EEUU y la Fed de la semana que viene."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES=F",
+      "price": 7616.0,
+      "prev_close": 7581.0,
+      "change_pct": 0.46,
+      "direction": "up",
+      "level_key_support": 7550,
+      "level_key_resistance": 7660,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Rebote tecnico tras tres sesiones consecutivas de perdidas, apoyado en la caida del crudo y de los rendimientos. El IPC de EEUU de esta tarde es el catalizador clave y puede invalidar el movimiento en cualquier direccion."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ=F",
+      "price": 29317.0,
+      "prev_close": 29144.0,
+      "change_pct": 0.59,
+      "direction": "up",
+      "level_key_support": 28900,
+      "level_key_resistance": 29400,
+      "bias": "neutral",
+      "signal": "momentum",
+      "note": "El buen resultado de Oracle impulsa al sector tecnologico tras varias sesiones de presion por el repunte de rendimientos en bonos. El rebote es aun idiosincratico y no confirma un cambio de tendencia hasta que se digiera el dato de inflacion."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 25580.0,
+      "prev_close": 25361.15,
+      "change_pct": 0.86,
+      "direction": "up",
+      "level_key_support": 25200,
+      "level_key_resistance": 25650,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El indice aleman rebota tras el retroceso del jueves, favorecido por el respiro en el precio del petroleo. Mientras se mantenga por encima de 25200 el sesgo de corto plazo sigue siendo constructivo."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dolar",
+      "ticker": "EURUSD",
+      "price": 1.1615,
+      "prev_close": 1.1608,
+      "change_pct": 0.06,
+      "direction": "flat",
+      "level_key_support": 1.158,
+      "level_key_resistance": 1.165,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El par cotiza lateral dentro del rango semanal (1.1596-1.16475) a la espera del IPC americano. Una sorpresa alcista en inflacion reforzaria al dolar y presionaria el par hacia el soporte de 1.158."
+    },
+    {
+      "id": "dxy",
+      "name": "Indice Dolar",
+      "ticker": "DXY",
+      "price": 99.055,
+      "prev_close": 99.085,
+      "change_pct": -0.03,
+      "direction": "flat",
+      "level_key_support": 98.8,
+      "level_key_resistance": 99.4,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El dolar se mantiene estable en la parte baja del rango reciente, sin catalizador propio hasta el dato de inflacion de EEUU. La proxima reunion de la Fed la semana que viene añade incertidumbre adicional."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4334.82,
+      "prev_close": 4316.76,
+      "change_pct": 0.42,
+      "direction": "up",
+      "level_key_support": 4280,
+      "level_key_resistance": 4360,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El oro rebota tras romper a la baja la zona de equilibrio 4390-4450$ el jueves, en lo que parece una toma de beneficios antes del IPC. Mientras no recupere los 4360$ el movimiento de hoy es solo un intento de estabilizacion, no una confirmacion de continuidad alcista."
+    },
+    {
+      "id": "wti",
+      "name": "Petroleo WTI",
+      "ticker": "CL=F",
+      "price": 99.6,
+      "prev_close": 100.05,
+      "change_pct": -0.45,
+      "direction": "down",
+      "level_key_support": 96.0,
+      "level_key_resistance": 103.5,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "Tras noveno cierre alcista consecutivo el jueves y un maximo intradia de 104.46$, el crudo se retira hacia 99.5$ de madrugada por señales diplomaticas que reducen la prima de riesgo entre EEUU e Iran. El movimiento tiene pinta de agotamiento tras un rally de mas del 10% en la semana."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 77300.0,
+      "prev_close": 77950.0,
+      "change_pct": -0.83,
+      "direction": "down",
+      "level_key_support": 75500,
+      "level_key_resistance": 79000,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "Bitcoin intenta estabilizarse en la zona de 76500-77000 tras el desplome del jueves, con el IPC de EEUU como proximo detonante de volatilidad. Mientras no recupere los 79000 el sesgo de corto plazo sigue siendo debil."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-11",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "IPC EEUU (agosto)",
+      "importance": "high",
+      "previous": "0.2% m/m · 2.7% i.a. (subyacente 3.1% i.a.)",
+      "expected": "0.4% m/m · 3.4% i.a."
+    },
+    {
+      "date": "2026-09-15",
+      "days_ahead": 4,
+      "time_cet": "00:00",
+      "event": "Inicio reunion FOMC (2 dias)",
+      "importance": "medium",
+      "previous": "n/a",
+      "expected": "n/a"
+    },
+    {
+      "date": "2026-09-16",
+      "days_ahead": 5,
+      "time_cet": "20:00",
+      "event": "Decision de tipos FOMC + proyecciones (SEP) + rueda de prensa Powell",
+      "importance": "high",
+      "previous": "Tipos sin cambios en la reunion anterior",
+      "expected": "Recorte de 25 pb (probabilidad elevada segun mercado de futuros)"
+    },
+    {
+      "date": "2026-09-17",
+      "days_ahead": 6,
+      "time_cet": "13:00",
+      "event": "Bank of England - Monetary Policy Summary y actas",
+      "importance": "medium",
+      "previous": "Tipos sin cambios",
+      "expected": "Tipos sin cambios"
+    },
+    {
+      "date": "2026-09-18",
+      "days_ahead": 7,
+      "time_cet": "00:00",
+      "event": "Vencimiento trimestral de derivados (Quad Witching / OPEX)",
+      "importance": "medium",
+      "previous": "n/a",
+      "expected": "Aumento de volumen y volatilidad intradia"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dax", "gold"],
+    "bearish": ["wti", "btc"],
+    "neutral": ["spx", "ndx", "eurusd", "dxy"]
+  },
+  "risk_section": {
+    "visible": "El IPC de EEUU de esta tarde puede disparar la volatilidad en todos los activos, especialmente en indices y en el dolar. Una sorpresa al alza reforzaria las apuestas por menos recortes de la Fed y presionaria a la renta variable.",
+    "hidden": "El desplome nocturno del crudo tras señales diplomaticas EEUU-Iran podria estar sobreextendido; un nuevo episodio de tension en el Estrecho de Ormuz revertiria el movimiento con rapidez y golpearia el sentimiento de riesgo.",
+    "scenario": "Si el IPC sorprende al alza y el crudo recupera los 103 dolares, el guion de hoy se invierte: vuelta a la presion sobre bonos y nueva caida de indices y del oro en terminos relativos.",
+    "signal": "Vigilar la reaccion del bono a 10 años tras el IPC y cualquier titular sobre el conflicto EEUU-Iran o el Estrecho de Ormuz durante la sesion."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -3,
+      "nq": -3,
+      "cl": 9,
+      "gc": -1
+    },
+    "system_readiness": "wait",
+    "system_note": "El IPC de EEUU esta tarde y la reversion violenta del crudo desde maximos (tras nueve cierres alcistas consecutivos) dejan poco valor esperado en setups de continuacion antes del dato. Evitar perseguir el rebote en ES/NQ, evitar entradas de continuacion en CL tras el movimiento capitulatorio, y esperar confirmacion en GC tras la ruptura bajista del jueves tambien en modo de espera.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7660,
+        "balance_zone_low": 7570,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Rango overnight estrecho con recuperacion parcial tras tocar minimos de un mes; la caida del crudo y de los rendimientos favorece el rebote.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 30.0,
+        "remaining_adr_pct": 70.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Condicion diaria de imbalance bajista con claridad dudosa y desarrollo semanal disonante; el rebote actual es prematuro para operar continuacion antes del IPC."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29400,
+        "balance_zone_low": 28900,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Rebote impulsado por el resultado de Oracle tras varias sesiones de presion en semiconductores e infraestructura de IA por la subida de rendimientos.",
+        "adr_avg_points": 300,
+        "overnight_range_pct_adr": 35.0,
+        "remaining_adr_pct": 65.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "El rebote es idiosincratico (Oracle) y no confirma cambio de tendencia; con el sesgo semanal disonante conviene esperar confirmacion post-IPC antes de operar continuacion."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pRange",
+        "overnight_context": "Tras el noveno cierre alcista consecutivo del jueves (100.05), reversion brusca desde el maximo de 104.46 hasta 99.42 por señales diplomaticas que reducen la prima de riesgo Iran-EEUU.",
+        "adr_avg_points": 3.0,
+        "overnight_range_pct_adr": 100.0,
+        "remaining_adr_pct": 0.0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_capitulatory_move", "adr_near_100pct", "after_3plus_consecutive_closes"],
+        "bias_note": "Tras nueve cierres alcistas consecutivos y un rally de mas del 10% en la semana, la reversion violenta overnight tiene perfil capitulatorio; evitar tanto continuacion como contra-tendencia hasta que se estabilice el rango."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4360,
+        "balance_zone_low": 4280,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Ruptura bajista el jueves fuera de la zona de equilibrio 4390-4450$ (cierre en 4316.76), con recuperacion parcial de madrugada hacia 4335$ sin recuperar el rango previo.",
+        "adr_avg_points": 40.0,
+        "overnight_range_pct_adr": 55.0,
+        "remaining_adr_pct": 45.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_BO"],
+        "bias_note": "El cierre bajista del jueves rompe la tendencia alcista previa y genera disonancia con el DVA semanal; el rebote de esta madrugada es aun un intento de recuperacion, no confirmacion de continuidad. Esperar confirmacion por encima de 4360$ o ruptura de 4280$ antes de operar direccionalmente."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 130.83,
+      "prev_close": 132.5,
+      "change_pct": -1.26,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "BTIG eleva el precio objetivo de ServiceNow a 170 dolares desde 150 tras una nueva recomendacion de compra emitida esta semana.",
+      "news_summary": "Varias casas de analisis han reiterado o mejorado su vision sobre ServiceNow en los ultimos dias, con BTIG subiendo el precio objetivo a 170 dolares y una nueva recomendacion de compra publicada el 7 de septiembre. No hay catalizador de resultados inminente (el proximo informe trimestral se espera a finales de octubre), por lo que el flujo de noticias reciente es principalmente de revision de valoracion por parte de analistas.",
+      "technical_note": "El valor cotiza en la zona de 130-135 dolares, muy lejos aun de su maximo de 52 semanas en 194.73. El soporte inmediato se situa en torno a 130 y la resistencia cercana en 135; mientras se mantenga sobre 130 el sesgo de la posicion abierta sigue siendo constructivo."
+    }
+  ]
+}
