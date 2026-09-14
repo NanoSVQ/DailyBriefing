@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "generated_at": "2026-09-14T07:00:00Z",
+    "trading_date": "2026-09-14",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Bloomberg", "CNBC", "Investing.com", "TradingEconomics", "FXStreet", "Forbes", "CoinDesk"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "El petroleo dispara la inflacion por Ormuz y las advertencias sobre la IA golpean a Wall Street antes de la Fed.",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.4,
+    "key_theme": "La escalada en el Estrecho de Ormuz eleva el crudo y el riesgo de inflacion justo cuando las advertencias sobre una desaceleracion de la IA golpean a las tecnologicas, en la semana de la decision de la Fed."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES=F",
+      "price": 7619.0,
+      "prev_close": 7657.0,
+      "change_pct": -0.50,
+      "direction": "down",
+      "level_key_support": 7550,
+      "level_key_resistance": 7680,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "Los futuros caen cerca de un 0.6% sobre el cierre previo tras las advertencias de lideres de IA (Amodei, Altman, Musk) sobre ralentizar el desarrollo del sector. El indice se mantiene dentro del rango semanal a la espera de la decision de la Fed del miercoles, con la subida del petroleo como riesgo inflacionario adicional."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ=F",
+      "price": 29184.0,
+      "prev_close": 29544.0,
+      "change_pct": -1.22,
+      "direction": "down",
+      "level_key_support": 28700,
+      "level_key_resistance": 29550,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El Nasdaq 100 es el mas castigado tras las advertencias sobre IA, con Nvidia cayendo un 3% y Arm/Marvell un 6% en premarket. El indice pierde la zona de value semanal y el sesgo de corto plazo es bajista mientras persista la aversion al riesgo en semiconductores."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 25478.0,
+      "prev_close": 25569.0,
+      "change_pct": -0.36,
+      "direction": "down",
+      "level_key_support": 25300,
+      "level_key_resistance": 25650,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX cotiza practicamente plano, oscilando entre 25400 y 25580, en un compas de espera antes de la Fed y el IPC aleman de la semana. La fortaleza reciente de defensa (Rheinmetall) compensa parcialmente la debilidad de los valores tecnologicos."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dolar",
+      "ticker": "EURUSD",
+      "price": 1.1598,
+      "prev_close": 1.1610,
+      "change_pct": -0.10,
+      "direction": "flat",
+      "level_key_support": 1.152,
+      "level_key_resistance": 1.165,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El euro se mantiene estable en torno a 1.16 sin catalizador propio, a la espera de la decision de la Fed del miercoles y del BCE mas adelante en la semana. Un tono mas hawkish de la Fed favoreceria al dolar y presionaria el par hacia el soporte de 1.152."
+    },
+    {
+      "id": "dxy",
+      "name": "Indice Dolar",
+      "ticker": "DXY",
+      "price": 99.46,
+      "prev_close": 99.10,
+      "change_pct": 0.36,
+      "direction": "up",
+      "level_key_support": 98.8,
+      "level_key_resistance": 99.8,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El indice dolar sube apoyado por las expectativas de subida de tipos de la Fed esta semana, ademas de cierta demanda de refugio ante la escalada en Oriente Medio. Mientras se mantenga sobre 99.00 el sesgo de corto plazo sigue siendo alcista."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4332.90,
+      "prev_close": 4350.00,
+      "change_pct": -0.40,
+      "direction": "down",
+      "level_key_support": 4280,
+      "level_key_resistance": 4400,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El oro pierde la zona de 4340 dolares presionado por la fortaleza del dolar y las apuestas de subida de tipos, pese a la escalada geopolitica que normalmente favoreceria al refugio. Tras varias semanas de caidas, se vigila un posible agotamiento bajista antes de nuevos minimos."
+    },
+    {
+      "id": "wti",
+      "name": "Petroleo WTI",
+      "ticker": "CL=F",
+      "price": 102.52,
+      "prev_close": 100.07,
+      "change_pct": 2.47,
+      "direction": "up",
+      "level_key_support": 99.5,
+      "level_key_resistance": 105.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El crudo extiende su repunte cerca de maximos de varios meses tras nuevos incidentes con petroleros en el Estrecho de Ormuz y riesgo de recorte de suministro saudi. La tendencia alcista es clara pero ya extendida, por lo que se recomienda prudencia con las entradas en la apertura."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 77782.0,
+      "prev_close": 78252.0,
+      "change_pct": -0.60,
+      "direction": "down",
+      "level_key_support": 76000,
+      "level_key_resistance": 79000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin retrocede ligeramente hacia la zona de 77000-78000 dolares en un contexto de aversion al riesgo por las apuestas de subida de tipos de la Fed. La estructura tecnica de medias moviles sigue siendo alcista, pero el catalizador macro de esta semana puede generar volatilidad en ambas direcciones."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-16",
+      "days_ahead": 2,
+      "time_cet": "20:00",
+      "event": "Decision de tipos FOMC + proyecciones (SEP) + rueda de prensa Powell",
+      "importance": "high",
+      "previous": "Tipos en 3.50%-3.75% (sin cambios en julio)",
+      "expected": "Subida de 25 pb a 3.75%-4.00% (probabilidad ~83% segun mercado de futuros)"
+    },
+    {
+      "date": "2026-09-16",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "Ventas minoristas EEUU (agosto)",
+      "importance": "medium",
+      "previous": "dato del mes anterior pendiente de confirmar",
+      "expected": "Moderacion del gasto del consumidor antes de la decision de la Fed"
+    },
+    {
+      "date": "2026-09-17",
+      "days_ahead": 3,
+      "time_cet": "13:00",
+      "event": "Decision de tipos del Bank of England",
+      "importance": "high",
+      "previous": "Tipos sin cambios en la reunion anterior",
+      "expected": "Mantener tipos con tono cauteloso"
+    },
+    {
+      "date": "2026-09-18",
+      "days_ahead": 4,
+      "time_cet": "04:00",
+      "event": "Decision de politica monetaria del Banco de Japon",
+      "importance": "high",
+      "previous": "tipo de referencia sin cambios en la reunion anterior",
+      "expected": "Posible sesgo mas restrictivo ante presiones inflacionarias importadas"
+    },
+    {
+      "date": "2026-09-18",
+      "days_ahead": 4,
+      "time_cet": "15:30",
+      "event": "Vencimiento trimestral de opciones (OPEX / Quad Witching)",
+      "importance": "medium",
+      "previous": "n/a",
+      "expected": "Aumento de volumen y volatilidad intradia"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["spx", "ndx", "gold"],
+    "neutral": ["dax", "eurusd", "btc"]
+  },
+  "risk_section": {
+    "visible": "El repunte del petroleo por la escalada en el Estrecho de Ormuz eleva el riesgo de que la Fed suba tipos el miercoles en un contexto de crecimiento mas debil, presionando a los activos de riesgo.",
+    "hidden": "Un mayor deterioro del trafico de petroleros por Ormuz podria restar mas oferta de la ya descontada por el mercado, mientras el capex en IA de las grandes tecnologicas podria revisarse a la baja si las advertencias de sus propios CEOs se traducen en cambios de politica.",
+    "scenario": "Si la Fed sorprende con un tono mas moderado pese a subir tipos, o se logra una tregua en Ormuz, las bolsas y el oro podrian protagonizar un rebote de alivio significativo, especialmente en semiconductores.",
+    "signal": "Vigilar el trafico de petroleros en el Estrecho de Ormuz y el tono del dot plot y la rueda de prensa de Powell el miercoles como catalizadores clave de la semana."
+  },
+  "hawk_system": {
+    "special_situation": "OPEX",
+    "consecutive_closes": {
+      "es": 1,
+      "nq": 1,
+      "cl": 5,
+      "gc": -4
+    },
+    "system_readiness": "wait",
+    "system_note": "Semana de vencimiento trimestral de opciones y reunion de la Fed el miercoles, lo que reduce el valor esperado de los setups de continuacion en ES y NQ tras el shock de las advertencias sobre IA. El crudo (CL) mantiene el mejor perfil direccional pero ya con extension notable, y el oro (GC) empieza a mostrar señales de agotamiento bajista. Se recomienda tamaño reducido y evitar perseguir movimientos en la apertura hasta despues del dato de ventas minoristas y la decision de la Fed.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7660,
+        "balance_zone_low": 7580,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Los futuros del S&P 500 cayeron cerca de un 0.6% durante la noche tras las advertencias de lideres de IA sobre ralentizar el desarrollo del sector, sin tests claros de maximos o minimos overnight relevantes.",
+        "adr_avg_points": 68,
+        "overnight_range_pct_adr": 66.0,
+        "remaining_adr_pct": 34.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_BO"],
+        "bias_note": "La condicion de balance con overnight bajista dentro de un rango semanal rotacional sugiere cautela; el sesgo intradia es ligeramente bajista pero condicionado a la reunion de la Fed del miercoles."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Los futuros del Nasdaq 100 se desplomaron mas de un 1% tras las advertencias de Amodei, Altman y Musk sobre ralentizar el desarrollo de la IA, golpeando duramente a semiconductores (Nvidia -3%, Arm y Marvell -6%).",
+        "adr_avg_points": 320,
+        "overnight_range_pct_adr": 90.0,
+        "remaining_adr_pct": 10.0,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct", "against_recent_BO"],
+        "bias_note": "Movimiento de imbalance bajista muy amplio ya overnight (90% del ADR consumido) con fuerte disonancia respecto al value semanal; el riesgo de perseguir en corto es alto y se prioriza esperar confirmacion."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El crudo extendio su repunte tras nuevos incidentes con petroleros en el Estrecho de Ormuz y riesgo de recorte de suministro saudi, situandose cerca de maximos de varios meses.",
+        "adr_avg_points": 2.2,
+        "overnight_range_pct_adr": 83.0,
+        "remaining_adr_pct": 17.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "Intraday_breakout",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Tendencia alcista clara y confluente con el value semanal en imbalance; tras varias sesiones consecutivas al alza el setup favorece continuacion pero con tamaño reducido por riesgo de extension."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El oro perdio la zona de 4340 dolares presionado por la fortaleza del petroleo y las apuestas de subida de tipos de la Fed, pese a la escalada geopolitica en Oriente Medio.",
+        "adr_avg_points": 58.0,
+        "overnight_range_pct_adr": 58.0,
+        "remaining_adr_pct": 42.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "EF",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Tendencia bajista clara y confluente con el dolar fuerte y expectativas hawkish de la Fed; tras varias semanas de caidas se vigila un posible agotamiento (EF) mas que nueva persecucion bajista."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "price": 136.00,
+      "prev_close": 132.28,
+      "change_pct": 2.81,
+      "direction": "up",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "ServiceNow sube con fuerza en premarket al beneficiarse de la rotacion hacia software menos expuesto a una desaceleracion de la IA.",
+      "news_summary": "Varias firmas de Wall Street elevaron su precio objetivo esta semana (Needham a 155 dolares, BTIG a 170 dolares), reforzando la confianza en el crecimiento de la compañia. El CEO Bill McDermott advirtio que la IA puede hacer mucho por ti, pero tambien mucho en tu contra, matizando el entusiasmo. La accion tambien se beneficia de una rotacion sectorial hacia software tras las advertencias de ralentizacion de la IA de otros lideres tecnologicos.",
+      "technical_note": "El valor cotiza lejos de su maximo de 52 semanas (194.73 dolares) pero rebota con fuerza desde el rango 130-134 dolares de la sesion previa. Soporte clave en 130 dolares y resistencia proxima en 140 dolares; sesgo alcista de corto plazo mientras mantenga el respaldo de las revisiones de precio objetivo al alza."
+    }
+  ]
+}
