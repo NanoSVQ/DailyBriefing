@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "generated_at": "2026-09-15T07:00:00Z",
+    "trading_date": "2026-09-15",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "Bloomberg", "CNBC"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "Shock de petróleo por Oriente Medio golpea el risk-on justo antes de la decisión de la Fed",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.4,
+    "key_theme": "La Fed decide tipos el miércoles en un contexto de shock de oferta petrolera (oleoducto saudí y ataque en Ormuz) junto a una corrección en IA/semiconductores."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7619.98,
+      "prev_close": 7656.98,
+      "change_pct": -0.48,
+      "direction": "down",
+      "level_key_support": 7600,
+      "level_key_resistance": 7700,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El S&P 500 cerró el lunes en 7.619,98 (-0,48%), rompiendo el rebote del viernes y quedando fuera de la zona de valor semanal por debajo. El mercado opera con cautela antes de la decisión de la Fed del miércoles; soporte en 7.600 y resistencia en 7.700."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 28872.85,
+      "prev_close": 29368.43,
+      "change_pct": -1.69,
+      "direction": "down",
+      "level_key_support": 28500,
+      "level_key_resistance": 29400,
+      "bias": "bearish",
+      "signal": "momentum",
+      "note": "El Nasdaq 100 se desplomó un 1,69% el lunes hasta 28.872,85 por la corrección en semiconductores tras los comentarios sobre seguridad en IA de Anthropic y otros líderes del sector. Vigilar el soporte en 28.500 y la resistencia en 29.400 con la volatilidad aún elevada."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "^GDAXI",
+      "price": 25250,
+      "prev_close": 25441,
+      "change_pct": -0.75,
+      "direction": "down",
+      "level_key_support": 25150,
+      "level_key_resistance": 25410,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El DAX cerró el lunes en 25.441 (-0,50%) y el martes revierte parte del tono de riesgo, cotizando cerca de 25.250. Soporte en 25.150 y resistencia en 25.410-25.570, condicionado por el tono de Wall Street y los rendimientos americanos."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1536,
+      "prev_close": 1.1549,
+      "change_pct": -0.11,
+      "direction": "down",
+      "level_key_support": 1.15,
+      "level_key_resistance": 1.16,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El EUR/USD cotiza en torno a 1,1536, extendiendo la tendencia bajista por la fortaleza del dólar ante las apuestas de subida de la Fed el miércoles. Soporte en 1,1500 y resistencia en 1,1600; un giro dovish de la Fed podría generar un rebote fuerte."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.5,
+      "prev_close": 99.25,
+      "change_pct": 0.25,
+      "direction": "up",
+      "level_key_support": 99.0,
+      "level_key_resistance": 100.0,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El índice dólar (DXY) encadena su tercera o cuarta sesión consecutiva al alza, en máximos de dos semanas cerca de 99,5 por el reposicionamiento hawkish previo a la Fed. Resistencia psicológica en 100,00 y soporte en 99,00; el dot plot del miércoles será determinante."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "XAUUSD",
+      "price": 4298,
+      "prev_close": 4348.39,
+      "change_pct": -1.16,
+      "direction": "down",
+      "level_key_support": 4200,
+      "level_key_resistance": 4350,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El oro cotiza cerca de mínimos de cinco semanas en torno a 4.298 dólares, presionado por la fortaleza del dólar y las expectativas de subida de tipos. Soporte en 4.200 y resistencia en 4.350; una pausa de la Fed podría generar un rebote técnico relevante."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 103.5,
+      "prev_close": 101.26,
+      "change_pct": 2.21,
+      "direction": "up",
+      "level_key_support": 100,
+      "level_key_resistance": 107,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "El WTI sube con fuerza hacia 103-104 dólares tras el cierre del oleoducto saudí Este-Oeste y el ataque en el Estrecho de Ormuz, encadenando varias sesiones consecutivas al alza. Soporte en 100 dólares y resistencia en 107; el riesgo geopolítico mantiene la prima de riesgo elevada."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 77030,
+      "prev_close": 77338,
+      "change_pct": -0.4,
+      "direction": "down",
+      "level_key_support": 76000,
+      "level_key_resistance": 78000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin cotiza plano/ligeramente bajista en torno a 77.000 dólares, siguiendo el tono de aversión al riesgo general más que catalizadores propios del sector cripto. Soporte en 76.000 y resistencia en 78.000-80.000, con rango lateral mientras el mercado espera a la Fed."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-15",
+      "days_ahead": 0,
+      "time_cet": "14:30",
+      "event": "Ventas Minoristas EE.UU. (agosto)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "-0.8% m/m"
+    },
+    {
+      "date": "2026-09-16",
+      "days_ahead": 1,
+      "time_cet": "20:00",
+      "event": "Decisión de tipos FOMC + rueda de prensa de Powell",
+      "importance": "high",
+      "previous": "3.75%",
+      "expected": "Subida de 25pb a 4.00% (~85% probabilidad)"
+    },
+    {
+      "date": "2026-09-17",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de subsidio por desempleo (EE.UU.)",
+      "importance": "medium",
+      "previous": "310k",
+      "expected": "315k"
+    },
+    {
+      "date": "2026-09-17",
+      "days_ahead": 2,
+      "time_cet": "08:00",
+      "event": "Banco de Inglaterra - Actas y resumen del MPC",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-18",
+      "days_ahead": 3,
+      "time_cet": "07:30",
+      "event": "Banco de Japón - Decisión de tipos (Ueda)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "~61% probabilidad de subida"
+    },
+    {
+      "date": "2026-09-18",
+      "days_ahead": 3,
+      "time_cet": "22:00",
+      "event": "Quad/Triple Witching - vencimiento trimestral de futuros y opciones",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "n/d"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["spx", "ndx", "dax", "eurusd", "gold"],
+    "neutral": ["btc"]
+  },
+  "risk_section": {
+    "visible": "El riesgo visible es la decisión de la Fed del miércoles, con el mercado descontando ~85% de probabilidad de una subida de 25 puntos básicos en un contexto de inflación aún elevada. Una sorpresa hawkish adicional en el dot plot podría acelerar las caídas en renta variable y oro.",
+    "hidden": "El riesgo oculto es una escalada mayor en Oriente Medio que fuerce un cierre prolongado de rutas de suministro petrolero, algo que el mercado aún no descuenta plenamente. La correlación dólar-petróleo también podría romperse si la Fed sorprende con una pausa.",
+    "scenario": "Si la Fed no sube tipos o suaviza el tono, el dólar podría revertir con fuerza y aliviar la presión sobre el oro y el EUR/USD, mientras la renta variable podría rebotar tras las caídas recientes. Un alto el fuego o desescalada en el Estrecho de Ormuz también invalidaría el repunte del crudo.",
+    "signal": "La señal clave a vigilar esta semana es el dot plot de la Fed y el tono de Powell sobre el balance entre inflación y el shock petrolero. También vigilar si el crudo sostiene los 100 dólares tras el vencimiento trimestral del viernes (quad witching)."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -1,
+      "nq": -1,
+      "cl": 5,
+      "gc": -2
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "El crudo (CL) es el único setup con lectura limpia y de alto EV hoy, en tendencia direccional confluente con la semana. ES y NQ arrancan una pierna bajista fresca tras romper rachas previas, con riesgo de evento (Fed el miércoles) que aconseja reducir tamaño y evitar sobreoperar. El oro mantiene continuidad bajista pero ya cerca de zona de soporte relevante, por lo que conviene vigilar señales de agotamiento antes de perseguir cortos.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7660,
+        "balance_zone_low": 7600,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Tras el gap bajista del lunes por la aversión al riesgo (IA/petróleo), el rango overnight ha sido estrecho y consolidativo, sin recuperar el máximo overnight ni testear nuevos mínimos de forma decisiva.",
+        "adr_avg_points": 80,
+        "overnight_range_pct_adr": 20,
+        "remaining_adr_pct": 80,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Condición diaria DIL pero dudosa tras el rebote del viernes; el desarrollo semanal es imbalanced y confluente con el sesgo bajista. Con riesgo de evento (Fed el miércoles) conviene operar en tamaño reducido y esperar confirmación intradía."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El lunes se produjo un gap bajista severo por comentarios de seguridad en IA que golpearon a los semiconductores; el overnight del martes muestra una estabilización parcial sin nueva extensión a la baja.",
+        "adr_avg_points": 500,
+        "overnight_range_pct_adr": 25,
+        "remaining_adr_pct": 75,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["after_3plus_consecutive_closes", "after_capitulatory_move"],
+        "bias_note": "Tendencia diaria bajista clara (DIL) con desarrollo semanal imbalanced confluente, tras un movimiento de tipo capitulatorio en semiconductores el lunes. El sesgo es bajista para continuación, pero con dos red flags activas conviene priorizar tamaño reducido."
+      },
+      {
+        "id": "cl",
+        "name": "Crude Oil WTI",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El crudo se mantiene cerca de máximos de varias semanas durante el overnight, con las caídas siendo compradas tras el cierre del oleoducto saudí Este-Oeste y el ataque en el Estrecho de Ormuz; no se observa relleno de gap ni ruptura fallida.",
+        "adr_avg_points": 3.5,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "Condición diaria DIH clara con desarrollo semanal imbalanced confluente al alza, impulsada por el shock de oferta geopolítico. Es el setup con mayor EV del día: buscar continuación comprando retrocesos hacia la zona de ruptura."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El oro sigue debilitándose durante el overnight, con los intentos de rebote vendidos y nuevos mínimos overnight, en línea con la fortaleza del dólar ante la Fed.",
+        "adr_avg_points": 65,
+        "overnight_range_pct_adr": 30,
+        "remaining_adr_pct": 70,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Condición diaria DIL clara, en mínimos de cinco semanas y con desarrollo semanal imbalanced confluente a la baja. El sesgo es bajista para continuación, pero tras varias sesiones consecutivas de caída conviene vigilar señales de agotamiento antes de perseguir el corto."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 139.02,
+      "prev_close": 135.48,
+      "change_pct": 2.6,
+      "direction": "up",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "ServiceNow sube tras una ola de recortes al alza en los precios objetivo de varias firmas de Wall Street, impulsada por el fuerte crecimiento de su negocio de IA.",
+      "news_summary": "Las acciones de ServiceNow subieron alrededor de un 2,6% tras que Needham elevó su precio objetivo a 155 dólares desde 115 y BTIG a 170 desde 150, entre otras revisiones. El impulso se apoya en los resultados del Q2 2026 con ingresos +24% interanual y en que el segmento de IA superó los 1.000 millones de dólares en ACV anual. El consenso de 55 analistas mantiene ~83% en calificación de compra, con precio objetivo promedio de ~148,81 dólares.",
+      "technical_note": "El título venía de una corrección de -4,26% en las dos semanas previas, con mínimos cercanos a 132,53 el 11 de septiembre y el RSI mostrando divergencia positiva. Soporte inmediato en 132-133 y soporte de largo plazo en 125,86; resistencia en 136,50-138,00 y luego en la zona de nuevos precios objetivo de analistas (148-170). Próximo catalizador clave: resultados del Q3 2026 estimados para el 28 de octubre de 2026."
+    }
+  ]
+}
