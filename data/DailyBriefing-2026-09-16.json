@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "generated_at": "2026-09-16T07:20:00Z",
+    "trading_date": "2026-09-16",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "CNBC", "Investing.com", "Kitco", "Bloomberg"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Mercados en compás de espera ante la Fed; crudo y oro al alza por la tensión en Oriente Medio",
+    "sentiment": "mixed",
+    "sentiment_score": -0.3,
+    "key_theme": "La decisión de tipos de la Fed a las 20:00 CET (posible subida de 25pb, algo inusual) y la escalada del conflicto en Oriente Medio dominan la sesión."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES",
+      "price": 7660,
+      "prev_close": 7585.73,
+      "change_pct": 0.98,
+      "direction": "up",
+      "level_key_support": 7600,
+      "level_key_resistance": 7720,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El futuro ES rebota hacia 7.660 tras encadenar 6 de las últimas 7 sesiones bajistas, testeando la parte baja del rango semanal previo sin romperlo con claridad. La decisión de la Fed esta tarde (20:00 CET) será el catalizador que marque la dirección real de la sesión."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ",
+      "price": 29300,
+      "prev_close": 28937.84,
+      "change_pct": 1.25,
+      "direction": "up",
+      "level_key_support": 29000,
+      "level_key_resistance": 29368,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El futuro NQ rebota con fuerza en el premarket tras el desplome del lunes liderado por semiconductores, apoyado en un repunte de valores de IA. Se mantiene dentro del rango 29.000-29.750, testeando la media de 200 sesiones como resistencia. La reunión de la Fed condicionará si el rebote se consolida."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "^GDAXI",
+      "price": 25490,
+      "prev_close": 25414,
+      "change_pct": 0.3,
+      "direction": "up",
+      "level_key_support": 25200,
+      "level_key_resistance": 25755,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX sube modestamente apoyado por la relajación puntual del petróleo y los rendimientos, liderado por Commerzbank, Siemens Energy e Infineon. Los datos de cierre previo muestran cierta inconsistencia entre fuentes, por lo que conviene verificarlos en plataforma en vivo. El foco está en la decisión de la Fed de esta tarde."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.154,
+      "prev_close": 1.1543,
+      "change_pct": -0.03,
+      "direction": "down",
+      "level_key_support": 1.15,
+      "level_key_resistance": 1.1629,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El EUR/USD cotiza cerca de mínimos de un mes, presionado por la fortaleza del dólar ante la expectativa de subida de tipos de la Fed. El BCE no se espera que mueva tipos hasta finales de octubre, ampliando la divergencia de políticas. Vigilar 1,1500 como soporte clave."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 99.72,
+      "prev_close": 99.65,
+      "change_pct": 0.07,
+      "direction": "up",
+      "level_key_support": 98.68,
+      "level_key_resistance": 100.5,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El índice dólar encadena su quinta sesión consecutiva al alza, impulsado por el reposicionamiento hacia una Fed más agresiva de lo esperado. La resistencia en 100,50 es la próxima referencia si se confirma la subida de tipos esta tarde. Un mantenimiento sorpresa revertiría el movimiento con fuerza."
+    },
+    {
+      "id": "gold",
+      "name": "Gold (XAU/USD)",
+      "ticker": "GC",
+      "price": 4335,
+      "prev_close": 4291.6,
+      "change_pct": 1.01,
+      "direction": "up",
+      "level_key_support": 4282,
+      "level_key_resistance": 4401,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El oro rebota tras marcar un mínimo de seis semanas cerca de 4.258, recuperando el nivel de 4.300. El dólar fuerte y los rendimientos en máximos desde 2007 limitan el impulso alcista. La decisión de la Fed esta tarde determinará si el rebote se consolida o es una trampa alcista."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 104.68,
+      "prev_close": 105.83,
+      "change_pct": -1.09,
+      "direction": "down",
+      "level_key_support": 102.65,
+      "level_key_resistance": 105.83,
+      "bias": "bullish",
+      "signal": "wait",
+      "note": "El WTI corrige levemente tras marcar un máximo de cuatro meses, en medio de la escalada en Oriente Medio (ataques a infraestructura saudí, cierre de oleoductos, suspensión de producción en Libia). Hoy hay doble catalizador con el informe de inventarios EIA (16:30 CET) y la decisión de la Fed. La tendencia de fondo sigue alcista mientras se mantenga por encima de 102,65."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 75700,
+      "prev_close": 76900,
+      "change_pct": -1.56,
+      "direction": "down",
+      "level_key_support": 75000,
+      "level_key_resistance": 77500,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "Bitcoin extiende su caída por debajo de los 76.000 dólares, presionado por el desapalancamiento previo a la decisión de la Fed y la caída de las probabilidades de aprobación de regulación cripto. El nivel de 75.000 es el soporte clave a vigilar. Una sorpresa dovish de la Fed podría generar un rebote de alivio."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-16",
+      "days_ahead": 0,
+      "time_cet": "16:30",
+      "event": "Informe semanal de inventarios de petróleo (EIA)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-16",
+      "days_ahead": 0,
+      "time_cet": "20:00",
+      "event": "Decisión de tipos FOMC + proyecciones económicas y rueda de prensa",
+      "importance": "high",
+      "previous": "3.50-3.75%",
+      "expected": "Subida de 25pb a 3.75-4.00% (~90% probabilidad)"
+    },
+    {
+      "date": "2026-09-17",
+      "days_ahead": 1,
+      "time_cet": "11:00",
+      "event": "IPC final Eurozona (agosto)",
+      "importance": "medium",
+      "previous": "3.3% YoY (dato flash)",
+      "expected": "Confirmar ~3.3% YoY"
+    },
+    {
+      "date": "2026-09-17",
+      "days_ahead": 1,
+      "time_cet": "13:00",
+      "event": "Decisión de tipos del Banco de Inglaterra (BoE)",
+      "importance": "high",
+      "previous": "3.75%",
+      "expected": "Mantener en 3.75% (~73% probabilidad)"
+    },
+    {
+      "date": "2026-09-18",
+      "days_ahead": 2,
+      "time_cet": "dato no disponible",
+      "event": "Decisión de tipos del Banco de Japón (BoJ)",
+      "importance": "high",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-18",
+      "days_ahead": 2,
+      "time_cet": "dato no disponible",
+      "event": "Vencimiento trimestral de opciones y futuros (triple/quad witching)",
+      "importance": "medium",
+      "previous": "n/a",
+      "expected": "n/a"
+    },
+    {
+      "date": "2026-09-23",
+      "days_ahead": 7,
+      "time_cet": "15:45",
+      "event": "PMI preliminar manufacturero y servicios EE.UU. (septiembre)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["eurusd", "btc"],
+    "neutral": ["spx", "ndx", "dax", "gold"]
+  },
+  "risk_section": {
+    "visible": "El riesgo visible es la decisión de la Fed a las 20:00 CET, con ~90% de probabilidad de una subida de tipos inusual que podría generar fuerte volatilidad en todos los activos. El mercado apenas ha empezado a posicionarse antes del anuncio.",
+    "hidden": "El riesgo oculto es una escalada mayor del conflicto en Oriente Medio (Irán, Estrecho de Ormuz) que dispare el petróleo muy por encima de los niveles actuales, presionando la inflación y forzando a la Fed a un tono aún más duro del ya esperado.",
+    "scenario": "Si la Fed sorprende manteniendo los tipos sin cambios, el dólar y los rendimientos podrían corregir con fuerza, dando soporte a bolsas, oro y cripto en un movimiento de alivio generalizado.",
+    "signal": "Vigilar el rendimiento del bono a 10 años (cerca del 5%, máximo desde 2007) y el flujo de noticias sobre el Estrecho de Ormuz y las exportaciones saudíes en los próximos días."
+  },
+  "hawk_system": {
+    "special_situation": "Rollover",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": 1,
+      "cl": 2,
+      "gc": -2
+    },
+    "system_readiness": "wait",
+    "system_note": "Jornada dominada por la decisión de la Fed a las 20:00 CET (probabilidad ~90% de subida de tipos, un movimiento inusual) y el informe EIA a las 16:30 CET. Las condiciones diarias son dudosas en varios instrumentos y hay rotación de contratos activa (roll a diciembre ya completado en ES/NQ, roll de CL a noviembre esta semana). Recomendación: reducir tamaño o esperar a la resolución del evento binario antes de perseguir continuaciones.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7690,
+        "balance_zone_low": 7580,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Repunte moderado en el premarket (+0,2-0,3%) tras dos cierres bajistas consecutivos, sin ruptura clara de máximos ni mínimos overnight; el mercado espera la decisión de la Fed a las 20:00 CET.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 60,
+        "remaining_adr_pct": 40,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["none"],
+        "bias_note": "Estructura diaria en imbalance bajista con clarity dudosa; el rebote del premarket no invalida la tendencia de fondo. Mantener cautela hasta conocer la decisión de la Fed esta tarde."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29750,
+        "balance_zone_low": 29000,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Fuerte gap alcista en el premarket (+0,4-0,6%) liderado por el rebote en semiconductores/IA tras el desplome del lunes, aún sin ruptura confirmada de máximos recientes.",
+        "adr_avg_points": 350,
+        "overnight_range_pct_adr": 50,
+        "remaining_adr_pct": 50,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["after_capitulatory_move"],
+        "bias_note": "Rebote táctico en semiconductores tras la purga del lunes, pero la estructura semanal sigue sesgada a la baja. Como en ES, la resolución direccional real llegará con la Fed esta tarde."
+      },
+      {
+        "id": "cl",
+        "name": "Crude Oil WTI",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Corrección técnica moderada tras marcar un máximo de cuatro meses (105,83), con Arabia Saudí cancelando cargamentos y Libia suspendiendo producción en tres campos; doble catalizador hoy con el EIA y la Fed.",
+        "adr_avg_points": 3.75,
+        "overnight_range_pct_adr": 55,
+        "remaining_adr_pct": 45,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "Tendencia de fondo alcista confirmada por la ruptura de la VA semanal previa, impulsada por la prima de riesgo geopolítico en Oriente Medio. El retroceso de hoy es sano dentro de la tendencia, pero el doble catalizador (EIA + Fed) exige gestión de riesgo estricta."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4405,
+        "balance_zone_low": 4258,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Rebote desde el mínimo de seis semanas (~4.258) recuperando el nivel de 4.300, con posible divergencia alcista de RSI; el dólar firme y los rendimientos en máximos desde 2007 limitan el impulso.",
+        "adr_avg_points": 70,
+        "overnight_range_pct_adr": 55,
+        "remaining_adr_pct": 45,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_BO"],
+        "bias_note": "Rebote técnico tras tocar mínimo de seis semanas, en tensión con la narrativa de tipos altos y dólar fuerte. La decisión de la Fed esta tarde determinará si el rebote se consolida o es una trampa alcista."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 141.6,
+      "prev_close": 142.35,
+      "change_pct": -0.53,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "La decisión de la Fed esta tarde y el debate sobre seguridad de la IA en Dreamforce (Amodei vs. Huang) son los catalizadores dominantes para el valor en las últimas 48 horas.",
+      "news_summary": "ServiceNow ha recibido subidas de precio objetivo de Needham (a 155$) y BTIG (a 170$) en las últimas semanas, citando la monetización de IA y los nuevos paquetes 'Now Assist'. El lunes el valor subió cerca de un 5% en una rotación sectorial hacia software empresarial junto a Adobe y Salesforce. No hay noticias de M&A recientes; las adquisiciones de Armis y Moveworks ya están cerradas. El principal riesgo sigue siendo el debate sobre si los agentes de IA erosionan el modelo de licencias por asiento ('SaaSpocalypse').",
+      "technical_note": "El valor cotiza en fase de recuperación desde el mínimo de abril (81,24$) pero sigue un 27% por debajo del máximo histórico de septiembre 2025 (194,73$). Soporte cercano en 140,10$ y resistencia en 144,71$, con el siguiente objetivo psicológico en la zona de 150-155$. Próximos resultados estimados para finales de octubre de 2026 (fecha aún no confirmada oficialmente)."
+    }
+  ]
+}
