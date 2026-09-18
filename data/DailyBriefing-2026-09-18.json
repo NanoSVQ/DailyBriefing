@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "generated_at": "2026-09-18T07:10:00Z",
+    "trading_date": "2026-09-18",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "CNBC", "Investing.com", "Bloomberg", "FXStreet", "Barchart"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Rebote en acciones tras la Fed hawkish; dolar firme y petroleo corrige en dia de vencimiento trimestral.",
+    "sentiment": "mixed",
+    "sentiment_score": 0.2,
+    "key_theme": "La Fed subio tipos 25pb el 16-sep (primera subida desde 2023) y el mercado digiere el tono hawkish mientras hoy vence el trimestral (quad witching) en ES/NQ."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7707.25,
+      "prev_close": 7637.76,
+      "change_pct": 0.91,
+      "direction": "up",
+      "level_key_support": 7638,
+      "level_key_resistance": 7750,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 extiende el rebote post-Fed marcando nuevo maximo semanal en la sesion europea, tras defender el pivote de 7600-7638. Hoy vence el trimestral (quad witching), lo que puede distorsionar el rango y el volumen cerca del cierre."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 29567.75,
+      "prev_close": 29412.73,
+      "change_pct": 0.53,
+      "direction": "up",
+      "level_key_support": 29000,
+      "level_key_resistance": 29811.5,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El Nasdaq 100 lidera el rebote apoyado en tecnologia y semiconductores, ya ha recuperado la media de 200 sesiones y busca romper el maximo semanal en 29811. El vencimiento trimestral de hoy anade riesgo de rangos falsos."
+    },
+    {
+      "id": "dax",
+      "name": "DAX",
+      "ticker": "^GDAXI",
+      "price": 25716.71,
+      "prev_close": 25700,
+      "change_pct": 0.07,
+      "direction": "flat",
+      "level_key_support": 25550,
+      "level_key_resistance": 26500,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX consolida justo por encima de 25700 tras el rebote de ayer, sin catalizador propio relevante hoy. Necesita romper 26500 para reactivar el sesgo alcista de fondo."
+    },
+    {
+      "id": "eurusd",
+      "name": "EUR/USD",
+      "ticker": "EURUSD",
+      "price": 1.1496,
+      "prev_close": 1.1525,
+      "change_pct": -0.25,
+      "direction": "down",
+      "level_key_support": 1.1472,
+      "level_key_resistance": 1.1629,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El euro cotiza en minimos desde finales de julio, presionado por la divergencia de politica tras el hike hawkish de la Fed. El nivel de 1.15 es el soporte psicologico clave; su perdida confirmada abriria paso a 1.1472."
+    },
+    {
+      "id": "dxy",
+      "name": "US Dollar Index",
+      "ticker": "DXY",
+      "price": 100.3,
+      "prev_close": 100.2268,
+      "change_pct": 0.07,
+      "direction": "up",
+      "level_key_support": 99.67,
+      "level_key_resistance": 100.56,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El dolar mantiene las ganancias post-Fed, sosteniendose sobre la media de 100 sesiones (99.67). Una ruptura de 100.56 abriria camino hacia 101.11 y reforzaria la presion sobre euro y materias primas."
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "ticker": "XAU/USD",
+      "price": 4384.78,
+      "prev_close": 4341.82,
+      "change_pct": 0.99,
+      "direction": "up",
+      "level_key_support": 4313.67,
+      "level_key_resistance": 4441.34,
+      "bias": "neutral",
+      "signal": "reversal",
+      "note": "El oro encadena tres sesiones al alza desde el minimo de seis semanas (4263), apoyado por la caida de rendimientos y del petroleo pese a la Fed hawkish. Aun opera por debajo de la media de 200 sesiones, por lo que la estructura de fondo sigue siendo neutral-bajista."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL",
+      "price": 101.21,
+      "prev_close": 101.95,
+      "change_pct": -0.73,
+      "direction": "down",
+      "level_key_support": 99.39,
+      "level_key_resistance": 103.12,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El WTI corrige por tercera sesion desde el maximo de 107$ ante senales de alivio parcial en el flujo de crudo pese al conflicto en el Estrecho de Ormuz. Soporte inmediato en la zona de 99-100$."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 77566,
+      "prev_close": 78188,
+      "change_pct": -0.79,
+      "direction": "down",
+      "level_key_support": 77165,
+      "level_key_resistance": 78340,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin consolida entre 77.000 y 78.000$ (dato no disponible con precision por dispersion entre exchanges); la media de 20 sesiones en 77165 es el soporte clave. Se necesita recuperar 78340 para confirmar estabilizacion."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-18",
+      "days_ahead": 0,
+      "time_cet": "N/D",
+      "event": "Vencimiento trimestral (Quadruple Witching) e expiracion de futuros de indice de septiembre en ES/NQ",
+      "importance": "high",
+      "previous": "N/D",
+      "expected": "Volumen y volatilidad elevados hacia el cierre"
+    },
+    {
+      "date": "2026-09-23",
+      "days_ahead": 5,
+      "time_cet": "09:30-15:45",
+      "event": "PMI flash manufacturero y de servicios (Alemania, Eurozona, EE.UU.)",
+      "importance": "high",
+      "previous": "Compuesto Eurozona 52.0 / Manufacturero 52.7",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-24",
+      "days_ahead": 6,
+      "time_cet": "10:00",
+      "event": "Ifo aleman de clima empresarial",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-24",
+      "days_ahead": 6,
+      "time_cet": "16:00",
+      "event": "Ventas de vivienda nueva en EE.UU. (agosto)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-25",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "Peticiones semanales de subsidio por desempleo (EE.UU.)",
+      "importance": "medium",
+      "previous": "196.000",
+      "expected": "dato no disponible"
+    },
+    {
+      "date": "2026-09-25",
+      "days_ahead": 7,
+      "time_cet": "14:30",
+      "event": "PIB final del 2T (EE.UU.) y pedidos de bienes duraderos (agosto)",
+      "importance": "medium",
+      "previous": "dato no disponible",
+      "expected": "dato no disponible"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dxy"],
+    "bearish": ["eurusd", "wti"],
+    "neutral": ["dax", "gold", "btc"]
+  },
+  "risk_section": {
+    "visible": "El vencimiento trimestral (quad witching) de hoy puede generar rangos falsos y pines de precio en ES/NQ por reposicionamiento masivo de opciones.",
+    "hidden": "El mercado ya descuenta cerca de un 53% de probabilidad de otra subida de la Fed en octubre, mientras oro y petroleo mantienen primas de riesgo geopolitico (Ormuz) que la renta variable podria no estar valorando del todo.",
+    "scenario": "Si el conflicto en el Estrecho de Ormuz se reactiva, el crudo podria volver rapido a la zona de 107$ y presionar de nuevo a la baja las bolsas, revirtiendo el rebote actual de ES/NQ.",
+    "signal": "Vigilar el nivel de 1.15 en EUR/USD y la resistencia de 100.56 en el DXY; su ruptura confirmaria el dominio del dolar y podria limitar el recorrido del rebote en renta variable y oro."
+  },
+  "hawk_system": {
+    "special_situation": "OPEX",
+    "consecutive_closes": {
+      "es": 1,
+      "nq": 2,
+      "cl": -2,
+      "gc": 3
+    },
+    "system_readiness": "wait",
+    "system_note": "El vencimiento trimestral (quad witching) de hoy, con expiracion de los contratos de septiembre en ES/NQ, distorsiona volumen y rangos nocturnos, por lo que el sistema recomienda esperar confirmacion post-apertura antes de operar setups direccionales puros. El oro conserva el mejor EV relativo al no estar sujeto a este vencimiento, mientras que NQ ya ha consumido gran parte de su ADR estimado en overnight, lo que limita el recorrido para perseguir extensiones.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 7657,
+        "balance_zone_low": 7552,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "ES marco nuevo maximo semanal en la sesion europea (7739), extendiendo el rebote post-Fed sin senales de rechazo relevante.",
+        "adr_avg_points": 80,
+        "overnight_range_pct_adr": 54,
+        "remaining_adr_pct": 46,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["none"],
+        "bias_note": "Condicion diaria de expansion alcista tras el hueco correctivo de la Fed, operando por encima del rango semanal previo. Sesgo alcista para hoy mientras se mantenga sobre 7638, con precaucion por el vencimiento trimestral."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 29412,
+        "balance_zone_low": 28938,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "NQ extendio el rally liderado por tecnologia hasta un nuevo maximo semanal en 29625 durante la sesion europea, sin senales de rechazo.",
+        "adr_avg_points": 400,
+        "overnight_range_pct_adr": 94,
+        "remaining_adr_pct": 6,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "wait",
+        "active_red_flags": ["adr_near_100pct"],
+        "bias_note": "NQ ya consumio cerca del 94% de su ADR estimado en la sesion nocturna, elevando el riesgo de agotamiento intradia. Sesgo alcista mientras se sostenga sobre 29400, pero con recorrido limitado para nuevas extensiones."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 102.9,
+        "balance_zone_low": 99.39,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El WTI corrigio con fuerza desde 107$ hasta cerca de 100$ en tres sesiones, aliviando parte de la prima de riesgo geopolitica sin un catalizador overnight claro.",
+        "adr_avg_points": 3.0,
+        "overnight_range_pct_adr": 75,
+        "remaining_adr_pct": 25,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["after_3plus_consecutive_closes", "against_recent_BO"],
+        "bias_note": "El crudo encadena varias jornadas de cierres negativos tras marcar maximos de 107$, corrigiendo el exceso de prima geopolitica. Sesgo bajista de corto plazo hacia 99-100$, aunque el contexto de fondo (Ormuz) mantiene riesgo de rebote violento."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 4372,
+        "balance_zone_low": 4263,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El oro extendio su recuperacion desde el minimo de seis semanas (4263), apoyado por la caida de rendimientos y del petroleo, marcando nuevos maximos de la semana en el tramo overnight.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 62,
+        "remaining_adr_pct": 38,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "El oro encadena tres cierres alcistas tras el minimo de seis semanas, moviendose a contracorriente de la subida de tipos de la Fed gracias al flujo de refugio ligado a Ormuz. Sesgo alcista mientras se mantenga sobre 4340, con atencion al riesgo de agotamiento tras el fuerte tramo al alza."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 138.83,
+      "prev_close": 140.67,
+      "change_pct": -1.31,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "ServiceNow corrige por segunda sesion tras el salto del 7,4% de la semana pasada, mientras Schaeffer's advierte de una senal bajista estacional en la media de 320 sesiones.",
+      "news_summary": "Needham, BMO y BTIG elevaron su precio objetivo a mediados de septiembre tras un solido segundo trimestre, impulsando el valor un 7,4% el 14-sep. Desde entonces el titulo corrige hacia la zona de 138-140$ en una digestion normal del movimiento. Bridgewater revelo una posicion de unos 63 millones de dolares en la compania, y ServiceNow sigue reforzando su oferta de IA agentica junto a NVIDIA (AI Control Tower, NOWAI-Bench). El proximo catalizador relevante es el resultado del tercer trimestre, estimado para finales de octubre (no confirmado oficialmente).",
+      "technical_note": "Soporte relevante en la zona de 136-138$ (medias de corto plazo); su perdida abriria paso hacia 125-126$ (media de 200 sesiones). Resistencia en 142-145$, con el cruce dorado (media de 50 por encima de la de 200) manteniendo el sesgo alcista de fondo pese a la pausa reciente."
+    }
+  ]
+}
