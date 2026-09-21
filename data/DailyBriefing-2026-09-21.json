@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "generated_at": "2026-09-21T12:35:00Z",
+    "trading_date": "2026-09-21",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com/Trading Economics", "Bloomberg", "Barchart"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "Acciones y cripto suben mientras el crudo cae ante optimismo previo a la cumbre Trump-Xi.",
+    "sentiment": "risk_on",
+    "sentiment_score": 0.45,
+    "key_theme": "El mercado digiere la subida de tipos de la Fed y mira a la cumbre Trump-Xi del jueves y al PCE del viernes."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "price": 7705.00,
+      "prev_close": 7650.50,
+      "change_pct": 0.71,
+      "direction": "up",
+      "level_key_support": 7650,
+      "level_key_resistance": 7750,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El S&P 500 recuperó los 7.700 puntos y extiende su tendencia alcista tras el mensaje optimista de Bessent previo a la cumbre Trump-Xi. Soporte en 7.650 (cierre previo) y resistencia en la zona de 7.750-7.800; mientras se mantenga sobre el soporte, favorece continuación."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "^NDX",
+      "price": 29940.00,
+      "prev_close": 29644.17,
+      "change_pct": 1.00,
+      "direction": "up",
+      "level_key_support": 29200,
+      "level_key_resistance": 30000,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El Nasdaq 100 lidera las subidas apoyado en semiconductores y valores ligados a IA, acercándose a los 30.000 puntos. Soporte relevante en 29.200 y resistencia en el entorno de 30.000; el momentum favorece continuación mientras el sector tech mantenga liderazgo."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 25596.46,
+      "prev_close": 25304.06,
+      "change_pct": 1.16,
+      "direction": "up",
+      "level_key_support": 25300,
+      "level_key_resistance": 25850,
+      "bias": "neutral",
+      "signal": "reversal",
+      "note": "El DAX rebota con fuerza tras el desplome del 1,6% del viernes, abriendo hoy en 25.596 frente al cierre previo de 25.304. Es una reacción técnica tras la sobreventa; soporte en 25.300 y resistencia en 25.850, sesgo neutral hasta confirmar si es rebote o giro de tendencia."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1495,
+      "prev_close": 1.1489,
+      "change_pct": 0.05,
+      "direction": "up",
+      "level_key_support": 1.1450,
+      "level_key_resistance": 1.1550,
+      "bias": "bearish",
+      "signal": "wait",
+      "note": "El euro cotiza cerca de 1,1490, próximo a sus mínimos desde finales de julio, lastrado por un dólar fuerte tras la subida de tipos de la Fed. Soporte en 1,1450 y resistencia en 1,1550; sesgo bajista mientras no recupere ese nivel."
+    },
+    {
+      "id": "dxy",
+      "name": "Dollar Index",
+      "ticker": "DXY",
+      "price": 100.27,
+      "prev_close": 100.17,
+      "change_pct": 0.10,
+      "direction": "up",
+      "level_key_support": 99.80,
+      "level_key_resistance": 100.80,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El índice dólar se mantiene firme en torno a 100,27, apoyado por el reciente endurecimiento de la Fed y rendimientos del 10 años cerca del 5%. Soporte en 99,80 y resistencia en 100,80; sesgo alcista de corto plazo."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4352.60,
+      "prev_close": 4380.00,
+      "change_pct": -0.63,
+      "direction": "down",
+      "level_key_support": 4300,
+      "level_key_resistance": 4425,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El oro corrige hacia 4.353$ tras marcar máximos semanales cerca de 4.380-4.425$ el viernes, presionado por la fortaleza del dólar. Soporte en 4.300$ y resistencia en 4.425$; consolidación dentro de una tendencia de fondo alcista."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crudo",
+      "ticker": "CL",
+      "price": 93.91,
+      "prev_close": 96.08,
+      "change_pct": -2.26,
+      "direction": "down",
+      "level_key_support": 93.00,
+      "level_key_resistance": 97.50,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El WTI cae con fuerza hasta 93,9$, tercera sesión consecutiva a la baja, ante expectativas de que EEUU e Irán retomen conversaciones diplomáticas. Soporte en 93$ y resistencia en 97,5$; sesgo bajista mientras no se recupere ese nivel."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 83869.00,
+      "prev_close": 81300.00,
+      "change_pct": 3.16,
+      "direction": "up",
+      "level_key_support": 80000,
+      "level_key_resistance": 86000,
+      "bias": "bullish",
+      "signal": "breakout",
+      "note": "Bitcoin superó los 83.000$ por primera vez desde finales de enero, con una liquidación de 262 millones $ en cortos en una hora. Soporte en 80.000$ y resistencia en 86.000$; el momentum es claramente alcista."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-22",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "Chicago Fed National Activity Index",
+      "importance": "low",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-23",
+      "days_ahead": 2,
+      "time_cet": "15:45",
+      "event": "PMI Flash Manufacturero y Servicios S&P Global (EEUU)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-23",
+      "days_ahead": 2,
+      "time_cet": "22:30",
+      "event": "Inventarios semanales de crudo API",
+      "importance": "medium",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-24",
+      "days_ahead": 3,
+      "time_cet": "00:00",
+      "event": "Cumbre Trump-Xi Jinping (Washington)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "Aranceles, minerales críticos e inteligencia artificial"
+    },
+    {
+      "date": "2026-09-24",
+      "days_ahead": 3,
+      "time_cet": "16:30",
+      "event": "Inventarios semanales de crudo EIA",
+      "importance": "medium",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-25",
+      "days_ahead": 4,
+      "time_cet": "14:30",
+      "event": "Peticiones iniciales de desempleo, Pedidos de Bienes Duraderos y PIB final Q2",
+      "importance": "medium",
+      "previous": "n/d",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-26",
+      "days_ahead": 5,
+      "time_cet": "14:30",
+      "event": "PCE subyacente (medida de inflación preferida de la Fed)",
+      "importance": "high",
+      "previous": "n/d",
+      "expected": "n/d"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["spx", "ndx", "dxy", "btc"],
+    "bearish": ["wti", "eurusd"],
+    "neutral": ["dax", "gold"]
+  },
+  "risk_section": {
+    "visible": "El PCE del viernes y la cumbre Trump-Xi del jueves podrían generar volatilidad brusca si las expectativas no se cumplen.",
+    "hidden": "El mercado de bonos apenas refleja el reciente subidón de tipos de la Fed (10 años cerca del 5%), lo que podría presionar valoraciones de crecimiento si la rentabilidad sigue subiendo.",
+    "scenario": "Si la cumbre Trump-Xi decepciona o surgen nuevas fricciones arancelarias, el repunte de riesgo actual podría revertirse rápidamente hacia los soportes clave.",
+    "signal": "Vigilar los PMI flash del miércoles y la agenda cargada de discursos de la Fed esta semana como catalizadores de dirección de corto plazo."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": 3,
+      "nq": 1,
+      "cl": -3,
+      "gc": -1
+    },
+    "system_readiness": "wait",
+    "system_note": "El ES es el único instrumento con condición diaria clara y sin red flags relevantes, por lo que concentra el mejor EV del sistema hoy vía continuación (BPB_pVA). El CL acumula dos red flags (tercer cierre consecutivo bajista y rango cercano al 100% del ADR) por lo que conviene evitarlo o operarlo con tamaño mínimo. NQ y GC permanecen en balance con condición dudosa; mejor esperar confirmación y reducir tamaño general esta semana por el riesgo de evento (cumbre Trump-Xi el jueves, PCE el viernes).",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Rango overnight contenido, sin tests relevantes de niveles, consolidando cerca de máximos tras la ruptura de 7.686.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 28.0,
+        "remaining_adr_pct": 72.0,
+        "rvol_premarket": "avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Condición diaria alcista clara (DIH) confluente con la DVA semanal en desarrollo al alza; el contexto overnight ha sido tranquilo, consolidando sobre el soporte de ruptura de 7.686. El sesgo de hoy favorece continuación con retrocesos hacia value como zona de entrada."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 29650,
+        "balance_zone_low": 29100,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Ligero gap overnight sin rupturas relevantes; el mercado respeta el rango de balance de las últimas sesiones.",
+        "adr_avg_points": 300,
+        "overnight_range_pct_adr": 32.0,
+        "remaining_adr_pct": 68.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["against_recent_FOBO"],
+        "bias_note": "Condición diaria de balance (DB) con dudas tras el fallo de ruptura bajista de la semana pasada y la recuperación posterior; el precio permanece dentro de la DVA semanal en rotación. El sesgo es neutral hasta que el mercado resuelva el rango, mejor esperar confirmación intradía."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Presión vendedora continuada en el overnight, con nuevos mínimos de varias semanas ante las expectativas de diálogo EEUU-Irán.",
+        "adr_avg_points": 2.20,
+        "overnight_range_pct_adr": 58.0,
+        "remaining_adr_pct": 42.0,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["after_3plus_consecutive_closes", "adr_near_100pct"],
+        "bias_note": "Condición diaria claramente bajista (DIL) con desequilibrio confluente respecto a la DVA semanal, tras tres cierres consecutivos a la baja y ruptura por debajo de 100$. El overnight ha mostrado presión vendedora adicional; sesgo bajista para retrocesos hacia la pVA rota."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 4425,
+        "balance_zone_low": 4300,
+        "weekly_dva_condition": "rotational_confluent",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Rango overnight estrecho, consolidando por debajo de los máximos semanales del viernes sin tests de niveles relevantes.",
+        "adr_avg_points": 50,
+        "overnight_range_pct_adr": 22.0,
+        "remaining_adr_pct": 78.0,
+        "rvol_premarket": "below_avg",
+        "setup_priority": "IPB",
+        "active_red_flags": ["none"],
+        "bias_note": "Condición diaria de balance (DB) tras el fuerte rally previo, cotizando dentro de la DVA semanal tras la corrección desde máximos de 4.380-4.425$. El overnight ha sido tranquilo con rango contenido; sesgo neutral-alcista de fondo, mejor esperar ruptura del rango de balance para operar."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "price": 136.04,
+      "prev_close": 135.21,
+      "change_pct": 0.61,
+      "direction": "up",
+      "position_status": "open",
+      "bias": "neutral",
+      "key_headline": "Needham eleva el precio objetivo a 155$ tras unos sólidos resultados del segundo trimestre impulsados por la IA agéntica.",
+      "news_summary": "ServiceNow registró ingresos de 3.990 millones $ en el Q2 2026, batiendo expectativas, con un crecimiento de 9 veces en la adopción de IA agéntica por parte de clientes. La acción subió un 7,4% tras los resultados pero después corrigió cerca de un 2-3% en sesiones posteriores ante dudas sobre la valoración. El consenso analista sigue siendo constructivo, con el precio objetivo de Needham en 155$.",
+      "technical_note": "El valor cotiza entre 135 y 140$, corrigiendo desde máximos recientes tras el rally post-resultados. Soporte cercano en 135$ (mínimos de la semana) y resistencia en 142$ (máximo post-resultados del 14 de septiembre); mientras se mantenga sobre 135$ el sesgo de fondo continúa constructivo."
+    }
+  ]
+}
