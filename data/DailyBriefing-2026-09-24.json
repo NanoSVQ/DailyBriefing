@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "generated_at": "2026-09-24T07:00:00Z",
+    "trading_date": "2026-09-24",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "Investing.com", "TradingEconomics", "Bloomberg", "CNBC"],
+    "data_quality": "verified"
+  },
+  "market_summary": {
+    "headline": "El repunte de rentabilidades y el shock petrolero por Ormuz golpean a bolsas y oro; sube el dólar.",
+    "sentiment": "mixed",
+    "sentiment_score": -0.4,
+    "key_theme": "La escalada EEUU-Irán en el Estrecho de Ormuz dispara el crudo y las rentabilidades, presionando renta variable y oro pese a un dólar fuerte."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "price": 7660.0,
+      "prev_close": 7706.03,
+      "change_pct": -0.6,
+      "direction": "down",
+      "level_key_support": 7600,
+      "level_key_resistance": 7750,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El índice retrocede tras marcar máximos la semana pasada, presionado por el repunte del 10 años a niveles no vistos desde 2007. Pérdida de 7.600 abriría paso a más recogida de beneficios; recuperar 7.750 invalidaría el giro bajista de corto plazo."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NDX",
+      "price": 30165.0,
+      "prev_close": 30470.29,
+      "change_pct": -1.0,
+      "direction": "down",
+      "level_key_support": 29800,
+      "level_key_resistance": 30750,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El Nasdaq 100 lidera las caídas tras marcar récord el martes, con signos de agotamiento alcista en el sector tecnológico. El nivel de 29.800 es clave para evitar una extensión bajista mayor."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "price": 25229.0,
+      "prev_close": 25411.0,
+      "change_pct": -0.72,
+      "direction": "down",
+      "level_key_support": 25000,
+      "level_key_resistance": 25600,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El DAX arrastra la debilidad del resto de bolsas globales, penalizado por la subida del crudo y de las rentabilidades. Mientras se mantenga bajo 25.600 el sesgo de corto plazo sigue siendo negativo."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1379,
+      "prev_close": 1.1381,
+      "change_pct": -0.02,
+      "direction": "flat",
+      "level_key_support": 1.13,
+      "level_key_resistance": 1.145,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El par cotiza casi plano, atrapado entre la fortaleza del dólar por las expectativas de subida de tipos de la Fed y el respaldo relativo del euro. Rango de referencia 1,1300-1,1450 mientras no haya catalizador claro."
+    },
+    {
+      "id": "dxy",
+      "name": "Dollar Index",
+      "ticker": "DXY",
+      "price": 101.08,
+      "prev_close": 100.9,
+      "change_pct": 0.18,
+      "direction": "up",
+      "level_key_support": 100.5,
+      "level_key_resistance": 101.5,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "El dólar marca máximos de ocho semanas tras datos de actividad más fuertes de lo esperado, que elevan la probabilidad de una subida de tipos de la Fed en octubre. Mientras se sostenga sobre 100,50 el sesgo alcista sigue vigente."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAUUSD",
+      "price": 4283.0,
+      "prev_close": 4358.58,
+      "change_pct": -1.7,
+      "direction": "down",
+      "level_key_support": 4230,
+      "level_key_resistance": 4360,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "El oro extiende la corrección por la fortaleza del dólar y de las rentabilidades reales, alejándose de la resistencia de 4.360 (EMA100). El soporte de 4.230 (fibo 61,8%) es la referencia clave de corto plazo dentro de la tendencia alcista de fondo."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crudo",
+      "ticker": "CL",
+      "price": 92.67,
+      "prev_close": 94.1,
+      "change_pct": -1.5,
+      "direction": "down",
+      "level_key_support": 90.0,
+      "level_key_resistance": 98.0,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El crudo consolida tras el fuerte repunte de las últimas semanas por el colapso del tráfico marítimo en el Estrecho de Ormuz. El sesgo estructural sigue siendo alcista mientras se mantenga sobre 90 USD, aunque el ADR está muy consumido para nuevas entradas."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTCUSD",
+      "price": 84300.0,
+      "prev_close": 86950.0,
+      "change_pct": -3.05,
+      "direction": "down",
+      "level_key_support": 80000,
+      "level_key_resistance": 87000,
+      "bias": "bearish",
+      "signal": "reversal",
+      "note": "Bitcoin sufre un rechazo brusco desde el entorno de 87.000 USD con liquidaciones de posiciones largas apalancadas. El soporte de 80.000 USD es clave para no comprometer la estructura alcista formada desde los 75.000 USD."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-24",
+      "days_ahead": 0,
+      "time_cet": "N/D",
+      "event": "Reunión Trump-Xi Jinping (cumbre comercial EEUU-China)",
+      "importance": "high",
+      "previous": "N/A",
+      "expected": "Señales sobre acuerdo comercial y aranceles"
+    },
+    {
+      "date": "2026-09-25",
+      "days_ahead": 1,
+      "time_cet": "16:00",
+      "event": "Confianza del consumidor U. Michigan (dato final)",
+      "importance": "medium",
+      "previous": "55.4",
+      "expected": "54.2"
+    },
+    {
+      "date": "2026-09-26",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "PCE subyacente (agosto)",
+      "importance": "high",
+      "previous": "2.9% YoY",
+      "expected": "3.0% YoY"
+    },
+    {
+      "date": "2026-09-29",
+      "days_ahead": 5,
+      "time_cet": "16:00",
+      "event": "Confianza del consumidor Conference Board (septiembre)",
+      "importance": "medium",
+      "previous": "97.4",
+      "expected": "96.0"
+    },
+    {
+      "date": "2026-10-01",
+      "days_ahead": 7,
+      "time_cet": "16:00",
+      "event": "ISM Manufacturero (septiembre)",
+      "importance": "high",
+      "previous": "48.7",
+      "expected": "49.0"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy"],
+    "bearish": ["spx", "ndx", "dax", "gold", "btc"],
+    "neutral": ["eurusd", "wti"]
+  },
+  "risk_section": {
+    "visible": "El repunte de las rentabilidades del Treasury a 10 años hacia el 5,15% y la escalada del crudo por el cierre efectivo del Estrecho de Ormuz están presionando a la renta variable global.",
+    "hidden": "Un endurecimiento adicional del discurso de la Fed tras los datos de actividad más fuertes de lo esperado podría acelerar las expectativas de subida de tipos en octubre, algo que el mercado apenas empieza a descontar.",
+    "scenario": "Si la reunión Trump-Xi o una desescalada en Ormuz sorprenden al alza, podría producirse un rebote técnico en renta variable y una corrección en el crudo.",
+    "signal": "Vigilar el nivel psicológico del 5% en el 10 años americano y la evolución del tráfico de buques por el Estrecho de Ormuz como termómetro del riesgo geopolítico esta semana."
+  },
+  "hawk_system": {
+    "special_situation": "None",
+    "consecutive_closes": {
+      "es": -2,
+      "nq": -2,
+      "cl": 4,
+      "gc": -3
+    },
+    "system_readiness": "wait",
+    "system_note": "El sistema recomienda cautela generalizada hoy: NQ acumula dos red flags tras el máximo histórico del martes (contra el breakout reciente y tras agotamiento alcista), y el fondo macro de bonos y petróleo añade ruido a la apertura. ES y GC ofrecen setups de continuación bajista solo con tamaño reducido y confirmación; CL mantiene sesgo alcista estructural pero con el ADR muy consumido, sin margen claro para nuevas entradas hoy.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 7700,
+        "balance_zone_low": 7620,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Los futuros del ES extienden la caída del miércoles ante el repunte de las rentabilidades a 10 años cerca del 5,15%, sin tests relevantes de máximos o mínimos overnight.",
+        "adr_avg_points": 60,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["against_recent_BO"],
+        "bias_note": "La condición diaria DIL junto al DVA semanal en disonancia rotacional sugiere continuidad bajista de corto plazo. El contexto overnight sin tests claros mantiene el sesgo bajista pero exige confirmación en la apertura de Nueva York."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 30700,
+        "balance_zone_low": 30100,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "El NQ profundiza la caída tras el máximo histórico del martes, con ventas aceleradas overnight y ruptura del mínimo de la sesión previa sin test de reversión.",
+        "adr_avg_points": 240,
+        "overnight_range_pct_adr": 45,
+        "remaining_adr_pct": 55,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "RPB_LTpVA",
+        "active_red_flags": ["against_recent_BO", "after_bullish_exhaustion"],
+        "bias_note": "La reversión desde máximos históricos con dos red flags activas (contra el breakout reciente y tras agotamiento alcista) aconseja tamaño reducido o esperar confirmación. El DVA semanal en disonancia de imbalance refuerza el sesgo bajista de corto plazo."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil Futures",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "El WTI se mantiene sostenido cerca de máximos plurimensuales por el colapso del tráfico en el Estrecho de Ormuz, con un ligero retroceso overnight tras varias sesiones de fuerte extensión.",
+        "adr_avg_points": 3.5,
+        "overnight_range_pct_adr": 70,
+        "remaining_adr_pct": 30,
+        "rvol_premarket": "x2_or_more",
+        "setup_priority": "IPB",
+        "active_red_flags": ["adr_near_100pct"],
+        "bias_note": "El WTI opera en clara condición de iniciativa alcista (DIH) con el DVA semanal en imbalance confluente, reflejo del shock de oferta por Ormuz. El ADR muy consumido limita el margen para nuevas entradas largas hoy; vigilar un posible agotamiento tras la extensión reciente."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": 4360,
+        "balance_zone_low": 4280,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "El oro extiende la corrección por un dólar más fuerte y rentabilidades reales al alza, sin recuperar la zona de 4.360 que actúa como resistencia inmediata.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 40,
+        "remaining_adr_pct": 60,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_3plus_consecutive_closes"],
+        "bias_note": "Tres cierres consecutivos a la baja y el DVA semanal en disonancia rotacional apuntan a continuidad bajista de corto plazo dentro de la tendencia alcista estructural del año. La fortaleza del dólar es el principal viento en contra hoy."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 140.31,
+      "prev_close": 138.05,
+      "change_pct": 1.64,
+      "direction": "up",
+      "position_status": "open",
+      "bias": "bullish",
+      "key_headline": "Cantor Fitzgerald eleva el precio objetivo de ServiceNow a 174 USD citando fuerte demanda de soluciones de automatización basadas en IA.",
+      "news_summary": "Varias casas de análisis han elevado sus precios objetivo sobre ServiceNow en las últimas sesiones, destacando la demanda de flujos de trabajo impulsados por IA como motor de crecimiento. La acción ha mostrado fortaleza relativa frente al mercado, con subidas superiores al 1,6% en sesiones recientes pese a la debilidad generalizada del Nasdaq.",
+      "technical_note": "El valor cotiza en el rango 136-141 USD de las últimas sesiones, con soporte técnico cercano a 136 USD y resistencia en el entorno de 141-145 USD. La estructura de corto plazo se mantiene constructiva mientras se sostenga sobre el soporte, con catalizador de próximos resultados trimestrales a vigilar dada la posición abierta."
+    }
+  ]
+}
