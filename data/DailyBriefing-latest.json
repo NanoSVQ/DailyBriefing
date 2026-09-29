@@ -1,1 +1,289 @@
-PLACEHOLDER
+{
+  "meta": {
+    "generated_at": "2026-09-29T12:30:00Z",
+    "trading_date": "2026-09-29",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance", "CNBC", "TheStreet", "Saxo", "TradingEconomics", "Investing.com", "Tradingkey", "Kiplinger"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Rendimiento del 10 años en máximos de 19 años y crudo alto mantienen la cautela; el Nasdaq rebota en premarket",
+    "sentiment": "mixed",
+    "sentiment_score": -0.2,
+    "key_theme": "Las negociaciones EEUU-Irán estancadas sostienen el crudo (WTI ~94$) y el 10 años en 5.23-5.26%, mientras la tecnología busca suelo tras el -0.77% del S&P 500 del lunes y el oro se recupera tras caer un 4%."
+  },
+  "assets": [
+    {
+      "id": "spx",
+      "name": "S&P 500",
+      "ticker": "ES=F / ^GSPC",
+      "price": 7746,
+      "prev_close": 7740,
+      "change_pct": 0.08,
+      "direction": "flat",
+      "level_key_support": 7680,
+      "level_key_resistance": 7770,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El S&P 500 cash cerró el lunes en 7.683,69 (-0.77%) y los futuros apenas se mueven en premarket (~7.746). Se mantiene dentro del rango 7680-7770; con rendimientos en máximos de 19 años, conviene esperar aceptación fuera de esa zona antes de tomar dirección."
+    },
+    {
+      "id": "ndx",
+      "name": "Nasdaq 100",
+      "ticker": "NQ=F",
+      "price": 30950,
+      "prev_close": 30889,
+      "change_pct": 0.2,
+      "direction": "up",
+      "level_key_support": 30600,
+      "level_key_resistance": 31200,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Los futuros del Nasdaq 100 suben entre +0.1% y +0.3% en premarket, desmarcándose del Dow y el S&P, con la tecnología buscando rebote tras el castigo del lunes. Precio aproximado (dato no verificado con exactitud). El soporte de 30600 y la resistencia de 31200 delimitan el rango a vigilar; el ruido de IA (Anthropic/OpenAI) añade volatilidad."
+    },
+    {
+      "id": "dax",
+      "name": "DAX 40",
+      "ticker": "^GDAXI",
+      "price": 25374,
+      "prev_close": 25407,
+      "change_pct": -0.13,
+      "direction": "down",
+      "level_key_support": 25250,
+      "level_key_resistance": 25550,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El DAX cede un 0.13% hasta 25.374, moviéndose en un rango estrecho a la espera de los datos de EEUU y de novedades sobre Irán. Mientras se mantenga sobre 25250 el rango lateral sigue vigente; una ruptura de 25550 daría señal alcista."
+    },
+    {
+      "id": "eurusd",
+      "name": "Euro / Dólar",
+      "ticker": "EURUSD",
+      "price": 1.1361,
+      "prev_close": 1.1372,
+      "change_pct": -0.09,
+      "direction": "down",
+      "level_key_support": 1.132,
+      "level_key_resistance": 1.142,
+      "bias": "bearish",
+      "signal": "continuation",
+      "note": "El euro sigue débil (-0.09%) con el dólar sostenido por los altos rendimientos del Tesoro. Bajo 1.1420 el sesgo es bajista, con 1.1320 como siguiente soporte relevante."
+    },
+    {
+      "id": "dxy",
+      "name": "Dollar Index",
+      "ticker": "DXY",
+      "price": 101.2,
+      "prev_close": 101.11,
+      "change_pct": 0.09,
+      "direction": "up",
+      "level_key_support": 100.7,
+      "level_key_resistance": 101.5,
+      "bias": "bullish",
+      "signal": "continuation",
+      "note": "Cotización del DXY: dato no disponible con verificación; valor estimado a partir de EUR/USD y del cierre previo. El dólar se mantiene firme cerca de 101 apoyado por los rendimientos; un cierre sobre 101.50 confirmaría continuación alcista."
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "ticker": "XAU/USD",
+      "price": 4126,
+      "prev_close": 4114,
+      "change_pct": 0.28,
+      "direction": "up",
+      "level_key_support": 4040,
+      "level_key_resistance": 4200,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "El oro rebota ligeramente hacia 4.126$ tras desplomarse un 4% el lunes por los rendimientos récord y el repricing de tipos. Rango 4040-4200: mientras no recupere 4200 el rebote es correctivo; una pérdida de 4040 reabriría la caída."
+    },
+    {
+      "id": "wti",
+      "name": "WTI Crude Oil",
+      "ticker": "CL=F",
+      "price": 94.31,
+      "prev_close": 92.59,
+      "change_pct": 1.85,
+      "direction": "up",
+      "level_key_support": 92.4,
+      "level_key_resistance": 100.0,
+      "bias": "bullish",
+      "signal": "momentum",
+      "note": "El WTI sube un 1.85% hasta ~94.3$ (Brent ~99.9$) por la incertidumbre en las negociaciones EEUU-Irán, aunque otras fuentes señalan cierto retroceso del crudo en premarket. Sobre 92.40 el sesgo es alcista, con 100$ como objetivo psicológico."
+    },
+    {
+      "id": "btc",
+      "name": "Bitcoin",
+      "ticker": "BTC/USD",
+      "price": 83249,
+      "prev_close": 83299,
+      "change_pct": -0.06,
+      "direction": "flat",
+      "level_key_support": 80000,
+      "level_key_resistance": 86000,
+      "bias": "neutral",
+      "signal": "wait",
+      "note": "Bitcoin se mantiene plano en torno a 83.250$, sin seguir el tono de los demás activos de riesgo. Rango 80000-86000 a la espera de PCE y empleo; una ruptura con volumen definirá la dirección."
+    }
+  ],
+  "macro_calendar": [
+    {
+      "date": "2026-09-29",
+      "days_ahead": 0,
+      "time_cet": "16:00",
+      "event": "JOLTS Ofertas de Empleo (Agosto) + Confianza del Consumidor Conference Board (Septiembre)",
+      "importance": "medium",
+      "previous": "7.2M / 96.5",
+      "expected": "n/d"
+    },
+    {
+      "date": "2026-09-30",
+      "days_ahead": 1,
+      "time_cet": "14:30",
+      "event": "PCE Subyacente (Agosto, m/m)",
+      "importance": "high",
+      "previous": "+0.2% m/m",
+      "expected": "+0.3% m/m"
+    },
+    {
+      "date": "2026-10-01",
+      "days_ahead": 2,
+      "time_cet": "14:30",
+      "event": "Peticiones Iniciales de Subsidio de Desempleo",
+      "importance": "low",
+      "previous": "218K",
+      "expected": "220K"
+    },
+    {
+      "date": "2026-10-01",
+      "days_ahead": 2,
+      "time_cet": "16:00",
+      "event": "ISM Manufacturero (Septiembre)",
+      "importance": "medium",
+      "previous": "48.7",
+      "expected": "49.0"
+    },
+    {
+      "date": "2026-10-02",
+      "days_ahead": 3,
+      "time_cet": "14:30",
+      "event": "Nóminas No Agrícolas (NFP) de Septiembre + Tasa de Paro",
+      "importance": "high",
+      "previous": "+53K / 4.1%",
+      "expected": "+90K / 4.1%"
+    }
+  ],
+  "swing_bias_table": {
+    "bullish": ["dxy", "wti"],
+    "bearish": ["eurusd"],
+    "neutral": ["spx", "ndx", "dax", "gold", "btc"]
+  },
+  "risk_section": {
+    "visible": "El rendimiento del Tesoro a 10 años en 5.23-5.26% (máximo de 19 años) y las negociaciones estancadas con Irán mantienen presión sobre bolsa y oro. Hoy JOLTS y confianza del consumidor a las 16:00 CET pueden mover los tipos.",
+    "hidden": "Un PCE subyacente por encima de lo esperado podría reactivar el debate sobre nuevas subidas de la Fed, algo que el mercado no termina de descontar. El ruido sobre IA (prospecto de Anthropic, cancelación de un modelo de OpenAI) puede castigar a la tecnología de forma súbita.",
+    "scenario": "Si hay desescalada con Irán, el crudo caería con fuerza y los rendimientos aliviarían, impulsando bolsas y oro al alza. Quien esté corto en tecnología quedaría atrapado.",
+    "signal": "Vigilar el 10 años sobre 5.26% y el WTI sobre 100$, además del PCE del miércoles y el NFP del viernes. Una consolidación en esos niveles confirmaría un escenario de estanflación."
+  },
+  "hawk_system": {
+    "special_situation": "BOM_EOM",
+    "consecutive_closes": {
+      "es": -1,
+      "nq": -1,
+      "cl": 1,
+      "gc": -1
+    },
+    "system_readiness": "reduced_size",
+    "system_note": "Fin de mes/trimestre con flujos de rebalanceo, datos de JOLTS y a la espera del PCE: la lectura de perfil es menos fiable. Reducir tamaño, priorizar setups en bordes del balance y evitar perseguir el primer impulso.",
+    "instruments": [
+      {
+        "id": "es",
+        "name": "E-mini S&P 500",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 7770,
+        "balance_zone_low": 7680,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Sesión nocturna estrecha y plana tras el cierre bajista del lunes; sin tests relevantes de extremos y volumen moderado. Precio aproximado, sin verificar el rango exacto.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 35,
+        "remaining_adr_pct": 65,
+        "rvol_premarket": "avg",
+        "setup_priority": "wait",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "Condición diaria de balance dudosa dentro de un W DVA rotacional; el overnight no aporta ventaja direccional. Esperar a que la caja defina si se acepta fuera de 7680-7770."
+      },
+      {
+        "id": "nq",
+        "name": "E-mini Nasdaq 100",
+        "daily_condition": "DB",
+        "daily_condition_clarity": "doubtful",
+        "balance_zone_high": 31200,
+        "balance_zone_low": 30600,
+        "weekly_dva_condition": "rotational_dissonance",
+        "price_vs_weekly_pva": "inside_pVA",
+        "overnight_context": "Rebote moderado en premarket (+0.1/+0.3%) desde la zona baja del balance sin llegar a los máximos previos. Rango overnight aproximado.",
+        "adr_avg_points": 280,
+        "overnight_range_pct_adr": 40,
+        "remaining_adr_pct": 60,
+        "rvol_premarket": "avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "Fortaleza relativa frente a ES pero dentro de balance dudoso. Solo tomar reversiones desde los bordes con confirmación; ruido de IA puede generar barridos."
+      },
+      {
+        "id": "cl",
+        "name": "WTI Crude Oil",
+        "daily_condition": "DIH",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_confluent",
+        "price_vs_weekly_pva": "outside_pVA_above",
+        "overnight_context": "Mantiene las ganancias del rally del lunes, cotizando en ~94.3$ con vaivén overnight por titulares sobre Irán; sin nuevos máximos claros.",
+        "adr_avg_points": 2.3,
+        "overnight_range_pct_adr": 70,
+        "remaining_adr_pct": 30,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "BPB_pVA",
+        "active_red_flags": ["held_through_news"],
+        "bias_note": "Imbalance alcista confluente con el driver macro; preferir compras en retrocesos hacia el borde superior del pVA. Riesgo de titular binario: tamaño reducido."
+      },
+      {
+        "id": "gc",
+        "name": "Gold Futures",
+        "daily_condition": "DIL",
+        "daily_condition_clarity": "clear",
+        "balance_zone_high": null,
+        "balance_zone_low": null,
+        "weekly_dva_condition": "imbalance_dissonance",
+        "price_vs_weekly_pva": "outside_pVA_below",
+        "overnight_context": "Rebote leve desde el suelo del lunes (-4%), sin recuperar niveles de balance perdidos; rango overnight contenido.",
+        "adr_avg_points": 55,
+        "overnight_range_pct_adr": 45,
+        "remaining_adr_pct": 55,
+        "rvol_premarket": "above_avg",
+        "setup_priority": "RPB_pVA",
+        "active_red_flags": ["after_capitulatory_move"],
+        "bias_note": "Imbalance bajista tras movimiento capitulativo; el rebote hacia el pVA es candidato a venta con confirmación. Evitar vender en el suelo tras la caída."
+      }
+    ]
+  },
+  "watchlist_report": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "price": 131.45,
+      "prev_close": 135.62,
+      "change_pct": -3.07,
+      "direction": "down",
+      "position_status": "open",
+      "bias": "bearish",
+      "key_headline": "ServiceNow cae un 3% en una jornada de ventas en software tras el anuncio de Meta y con despidos formalizándose.",
+      "news_summary": "El lunes NOW cedió un 3.1% hasta 131.45$, arrastrada por la caída del sector software tras un anuncio de herramientas de codificación de Meta y por la entrada en vigor de un recorte de unos 287 empleados en California. Acumula una caída cercana al 30% en 12 meses. Las estimaciones y resultados del Q2 fueron positivos (BPA 0.90$ vs 0.76$ esperado) y los próximos resultados llegan el 28/10/2026, catalizador clave para la posición abierta.",
+      "technical_note": "Tendencia bajista de corto plazo, con pérdida de la zona de 135$ (antiguo soporte, ahora resistencia). Soporte en torno a 128-130$ y resistencia en 135-140$; precio premarket de hoy: dato no disponible."
+    }
+  ]
+}
