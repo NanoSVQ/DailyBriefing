@@ -1,13 +1,31 @@
 {
   "watchlist": [
     {
-      "ticker": "NOW",
-      "name": "ServiceNow Inc.",
-      "exchange": "NYSE",
+      "ticker": "CSW",
+      "name": "CSW",
+      "exchange": "SBF",
       "position_status": "open",
-      "entry_price": null,
+      "entry_price": 13.5956,
       "entry_date": null,
-      "user_note": "Posicion abierta en seguimiento."
+      "user_note": ""
+    },
+    {
+      "ticker": "NOW",
+      "name": "NOW",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 129.5345,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
+      "ticker": "PHAG",
+      "name": "PHAG",
+      "exchange": "LSE",
+      "position_status": "open",
+      "entry_price": 55.3067,
+      "entry_date": null,
+      "user_note": ""
     }
   ]
 }
