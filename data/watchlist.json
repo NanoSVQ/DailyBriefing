@@ -1,11 +1,38 @@
 {
   "watchlist": [
     {
-      "ticker": "CSW",
-      "name": "CSW",
-      "exchange": "SBF",
+      "ticker": "BABA",
+      "name": "BABA",
+      "exchange": "",
       "position_status": "open",
-      "entry_price": 13.5956,
+      "entry_price": 109.1167,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
+      "ticker": "CAVA",
+      "name": "CAVA",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 58.0609,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
+      "ticker": "DPZ",
+      "name": "DPZ",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 306.75,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
+      "ticker": "LULU",
+      "name": "LULU",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 97.9829,
       "entry_date": null,
       "user_note": ""
     },
@@ -19,11 +46,47 @@
       "user_note": ""
     },
     {
+      "ticker": "PEP",
+      "name": "PEP",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 134.98,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
       "ticker": "PHAG",
       "name": "PHAG",
       "exchange": "LSE",
       "position_status": "open",
-      "entry_price": 55.3067,
+      "entry_price": 53.2817,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
+      "ticker": "UBER",
+      "name": "UBER",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 69.4826,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
+      "ticker": "VITL",
+      "name": "VITL",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 8.3043,
+      "entry_date": null,
+      "user_note": ""
+    },
+    {
+      "ticker": "WY",
+      "name": "WY",
+      "exchange": "",
+      "position_status": "open",
+      "entry_price": 19.3917,
       "entry_date": null,
       "user_note": ""
     }
