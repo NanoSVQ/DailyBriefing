@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "generated_at": "2026-10-20T12:10:00Z",
+    "trading_date": "2026-10-20",
+    "schema_version": "2.1",
+    "horizon": "intraday_swing",
+    "analyst": "PKA Equipo · Morning Note",
+    "sources_verified": ["Yahoo Finance (cierre 19-oct)", "CNBC", "Schwab", "FXStreet", "Oilprice.com", "Goodreturns"],
+    "data_quality": "partial"
+  },
+  "market_summary": {
+    "headline": "Rebote tech/IA antes de resultados; petróleo en máximos de 5 meses por tensión en el Golfo",
+    "sentiment": "mixed",
+    "sentiment_score": 0.1,
+    "key_theme": "Temporada de resultados, riesgo geopolítico en petróleo y Fed (27-28 oct) bajo Warsh."
+  },
+  "assets": [
+    {"id": "spx", "name": "S&P 500", "ticker": "SPX", "price": 7690.73, "prev_close": 7659.44, "change_pct": 0.41, "direction": "up", "level_key_support": 7600, "level_key_resistance": 7744, "bias": "neutral", "signal": "wait", "note": "El S&P 500 cerró el lunes en 7.690,73 (+0,41%) tras rebotar con el sector tech/IA, pero sigue bajo la zona 7.700-7.744 perdida el viernes. Esa zona es la resistencia a recuperar; soporte en 7.600. Temporada de resultados como catalizador."},
+    {"id": "ndx", "name": "Nasdaq 100", "ticker": "NDX", "price": 29800, "prev_close": 29480, "change_pct": 1.09, "direction": "up", "level_key_support": 29400, "level_key_resistance": 30000, "bias": "neutral", "signal": "wait", "note": "Dato aproximado: el Nasdaq Composite subió +1,11% el lunes (26.430,89) y se estima el NDX cerca de 29.800 (no verificado). Rebote técnico tras el castigo semanal; 30.000 es la resistencia clave y 29.400 el soporte."},
+    {"id": "dax", "name": "DAX", "ticker": "DAX", "price": 25445, "prev_close": 25445, "change_pct": 0.0, "direction": "flat", "level_key_support": 25087, "level_key_resistance": 25350, "bias": "neutral", "signal": "wait", "note": "Dato no disponible para el cierre del lunes ni la apertura de hoy; se mantiene la referencia anterior (25.445). Niveles de referencia 25.087 (soporte) y 25.350 aprox. Sesgo neutral hasta confirmar apertura europea."},
+    {"id": "eurusd", "name": "EUR/USD", "ticker": "EURUSD", "price": 1.123, "prev_close": 1.12, "change_pct": 0.27, "direction": "up", "level_key_support": 1.115, "level_key_resistance": 1.128, "bias": "neutral", "signal": "wait", "note": "EUR/USD cotiza en torno a 1,123 (aprox.), por encima de 1,12 con el dólar débil por menores rendimientos. Mercado pendiente de la Fed (27-28 oct) y del discurso de Warsh. Soporte 1,115, resistencia 1,128."},
+    {"id": "dxy", "name": "Índice dólar (DXY)", "ticker": "DXY", "price": 101.8, "prev_close": 101.9, "change_pct": -0.1, "direction": "down", "level_key_support": 101.0, "level_key_resistance": 102.0, "bias": "neutral", "signal": "wait", "note": "El DXY ronda 101,8 tras romper a la baja el 102 la semana pasada, que ahora actúa de resistencia. Sin datos de hoy verificados. Atención a Warsh y a la reunión de la Fed del 27-28 de octubre."},
+    {"id": "gold", "name": "Oro (XAU/USD)", "ticker": "XAUUSD", "price": 4183.5, "prev_close": 4181.1, "change_pct": 0.06, "direction": "up", "level_key_support": 4100, "level_key_resistance": 4250, "bias": "neutral", "signal": "wait", "note": "El oro se mantiene en 4.183 (+0,05%) dentro del rango 4.100-4.250, apoyado por la caída de rendimientos y comentarios dovish. Sin ruptura clara; esperar tests de los extremos."},
+    {"id": "wti", "name": "Petróleo WTI", "ticker": "CL", "price": 98.55, "prev_close": 97.2, "change_pct": 1.39, "direction": "up", "level_key_support": 94, "level_key_resistance": 100.5, "bias": "bullish", "signal": "continuation", "note": "WTI cotiza en 98-100 $ (fuentes discrepantes: 97,8-100,9) con Brent sobre 109 $, máximo de cinco meses, por ataques a petroleros en el Golfo y de los hutíes a infraestructura saudí. Máximo mensual cerca de 100,5; soporte 94-96. Cuidado con el vencimiento del contrato hoy."},
+    {"id": "btc", "name": "Bitcoin", "ticker": "BTCUSD", "price": 82645, "prev_close": 81600, "change_pct": 1.28, "direction": "up", "level_key_support": 80000, "level_key_resistance": 85000, "bias": "neutral", "signal": "wait", "note": "Bitcoin sube un +1,3% hasta ~82.645 $ (una sola fuente), acompañando el rebote del riesgo. Rango 80.000-85.000 sin ruptura; dato por confirmar."}
+  ],
+  "macro_calendar": [
+    {"date": "2026-10-21", "days_ahead": 1, "time_cet": "08:00", "event": "IPC Reino Unido (septiembre)", "importance": "medium", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-10-21", "days_ahead": 1, "time_cet": "n/d", "event": "Resultados corporativos Big Tech / semiconductores (fechas exactas no verificadas)", "importance": "high", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-10-23", "days_ahead": 3, "time_cet": "n/d", "event": "PMI flash octubre (Eurozona, Reino Unido, EE.UU.)", "importance": "high", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-10-27", "days_ahead": 7, "time_cet": "n/d", "event": "Inicio reunión FOMC (decisión el 28-oct, 19:00 CET)", "importance": "high", "previous": "n/d", "expected": "~30% prob. de subida"}
+  ],
+  "swing_bias_table": {
+    "bullish": ["wti"],
+    "bearish": [],
+    "neutral": ["spx", "ndx", "dax", "eurusd", "dxy", "gold", "btc"]
+  },
+  "risk_section": {
+    "visible": "Escalada de ataques a petroleros y a infraestructura saudí puede disparar el crudo y presionar a la renta variable. Resultados de Big Tech tras el rebote.",
+    "hidden": "Un tono hawkish de Warsh antes de la Fed (con ~30% de probabilidad de subida) no está del todo descontado. Los datos de hoy son parciales.",
+    "scenario": "Si el S&P no recupera 7.700-7.744, el rebote fracasa y se retestea 7.600. Un WTI sobre 100 $ reforzaría la presión inflacionaria.",
+    "signal": "Reacción del S&P en 7.700 y del WTI en 100-100,5 $, además de los PMI flash del viernes y la decisión de la Fed el 28."
+  },
+  "hawk_system": {
+    "special_situation": "Rollover",
+    "consecutive_closes": {"es": 1, "nq": 1, "cl": 5, "gc": 1},
+    "system_readiness": "reduced_size",
+    "system_note": "Datos parciales; ES/NQ rebotan pero siguen bajo sus balances, con condición diaria dudosa. CL mantiene desequilibrio alcista pero con racha larga y vencimiento del contrato: solo pullbacks. Operar con tamaño reducido o esperar.",
+    "instruments": [
+      {"id": "es", "name": "E-mini S&P 500", "daily_condition": "DB", "daily_condition_clarity": "doubtful", "balance_zone_high": 7830, "balance_zone_low": 7700, "weekly_dva_condition": "imbalance_dissonance", "price_vs_weekly_pva": "outside_pVA_below", "overnight_context": "Cierre del lunes en 7.690 (+0,41%), de vuelta a la base del balance 7.700; sin datos nocturnos verificados.", "adr_avg_points": 95, "overnight_range_pct_adr": 30, "remaining_adr_pct": 70, "rvol_premarket": "avg", "setup_priority": "wait", "active_red_flags": ["none"], "bias_note": "El precio testa por abajo el antiguo suelo 7.700; sin aceptación por encima sigue siendo rebote técnico. Esperar reacción en 7.700 antes de buscar dirección."},
+      {"id": "nq", "name": "E-mini Nasdaq 100", "daily_condition": "DIL", "daily_condition_clarity": "doubtful", "balance_zone_high": 30800, "balance_zone_low": 30000, "weekly_dva_condition": "imbalance_confluent", "price_vs_weekly_pva": "outside_pVA_below", "overnight_context": "Rebote del tech/IA el lunes (+1,1% Composite); NQ aprox. 29.800 sin datos nocturnos verificados.", "adr_avg_points": 420, "overnight_range_pct_adr": 35, "remaining_adr_pct": 65, "rvol_premarket": "above_avg", "setup_priority": "wait", "active_red_flags": ["against_recent_BO", "after_capitulatory_move"], "bias_note": "Salida bajista del balance 30.000-30.800 con rebote aún bajo 30.000. Evitar perseguir; solo reacción en 30.000 con tamaño reducido."},
+      {"id": "cl", "name": "Crude Oil WTI", "daily_condition": "DIH", "daily_condition_clarity": "clear", "balance_zone_high": null, "balance_zone_low": null, "weekly_dva_condition": "imbalance_confluent", "price_vs_weekly_pva": "outside_pVA_above", "overnight_context": "Máximo mensual cerca de 100,5 por ataques a petroleros y hutíes; hoy vence el contrato de noviembre.", "adr_avg_points": 3.2, "overnight_range_pct_adr": 60, "remaining_adr_pct": 40, "rvol_premarket": "above_avg", "setup_priority": "IPB", "active_red_flags": ["after_3plus_consecutive_closes", "adr_near_100pct"], "bias_note": "Desequilibrio alcista sobre el pVA con noticias geopolíticas. Solo pullbacks, sin perseguir tras cinco cierres alcistas y con vencimiento del contrato."},
+      {"id": "gc", "name": "Gold Futures", "daily_condition": "DB", "daily_condition_clarity": "doubtful", "balance_zone_high": 4250, "balance_zone_low": 4100, "weekly_dva_condition": "rotational_dissonance", "price_vs_weekly_pva": "inside_pVA", "overnight_context": "Oro estable en 4.180-4.185 sin tests de extremos relevantes.", "adr_avg_points": 65, "overnight_range_pct_adr": 25, "remaining_adr_pct": 75, "rvol_premarket": "below_avg", "setup_priority": "wait", "active_red_flags": ["none"], "bias_note": "Balance 4.100-4.250 con DVA semanal rotacional. Sin ventaja clara; esperar tests de los extremos."}
+    ]
+  },
+  "watchlist_report": [
+    {"ticker": "CSW", "name": "CSW", "price": null, "prev_close": null, "change_pct": null, "direction": "flat", "position_status": "open", "bias": "neutral", "key_headline": "Sin noticias verificables de las últimas 24-48h para CSW.", "news_summary": "Dato no disponible: no se encontró cotización actual ni noticias fiables para CSW (SBF). El contexto de mercado general es de rebote tras el castigo de la semana pasada. Revisar Euronext/Boursorama.", "technical_note": "Dato no disponible. Precio de entrada de referencia: 13,5956. Niveles técnicos no verificados."},
+    {"ticker": "NOW", "name": "ServiceNow", "price": 148.57, "prev_close": 139.97, "change_pct": 6.14, "direction": "up", "position_status": "open", "bias": "neutral", "key_headline": "ServiceNow presenta resultados del Q3 el 28 de octubre tras el cierre, catalizador clave para la posición.", "news_summary": "Cotización de referencia del 16-oct (148,57 $), no actualizada ni contrastada con dos fuentes; dato de hoy no disponible. El software rebotó tras los temores de disrupción por IA. El Q2 batió estimaciones y se elevó la guía de ingresos por suscripción; Cantor mantiene Overweight (objetivo 141 $).", "technical_note": "Rango de 52 semanas 81,24-192,97 $; por encima del precio de entrada (129,53). Sesgo neutral hasta los resultados del 28 de octubre."},
+    {"ticker": "PHAG", "name": "WisdomTree Physical Silver", "price": null, "prev_close": null, "change_pct": null, "direction": "flat", "position_status": "open", "bias": "neutral", "key_headline": "Sin cotización verificada de PHAG; la plata depende de oro/dólar y de la Fed del 27-28 de octubre.", "news_summary": "Dato no disponible para la cotización actual de PHAG (LSE). La plata cotizaba ~61 $/oz a inicios de octubre, la mitad del máximo de enero. El oro estable y el dólar débil dan un viento de cola moderado.", "technical_note": "Dato no disponible actual. Referencia de entrada 55,3067; sin niveles técnicos verificados. Tendencia correctiva desde el máximo de enero."}
+  ]
+}
