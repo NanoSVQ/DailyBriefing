@@ -1,455 +1,75 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T12:06:11Z",
-    "trading_date": "2026-11-24",
+    "generated_at": "2026-11-25T12:05:00Z",
+    "trading_date": "2026-11-25",
     "schema_version": "2.1",
     "horizon": "intraday_swing",
     "analyst": "PKA Equipo · Morning Note",
-    "sources_verified": [
-      "Yahoo Finance",
-      "Investing.com",
-      "CNBC",
-      "FXStreet",
-      "Ad-hoc-News/MarketScreener",
-      "CME FedWatch",
-      "Benzinga",
-      "Trefis",
-      "StockStory"
-    ],
+    "sources_verified": ["Yahoo Finance", "Investing.com", "CNBC", "dpa-AFX/ARIVA", "Ad-hoc-News", "investingLive", "FXStreet", "FXEmpire", "TMGM", "FinScans", "XTB", "BusinessToday", "crypto.news", "Morningstar", "MarketBeat", "StockAnalysis", "GuruFocus"],
     "data_quality": "partial"
   },
   "market_summary": {
-    "headline": "Futuros ceden tras el rally histórico liderado por Nvidia; dólar en máximos de 20 meses antes del PCE",
-    "sentiment": "mixed",
-    "sentiment_score": -0.1,
-    "key_theme": "Subida de tipos de la Fed en diciembre descontada (~95%) frente a rebote técnico de la tecnología tras la vuelta de Jensen Huang a Nvidia."
+    "headline": "Nuevo desplome tecnológico en futuros (NQ -2,7%) con Nvidia y chips a la baja horas antes del PCE",
+    "sentiment": "risk_off",
+    "sentiment_score": -0.6,
+    "key_theme": "Venta masiva en semiconductores e IA combinada con una subida de la Fed en diciembre descontada al ~96%, con el PCE de octubre como juez del día."
   },
   "assets": [
-    {
-      "id": "spx",
-      "name": "S&P 500",
-      "ticker": "^GSPC",
-      "price": 7205.0,
-      "prev_close": 7237.17,
-      "change_pct": -0.44,
-      "direction": "down",
-      "level_key_support": 7100,
-      "level_key_resistance": 7280,
-      "bias": "neutral",
-      "signal": "wait",
-      "note": "Rebote del +4,73% el lunes tras 7 sesiones bajistas y entrada en corrección (cierre 6.910 el viernes). Los futuros ceden ~0,5% y el 7.280 (máximo overnight asiático) actúa de resistencia; perder 7.100 reabriría el camino al 6.900. Precio de hoy aproximado a partir de futuros."
-    },
-    {
-      "id": "ndx",
-      "name": "Nasdaq 100",
-      "ticker": "^NDX",
-      "price": 26430.0,
-      "prev_close": 26746.1,
-      "change_pct": -1.18,
-      "direction": "down",
-      "level_key_support": 25900,
-      "level_key_resistance": 26900,
-      "bias": "neutral",
-      "signal": "wait",
-      "note": "Mejor sesión desde abril de 2025 (+6,86%) impulsada por Nvidia (+31%), pero los futuros devuelven ~1,2% con Nvidia cayendo en premarket. Clave sostener 25.900 para validar suelo; sobre 26.900 el rebote ganaría tracción. Precio de hoy aproximado a partir de futuros."
-    },
-    {
-      "id": "dax",
-      "name": "DAX",
-      "ticker": "^GDAXI",
-      "price": 25185.0,
-      "prev_close": 25337.27,
-      "change_pct": -0.6,
-      "direction": "down",
-      "level_key_support": 24800,
-      "level_key_resistance": 25400,
-      "bias": "neutral",
-      "signal": "wait",
-      "note": "Cerró +2,15% en 25.337 recuperando desde 24.803, pero abre con recogida de beneficios en línea con EE. UU. El 24.800 (cierre del viernes) es el soporte que define si el rebote fue solo técnico; 25.400 frena al alza. Nivel intradía aproximado."
-    },
-    {
-      "id": "eurusd",
-      "name": "EUR/USD",
-      "ticker": "EURUSD=X",
-      "price": 1.0907,
-      "prev_close": 1.0895,
-      "change_pct": 0.11,
-      "direction": "up",
-      "level_key_support": 1.088,
-      "level_key_resistance": 1.098,
-      "bias": "bearish",
-      "signal": "continuation",
-      "note": "Cotiza en mínimos desde abril de 2025, por debajo de la SMA de 100 días y en sobreventa. Pequeño rebote técnico sobre 1,09, pero mientras no recupere 1,0980 el sesgo sigue bajista con el diferencial Fed-BCE a favor del dólar."
-    },
-    {
-      "id": "dxy",
-      "name": "Dólar Index",
-      "ticker": "DX-Y.NYB",
-      "price": 104.3,
-      "prev_close": 104.4,
-      "change_pct": -0.1,
-      "direction": "flat",
-      "level_key_support": 103.8,
-      "level_key_resistance": 104.55,
-      "bias": "bullish",
-      "signal": "continuation",
-      "note": "Marcó 104,53 el lunes, máximo de 20 meses, tras romper la resistencia de 103,80, que pasa a soporte. El mercado descuenta ~95% de subida de 25 pb el 9 de diciembre; un PCE caliente mañana podría llevarlo a 105."
-    },
-    {
-      "id": "gold",
-      "name": "Oro (XAU/USD)",
-      "ticker": "XAUUSD",
-      "price": 3640.0,
-      "prev_close": 3660.0,
-      "change_pct": -0.55,
-      "direction": "down",
-      "level_key_support": 3585,
-      "level_key_resistance": 3700,
-      "bias": "bearish",
-      "signal": "wait",
-      "note": "Tras la peor semana desde 2020 en futuros (-9,3%) rebotó el lunes desde la base 3.500-3.520, pero el rebote pierde fuelle bajo 3.700 con las apuestas de subidas de la Fed. Sesgo bajista mientras siga bajo la SMA21 (~3.900); perder 3.585 apunta a 3.520. Cierre previo aproximado."
-    },
-    {
-      "id": "wti",
-      "name": "Petróleo WTI",
-      "ticker": "CL=F",
-      "price": 79.75,
-      "prev_close": 80.17,
-      "change_pct": -0.52,
-      "direction": "down",
-      "level_key_support": 78.5,
-      "level_key_resistance": 82.0,
-      "bias": "bearish",
-      "signal": "continuation",
-      "note": "Mínimos de tres meses tras caer 3,81 $ el lunes por la reapertura del oleoducto libio y más oferta de Oriente Medio. Estructura de máximos y mínimos decrecientes; el riesgo geopolítico EE. UU.-Irán es el único freno a nuevas caídas hacia 78,50."
-    },
-    {
-      "id": "btc",
-      "name": "Bitcoin",
-      "ticker": "BTC-USD",
-      "price": 60300.0,
-      "prev_close": 61250.0,
-      "change_pct": -1.55,
-      "direction": "down",
-      "level_key_support": 58500,
-      "level_key_resistance": 63000,
-      "bias": "bearish",
-      "signal": "wait",
-      "note": "Cotiza en torno a 60.000-60.500 con salidas de ETF spot de 570 M$ el lunes pese al rally bursátil. Perder 60.000 de forma limpia abre 58.500; solo sobre 63.000 se neutralizaría la presión vendedora. Cierre previo aproximado."
-    }
+    {"id": "spx", "name": "S&P 500", "ticker": "^GSPC", "price": 7075.0, "prev_close": 7201.09, "change_pct": -1.75, "direction": "down", "level_key_support": 6900, "level_key_resistance": 7200, "bias": "bearish", "signal": "continuation", "note": "Cerró -0,50% en 7.201 (octava caída en nueve sesiones) y los futuros ceden entre 1,5% y 1,9%, devolviendo gran parte del rebote del lunes. El 6.900 (mínimo del viernes) es el soporte clave; 7.200 pasa a resistencia. Precio de hoy aproximado a partir de futuros."},
+    {"id": "ndx", "name": "Nasdaq 100", "ticker": "^NDX", "price": 25480.0, "prev_close": 26214.17, "change_pct": -2.8, "direction": "down", "level_key_support": 25000, "level_key_resistance": 26200, "bias": "bearish", "signal": "continuation", "note": "Cayó -1,99% el martes con el SOX hundiéndose un 7,9% y los futuros pierden otro ~2,7% con Nvidia -5% y Ambarella -35% en premarket. El rebote del lunes queda prácticamente anulado; perder 25.000 reabre los mínimos del viernes. Precio de hoy aproximado a partir de futuros."},
+    {"id": "dax", "name": "DAX", "ticker": "^GDAXI", "price": 25051.0, "prev_close": 25017.81, "change_pct": 0.13, "direction": "flat", "level_key_support": 24800, "level_key_resistance": 25340, "bias": "neutral", "signal": "wait", "note": "Tras perder un 1,26% el martes resiste plano sobre 25.000 gracias al rebote de autos (VW, BMW, Mercedes) frente a la debilidad de Infineon. Muestra fuerza relativa frente a Wall Street, pero 24.800 sigue siendo el soporte que define el rebote y 25.340 (cierre del lunes) la resistencia."},
+    {"id": "eurusd", "name": "EUR/USD", "ticker": "EURUSD=X", "price": 1.094, "prev_close": 1.0955, "change_pct": -0.14, "direction": "down", "level_key_support": 1.088, "level_key_resistance": 1.098, "bias": "bearish", "signal": "continuation", "note": "Cede bajo 1,0950 y sigue por debajo de la SMA de 100 días, con el mercado descontando un 96,4% de subida de la Fed en diciembre. La subida del BCE prevista para el 17/12 actúa más como suelo que como catalizador; mientras no recupere 1,0980 el sesgo sigue bajista. Cierre previo aproximado."},
+    {"id": "dxy", "name": "Dólar Index", "ticker": "DX-Y.NYB", "price": 104.0, "prev_close": 103.85, "change_pct": 0.14, "direction": "up", "level_key_support": 103.75, "level_key_resistance": 104.55, "bias": "bullish", "signal": "continuation", "note": "Retrocedió el martes desde el máximo de 20 meses (104,53) pero recupera 104,0 antes del PCE. Mantiene la estructura alcista sobre 103,75; un PCE caliente podría llevarlo a 104,75. Cierre previo aproximado."},
+    {"id": "gold", "name": "Oro (XAU/USD)", "ticker": "XAUUSD", "price": 3526.0, "prev_close": 3561.9, "change_pct": -1.01, "direction": "down", "level_key_support": 3500, "level_key_resistance": 3600, "bias": "bearish", "signal": "continuation", "note": "Comex cotiza en 3.526 $ (-1%) tras liquidar en 3.561,9 $, con el CME subiendo márgenes del 5% al 6% y las apuestas de subida de la Fed. Testea la base de 3.500, cuya pérdida abriría una nueva pata bajista; 3.600 frena los rebotes. Referencia Comex usada como proxy del spot."},
+    {"id": "wti", "name": "Petróleo WTI", "ticker": "CL=F", "price": 80.77, "prev_close": 82.05, "change_pct": -1.56, "direction": "down", "level_key_support": 79.0, "level_key_resistance": 82.05, "bias": "bearish", "signal": "wait", "note": "El martes giró desde 79,07 y liquidó +2,35% en 82,05 por los ataques a buques en Ormuz, pero hoy devuelve un 1,5% con el oleoducto libio de Sharara de nuevo operativo y la AIE señalando superávit. Rango 79-82 hasta la OPEP+ del 29/11; perder 79 apunta a 77-78."},
+    {"id": "btc", "name": "Bitcoin", "ticker": "BTC-USD", "price": 59200.0, "prev_close": 60300.0, "change_pct": -1.82, "direction": "down", "level_key_support": 58000, "level_key_resistance": 61000, "bias": "bearish", "signal": "continuation", "note": "Pierde los 60.000 $ con seis sesiones seguidas de salidas de ETF (231 M$ el martes) y casi 5.000 M$ en noviembre, récord mensual. El 58.000 es el soporte crítico; solo la recuperación de 61.000 aliviaría la presión. Cierre previo aproximado."}
   ],
   "macro_calendar": [
-    {
-      "date": "2026-11-25",
-      "days_ahead": 1,
-      "time_cet": "14:30",
-      "event": "EE. UU. PCE subyacente (octubre) m/m y a/a",
-      "importance": "high",
-      "previous": "0.3% m/m",
-      "expected": "0.3% m/m / 3.2% a/a"
-    },
-    {
-      "date": "2026-11-25",
-      "days_ahead": 1,
-      "time_cet": "14:30",
-      "event": "EE. UU. PIB T3 (2ª estimación)",
-      "importance": "high",
-      "previous": "3.4%",
-      "expected": "3.4-3.5%"
-    },
-    {
-      "date": "2026-11-25",
-      "days_ahead": 1,
-      "time_cet": "14:30",
-      "event": "EE. UU. Peticiones iniciales de desempleo",
-      "importance": "medium",
-      "previous": "203K",
-      "expected": "200-201K"
-    },
-    {
-      "date": "2026-11-25",
-      "days_ahead": 1,
-      "time_cet": "14:30",
-      "event": "EE. UU. Pedidos de bienes duraderos",
-      "importance": "medium",
-      "previous": "n/d",
-      "expected": "n/d"
-    },
-    {
-      "date": "2026-11-25",
-      "days_ahead": 1,
-      "time_cet": "20:00",
-      "event": "Libro Beige de la Fed",
-      "importance": "medium",
-      "previous": "n/d",
-      "expected": "n/d"
-    },
-    {
-      "date": "2026-11-26",
-      "days_ahead": 2,
-      "time_cet": "—",
-      "event": "EE. UU. Acción de Gracias — mercados cerrados",
-      "importance": "medium",
-      "previous": "n/d",
-      "expected": "n/d"
-    },
-    {
-      "date": "2026-11-27",
-      "days_ahead": 3,
-      "time_cet": "19:00",
-      "event": "EE. UU. Cierre anticipado de Wall Street (Black Friday)",
-      "importance": "low",
-      "previous": "n/d",
-      "expected": "n/d"
-    }
+    {"date": "2026-11-25", "days_ahead": 0, "time_cet": "14:30", "event": "EE. UU. PCE subyacente (octubre) m/m y a/a", "importance": "high", "previous": "0.5% m/m / 3.6% a/a", "expected": "0.3% m/m / 3.8% a/a"},
+    {"date": "2026-11-25", "days_ahead": 0, "time_cet": "14:30", "event": "EE. UU. PIB T3 (2ª estimación)", "importance": "high", "previous": "3.4%", "expected": "3.5%"},
+    {"date": "2026-11-25", "days_ahead": 0, "time_cet": "14:30", "event": "EE. UU. Peticiones iniciales de desempleo", "importance": "medium", "previous": "203K", "expected": "200K"},
+    {"date": "2026-11-25", "days_ahead": 0, "time_cet": "14:30", "event": "EE. UU. Pedidos de bienes duraderos (octubre)", "importance": "medium", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-11-25", "days_ahead": 0, "time_cet": "16:30", "event": "EE. UU. Inventarios de crudo EIA", "importance": "medium", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-11-25", "days_ahead": 0, "time_cet": "20:00", "event": "Libro Beige de la Fed", "importance": "medium", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-11-26", "days_ahead": 1, "time_cet": "—", "event": "EE. UU. Acción de Gracias — mercados cerrados", "importance": "medium", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-11-27", "days_ahead": 2, "time_cet": "19:00", "event": "EE. UU. Cierre anticipado de Wall Street (Black Friday)", "importance": "low", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-11-29", "days_ahead": 4, "time_cet": "—", "event": "Reunión OPEP+", "importance": "high", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-12-01", "days_ahead": 6, "time_cet": "16:00", "event": "EE. UU. ISM manufacturero (noviembre)", "importance": "high", "previous": "n/d", "expected": "n/d"},
+    {"date": "2026-12-01", "days_ahead": 6, "time_cet": "11:00", "event": "Eurozona IPC preliminar (noviembre) — fecha estimada", "importance": "medium", "previous": "4.0%", "expected": "n/d"}
   ],
   "swing_bias_table": {
-    "bullish": [
-      "dxy"
-    ],
-    "bearish": [
-      "eurusd",
-      "gold",
-      "wti",
-      "btc"
-    ],
-    "neutral": [
-      "spx",
-      "ndx",
-      "dax"
-    ]
+    "bullish": ["dxy"],
+    "bearish": ["spx", "ndx", "eurusd", "gold", "wti", "btc"],
+    "neutral": ["dax"]
   },
   "risk_section": {
-    "visible": "El PCE de mañana con la Fed descontando ya una subida en diciembre: un dato por encima de 0,3% m/m reforzaría el escenario de varias subidas y presionaría a la renta variable y al oro.",
-    "hidden": "La vuelta de Huang no resuelve las investigaciones de la SEC y penales ni el retraso en la presentación regulatoria de Nvidia; un nuevo titular podría deshacer el rebote del lunes de golpe. Además, la liquidez de la semana de Acción de Gracias amplifica cualquier movimiento.",
-    "scenario": "Si el S&P pierde 7.100 y el Nasdaq 100 25.900, el rebote del lunes quedaría como un rally de alivio en mercado bajista con retesteo de los mínimos del viernes (6.900 SPX). En ese caso el dólar extendería hacia 105 y el oro volvería a 3.520.",
-    "signal": "Vigilar si el ES mantiene el cierre del lunes tras el PCE y si el DXY consolida sobre 103,80. Una divergencia (bolsa arriba con dólar y rentabilidades al alza) sería señal de fragilidad del rebote."
+    "visible": "El PCE de las 14:30 con los futuros ya cayendo fuerte: un dato por encima del 0,3% m/m consolidaría la subida de diciembre y aceleraría la venta en tecnología, oro y bitcoin.",
+    "hidden": "La crisis de liderazgo en Nvidia y las dudas sobre el retorno del gasto en IA (Ambarella, Anthropic bajo su precio de salida) pueden convertir la corrección en un mercado bajista del Nasdaq. La liquidez reducida por Acción de Gracias amplifica cualquier desplome.",
+    "scenario": "Si el PCE sale blando (≤0,2% m/m), cortos atrapados en índices podrían forzar un rebote violento hacia 7.200 en el S&P y 26.200 en el Nasdaq 100. En ese caso el dólar cedería bajo 103,75 y el oro recuperaría 3.600.",
+    "signal": "Vigilar si el ES pierde el mínimo del viernes (≈6.900) con volumen tras el PCE y si el SOX encadena una tercera sesión de caídas fuertes. La divergencia entre DAX (estable) y Nasdaq (desplomándose) indica rotación, no capitulación global."
   },
   "hawk_system": {
-    "special_situation": "None",
-    "consecutive_closes": {
-      "es": 1,
-      "nq": 1,
-      "cl": -2,
-      "gc": 1
-    },
-    "system_readiness": "reduced_size",
-    "system_note": "Semana festiva con PCE mañana y día posterior a un movimiento capitulatorio en índices: ES y NQ en modo espera hasta ver aceptación o rechazo del rango del lunes. El único setup con EV claro es el corto en pullback en CL dentro de su desequilibrio bajista; en GC solo tamaño reducido. Evitar perseguir rupturas en índices con liquidez decreciente.",
+    "special_situation": "Rollover",
+    "consecutive_closes": {"es": -1, "nq": -1, "cl": 1, "gc": -1},
+    "system_readiness": "wait",
+    "system_note": "Día de alto riesgo: PCE, PIB y paro a las 14:30 en la víspera de Acción de Gracias, con ES y NQ habiendo consumido casi todo su ADR en el overnight. No hay setups con EV claro antes del dato; evitar perseguir el gap bajista en índices y operar solo tras la reacción al PCE con tamaño reducido. Atención al roll del GC (diciembre→febrero antes del primer aviso) que distorsiona volumen y niveles.",
     "instruments": [
-      {
-        "id": "es",
-        "name": "E-mini S&P 500",
-        "daily_condition": "DB",
-        "daily_condition_clarity": "doubtful",
-        "balance_zone_high": 7280,
-        "balance_zone_low": 6900,
-        "weekly_dva_condition": "rotational_dissonance",
-        "price_vs_weekly_pva": "inside_pVA",
-        "overnight_context": "Tras el +4,7% del lunes, el overnight marcó máximo cerca de 7.280 en Asia y se dio la vuelta, cediendo ~0,5% con Nvidia a la baja. Sin hueco significativo respecto al cierre, pero se mantiene en la mitad superior del rango del lunes.",
-        "adr_avg_points": 150,
-        "overnight_range_pct_adr": 50,
-        "remaining_adr_pct": 50,
-        "rvol_premarket": "above_avg",
-        "setup_priority": "wait",
-        "active_red_flags": [
-          "after_capitulatory_move",
-          "held_through_news"
-        ],
-        "bias_note": "Condición diaria en transición tras 7 cierres bajistas y un rebote de amplitud extrema: falta confirmación de balance. Neutral con sesgo a rotación dentro de 7.100-7.280 hasta el PCE."
-      },
-      {
-        "id": "nq",
-        "name": "E-mini Nasdaq 100",
-        "daily_condition": "DB",
-        "daily_condition_clarity": "doubtful",
-        "balance_zone_high": 26900,
-        "balance_zone_low": 25000,
-        "weekly_dva_condition": "minimal_imbalance",
-        "price_vs_weekly_pva": "inside_pVA",
-        "overnight_context": "Devuelve ~1,2% (unos 300 puntos) en el overnight por la recogida de beneficios en Nvidia tras su +31%. Primer test del rango del lunes desde arriba; sin rupturas fallidas relevantes por ahora.",
-        "adr_avg_points": 650,
-        "overnight_range_pct_adr": 60,
-        "remaining_adr_pct": 40,
-        "rvol_premarket": "above_avg",
-        "setup_priority": "wait",
-        "active_red_flags": [
-          "after_capitulatory_move",
-          "held_through_news"
-        ],
-        "bias_note": "El NQ venía de rozar mercado bajista y el rebote depende de un solo nombre (Nvidia), lo que resta fiabilidad. Esperar a ver si defiende 25.900 antes de buscar largos; sesgo neutral-bajista intradía."
-      },
-      {
-        "id": "cl",
-        "name": "Crude Oil WTI",
-        "daily_condition": "DIL",
-        "daily_condition_clarity": "clear",
-        "balance_zone_high": null,
-        "balance_zone_low": null,
-        "weekly_dva_condition": "imbalance_confluent",
-        "price_vs_weekly_pva": "outside_pVA_below",
-        "overnight_context": "Marca nuevos mínimos de tres meses en Asia (~79,70) tras la caída de 3,81 $ del lunes; sin rebote significativo. Reapertura del oleoducto libio sigue pesando.",
-        "adr_avg_points": 2.8,
-        "overnight_range_pct_adr": 30,
-        "remaining_adr_pct": 70,
-        "rvol_premarket": "avg",
-        "setup_priority": "BPB_pVA",
-        "active_red_flags": [
-          "none"
-        ],
-        "bias_note": "Desequilibrio bajista claro en diario y semanal, con precio por debajo del valor previo. Buscar cortos en pullback hacia 80,50-81 si se rechaza; vigilar titulares de Irán como riesgo de squeeze."
-      },
-      {
-        "id": "gc",
-        "name": "Gold Futures",
-        "daily_condition": "DB",
-        "daily_condition_clarity": "doubtful",
-        "balance_zone_high": 3700,
-        "balance_zone_low": 3500,
-        "weekly_dva_condition": "imbalance_dissonance",
-        "price_vs_weekly_pva": "outside_pVA_below",
-        "overnight_context": "El rebote del lunes (+4,4% intradía hasta ~3.671) pierde fuelle en el overnight con el dólar en máximos; precio rotando entre 3.630 y 3.665 bajo la resistencia de 3.700.",
-        "adr_avg_points": 110,
-        "overnight_range_pct_adr": 40,
-        "remaining_adr_pct": 60,
-        "rvol_premarket": "above_avg",
-        "setup_priority": "RPB_LTpVA",
-        "active_red_flags": [
-          "after_capitulatory_move"
-        ],
-        "bias_note": "Tras la caída del 9% semanal el oro intenta formar balance entre 3.500 y 3.700, pero sigue por debajo del valor de la semana previa. Sesgo bajista en rechazos de 3.700, tamaño reducido."
-      }
+      {"id": "es", "name": "E-mini S&P 500", "daily_condition": "DB", "daily_condition_clarity": "doubtful", "balance_zone_high": 7280, "balance_zone_low": 6900, "weekly_dva_condition": "rotational_dissonance", "price_vs_weekly_pva": "inside_pVA", "overnight_context": "Gap bajista de ~1,5-1,9% (unos 125 puntos) arrastrado por el Nasdaq; el precio vuelve a la mitad inferior del rango del lunes. Sin señales de rechazo del mínimo overnight antes del PCE.", "adr_avg_points": 150, "overnight_range_pct_adr": 85, "remaining_adr_pct": 15, "rvol_premarket": "above_avg", "setup_priority": "wait", "active_red_flags": ["adr_near_100pct", "held_through_news"], "bias_note": "Balance diario dudoso entre 6.900 y 7.280 con presión vendedora dominante: sesgo bajista mientras no recupere 7.200. Con el ADR casi agotado y el PCE pendiente, esperar a la aceptación o rechazo del mínimo overnight."},
+      {"id": "nq", "name": "E-mini Nasdaq 100", "daily_condition": "DB", "daily_condition_clarity": "doubtful", "balance_zone_high": 26900, "balance_zone_low": 25000, "weekly_dva_condition": "minimal_imbalance", "price_vs_weekly_pva": "inside_pVA", "overnight_context": "Caída de ~2,7% (más de 700 puntos) en el overnight liderada por Nvidia (-5%) y chips tras el -7,9% del SOX el martes; Ambarella se hunde un 35% tras resultados. Se acerca al límite inferior del balance en 25.000.", "adr_avg_points": 650, "overnight_range_pct_adr": 100, "remaining_adr_pct": 0, "rvol_premarket": "x2_or_more", "setup_priority": "wait", "active_red_flags": ["adr_near_100pct", "held_through_news"], "bias_note": "El rebote del lunes se ha anulado y el NQ amenaza con salir del balance por abajo: sesgo bajista. ADR agotado en el overnight, por lo que cualquier corto aquí tiene mal ratio; solo operar ruptura confirmada de 25.000 o fallo de la misma tras el PCE."},
+      {"id": "cl", "name": "Crude Oil WTI", "daily_condition": "DIL", "daily_condition_clarity": "doubtful", "balance_zone_high": 82.05, "balance_zone_low": 79.0, "weekly_dva_condition": "imbalance_dissonance", "price_vs_weekly_pva": "outside_pVA_below", "overnight_context": "Devuelve ~1,3 $ (-1,5%) tras la vela de giro del martes (mínimo 79,07, liquidación 82,05) por los ataques en Ormuz. El overnight rota en mitad del rango 79-82.", "adr_avg_points": 2.8, "overnight_range_pct_adr": 50, "remaining_adr_pct": 50, "rvol_premarket": "avg", "setup_priority": "RPB_LTpVA", "active_red_flags": ["held_through_news"], "bias_note": "El desequilibrio bajista sigue vigente pero la vela de giro del martes lo vuelve dudoso y forma un mini-balance 79-82. Sesgo bajista en rechazos de 81,5-82 con tamaño reducido, atentos al EIA y a titulares de Ormuz."},
+      {"id": "gc", "name": "Gold Futures", "daily_condition": "DIL", "daily_condition_clarity": "clear", "balance_zone_high": null, "balance_zone_low": null, "weekly_dva_condition": "imbalance_confluent", "price_vs_weekly_pva": "outside_pVA_below", "overnight_context": "Pierde ~36 $ (-1%) hasta 3.526 $ tras la subida de márgenes del CME al 6% y con el dólar firme; testea la base de 3.500. El roll diciembre→febrero distorsiona el volumen del contrato frontal.", "adr_avg_points": 110, "overnight_range_pct_adr": 50, "remaining_adr_pct": 50, "rvol_premarket": "above_avg", "setup_priority": "BPB_LTpVA", "active_red_flags": ["after_capitulatory_move", "held_through_news"], "bias_note": "El intento de balance 3.500-3.700 ha fracasado y el oro vuelve a desequilibrio bajista, por debajo del valor semanal. Sesgo bajista en pullbacks hacia 3.560-3.600, pero solo tras el PCE: un dato blando podría provocar un squeeze desde 3.500."}
     ]
   },
   "watchlist_report": [
-    {
-      "ticker": "BABA",
-      "name": "Alibaba Group",
-      "price": 87.67,
-      "prev_close": 84.37,
-      "change_pct": 3.91,
-      "direction": "up",
-      "position_status": "open",
-      "bias": "bearish",
-      "key_headline": "Alibaba publicó el 19/11 ingresos por encima de lo esperado (+10%) pero un BPA ajustado muy por debajo del consenso.",
-      "news_summary": "Los ingresos del trimestre de septiembre subieron un 10% hasta 271.500 M de yuanes y la nube creció un 53%, por encima de lo previsto. Sin embargo, el BPA ajustado (8,10 yuanes por ADS frente a 10,88 esperados) decepcionó y el fuerte gasto en IA agrava la salida de caja. La acción acumula -40% en el año y aparece entre los valores en foco del premarket de hoy tras el rally de chips.",
-      "technical_note": "Dato no disponible del cierre de 23/11; la última referencia es ~87,67 $ (premarket del 19/11), en mínimos desde enero de 2025 y ~20% por debajo de la entrada (109,12 $). Resistencia en 94 $ (cierre 13/11); soporte en la zona de 83 $."
-    },
-    {
-      "ticker": "CAVA",
-      "name": "CAVA Group",
-      "price": 52.79,
-      "prev_close": 55.15,
-      "change_pct": -4.28,
-      "direction": "down",
-      "position_status": "open",
-      "bias": "bearish",
-      "key_headline": "CAVA sigue presionada tras incumplir ingresos en el T3 y culpar a la debilidad del sector restauración.",
-      "news_summary": "Las acciones se desplomaron más de un 11% tras unos resultados del T3 con ingresos por debajo de lo esperado. El consejero delegado atribuyó la debilidad a presiones generales del sector. Los analistas mantienen una recomendación media de sobreponderar con precio objetivo de 78 $; próximos resultados estimados el 23/02/2027.",
-      "technical_note": "Dato no disponible del 23/11; la última referencia fiable es 52,79 $ (17/11) y 52,75 $ (18/11), por debajo de la entrada (58,06 $). Resistencia en 55-60 $; soporte en el mínimo de 52 semanas (~43,4 $)."
-    },
-    {
-      "ticker": "DPZ",
-      "name": "Domino's Pizza",
-      "price": 353.54,
-      "prev_close": 353.54,
-      "change_pct": 0.0,
-      "direction": "flat",
-      "position_status": "open",
-      "bias": "neutral",
-      "key_headline": "Sin noticias relevantes de Domino's en las últimas 48 h; el próximo hito es el dividendo de 1,99 $ con fecha ex el 15/12.",
-      "news_summary": "No se encontraron titulares específicos en las últimas 24-48 h. La acción cae ~11,5% en el último año y las fuentes de precio son contradictorias (entre 300 y 354 $). Los próximos resultados (T4) están previstos para el 22/02/2027.",
-      "technical_note": "Dato no disponible del 23/11; última referencia 353,54 $ (18/11), aunque otra fuente sitúa el precio cerca de 300 $. Por encima de la entrada (306,75 $) si la primera es correcta; soporte en 333 $ y resistencia en 360 $."
-    },
-    {
-      "ticker": "LULU",
-      "name": "Lululemon Athletica",
-      "price": 110.79,
-      "prev_close": 110.79,
-      "change_pct": 0.0,
-      "direction": "flat",
-      "position_status": "open",
-      "bias": "neutral",
-      "key_headline": "Lululemon presentará resultados el 9 de diciembre tras el cierre, catalizador clave para la posición.",
-      "news_summary": "Tras el T2 (3/09) la compañía rebajó guías con BPA anual de 9,48-9,73 $ frente a 12,35 $ de consenso, aunque la acción rebotó ~13% desde entonces. No se han encontrado noticias relevantes en las últimas 48 h. El consenso de analistas es mayoritariamente mantener.",
-      "technical_note": "Dato no disponible del 23/11; última referencia ~110,79 $, por encima de la entrada (97,98 $). Soporte en 98-100 $ y resistencia en 125 $; atención a la volatilidad pre-resultados del 9/12."
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow",
-      "price": 94.11,
-      "prev_close": 94.11,
-      "change_pct": 0.0,
-      "direction": "flat",
-      "position_status": "open",
-      "bias": "bearish",
-      "key_headline": "ServiceNow sigue castigada por el temor a que la IA erosione el software empresarial, con caída del 30% en un mes.",
-      "news_summary": "El 17/11 cayó un 6,5% junto a casi todo el subsector de software de sistemas por los temores ligados a la IA. El T3 decepcionó ligeramente en BPA ajustado (1,00 $ frente a 1,02 $) y desde el 28/10 acumula fuertes caídas. El rebote tecnológico del lunes podría ofrecer algo de alivio, pero no se ha verificado su cierre.",
-      "technical_note": "Dato no disponible del 23/11; última referencia 94,11 $ (18/11), muy por debajo de la entrada (129,53 $). Tendencia bajista con resistencia en 98-100 $; soporte psicológico en 90 $."
-    },
-    {
-      "ticker": "PEP",
-      "name": "PepsiCo",
-      "price": 141.34,
-      "prev_close": 141.34,
-      "change_pct": 0.0,
-      "direction": "flat",
-      "position_status": "open",
-      "bias": "neutral",
-      "key_headline": "PepsiCo cayó un 3,26% el 17/11 tras perder el contrato de bebidas de KFC en EE. UU. frente a Coca-Cola.",
-      "news_summary": "KFC firmó con Coca-Cola como proveedor de bebidas en miles de restaurantes de EE. UU. y PepsiCo recortó unos 1.000 empleos. En octubre la compañía rebajó la guía de crecimiento del BPA 2026 al 3%. Los analistas están divididos: Barclays recortó objetivo a 126 $ y JP Morgan elevó a sobreponderar con objetivo de 164 $.",
-      "technical_note": "Dato no disponible del 23/11; última referencia 141,34 $ (6/11) antes de la caída del 17/11, cerca de la entrada (134,98 $). Soporte en 134-135 $ y resistencia en 145 $."
-    },
-    {
-      "ticker": "PHAG",
-      "name": "WisdomTree Physical Silver (LSE)",
-      "price": 60.11,
-      "prev_close": 61.12,
-      "change_pct": -1.65,
-      "direction": "down",
-      "position_status": "open",
-      "bias": "neutral",
-      "key_headline": "Sin noticias específicas del ETC; la plata sigue la presión de las apuestas de subida de tipos de la Fed y el dólar fuerte.",
-      "news_summary": "PHAG replica el precio spot de la plata. El metal precioso sufrió la semana pasada junto al oro por las expectativas de subida de tipos y ventas forzadas por márgenes, y el dólar en máximos de 20 meses es un viento en contra. No se ha podido verificar la cotización actual de la plata.",
-      "technical_note": "Dato no disponible de noviembre; última referencia 60,11 $ (septiembre), por encima de la entrada (53,28 $). Vigilar el soporte de 53 $ como nivel de defensa de la posición."
-    },
-    {
-      "ticker": "UBER",
-      "name": "Uber Technologies",
-      "price": 73.13,
-      "prev_close": 75.74,
-      "change_pct": -3.45,
-      "direction": "down",
-      "position_status": "open",
-      "bias": "bearish",
-      "key_headline": "Uber sigue presionada por la competencia de robotaxis tras la salida de Waymo de la alianza en mercados clave.",
-      "news_summary": "Waymo operará de forma independiente en Austin y Atlanta a partir de 2028, y el Cybercab de Tesla ya funciona comercialmente en Austin. Jefferies ve la caída de ~20% desde máximos de octubre como punto de entrada atractivo y mantiene compra con objetivo de 100 $. No se ha podido verificar la fecha exacta de la última cotización.",
-      "technical_note": "Dato no disponible del 23/11; última referencia ~73,13 $ (fecha no confirmada), por encima de la entrada (69,48 $). Soporte en 68-70 $ (zona de entrada) y resistencia en 80 $."
-    },
-    {
-      "ticker": "VITL",
-      "name": "Vital Farms",
-      "price": 9.41,
-      "prev_close": 9.41,
-      "change_pct": 0.0,
-      "direction": "flat",
-      "position_status": "open",
-      "bias": "bearish",
-      "key_headline": "Vital Farms recortó su previsión de ingresos 2026 a ~730 M$ desde 775-800 M$ tras el T3.",
-      "news_summary": "Los ingresos del T3 estuvieron en línea, pero la pérdida ajustada fue peor de lo esperado y la normalización de precios de los huevos llevó a consumidores a marcas blancas. La acción acumula una caída cercana al 76% en el último año. No se han encontrado noticias relevantes en las últimas 48 h.",
-      "technical_note": "Dato no disponible de noviembre; última referencia 9,41 $ (23/10), ligeramente sobre la entrada (8,30 $). Tendencia bajista de fondo; el soporte clave es la zona de 8,30 $ y la resistencia 10 $."
-    },
-    {
-      "ticker": "WY",
-      "name": "Weyerhaeuser",
-      "price": 20.35,
-      "prev_close": 20.68,
-      "change_pct": -1.6,
-      "direction": "down",
-      "position_status": "open",
-      "bias": "neutral",
-      "key_headline": "Sin noticias relevantes de Weyerhaeuser en las últimas 48 h; los analistas mantienen consenso de compra con objetivo medio de 31 $.",
-      "news_summary": "El T3 mostró beneficio neto de 61 M$ (0,08 $/acción) sobre ventas de 1.900 M$, lastrado por tipos altos, vivienda débil y costes de transporte. Los 10 analistas que la cubren recomiendan comprar. Una Fed más restrictiva es un riesgo para el sector vivienda.",
-      "technical_note": "Dato no disponible del 23/11; última referencia 20,35 $ (17/11), por encima de la entrada (19,39 $). Soporte en el mínimo de 52 semanas (18,25 $) y resistencia en 21,4-22 $; superó la media de 50 sesiones el 4/11."
-    }
+    {"ticker": "BABA", "name": "Alibaba Group", "price": 84.86, "prev_close": 86.04, "change_pct": -1.37, "direction": "down", "position_status": "open", "bias": "bearish", "key_headline": "Varios bufetes anuncian una demanda colectiva por la caída del ~7% tras el informe del FT sobre la relación de Alibaba con Megaspeed.", "news_summary": "Alibaba cerró el martes en 84,86 $ (-1,4%), muy cerca del mínimo de 52 semanas (80,96 $ el 20/11). Susquehanna recortó su precio objetivo a 145 $ desde 190 $ manteniendo recomendación positiva, mientras DZ Bank la elevó a comprar con objetivo de 140 $. La demanda colectiva (plazo para demandante principal: 19/01/2027) y la venta tecnológica global siguen pesando.", "technical_note": "Tendencia bajista clara, ~22% por debajo de la entrada (109,12 $). Soporte en el mínimo anual de 81 $ y resistencia en 88-94 $; perder 81 $ dejaría la acción sin referencias cercanas."},
+    {"ticker": "CAVA", "name": "CAVA Group", "price": 54.37, "prev_close": 52.13, "change_pct": 4.3, "direction": "up", "position_status": "open", "bias": "neutral", "key_headline": "CAVA rebota un 4,3% mientras la compañía mantiene su plan de duplicar restaurantes de cara a 2027.", "news_summary": "La acción subió un 4,3% el martes hasta 54,37 $ en un día de rotación hacia valores fuera de la tecnología. Un análisis de Motley Fool destaca el plan de expansión para doblar su número de locales, tras un T3 con ingresos por debajo de lo esperado. El consenso mantiene comprar con precio objetivo medio cercano a 79 $.", "technical_note": "Sigue por debajo de la entrada (58,06 $) y en tendencia bajista desde los 62 $ de principios de noviembre. Soporte en 52 $ y resistencia en 55-58 $; recuperar la zona de entrada cambiaría el sesgo."},
+    {"ticker": "DPZ", "name": "Domino's Pizza", "price": 356.52, "prev_close": 355.26, "change_pct": 0.35, "direction": "up", "position_status": "open", "bias": "neutral", "key_headline": "BNP Paribas Exane inicia cobertura de Domino's con recomendación de infraponderar y precio objetivo de 295 $.", "news_summary": "La acción cerró ligeramente al alza en torno a 356,5 $ (357,34 $ en after-hours). BNP Paribas Exane inició cobertura con infraponderar y objetivo de 295 $, frente a un consenso de compra moderada con objetivo medio de 380,69 $. También circula un aviso de investigación a accionistas del bufete Kahn Swick & Foti; el dividendo de 1,99 $ cotiza ex el 15/12.", "technical_note": "Cotiza ~16% por encima de la entrada (306,75 $), en mitad del rango anual (282-442 $). Soporte en 350 $ y resistencia en 360 $; la nota negativa de BNP es el principal riesgo a corto plazo."},
+    {"ticker": "LULU", "name": "Lululemon Athletica", "price": 107.55, "prev_close": 104.63, "change_pct": 2.79, "direction": "up", "position_status": "open", "bias": "neutral", "key_headline": "Lululemon sube ~3% por impulso técnico a dos semanas de sus resultados del 9 de diciembre.", "news_summary": "El valor avanzó alrededor de un 3% el martes impulsado por momentum técnico de corto plazo, pese a unos fundamentales debilitados por recortes repetidos de guías. La acción pierde ~48% en el año. Los resultados del 9/12 son el catalizador clave para la posición.", "technical_note": "Precio de media sesión (107,55 $), cierre oficial no disponible. Por encima de la entrada (97,98 $); soporte en 100-104 $ y resistencia en 110-112 $, con volatilidad creciente antes de resultados."},
+    {"ticker": "NOW", "name": "ServiceNow", "price": 91.74, "prev_close": 91.72, "change_pct": 0.02, "direction": "flat", "position_status": "open", "bias": "bearish", "key_headline": "UBS recorta el precio objetivo de ServiceNow a 100 $ desde 140 $ y mantiene neutral.", "news_summary": "La acción cerró plana en 91,74 $ tras moverse entre 89,62 y 93,03 $. Sigue lastrada por el desplome del 27% tras los resultados del T3 (29/10) y por el temor a que la IA erosione el software empresarial; varios bufetes han abierto demandas colectivas por las dudas sobre el cRPO. El consenso sigue siendo de compra, pero con objetivos a la baja.", "technical_note": "Muy por debajo de la entrada (129,53 $), en tendencia bajista. Soporte en 89,6 $ y en el mínimo anual de 81,24 $; resistencia en 93-100 $. La nueva venta tecnológica de hoy amenaza el soporte."},
+    {"ticker": "PEP", "name": "PepsiCo", "price": 142.68, "prev_close": 140.21, "change_pct": 1.76, "direction": "up", "position_status": "open", "bias": "neutral", "key_headline": "PepsiCo sube un 1,8% por la rotación defensiva pese a la rebaja de Bernstein a infraponderar con objetivo de 128 $.", "news_summary": "El valor cerró en 142,68 $ (+1,76%) beneficiándose de la rotación hacia consumo básico y sectores defensivos. Bernstein la rebajó a infraponderar con precio objetivo de 128 $ (desde 131 $), tras la pérdida del contrato de bebidas de KFC en EE. UU. La rentabilidad por dividendo ronda el 4,2%.", "technical_note": "Por encima de la entrada (134,98 $). Soporte en 140 $ y 135 $; resistencia en 145 $. La rotación defensiva favorece la posición en el corto plazo."},
+    {"ticker": "PHAG", "name": "WisdomTree Physical Silver (LSE)", "price": 37.85, "prev_close": 38.36, "change_pct": -1.33, "direction": "down", "position_status": "open", "bias": "bearish", "key_headline": "La plata cae un 1,4% hasta 40,26 $/oz y acumula un -43% en el año ante las apuestas de subida de la Fed.", "news_summary": "PHAG replica el spot de la plata, que cotiza en 40,26 $ (-1,36%) con la ratio oro/plata ampliándose a 87,6. La subida de márgenes del CME en metales y el dólar firme siguen pesando. Dato no disponible de la cotización de PHAG: el precio indicado es una estimación a partir del spot.", "technical_note": "Dato no disponible de la cotización directa; según el spot, la posición estaría claramente por debajo de la entrada (53,28 $). Para la plata, soporte en 40 $ y resistencia en 41-42 $."},
+    {"ticker": "UBER", "name": "Uber Technologies", "price": 64.7, "prev_close": 64.07, "change_pct": 0.98, "direction": "up", "position_status": "open", "bias": "bearish", "key_headline": "Nuro, Lucid y Uber inician pruebas de robotaxis sin conductor en la bahía de San Francisco.", "news_summary": "Uber subió un 1% hasta 64,70 $, rebotando desde la zona del mínimo anual (63,29 $). La compañía avanza en su alianza de robotaxis con Nuro y Lucid mientras la competencia de Waymo y Tesla presiona la tesis. El consenso de 50 analistas es comprar con objetivo medio de 98 $.", "technical_note": "Cotiza ~7% por debajo de la entrada (69,48 $) y apoyada en el mínimo de 52 semanas (63,3 $). Perder 63 $ confirmaría la ruptura bajista; resistencia en 66-69,5 $."},
+    {"ticker": "VITL", "name": "Vital Farms", "price": 8.69, "prev_close": 8.69, "change_pct": 0.0, "direction": "flat", "position_status": "open", "bias": "bearish", "key_headline": "Vital Farms cayó un 9% el 20/11 hasta 8,69 $, cerca de su mínimo de 52 semanas (7,95 $).", "news_summary": "Dato no disponible del cierre del 24/11; la última referencia verificada es 8,69 $ (20/11). Stifel y TD Cowen han recortado objetivos a 9 y 8 $ con mantener tras el recorte de guías del T3. Circula un informe no confirmado de que la compañía explora una exclusión de bolsa.", "technical_note": "Ligeramente por encima de la entrada (8,30 $) pero en tendencia bajista profunda (-75% en el año). Soporte en 7,95-8,30 $ y resistencia en 9,5-10 $."},
+    {"ticker": "WY", "name": "Weyerhaeuser", "price": 21.39, "prev_close": 21.39, "change_pct": 0.0, "direction": "flat", "position_status": "open", "bias": "neutral", "key_headline": "Sin noticias relevantes de Weyerhaeuser en las últimas 48 h; la compañía prevé un T4 moderadamente inferior al T3.", "news_summary": "Dato no disponible del cierre reciente; la última cotización verificada es 21,39 $ (5/11). En el T3 devolvió 151 M$ vía dividendo y recompró unos 10 M$ en acciones, y espera un EBITDA del T4 algo menor. Una Fed más restrictiva sigue siendo un viento en contra para vivienda y madera.", "technical_note": "Dato no disponible actualizado; con la última referencia estaría por encima de la entrada (19,39 $). Soporte en el mínimo anual de 18,25 $ y resistencia en 21,75-22 $."}
   ]
 }
